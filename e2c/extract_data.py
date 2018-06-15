@@ -3,7 +3,7 @@ import yaml
 import sys
 import tensorflow as tf
 
-from .util import transform_cypher_pretokenize
+from .util import *
 
 
 def etl(filepath):
@@ -15,7 +15,7 @@ def etl(filepath):
 				with tf.gfile.GFile("./data/tgt.txt", "w") as tgt2_file:
 					for i in d:
 						if i["question"] and i["question"]["cypher"] is not None:
-							src_file.write(i["question"]["english"] + "\n")
+							src_file.write(transform_english_pretokenize(i["question"]["english"]) + "\n")
 							tgt_file.write(i["question"]["cypher"] + "\n")
 							tgt2_file.write(transform_cypher_pretokenize(i["question"]["cypher"]) + "\n")
 

@@ -13,8 +13,13 @@ def get_args():
 	parser.add_argument('--src-filename', type=str, default="src.txt")
 	parser.add_argument('--tgt-filename', type=str, default="tgt.txt")
 
-	parser.add_argument('--vocab-size', type=int, default=1000)
+	parser.add_argument('--vocab-size', type=int, default=5000)
 	parser.add_argument('--embed-size', type=int, default=64)
+	parser.add_argument('--batch-size', type=int, default=64)
+	
+	parser.add_argument('--learning-rate', type=float, default=0.001)
+	
+
 
 	# Return vars so it's easy to manipulate / mock the structure
 	# I wish python was like javascript and had the same underlying datatype for class instances and dicts

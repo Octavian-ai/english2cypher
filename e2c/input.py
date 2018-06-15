@@ -20,6 +20,8 @@ def build_vocab(args):
 
 	def add_lines(lines):
 		for line in lines:
+			line = line.replace("\n", "")
+
 			for word in line.split(' '):
 				if word != "" and word != " ":
 					tokens.add(word)
@@ -47,7 +49,7 @@ def load_vocab(args):
 
 
 
-def gen_input_fn(args, eval=False, batch_size=32):
+def gen_input_fn(args, eval=False):
 	# Heavily based off the NMT tutorial structure
 
 	vocab_table = load_vocab(args)
@@ -70,10 +72,47 @@ def gen_input_fn(args, eval=False, batch_size=32):
 		tf.concat(([sos_id], tgt), 0),
 		tf.concat((tgt, [eos_id]), 0)))
 
-	d = d.map(lambda src, tgt_in, tgt_out: (
-		src, tgt_in, tgt_out, tf.size(src), tf.size(tgt_in)))
+	d = d.map(lambda src, tgt_in, tgt_out: ({
+		"src":src, 
+		"tgt_in":tgt_in,
+		"src_len":tf.size(src), 
+		"tgt_len":tf.size(tgt_in),
+	}, tgt_out))
+
+
+	d = d.padded_batch(
+		args["batch_size"],
+		# The first three entries are the source and target line rows;
+		# these have unknown-length vectors.  The last two entries are
+		# the source and target row sizes; these are scalars.
+		padded_shapes=(
+			{
+				"src": tf.TensorShape([None]),  # src
+				"tgt_in": tf.TensorShape([None]),  # tgt_input
+				"src_len": tf.TensorShape([]),  # src_len
+				"tgt_len": tf.TensorShape([]),  # tgt_len
+			},
+			tf.TensorShape([None]),  # tgt_output
+		),
+			
+		# Pad the source and target sequences with eos tokens.
+		# (Though notice we don't generally need to do this since
+		# later on we will be masking out calculations past the true sequence.
+		padding_values=(
+			{
+				"src":     eos_id,  # src
+				"tgt_in":  eos_id,  # tgt_input
+				"src_len": 0,  # src_len -- unused
+				"tgt_len": 0,  # tgt_len -- unused
+			},
+			eos_id,  # tgt_output
+		)
+	)
+			
+			
+
 	
-	return (d, None)
+	return d
 
 
 
