@@ -3,25 +3,35 @@ import tensorflow as tf
 
 def model_fn(features, labels, mode, params):
 
-	# embed words
-	word_embedding = tf.get_variable("word_embedding", [params["vocab_size"], params["embed_size"]], tf.float32)
-
-	src  = tf.nn.embedding_lookup(word_embedding, features["src"])
-	tgt_in  = tf.nn.embedding_lookup(word_embedding, features["tgt_in"])
-	tgt_out  = tf.nn.embedding_lookup(word_embedding, labels)
-
-
-	num_units = 1
+	num_units = 1024
 	forget_bias = 0
 	dropout = 0.2
 	dtype = tf.float32
-	max_time = 20
 	beam_width = 0
 	time_major = True
+
+	# print("features", features)
+
+	# def dd(s, msg="Hiya ", summarize=10):
+	# 	tf.Print(s, [tf.shape(s), s], msg + " ", summarize=summarize)
+
+	# dd(features["src"])
+
+	# embed words
+	word_embedding = tf.get_variable("word_embedding", [params["vocab_size"], num_units], tf.float32)
+
+	# Transpose to switch to time-major format [max_time, batch, ...]
+	src  = tf.nn.embedding_lookup(word_embedding, tf.transpose(features["src"]))
+	tgt_in  = tf.nn.embedding_lookup(word_embedding, tf.transpose(features["tgt_in"]))
+	tgt_out  = tf.nn.embedding_lookup(word_embedding, tf.transpose(labels))
+
+	max_time = src.shape[0].value
+	
 
 	# --------------------------------------------------------------------------
 	# Encoder
 	# --------------------------------------------------------------------------
+	
 	
 	e_cell = tf.contrib.rnn.BasicLSTMCell(
 		num_units,
@@ -32,6 +42,12 @@ def model_fn(features, labels, mode, params):
 	e_initial_state = e_cell.zero_state(params["batch_size"], dtype)
 
 	print("src", src, "seq len", features["src_len"])
+
+	# src = tf.transpose(src, [1, 0, 2])
+	# 'outputs' is a tensor of shape [max_time, batch_size, cell.output_size]
+	# 'state' is a tensor of shape [batch_size, cell_state_size]
+
+	# inputs [max_time, batch_size, cell_state_size]
 	encoder_outputs, encoder_state = tf.nn.dynamic_rnn(
 			e_cell,
 			src,
@@ -40,8 +56,6 @@ def model_fn(features, labels, mode, params):
 			sequence_length=features["src_len"],
 			time_major=True,
 			swap_memory=True)
-
-
 
 	# --------------------------------------------------------------------------
 	# Decoder
@@ -54,6 +68,8 @@ def model_fn(features, labels, mode, params):
 		cell=d_cell, input_keep_prob=(1.0 - dropout))
 
 	memory = tf.transpose(encoder_outputs, [1, 0, 2])
+	# memory = encoder_outputs
+	print("memory", memory, "encoder_state", encoder_state)
 
 	# set up attention
 	attention_mechanism = tf.contrib.seq2seq.LuongAttention(
@@ -96,6 +112,11 @@ def model_fn(features, labels, mode, params):
 	# Calc loss
 	# --------------------------------------------------------------------------
 
+	labels = tf.transpose(features["tgt_out"])
+	print(labels, logits)
+
+	# labels = labels[0:features["tgt_len"][0],0:]
+
 	crossent = tf.nn.sparse_softmax_cross_entropy_with_logits(
 		labels=labels, logits=logits)
 
@@ -110,11 +131,12 @@ def model_fn(features, labels, mode, params):
 	# Optimize
 	# --------------------------------------------------------------------------
 	
-	train_op = tf.train.AdamOptimizer(params["learning_rate"]).minimize(loss)
+	train_op = tf.train.AdamOptimizer(params["learning_rate"]).minimize(loss, global_step=tf.train.get_global_step())
 
 	# --------------------------------------------------------------------------
 	# Eval
 	# --------------------------------------------------------------------------
+	
 	
 	
 

@@ -75,6 +75,7 @@ def gen_input_fn(args, eval=False):
 	d = d.map(lambda src, tgt_in, tgt_out: ({
 		"src":src, 
 		"tgt_in":tgt_in,
+		"tgt_out": tgt_out,
 		"src_len":tf.size(src), 
 		"tgt_len":tf.size(tgt_in),
 	}, tgt_out))
@@ -89,6 +90,7 @@ def gen_input_fn(args, eval=False):
 			{
 				"src": tf.TensorShape([None]),  # src
 				"tgt_in": tf.TensorShape([None]),  # tgt_input
+				"tgt_out": tf.TensorShape([None]),  # tgt_input
 				"src_len": tf.TensorShape([]),  # src_len
 				"tgt_len": tf.TensorShape([]),  # tgt_len
 			},
@@ -102,6 +104,7 @@ def gen_input_fn(args, eval=False):
 			{
 				"src":     eos_id,  # src
 				"tgt_in":  eos_id,  # tgt_input
+				"tgt_out":  eos_id,  # tgt_input
 				"src_len": 0,  # src_len -- unused
 				"tgt_len": 0,  # tgt_len -- unused
 			},

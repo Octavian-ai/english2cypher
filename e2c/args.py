@@ -14,7 +14,7 @@ def get_args():
 	parser.add_argument('--tgt-filename', type=str, default="tgt.txt")
 
 	parser.add_argument('--vocab-size', type=int, default=5000)
-	parser.add_argument('--embed-size', type=int, default=64)
+	parser.add_argument('--embed-size', type=int, default=128)
 	parser.add_argument('--batch-size', type=int, default=64)
 	
 	parser.add_argument('--learning-rate', type=float, default=0.001)
