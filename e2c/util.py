@@ -21,6 +21,6 @@ def transform_english_pretokenize(text):
 
 	translate_map = str.maketrans(filters, split * len(filters))
 
-  	text = text.translate(translate_map)
+	text = text.translate(translate_map)
 
-  	return text
+	return text

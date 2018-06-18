@@ -26,12 +26,11 @@ def build_vocab(args):
 				if word != "" and word != " ":
 					tokens.add(word)
 
-	with tf.gfile.GFile(args["src_path"]) as in_file:
-		add_lines(in_file.readlines())
-
-	with tf.gfile.GFile(args["tgt_path"]) as in_file:
-		lines = in_file.readlines()
-		add_lines(lines)
+	for i in ["test", "train"]:
+		for j in ["src", "tgt"]:
+			with tf.gfile.GFile(args[f"{i}_{j}_path"]) as in_file:
+				add_lines(in_file.readlines())
+			
 
 	with tf.gfile.GFile(args["vocab_path"], 'w') as out_file:
 		for i in tokens:
@@ -39,31 +38,25 @@ def build_vocab(args):
 
 
 def load_vocab(args):
-
-	if args["build_vocab"]:
-		build_vocab(args)
-
-	# with tf.gfile.GFile(args["vocab_path"]) as file:
-	tok = tf.contrib.lookup.index_table_from_file(args["vocab_path"])
-
-	return tok
+	return tf.contrib.lookup.index_table_from_file(args["vocab_path"])
 
 
-
-def gen_input_fn(args, eval=False):
+def gen_input_fn(args, is_eval=False):
 	# Heavily based off the NMT tutorial structure
+
+	prefix = "test" if is_eval else "train"
 
 	vocab_table = load_vocab(args)
 	sos_id = tf.cast(vocab_table.lookup(tf.constant(SOS)), tf.int32)
 	eos_id = tf.cast(vocab_table.lookup(tf.constant(EOS)), tf.int32)
 
 	# Load, split and tokenize
-	src_dataset = tf.data.TextLineDataset(args["src_path"])
+	src_dataset = tf.data.TextLineDataset(args[f"{prefix}_src_path"])
 	src_dataset = src_dataset.map(lambda l: tf.string_split([l]).values)
 	src_dataset = src_dataset.map(lambda l: tf.cast(vocab_table.lookup(l), tf.int32))
 
 	# Load, split and tokenize
-	tgt_dataset = tf.data.TextLineDataset(args["tgt_path"])
+	tgt_dataset = tf.data.TextLineDataset(args[f"{prefix}_tgt_path"])
 	tgt_dataset = tgt_dataset.map(lambda l: tf.string_split([l]).values)
 	tgt_dataset = tgt_dataset.map(lambda l: tf.cast(vocab_table.lookup(l), tf.int32))
 

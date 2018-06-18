@@ -34,8 +34,10 @@ def get_args():
 	# I wish python was like javascript and had the same underlying datatype for class instances and dicts
 	args = vars(parser.parse_args())
 
-	args["src_path"] = os.path.join(args["input_dir"], args["src_filename"])
-	args["tgt_path"] = os.path.join(args["input_dir"], args["tgt_filename"])
+	for mode in ["test_", "train_"]:
+		args[mode+"src_path"] = os.path.join(args["input_dir"], mode+args["src_filename"])
+		args[mode+"tgt_path"] = os.path.join(args["input_dir"], mode+args["tgt_filename"])
+		
 	args["vocab_path"] = os.path.join(args["input_dir"], "vocab.txt")
 
 	return args
