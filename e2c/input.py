@@ -40,7 +40,8 @@ def build_vocab(args):
 
 def load_vocab(args):
 
-	build_vocab(args)
+	if args["build_vocab"]:
+		build_vocab(args)
 
 	# with tf.gfile.GFile(args["vocab_path"]) as file:
 	tok = tf.contrib.lookup.index_table_from_file(args["vocab_path"])

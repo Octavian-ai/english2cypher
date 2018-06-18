@@ -24,6 +24,8 @@ def get_args():
 	parser.add_argument('--dropout', type=float, default=0.2)
 	parser.add_argument('--test-holdback', type=float, default=0.2)
 
+	parser.add_argument('--build-vocab', action='store_true')
+
 
 	
 
