@@ -25,13 +25,13 @@ def train(args):
 	train_spec = tf.estimator.TrainSpec(input_fn=lambda:gen_input_fn(args, False))
 	eval_spec = tf.estimator.EvalSpec(input_fn=lambda:gen_input_fn(args, True))
 
-	# tf.estimator.train_and_evaluate(
-	# 	estimator,
-	# 	train_spec,
-	# 	eval_spec
-	# )
+	tf.estimator.train_and_evaluate(
+		estimator,
+		train_spec,
+		eval_spec
+	)
 
-	estimator.train(input_fn=lambda:gen_input_fn(args, False))
+	# estimator.train(input_fn=lambda:gen_input_fn(args, False))
 
 
 

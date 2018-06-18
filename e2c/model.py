@@ -3,19 +3,12 @@ import tensorflow as tf
 
 def model_fn(features, labels, mode, params):
 
-	num_units = 1024
+	num_units = params["num_units"]
 	forget_bias = 0
-	dropout = 0.2
+	dropout = params["dropout"]
 	dtype = tf.float32
 	beam_width = 0
 	time_major = True
-
-	# print("features", features)
-
-	# def dd(s, msg="Hiya ", summarize=10):
-	# 	tf.Print(s, [tf.shape(s), s], msg + " ", summarize=summarize)
-
-	# dd(features["src"])
 
 	# embed words
 	word_embedding = tf.get_variable("word_embedding", [params["vocab_size"], num_units], tf.float32)
@@ -41,13 +34,13 @@ def model_fn(features, labels, mode, params):
 
 	e_initial_state = e_cell.zero_state(params["batch_size"], dtype)
 
-	print("src", src, "seq len", features["src_len"])
-
+	
 	# src = tf.transpose(src, [1, 0, 2])
 	# 'outputs' is a tensor of shape [max_time, batch_size, cell.output_size]
 	# 'state' is a tensor of shape [batch_size, cell_state_size]
 
 	# inputs [max_time, batch_size, cell_state_size]
+
 	encoder_outputs, encoder_state = tf.nn.dynamic_rnn(
 			e_cell,
 			src,
@@ -64,13 +57,13 @@ def model_fn(features, labels, mode, params):
 	d_cell = tf.contrib.rnn.BasicLSTMCell(
 		num_units,
 		forget_bias=forget_bias)
+
 	d_cell = tf.contrib.rnn.DropoutWrapper(
 		cell=d_cell, input_keep_prob=(1.0 - dropout))
 
+	# Time major formatting
 	memory = tf.transpose(encoder_outputs, [1, 0, 2])
-	# memory = encoder_outputs
-	print("memory", memory, "encoder_state", encoder_state)
-
+	
 	# set up attention
 	attention_mechanism = tf.contrib.seq2seq.LuongAttention(
 		num_units, memory, memory_sequence_length=features["src_len"])
@@ -112,17 +105,16 @@ def model_fn(features, labels, mode, params):
 	# Calc loss
 	# --------------------------------------------------------------------------
 
-	labels = tf.transpose(features["tgt_out"])
-	print(labels, logits)
-
-	# labels = labels[0:features["tgt_len"][0],0:]
-
+	# Time major formatting
+	labels = tf.transpose(labels)
+	
 	crossent = tf.nn.sparse_softmax_cross_entropy_with_logits(
 		labels=labels, logits=logits)
 
 	target_weights = tf.sequence_mask(
 		features["tgt_len"], max_time, dtype=logits.dtype)
 
+	# Time major formatting
 	target_weights = tf.transpose(target_weights)
 
 	loss = tf.reduce_sum(crossent * target_weights) / tf.to_float(params["batch_size"])
@@ -137,14 +129,16 @@ def model_fn(features, labels, mode, params):
 	# Eval
 	# --------------------------------------------------------------------------
 	
-	
+	eval_metric_ops = {
+		"accuracy": tf.metrics.accuracy(labels, tf.argmax(logits, axis=-1)),
+	}
 	
 
 	return tf.estimator.EstimatorSpec(mode,
 		loss=loss,
 		train_op=train_op,
 		predictions=None,
-		eval_metric_ops=None,
+		eval_metric_ops=eval_metric_ops,
 		export_outputs=None,
 		training_chief_hooks=None,
 		training_hooks=None,

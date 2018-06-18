@@ -72,6 +72,9 @@ def gen_input_fn(args, eval=False):
 		tf.concat(([sos_id], tgt), 0),
 		tf.concat((tgt, [eos_id]), 0)))
 
+	if args["limit"] is not None:
+		d = d.take(args["limit"])
+
 	d = d.map(lambda src, tgt_in, tgt_out: ({
 		"src":src, 
 		"tgt_in":tgt_in,
@@ -81,7 +84,10 @@ def gen_input_fn(args, eval=False):
 	}, tgt_out))
 
 
-	d = d.padded_batch(
+	d = d.shuffle(args["batch_size"]*10)
+
+	# Currently dynamic_rnn seems to crash if the last batch is smaller
+	d = d.apply(tf.contrib.data.padded_batch_and_drop_remainder(
 		args["batch_size"],
 		# The first three entries are the source and target line rows;
 		# these have unknown-length vectors.  The last two entries are
@@ -110,7 +116,7 @@ def gen_input_fn(args, eval=False):
 			},
 			eos_id,  # tgt_output
 		)
-	)
+	))
 			
 			
 
