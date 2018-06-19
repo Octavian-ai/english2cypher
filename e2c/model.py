@@ -1,30 +1,40 @@
 
 import tensorflow as tf
 
+from .input import get_constants, load_inverse_vocab
+
 def model_fn(features, labels, mode, params):
 
+	# --------------------------------------------------------------------------
+	# Extra hyper parameters
+	# --------------------------------------------------------------------------
+	
 	num_units = params["num_units"]
 	forget_bias = 0
 	dropout = params["dropout"]
 	dtype = tf.float32
 	beam_width = 0
 	time_major = True
+	vocab_const = get_constants(params)
+
+	# --------------------------------------------------------------------------
+	# Format inputs
+	# --------------------------------------------------------------------------
 
 	# embed words
 	word_embedding = tf.get_variable("word_embedding", [params["vocab_size"], num_units], tf.float32)
 
 	# Transpose to switch to time-major format [max_time, batch, ...]
 	src  = tf.nn.embedding_lookup(word_embedding, tf.transpose(features["src"]))
-	tgt_in  = tf.nn.embedding_lookup(word_embedding, tf.transpose(features["tgt_in"]))
-	tgt_out  = tf.nn.embedding_lookup(word_embedding, tf.transpose(labels))
+	
 
 	max_time = src.shape[0].value
 	
 
+
 	# --------------------------------------------------------------------------
 	# Encoder
 	# --------------------------------------------------------------------------
-	
 	
 	e_cell = tf.contrib.rnn.BasicLSTMCell(
 		num_units,
@@ -50,8 +60,10 @@ def model_fn(features, labels, mode, params):
 			time_major=True,
 			swap_memory=True)
 
+
+
 	# --------------------------------------------------------------------------
-	# Decoder
+	# Decoder base
 	# --------------------------------------------------------------------------
 	
 	d_cell = tf.contrib.rnn.BasicLSTMCell(
@@ -69,7 +81,7 @@ def model_fn(features, labels, mode, params):
 		num_units, memory, memory_sequence_length=features["src_len"])
 
 	alignment_history = (mode == tf.contrib.learn.ModeKeys.INFER and
-                         beam_width == 0)
+						 beam_width == 0)
 
 	d_cell = tf.contrib.seq2seq.AttentionWrapper(
 		d_cell,
@@ -79,65 +91,123 @@ def model_fn(features, labels, mode, params):
 		output_attention=True,
 		name="attention")
 
-	training_helper = tf.contrib.seq2seq.TrainingHelper(
-			tgt_in, features["tgt_len"],
-			time_major=time_major)
-
 	d_initial_state = d_cell.zero_state(params["batch_size"], dtype).clone(
-          cell_state=encoder_state)
+		cell_state=encoder_state)
+
+	output_layer = tf.layers.Dense(
+		params["vocab_size"], 
+		use_bias=False, name="output_projection")
+
+	
+
+	if mode in [tf.estimator.ModeKeys.TRAIN, tf.estimator.ModeKeys.EVAL]:
+
+		tgt_in  = tf.nn.embedding_lookup(word_embedding, tf.transpose(features["tgt_in"]))
+
+		decoder_helper = tf.contrib.seq2seq.TrainingHelper(
+				tgt_in, features["tgt_len"],
+				time_major=time_major)
+
+		maximum_iterations = None
+
+	else:
+		decoder_helper = tf.contrib.seq2seq.GreedyEmbeddingHelper(
+			word_embedding,
+			tf.fill([params["batch_size"]], vocab_const['tgt_sos_id']), vocab_const['tgt_eos_id'])
+
+		maximum_iterations = tf.round(tf.reduce_max(features["src_len"]) * 2)
 
 	basic_decoder = tf.contrib.seq2seq.BasicDecoder(
 			d_cell,
-			training_helper,
+			decoder_helper,
 			d_initial_state,)
 
-	outputs, final_context_state, _ = tf.contrib.seq2seq.dynamic_decode(
+	
+
+	final_outputs, final_context_state, _ = tf.contrib.seq2seq.dynamic_decode(
 			basic_decoder,
 			output_time_major=time_major,
-			swap_memory=True)
+			swap_memory=True,
+			maximum_iterations=maximum_iterations)
 
-	output_layer = tf.layers.Dense(
-            params["vocab_size"], use_bias=False, name="output_projection")
+	logits = output_layer(final_outputs.rnn_output)
 
-	logits = output_layer(outputs.rnn_output)
 
 	# --------------------------------------------------------------------------
 	# Calc loss
 	# --------------------------------------------------------------------------
 
-	# Time major formatting
-	labels = tf.transpose(labels)
+	if mode in [tf.estimator.ModeKeys.TRAIN, tf.estimator.ModeKeys.EVAL]:
 	
-	crossent = tf.nn.sparse_softmax_cross_entropy_with_logits(
-		labels=labels, logits=logits)
+		# Time major formatting
+		labels_t = tf.transpose(labels)
+		
+		crossent = tf.nn.sparse_softmax_cross_entropy_with_logits(
+			labels=labels_t, logits=logits)
 
-	target_weights = tf.sequence_mask(
-		features["tgt_len"], max_time, dtype=logits.dtype)
+		target_weights = tf.sequence_mask(
+			features["tgt_len"], max_time, dtype=logits.dtype)
 
-	# Time major formatting
-	target_weights = tf.transpose(target_weights)
+		# Time major formatting
+		target_weights = tf.transpose(target_weights)
 
-	loss = tf.reduce_sum(crossent * target_weights) / tf.to_float(params["batch_size"])
+		loss = tf.reduce_sum(crossent * target_weights) / tf.to_float(params["batch_size"])
+
+	else: 
+		loss = None
 
 	# --------------------------------------------------------------------------
 	# Optimize
 	# --------------------------------------------------------------------------
-	
-	train_op = tf.train.AdamOptimizer(params["learning_rate"]).minimize(loss, global_step=tf.train.get_global_step())
+
+	if mode == tf.estimator.ModeKeys.TRAIN:
+
+		var = tf.trainable_variables()
+		gradients = tf.gradients(loss, var)
+		clipped_gradients, _ = tf.clip_by_global_norm(gradients, params["max_gradient_norm"])
+		
+		optimizer = tf.train.AdamOptimizer(params["learning_rate"])
+		train_op = optimizer.apply_gradients(zip(clipped_gradients, var), global_step=tf.train.get_global_step())
+
+	else:
+		train_op = None
 
 	# --------------------------------------------------------------------------
 	# Eval
 	# --------------------------------------------------------------------------
 	
-	eval_metric_ops = {
-		"accuracy": tf.metrics.accuracy(labels, tf.argmax(logits, axis=-1)),
-	}
+	if mode == tf.estimator.ModeKeys.EVAL:
+
+		# Time major formatting
+		labels_t = tf.transpose(labels)
+
+		eval_metric_ops = {
+			"accuracy": tf.metrics.accuracy(labels_t, tf.argmax(logits, axis=-1)),
+		}
+
+	else:
+		eval_metric_ops = None
+
+	# --------------------------------------------------------------------------
+	# Predictions
+	# --------------------------------------------------------------------------
+
+	if mode == tf.estimator.ModeKeys.PREDICT:
+
+		output_ids = tf.argmax(logits, axis=-1)
+		vocab_inverse = load_inverse_vocab(params)
+
+		predictions = vocab_inverse.lookup(output_ids)
+		
+
+	else:
+		predictions = None
 	
 
 	return tf.estimator.EstimatorSpec(mode,
 		loss=loss,
 		train_op=train_op,
-		predictions=None,
+		predictions=predictions,
 		eval_metric_ops=eval_metric_ops,
 		export_outputs=None,
 		training_chief_hooks=None,

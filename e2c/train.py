@@ -1,5 +1,7 @@
 
 import tensorflow as tf
+import os.path
+import numpy as np
 
 from .input import gen_input_fn
 from .model import model_fn
@@ -22,8 +24,8 @@ def train(args):
 		params=args,
 		warm_start_from=None)
 
-	train_spec = tf.estimator.TrainSpec(input_fn=lambda:gen_input_fn(args, False))
-	eval_spec = tf.estimator.EvalSpec(input_fn=lambda:gen_input_fn(args, True))
+	train_spec = tf.estimator.TrainSpec(input_fn=lambda:gen_input_fn(args, "train"), max_steps=args['max_steps'])
+	eval_spec = tf.estimator.EvalSpec(input_fn=lambda:gen_input_fn(args, "eval"))
 
 	tf.estimator.train_and_evaluate(
 		estimator,
@@ -31,7 +33,15 @@ def train(args):
 		eval_spec
 	)
 
-	# estimator.train(input_fn=lambda:gen_input_fn(args, False))
+	p = estimator.predict(input_fn=lambda:gen_input_fn(args, "predict"))
+	p = list(p)
+	p = np.array(p).transpose()
+
+	with tf.gfile.GFile(os.path.join(args["output_dir"], "predictions.txt"), "w") as file:
+		for i in p:
+			ss = ' '.join([s.decode("utf-8") for s in i])
+			print(ss)
+			file.write(ss + "\n")
 
 
 
