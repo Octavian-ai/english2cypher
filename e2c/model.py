@@ -3,6 +3,18 @@ import tensorflow as tf
 
 from .input import get_constants, load_inverse_vocab
 
+def basic_cell(args, i):
+	c = tf.contrib.rnn.BasicLSTMCell(
+		args['num_units'],
+		forget_bias=args['forget_bias'])
+	c = tf.contrib.rnn.DropoutWrapper(
+		cell=c, input_keep_prob=(1.0 - args['dropout']))
+
+	if i > 1:
+		c = tf.contrib.rnn.ResidualWrapper(c)
+
+	return c
+
 def model_fn(features, labels, mode, params):
 
 	# --------------------------------------------------------------------------
@@ -36,11 +48,11 @@ def model_fn(features, labels, mode, params):
 	# Encoder
 	# --------------------------------------------------------------------------
 	
-	e_cell = tf.contrib.rnn.BasicLSTMCell(
-		num_units,
-		forget_bias=forget_bias)
-	e_cell = tf.contrib.rnn.DropoutWrapper(
-		cell=e_cell, input_keep_prob=(1.0 - dropout))
+	e_cells = []
+	for i in range(params["num_layers"]):
+		e_cells.append(basic_cell(params,i))
+
+	e_cell = tf.contrib.rnn.MultiRNNCell(e_cells)
 
 	e_initial_state = e_cell.zero_state(params["batch_size"], dtype)
 
@@ -66,12 +78,11 @@ def model_fn(features, labels, mode, params):
 	# Decoder base
 	# --------------------------------------------------------------------------
 	
-	d_cell = tf.contrib.rnn.BasicLSTMCell(
-		num_units,
-		forget_bias=forget_bias)
+	d_cells = []
+	for i in range(params["num_layers"]):
+		d_cells.append(basic_cell(params,i))
 
-	d_cell = tf.contrib.rnn.DropoutWrapper(
-		cell=d_cell, input_keep_prob=(1.0 - dropout))
+	d_cell = tf.contrib.rnn.MultiRNNCell(d_cells)
 
 	# Time major formatting
 	memory = tf.transpose(encoder_outputs, [1, 0, 2])
@@ -123,6 +134,7 @@ def model_fn(features, labels, mode, params):
 			d_initial_state,)
 
 	
+	# 'outputs' is a tensor of shape [max_time, batch_size, cell.output_size]
 
 	final_outputs, final_context_state, _ = tf.contrib.seq2seq.dynamic_decode(
 			basic_decoder,
