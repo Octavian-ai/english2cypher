@@ -6,19 +6,22 @@ def get_args():
 
 	parser = argparse.ArgumentParser()
 
-	parser.add_argument('--model-dir', type=str, default="./output/model")
+	parser.add_argument('--model-dir',  type=str, default="./output/model")
 	parser.add_argument('--output-dir', type=str, default="./output")
 
-	parser.add_argument('--input-dir', type=str, default="./data")
+	parser.add_argument('--input-dir',    type=str, default="./data")
 	parser.add_argument('--src-filename', type=str, default="src.txt")
 	parser.add_argument('--tgt-filename', type=str, default="tgt.txt")
 
 	parser.add_argument('--vocab-size', type=int, default=5000)
 	parser.add_argument('--embed-size', type=int, default=128)
 	parser.add_argument('--batch-size', type=int, default=64)
-	parser.add_argument('--num-units', type=int, default=1024)
-	parser.add_argument('--max-steps', type=int, default=200)
+	parser.add_argument('--num-units',  type=int, default=1024)
 	parser.add_argument('--num-layers', type=int, default=8)
+
+	parser.add_argument('--max-steps',    type=int, default=4000)
+	parser.add_argument('--predict-freq', type=int, default=10)
+
 
 	parser.add_argument('--limit', type=int, default=None,help="Limit number of data points, to quickly test code")
 
@@ -26,7 +29,7 @@ def get_args():
 	parser.add_argument('--learning-rate', type=float, default=0.001)
 	parser.add_argument('--dropout', type=float, default=0.2)
 	parser.add_argument('--eval-holdback', type=float, default=0.2)
-	parser.add_argument('--predict-holdback', type=float, default=0.1)
+	parser.add_argument('--predict-holdback', type=float, default=0.01)
 	parser.add_argument('--forget-bias', type=float, default=0.0)
 
 

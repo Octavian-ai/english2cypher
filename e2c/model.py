@@ -166,23 +166,22 @@ def model_fn(features, labels, mode, params):
 	logits = output_layer(final_outputs.rnn_output)
 
 
-	# Time major formatting
-	labels_t = tf.transpose(labels)
-
-	# Mask of the outputs we care about
-	target_weights = tf.sequence_mask(
-		features["tgt_len"], max_time, dtype=logits.dtype)
-
-	# Time major formatting
-	target_weights = tf.transpose(target_weights)
-
-
-	# --------------------------------------------------------------------------
-	# Calc loss
-	# --------------------------------------------------------------------------
-
 	if mode in [tf.estimator.ModeKeys.TRAIN, tf.estimator.ModeKeys.EVAL]:
-	
+		# Time major formatting
+		labels_t = tf.transpose(labels)
+
+		# Mask of the outputs we care about
+		target_weights = tf.sequence_mask(
+			features["tgt_len"], max_time, dtype=logits.dtype)
+
+		# Time major formatting
+		target_weights = tf.transpose(target_weights)
+
+
+		# --------------------------------------------------------------------------
+		# Calc loss
+		# --------------------------------------------------------------------------	
+		
 		crossent = tf.nn.sparse_softmax_cross_entropy_with_logits(
 			labels=labels_t, logits=logits)
 

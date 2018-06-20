@@ -1,7 +1,7 @@
 
 def transform_cypher_pretokenize(s):
 	# We want to tokenize these seperate from the keywords
-	punctuation = "()[]-=\"',"
+	punctuation = "()[]-=\"',."
 
 	l = s
 

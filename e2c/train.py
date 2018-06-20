@@ -3,7 +3,7 @@ import tensorflow as tf
 import os.path
 import numpy as np
 
-from .input import gen_input_fn
+from .input import gen_input_fn, EOS
 from .model import model_fn
 from .args import get_args
 
@@ -33,15 +33,17 @@ def train(args):
 		eval_spec
 	)
 
-	p = estimator.predict(input_fn=lambda:gen_input_fn(args, "predict"))
-	p = list(p)
-	p = np.array(p).transpose()
+	predictions = estimator.predict(input_fn=lambda:gen_input_fn(args, "predict"))
+	predictions = np.array(list(predictions)).transpose()
 
 	with tf.gfile.GFile(os.path.join(args["output_dir"], "predictions.txt"), "w") as file:
-		for i in p:
-			ss = ' '.join([s.decode("utf-8") for s in i])
-			print(ss)
-			file.write(ss + "\n")
+		for prediction in predictions:
+			s = ' '.join([b.decode("utf-8") for b in prediction])
+			end = s.find(EOS)
+			if end != -1:
+				s = s[0:end]
+			print(s)
+			file.write(s + "\n")
 
 
 
