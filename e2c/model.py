@@ -3,10 +3,12 @@ import tensorflow as tf
 
 from .input import get_constants, load_inverse_vocab
 
-def basic_cell(args, i):
+def basic_cell(args, i, unit_mul):
+
 	c = tf.contrib.rnn.BasicLSTMCell(
-		args['num_units'],
+		args['num_units']*unit_mul,
 		forget_bias=args['forget_bias'])
+
 	c = tf.contrib.rnn.DropoutWrapper(
 		cell=c, input_keep_prob=(1.0 - args['dropout']))
 
@@ -15,30 +17,41 @@ def basic_cell(args, i):
 
 	return c
 
+def cell_stack(args, layer_mul=1, unit_mul=1):
+	cells = []
+	for i in range(args["num_layers"]*layer_mul):
+		cells.append(basic_cell(args, i, unit_mul))
+
+	cell = tf.contrib.rnn.MultiRNNCell(cells)
+	return cell
+
+
 def model_fn(features, labels, mode, params):
 
 	# --------------------------------------------------------------------------
-	# Extra hyper parameters
+	# Hyper parameters
 	# --------------------------------------------------------------------------
 	
-	num_units = params["num_units"]
+	# For consistency with rest of codebase
+	args = params
+
+	num_units = args["num_units"]
 	forget_bias = 0
-	dropout = params["dropout"]
+	dropout = args["dropout"]
 	dtype = tf.float32
 	beam_width = 0
 	time_major = True
-	vocab_const = get_constants(params)
+	vocab_const = get_constants(args)
 
 	# --------------------------------------------------------------------------
 	# Format inputs
 	# --------------------------------------------------------------------------
 
 	# embed words
-	word_embedding = tf.get_variable("word_embedding", [params["vocab_size"], num_units], tf.float32)
+	word_embedding = tf.get_variable("word_embedding", [args["vocab_size"], num_units], tf.float32)
 
 	# Transpose to switch to time-major format [max_time, batch, ...]
 	src  = tf.nn.embedding_lookup(word_embedding, tf.transpose(features["src"]))
-	
 
 	max_time = src.shape[0].value
 	
@@ -48,41 +61,49 @@ def model_fn(features, labels, mode, params):
 	# Encoder
 	# --------------------------------------------------------------------------
 	
-	e_cells = []
-	for i in range(params["num_layers"]):
-		e_cells.append(basic_cell(params,i))
+	fw_cell = cell_stack(args)
+	bw_cell = cell_stack(args)
 
-	e_cell = tf.contrib.rnn.MultiRNNCell(e_cells)
+	(fw_output, bw_output), (fw_states, bw_states) = tf.nn.bidirectional_dynamic_rnn(
+        fw_cell,
+        bw_cell,
+        src,
+        dtype=dtype,
+        sequence_length=features["src_len"],
+        time_major=time_major,
+        swap_memory=True)
 
-	e_initial_state = e_cell.zero_state(params["batch_size"], dtype)
-
+	encoder_outputs = tf.concat( (fw_output, bw_output), axis=-1)
 	
-	# src = tf.transpose(src, [1, 0, 2])
+	# Interleave-stack the forward and backward layers
+	# Note: this doubles the number of layers w.r.t (e.g. for the decoder to handle)
+	encoder_state = []
+	for layer_id in range(args["num_layers"]):
+		encoder_state.append(fw_states[layer_id])  # forward
+		encoder_state.append(bw_states[layer_id])  # backward
+	encoder_state = tuple(encoder_state)
+
+	# e_initial_state = e_cell.zero_state(args["batch_size"], dtype)
 	# 'outputs' is a tensor of shape [max_time, batch_size, cell.output_size]
 	# 'state' is a tensor of shape [batch_size, cell_state_size]
-
 	# inputs [max_time, batch_size, cell_state_size]
-
-	encoder_outputs, encoder_state = tf.nn.dynamic_rnn(
-			e_cell,
-			src,
-			initial_state = e_initial_state,
-			dtype=dtype,
-			sequence_length=features["src_len"],
-			time_major=True,
-			swap_memory=True)
+	# encoder_outputs, encoder_state = tf.nn.dynamic_rnn(
+	# 		e_cell,
+	# 		src,
+	# 		initial_state = e_initial_state,
+	# 		dtype=dtype,
+	# 		sequence_length=features["src_len"],
+	# 		time_major=True,
+	# 		swap_memory=True)
 
 
 
 	# --------------------------------------------------------------------------
 	# Decoder base
 	# --------------------------------------------------------------------------
-	
-	d_cells = []
-	for i in range(params["num_layers"]):
-		d_cells.append(basic_cell(params,i))
 
-	d_cell = tf.contrib.rnn.MultiRNNCell(d_cells)
+	# 2x layers since input is a biLSTM
+	d_cell = cell_stack(args, 2)
 
 	# Time major formatting
 	memory = tf.transpose(encoder_outputs, [1, 0, 2])
@@ -102,11 +123,11 @@ def model_fn(features, labels, mode, params):
 		output_attention=True,
 		name="attention")
 
-	d_initial_state = d_cell.zero_state(params["batch_size"], dtype).clone(
+	d_initial_state = d_cell.zero_state(args["batch_size"], dtype).clone(
 		cell_state=encoder_state)
 
 	output_layer = tf.layers.Dense(
-		params["vocab_size"], 
+		args["vocab_size"], 
 		use_bias=False, name="output_projection")
 
 	
@@ -124,7 +145,7 @@ def model_fn(features, labels, mode, params):
 	else:
 		decoder_helper = tf.contrib.seq2seq.GreedyEmbeddingHelper(
 			word_embedding,
-			tf.fill([params["batch_size"]], vocab_const['tgt_sos_id']), vocab_const['tgt_eos_id'])
+			tf.fill([args["batch_size"]], vocab_const['tgt_sos_id']), vocab_const['tgt_eos_id'])
 
 		maximum_iterations = tf.round(tf.reduce_max(features["src_len"]) * 2)
 
@@ -163,7 +184,7 @@ def model_fn(features, labels, mode, params):
 		# Time major formatting
 		target_weights = tf.transpose(target_weights)
 
-		loss = tf.reduce_sum(crossent * target_weights) / tf.to_float(params["batch_size"])
+		loss = tf.reduce_sum(crossent * target_weights) / tf.to_float(args["batch_size"])
 
 	else: 
 		loss = None
@@ -176,9 +197,9 @@ def model_fn(features, labels, mode, params):
 
 		var = tf.trainable_variables()
 		gradients = tf.gradients(loss, var)
-		clipped_gradients, _ = tf.clip_by_global_norm(gradients, params["max_gradient_norm"])
+		clipped_gradients, _ = tf.clip_by_global_norm(gradients, args["max_gradient_norm"])
 		
-		optimizer = tf.train.AdamOptimizer(params["learning_rate"])
+		optimizer = tf.train.AdamOptimizer(args["learning_rate"])
 		train_op = optimizer.apply_gradients(zip(clipped_gradients, var), global_step=tf.train.get_global_step())
 
 	else:
@@ -207,7 +228,7 @@ def model_fn(features, labels, mode, params):
 	if mode == tf.estimator.ModeKeys.PREDICT:
 
 		output_ids = tf.argmax(logits, axis=-1)
-		vocab_inverse = load_inverse_vocab(params)
+		vocab_inverse = load_inverse_vocab(args)
 
 		predictions = vocab_inverse.lookup(output_ids)
 		
