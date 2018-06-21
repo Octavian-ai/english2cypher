@@ -33,6 +33,9 @@ def train(args):
 		eval_spec
 	)
 
+	print("-----------------------")
+	print("Predictions")
+
 	predictions = estimator.predict(input_fn=lambda:gen_input_fn(args, "predict"))
 	predictions = np.array(list(predictions)).transpose()
 

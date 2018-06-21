@@ -91,7 +91,7 @@ def gen_input_fn(args, mode):
 	d = d.shuffle(args["batch_size"]*10)
 
 	# Currently dynamic_rnn seems to crash if the last batch is smaller
-	d = d.apply(tf.contrib.data.padded_batch_and_drop_remainder(
+	d = d.padded_batch(
 		args["batch_size"],
 		# The first three entries are the source and target line rows;
 		# these have unknown-length vectors.  The last two entries are
@@ -120,7 +120,7 @@ def gen_input_fn(args, mode):
 			},
 			eos_id,  # tgt_output
 		)
-	))
+	)
 			
 			
 
