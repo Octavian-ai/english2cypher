@@ -11,12 +11,6 @@ def train(args):
 
 	tf.logging.set_verbosity(tf.logging.DEBUG)
 
-	# with tf.Session() as sess:
-
-	# 	it = gen_input_fn(args, False).make_initializable_iterator()
-	# 	sess.run(tf.global_variables_initializer())
-	# 	print(sess.run([it.initializer, it.get_next()]))
-
 	estimator = tf.estimator.Estimator(
 		model_fn,
 		model_dir=args["model_dir"],
@@ -24,29 +18,43 @@ def train(args):
 		params=args,
 		warm_start_from=None)
 
-	train_spec = tf.estimator.TrainSpec(input_fn=lambda:gen_input_fn(args, "train"), max_steps=args['max_steps'])
 	eval_spec = tf.estimator.EvalSpec(input_fn=lambda:gen_input_fn(args, "eval"))
 
-	tf.estimator.train_and_evaluate(
-		estimator,
-		train_spec,
-		eval_spec
-	)
+	steps_per_cycle = args["max_steps"]/args["predict_freq"]
+	
+	def do_train(max_steps):
+		# max_steps is a bit awkward, but hey, this is tensorflow
+		train_spec = tf.estimator.TrainSpec(input_fn=lambda:gen_input_fn(args, "train"), max_steps=max_steps)
+	
+		tf.estimator.train_and_evaluate(
+			estimator,
+			train_spec,
+			eval_spec
+		)
 
-	print("-----------------------")
-	print("Predictions")
+	def do_predict():
+		print("-----------------------")
+		print("Predictions")
 
-	predictions = estimator.predict(input_fn=lambda:gen_input_fn(args, "predict"))
-	predictions = np.array(list(predictions)).transpose()
+		predictions = estimator.predict(input_fn=lambda:gen_input_fn(args, "predict"))
+		predictions = np.array(list(predictions)).transpose()
 
-	with tf.gfile.GFile(os.path.join(args["output_dir"], "predictions.txt"), "w") as file:
-		for prediction in predictions:
-			s = ' '.join([b.decode("utf-8") for b in prediction])
-			end = s.find(EOS)
-			if end != -1:
-				s = s[0:end]
-			print(s)
-			file.write(s + "\n")
+		with tf.gfile.GFile(os.path.join(args["output_dir"], "predictions.txt"), "w") as file:
+			i = 0
+			for prediction in predictions:
+				s = ' '.join([b.decode("utf-8") for b in prediction])
+				end = s.find(EOS)
+				if end != -1:
+					s = s[0:end]
+
+				if i < 3:
+					print(s)
+				file.write(s + "\n")
+				i += 1
+
+	for i in range(args["predict_freq"]):
+		do_train(steps_per_cycle * (i+1))
+		do_predict()
 
 
 

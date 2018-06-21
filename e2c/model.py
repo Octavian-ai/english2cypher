@@ -184,6 +184,7 @@ def model_fn(features, labels, mode, params):
 			maximum_iterations=maximum_iterations)
 
 		free_logits = output_layer(free_decoded.rnn_output)
+		free_predictions = tf.argmax(free_logits, axis=-1)
 
 	
 
@@ -230,8 +231,6 @@ def model_fn(features, labels, mode, params):
 	# --------------------------------------------------------------------------
 	# Eval
 	# --------------------------------------------------------------------------
-	
-	free_predictions = tf.argmax(free_logits, axis=-1)
 
 	if mode == tf.estimator.ModeKeys.EVAL:
 
