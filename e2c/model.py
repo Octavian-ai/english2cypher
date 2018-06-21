@@ -5,12 +5,12 @@ from .input import get_constants, load_inverse_vocab
 
 def basic_cell(args, i, unit_mul):
 
-	c = tf.contrib.rnn.BasicLSTMCell(
-		args['num_units']*unit_mul,
-		forget_bias=args['forget_bias'])
+	c = tf.contrib.rnn.LayerNormBasicLSTMCell(
+		args['num_units']*unit_mul, 
+		dropout_keep_prob=args['dropout'])
 
-	c = tf.contrib.rnn.DropoutWrapper(
-		cell=c, input_keep_prob=(1.0 - args['dropout']))
+	# c = tf.contrib.rnn.DropoutWrapper(
+	# 	cell=c, input_keep_prob=(1.0 - args['dropout']))
 
 	if i > 1:
 		c = tf.contrib.rnn.ResidualWrapper(c)
@@ -71,13 +71,13 @@ def model_fn(features, labels, mode, params):
 	
 
 	(fw_output, bw_output), (fw_states, bw_states) = tf.nn.bidirectional_dynamic_rnn(
-        fw_cell,
-        bw_cell,
-        src,
-        dtype=dtype,
-        sequence_length=padded_src_len,
-        time_major=time_major,
-        swap_memory=True)
+		fw_cell,
+		bw_cell,
+		src,
+		dtype=dtype,
+		sequence_length=padded_src_len,
+		time_major=time_major,
+		swap_memory=True)
 
 	encoder_outputs = tf.concat( (fw_output, bw_output), axis=-1)
 	
@@ -218,12 +218,29 @@ def model_fn(features, labels, mode, params):
 
 	if mode == tf.estimator.ModeKeys.TRAIN:
 
+		global_step = tf.train.get_global_step()
+
+		decay_factor = 0.5
+		start_decay_step = int(args["max_steps"] / 2)
+		decay_times = 10
+		remain_steps = args["max_steps"] - start_decay_step
+		decay_steps = int(remain_steps / decay_times)
+
+		fancy_lr = tf.cond(
+			global_step < start_decay_step,
+			lambda: args["learning_rate"],
+			lambda: tf.train.exponential_decay(
+				args["learning_rate"],
+				(global_step - start_decay_step),
+				decay_steps, decay_factor, staircase=True),
+			name="learning_rate_decay_cond")
+
 		var = tf.trainable_variables()
 		gradients = tf.gradients(loss, var)
 		clipped_gradients, _ = tf.clip_by_global_norm(gradients, args["max_gradient_norm"])
 		
-		optimizer = tf.train.AdamOptimizer(args["learning_rate"])
-		train_op = optimizer.apply_gradients(zip(clipped_gradients, var), global_step=tf.train.get_global_step())
+		optimizer = tf.train.AdamOptimizer(fancy_lr)
+		train_op = optimizer.apply_gradients(zip(clipped_gradients, var), global_step=global_step)
 
 	else:
 		train_op = None

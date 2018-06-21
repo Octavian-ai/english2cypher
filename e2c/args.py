@@ -18,7 +18,7 @@ def get_args():
 	parser.add_argument('--num-units',  type=int, default=1024)
 	parser.add_argument('--num-layers', type=int, default=2)
 
-	parser.add_argument('--max-steps',    type=int, default=10000)
+	parser.add_argument('--max-steps',    type=int, default=400)
 	parser.add_argument('--predict-freq', type=int, default=10)
 
 
