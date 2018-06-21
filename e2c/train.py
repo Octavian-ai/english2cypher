@@ -20,7 +20,7 @@ def train(args):
 
 	eval_spec = tf.estimator.EvalSpec(input_fn=lambda:gen_input_fn(args, "eval"))
 
-	steps_per_cycle = args["max_steps"]/args["predict_freq"]
+	steps_per_cycle = int(args["max_steps"]/args["predict_freq"])
 	
 	def do_train(max_steps):
 		# max_steps is a bit awkward, but hey, this is tensorflow
@@ -37,20 +37,24 @@ def train(args):
 		print("Predictions")
 
 		predictions = estimator.predict(input_fn=lambda:gen_input_fn(args, "predict"))
-		predictions = np.array(list(predictions)).transpose()
+		predictions = list(predictions)
+		predictions = [[char.decode("utf-8") for char in row] for row in predictions]
+		predictions = np.array(predictions)
 
-		with tf.gfile.GFile(os.path.join(args["output_dir"], "predictions.txt"), "w") as file:
-			i = 0
-			for prediction in predictions:
-				s = ' '.join([b.decode("utf-8") for b in prediction])
-				end = s.find(EOS)
-				if end != -1:
-					s = s[0:end]
+		print(predictions)
+		print("-----------TRANSPOSE------------")
+		print(predictions.transpose())
 
-				if i < 3:
-					print(s)
-				file.write(s + "\n")
-				i += 1
+		# with tf.gfile.GFile(os.path.join(args["output_dir"], "predictions.txt"), "w") as file:
+		# 	i = 0
+		# 	for prediction in predictions:
+		# 		s = ' '.join([b.decode("utf-8") for b in prediction])
+		# 		end = s.find(EOS)
+		# 		if end != -1:
+		# 			s = s[0:end]
+
+		# 		print(s)
+		# 		file.write(s + "\n")
 
 	for i in range(args["predict_freq"]):
 		do_train(steps_per_cycle * (i+1))

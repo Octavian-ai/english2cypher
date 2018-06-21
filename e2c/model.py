@@ -3,6 +3,8 @@ import tensorflow as tf
 
 from .input import get_constants, load_inverse_vocab
 
+dtype = tf.float32
+
 def basic_cell(args, i, unit_mul):
 
 	c = tf.contrib.rnn.LayerNormBasicLSTMCell(
@@ -25,6 +27,53 @@ def cell_stack(args, layer_mul=1, unit_mul=1):
 	cell = tf.contrib.rnn.MultiRNNCell(cells)
 	return cell
 
+def decoder_cell(name, args, layer_mul, beam_width, dynamic_batch_size, features, encoder_outputs, encoder_state):
+
+	# Time major formatting
+	attn_memory = tf.transpose(encoder_outputs, [1, 0, 2])
+	attn_sequence_length = features["src_len"]
+	attn_encoder_state = encoder_state
+	attn_batch_size = dynamic_batch_size
+
+	if beam_width is not None:
+		attn_memory = tf.contrib.seq2seq.tile_batch(
+			attn_memory, multiplier=beam_width)
+
+	if beam_width is not None:
+		attn_sequence_length = tf.contrib.seq2seq.tile_batch(
+			attn_sequence_length, multiplier=beam_width)
+	
+	if beam_width is not None:
+		attn_encoder_state = tf.contrib.seq2seq.tile_batch(
+			attn_encoder_state, multiplier=beam_width)
+	
+	if beam_width is not None:
+		attn_batch_size *= beam_width
+	
+	# set up attention
+	attention_mechanism = tf.contrib.seq2seq.BahdanauAttention(
+		args["num_units"], 
+		attn_memory, 
+		memory_sequence_length=attn_sequence_length, 
+		normalize=True)
+
+	alignment_history = beam_width is None
+
+	# 2x layers since input is a biLSTM
+	d_cell = cell_stack(args, layer_mul)
+
+	d_cell = tf.contrib.seq2seq.AttentionWrapper(
+		d_cell,
+		attention_mechanism,
+		attention_layer_size=args["num_units"],
+		alignment_history=alignment_history,
+		output_attention=True,
+		name=name)
+
+	d_cell_initial = d_cell.zero_state(attn_batch_size, dtype).clone(cell_state=attn_encoder_state)
+
+	return d_cell, d_cell_initial
+
 
 def model_fn(features, labels, mode, params):
 
@@ -35,10 +84,9 @@ def model_fn(features, labels, mode, params):
 	# For consistency with rest of codebase
 	args = params
 
-	dtype = tf.float32
-	beam_width = 0
 	time_major = True
 	vocab_const = get_constants(args)
+	vocab_inverse = load_inverse_vocab(args)
 	dynamic_batch_size = tf.shape(features["src"])[0]
 
 	# --------------------------------------------------------------------------
@@ -108,74 +156,56 @@ def model_fn(features, labels, mode, params):
 	# Decoder base
 	# --------------------------------------------------------------------------
 
-	# 2x layers since input is a biLSTM
-	d_cell = cell_stack(args, 2)
-
-	# Time major formatting
-	memory = tf.transpose(encoder_outputs, [1, 0, 2])
-	
-	# set up attention
-	attention_mechanism = tf.contrib.seq2seq.BahdanauAttention(
-		args["num_units"], memory, 
-		memory_sequence_length=features["src_len"], 
-		normalize=True)
-
-	alignment_history = (mode == tf.contrib.learn.ModeKeys.INFER and
-						 beam_width == 0)
-
-	d_cell = tf.contrib.seq2seq.AttentionWrapper(
-		d_cell,
-		attention_mechanism,
-		attention_layer_size=args["num_units"],
-		alignment_history=alignment_history,
-		output_attention=True,
-		name="attention")
-
-	d_initial_state = d_cell.zero_state(dynamic_batch_size, dtype).clone(
-		cell_state=encoder_state)
-
 	output_layer = tf.layers.Dense(
 		args["vocab_size"], 
-		use_bias=False, name="output_projection")
+		use_bias=False)
 
-	
 
 	if mode in [tf.estimator.ModeKeys.TRAIN, tf.estimator.ModeKeys.EVAL]:
 
 		tgt_in  = tf.nn.embedding_lookup(word_embedding, tf.transpose(features["tgt_in"]))
 
 		decoder_helper = tf.contrib.seq2seq.TrainingHelper(
-				tgt_in, features["tgt_len"],
+				tgt_in, 
+				features["tgt_len"],
 				time_major=time_major)
 
-		maximum_iterations = None
+		d_cell, d_cell_initial = decoder_cell("basic_decoder", args, 2, None, dynamic_batch_size, features, encoder_outputs, encoder_state)
 
 		guided_decoder = tf.contrib.seq2seq.BasicDecoder(
 			d_cell,
 			decoder_helper,
-			d_initial_state,)
+			d_cell_initial)
 
 		# 'outputs' is a tensor of shape [max_time, batch_size, cell.output_size]
 		guided_decoded, _, _ = tf.contrib.seq2seq.dynamic_decode(
 			guided_decoder,
 			output_time_major=time_major,
 			swap_memory=True,
-			maximum_iterations=maximum_iterations)
+			maximum_iterations=None)
 
 		guided_logits = output_layer(guided_decoded.rnn_output)
 
-	if mode in [tf.estimator.ModeKeys.PREDICT, tf.estimator.ModeKeys.EVAL]:
 
-		decoder_helper = tf.contrib.seq2seq.GreedyEmbeddingHelper(
-			word_embedding,
-			tf.fill([dynamic_batch_size], vocab_const['tgt_sos_id']), vocab_const['tgt_eos_id'])
+
+	if False and mode in [tf.estimator.ModeKeys.PREDICT, tf.estimator.ModeKeys.EVAL]:
+
+		start_tokens = tf.fill([dynamic_batch_size], vocab_const['tgt_sos_id'])
+		end_token = vocab_const['tgt_eos_id']
 
 		maximum_iterations = tf.round(tf.reduce_max(features["src_len"]) * 2)
 
-		free_decoder = tf.contrib.seq2seq.BasicDecoder(
-			d_cell,
-			decoder_helper,
-			d_initial_state,)
+		p_cell, p_cell_initial = decoder_cell("beam_decoder", args, 2, args["beam_width"], dynamic_batch_size, features, encoder_outputs, encoder_state)
+
+		free_decoder = tf.contrib.seq2seq.BeamSearchDecoder(
+			cell=p_cell,
+			embedding=word_embedding,
+			start_tokens=start_tokens,
+			end_token=end_token,
+			initial_state=p_cell_initial,
+			beam_width=args["beam_width"],
+			output_layer=output_layer,
+			length_penalty_weight=args['length_penalty_weight'])
 
 		free_decoded, _, _ = tf.contrib.seq2seq.dynamic_decode(
 			free_decoder,
@@ -183,8 +213,12 @@ def model_fn(features, labels, mode, params):
 			swap_memory=True,
 			maximum_iterations=maximum_iterations)
 
-		free_logits = output_layer(free_decoded.rnn_output)
-		free_predictions = tf.argmax(free_logits, axis=-1)
+		beam_sample_ids = free_decoded.predicted_ids
+
+		# free_logits = output_layer(free_decoded.rnn_output)
+		# free_predictions = tf.argmax(free_logits, axis=-1)
+
+		free_words = vocab_inverse.lookup(tf.to_int64(beam_sample_ids))
 
 	
 
@@ -207,6 +241,8 @@ def model_fn(features, labels, mode, params):
 		crossent = tf.nn.sparse_softmax_cross_entropy_with_logits(
 			labels=labels_t, logits=guided_logits)
 
+		tf.summary.historgram("crossent", crossent)
+
 		loss = tf.reduce_sum(crossent * target_weights) / tf.to_float(dynamic_batch_size)
 
 	else: 
@@ -220,26 +256,26 @@ def model_fn(features, labels, mode, params):
 
 		global_step = tf.train.get_global_step()
 
-		decay_factor = 0.5
-		start_decay_step = int(args["max_steps"] / 2)
-		decay_times = 10
-		remain_steps = args["max_steps"] - start_decay_step
-		decay_steps = int(remain_steps / decay_times)
+		# decay_factor = 0.5
+		# start_decay_step = int(args["max_steps"] / 2)
+		# decay_times = 10
+		# remain_steps = args["max_steps"] - start_decay_step
+		# decay_steps = int(remain_steps / decay_times)
 
-		fancy_lr = tf.cond(
-			global_step < start_decay_step,
-			lambda: args["learning_rate"],
-			lambda: tf.train.exponential_decay(
-				args["learning_rate"],
-				(global_step - start_decay_step),
-				decay_steps, decay_factor, staircase=True),
-			name="learning_rate_decay_cond")
+		# fancy_lr = tf.cond(
+		# 	global_step < start_decay_step,
+		# 	lambda: args["learning_rate"],
+		# 	lambda: tf.train.exponential_decay(
+		# 		args["learning_rate"],
+		# 		(global_step - start_decay_step),
+		# 		decay_steps, decay_factor, staircase=True),
+		# 	name="learning_rate_decay_cond")
 
 		var = tf.trainable_variables()
 		gradients = tf.gradients(loss, var)
 		clipped_gradients, _ = tf.clip_by_global_norm(gradients, args["max_gradient_norm"])
 		
-		optimizer = tf.train.AdamOptimizer(fancy_lr)
+		optimizer = tf.train.AdamOptimizer(args["learning_rate"])
 		train_op = optimizer.apply_gradients(zip(clipped_gradients, var), global_step=global_step)
 
 	else:
@@ -251,12 +287,13 @@ def model_fn(features, labels, mode, params):
 
 	if mode == tf.estimator.ModeKeys.EVAL:
 
-		delta = tf.shape(labels_t)[0] - tf.shape(free_predictions)[0]
+
+		# delta = tf.shape(labels_t)[0] - tf.shape(free_predictions)[0]
 		
-		padded_free_predictions = tf.pad(free_predictions, 
-			[ [0,delta], [0,0] ], 
-			constant_values=tf.cast(vocab_const['tgt_eos_id'], tf.int64)
-		)
+		# padded_free_predictions = tf.pad(free_predictions, 
+		# 	[ [0,delta], [0,0] ], 
+		# 	constant_values=tf.cast(vocab_const['tgt_eos_id'], tf.int64)
+		# )
 
 		eval_metric_ops = {
 			"guided_accuracy": tf.metrics.accuracy(
@@ -264,11 +301,16 @@ def model_fn(features, labels, mode, params):
 				predictions=tf.argmax(guided_logits, axis=-1),
 				weights=target_weights
 			),
-			"free_accuracy": tf.metrics.accuracy(
-				labels=labels_t, 
-				predictions=padded_free_predictions,
-				weights=target_weights
-			),
+			# "free_accuracy": tf.metrics.accuracy(
+			# 	labels=labels_t, 
+			# 	predictions=padded_free_predictions,
+			# 	weights=target_weights
+			# ),
+			# "beam_accuracy": tf.metrics.accuracy(
+			# 	labels=tf.tile(tf.expand_dims(labels_t,-1),[1,1,args["beam_width"]]), 
+			# 	predictions=tf.expand_dims(beam_sample_ids,-1),
+			# 	weights=target_weights
+			# )
 		}
 
 	else:
@@ -278,10 +320,8 @@ def model_fn(features, labels, mode, params):
 	# Predictions
 	# --------------------------------------------------------------------------
 
-	if mode == tf.estimator.ModeKeys.PREDICT:
-
-		vocab_inverse = load_inverse_vocab(args)
-		predictions = vocab_inverse.lookup(free_predictions)
+	if False and mode == tf.estimator.ModeKeys.PREDICT:
+		predictions = free_words
 
 	else:
 		predictions = None

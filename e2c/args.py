@@ -17,9 +17,11 @@ def get_args():
 	parser.add_argument('--batch-size', type=int, default=128)
 	parser.add_argument('--num-units',  type=int, default=1024)
 	parser.add_argument('--num-layers', type=int, default=2)
+	parser.add_argument('--beam-width', type=int, default=10)
+
 
 	parser.add_argument('--max-steps',    type=int, default=400)
-	parser.add_argument('--predict-freq', type=int, default=10)
+	parser.add_argument('--predict-freq', type=int, default=3)
 
 
 	parser.add_argument('--limit', type=int, default=None,help="Limit number of data points, to quickly test code")
@@ -30,6 +32,7 @@ def get_args():
 	parser.add_argument('--eval-holdback', type=float, default=0.2)
 	parser.add_argument('--predict-holdback', type=float, default=0.01)
 	parser.add_argument('--forget-bias', type=float, default=1.0)
+	parser.add_argument('--length-penalty-weight', type=float, default=1.0)
 
 	parser.add_argument('--max-gradient-norm', type=float, default=4)
 
