@@ -28,7 +28,7 @@ def cell_stack(args, layer_mul=1, unit_mul=1):
 	cell = tf.contrib.rnn.MultiRNNCell(cells)
 	return cell
 
-def decoder_cell(name, args, layer_mul, beam_width, dynamic_batch_size, features, encoder_outputs, encoder_state):
+def decoder_cell(args, layer_mul, beam_width, dynamic_batch_size, features, encoder_outputs, encoder_state):
 
 	# Time major formatting
 	attn_memory = tf.transpose(encoder_outputs, [1, 0, 2])
@@ -91,15 +91,20 @@ def model_fn(features, labels, mode, params):
 	dynamic_batch_size = tf.shape(features["src"])[0]
 
 	# --------------------------------------------------------------------------
-	# Format inputs
+	# Variables
 	# --------------------------------------------------------------------------
 
-	# embed words
 	word_embedding = tf.get_variable("word_embedding", [args["vocab_size"], args["num_units"]], tf.float32)
+
+
+	# --------------------------------------------------------------------------
+	# Format inputs
+	# --------------------------------------------------------------------------
 
 	# Transpose to switch to time-major format [max_time, batch, ...]
 	src  = tf.nn.embedding_lookup(word_embedding, tf.transpose(features["src"]))
 
+	# The longest sequence length
 	max_time = src.shape[0].value
 	
 
@@ -111,14 +116,9 @@ def model_fn(features, labels, mode, params):
 	fw_cell = cell_stack(args)
 	bw_cell = cell_stack(args)
 
-	
-	# delta = tf.shape(src)[1] - tf.shape(features["src_len"])[0]
-	# tf.pad(features["src_len"], [[0, delta]], 'REFLECT')
-
 	# Trim down to the residual batch size (e.g. when at end of input data)
 	padded_src_len = features["src_len"][0 : dynamic_batch_size]
 	
-
 	(fw_output, bw_output), (fw_states, bw_states) = tf.nn.bidirectional_dynamic_rnn(
 		fw_cell,
 		bw_cell,
@@ -139,28 +139,28 @@ def model_fn(features, labels, mode, params):
 	encoder_state = tuple(encoder_state)
 
 
-	# --------------------------------------------------------------------------
-	# Decoder base
-	# --------------------------------------------------------------------------
-
 	output_layer = tf.layers.Dense(
 		args["vocab_size"], 
 		use_bias=False,
 		name="output_dense"
 	)
 
-
+	# --------------------------------------------------------------------------
+	# Basic decoder: Train the attention and and RNN cell
+	# --------------------------------------------------------------------------
+	
 	if mode in [tf.estimator.ModeKeys.TRAIN, tf.estimator.ModeKeys.EVAL]:
 
 		tgt_in  = tf.nn.embedding_lookup(word_embedding, tf.transpose(features["tgt_in"]))
 
-		with tf.variable_scope("decoder") as decoder_scope:
-			decoder_helper = tf.contrib.seq2seq.TrainingHelper(
-					tgt_in, 
-					features["tgt_len"],
-					time_major=time_major)
+		decoder_helper = tf.contrib.seq2seq.TrainingHelper(
+			tgt_in, 
+			features["tgt_len"],
+			time_major=time_major)
 
-			d_cell, d_cell_initial = decoder_cell("basic_decoder", args, 2, None, dynamic_batch_size, features, encoder_outputs, encoder_state)
+		with tf.variable_scope("decoder",reuse=tf.AUTO_REUSE) as decoder_scope:
+
+			d_cell, d_cell_initial = decoder_cell(args, 2, None, dynamic_batch_size, features, encoder_outputs, encoder_state)
 
 			guided_decoder = tf.contrib.seq2seq.BasicDecoder(
 				d_cell,
@@ -176,21 +176,58 @@ def model_fn(features, labels, mode, params):
 				scope=decoder_scope)
 
 			guided_logits = output_layer(guided_decoded.rnn_output)
+			guided_predictions = tf.argmax(guided_logits, axis=-1)
 
 
+	# --------------------------------------------------------------------------
+	# Decode greedily (for eval metric)
+	# --------------------------------------------------------------------------
 
-	if mode in [tf.estimator.ModeKeys.PREDICT]: #, tf.estimator.ModeKeys.EVAL
+	# if mode in [tf.estimator.ModeKeys.EVAL]:
+
+	# 	free_decoder_helper = tf.contrib.seq2seq.GreedyEmbeddingHelper(
+	# 		word_embedding,
+	# 		tf.fill([dynamic_batch_size], vocab_const['tgt_sos_id']), vocab_const['tgt_eos_id'])
+
+	# 	maximum_iterations = tf.round(tf.reduce_max(features["src_len"]) * 2)
+
+	# 	with tf.variable_scope("decoder",reuse=tf.AUTO_REUSE) as decoder_scope:
+
+	# 		d_cell, d_cell_initial = decoder_cell(args, 2, None, dynamic_batch_size, features, encoder_outputs, encoder_state)
+
+	# 		free_decoder = tf.contrib.seq2seq.BasicDecoder(
+	# 			d_cell,
+	# 			decoder_helper,
+	# 			d_cell_initial)
+
+	# 		# 'outputs' is a tensor of shape [max_time, batch_size, cell.output_size]
+	# 		free_decoded, _, _ = tf.contrib.seq2seq.dynamic_decode(
+	# 			free_decoder,
+	# 			output_time_major=time_major,
+	# 			swap_memory=True,
+	# 			maximum_iterations=maximum_iterations,
+	# 			scope=decoder_scope)
+
+	# 		free_logits = output_layer(free_decoded.rnn_output)
+	#		free_predictions = tf.argmax(free_logits, axis=-1)
+
+
+	# --------------------------------------------------------------------------
+	# Decode with beam search (for predictions)
+	# --------------------------------------------------------------------------
+
+	if mode in [tf.estimator.ModeKeys.PREDICT, tf.estimator.ModeKeys.EVAL]:
 
 		start_tokens = tf.fill([dynamic_batch_size], vocab_const['tgt_sos_id'])
 		end_token = vocab_const['tgt_eos_id']
 
 		maximum_iterations = tf.round(tf.reduce_max(features["src_len"]) * 2)
 
-		with tf.variable_scope("decoder") as decoder_scope:
+		with tf.variable_scope("decoder",reuse=tf.AUTO_REUSE) as decoder_scope:
 
-			p_cell, p_cell_initial = decoder_cell("beam_decoder", args, 2, args["beam_width"], dynamic_batch_size, features, encoder_outputs, encoder_state)
+			p_cell, p_cell_initial = decoder_cell(args, 2, args["beam_width"], dynamic_batch_size, features, encoder_outputs, encoder_state)
 
-			free_decoder = tf.contrib.seq2seq.BeamSearchDecoder(
+			beam_decoder = tf.contrib.seq2seq.BeamSearchDecoder(
 				cell=p_cell,
 				embedding=word_embedding,
 				start_tokens=start_tokens,
@@ -200,22 +237,18 @@ def model_fn(features, labels, mode, params):
 				output_layer=output_layer,
 				length_penalty_weight=args['length_penalty_weight'])
 
-			free_decoded, _, _ = tf.contrib.seq2seq.dynamic_decode(
-				free_decoder,
+			beam_decoded, _, _ = tf.contrib.seq2seq.dynamic_decode(
+				beam_decoder,
 				output_time_major=time_major,
 				swap_memory=True,
 				maximum_iterations=maximum_iterations,
 				scope=decoder_scope)
 
-			beam_sample_ids = free_decoded.predicted_ids
+			beam_predictions = beam_decoded.predicted_ids
 
-			# free_logits = output_layer(free_decoded.rnn_output)
-			# free_predictions = tf.argmax(free_logits, axis=-1)
-
-			free_words = vocab_inverse.lookup(tf.to_int64(beam_sample_ids))
+		
 
 	
-
 
 	if mode in [tf.estimator.ModeKeys.TRAIN, tf.estimator.ModeKeys.EVAL]:
 		# Time major formatting
@@ -248,26 +281,26 @@ def model_fn(features, labels, mode, params):
 
 		global_step = tf.train.get_global_step()
 
-		# decay_factor = 0.5
-		# start_decay_step = int(args["max_steps"] / 2)
-		# decay_times = 10
-		# remain_steps = args["max_steps"] - start_decay_step
-		# decay_steps = int(remain_steps / decay_times)
+		decay_factor = 0.5
+		start_decay_step = int(args["max_steps"] / 2)
+		decay_times = 10
+		remain_steps = args["max_steps"] - start_decay_step
+		decay_steps = int(remain_steps / decay_times)
 
-		# fancy_lr = tf.cond(
-		# 	global_step < start_decay_step,
-		# 	lambda: args["learning_rate"],
-		# 	lambda: tf.train.exponential_decay(
-		# 		args["learning_rate"],
-		# 		(global_step - start_decay_step),
-		# 		decay_steps, decay_factor, staircase=True),
-		# 	name="learning_rate_decay_cond")
+		fancy_lr = tf.cond(
+			global_step < start_decay_step,
+			lambda: args["learning_rate"],
+			lambda: tf.train.exponential_decay(
+				args["learning_rate"],
+				(global_step - start_decay_step),
+				decay_steps, decay_factor, staircase=True),
+			name="learning_rate_decay_cond")
 
 		var = tf.trainable_variables()
 		gradients = tf.gradients(loss, var)
 		clipped_gradients, _ = tf.clip_by_global_norm(gradients, args["max_gradient_norm"])
 		
-		optimizer = tf.train.AdamOptimizer(args["learning_rate"])
+		optimizer = tf.train.AdamOptimizer(fancy_lr)
 		train_op = optimizer.apply_gradients(zip(clipped_gradients, var), global_step=global_step)
 
 	else:
@@ -279,30 +312,34 @@ def model_fn(features, labels, mode, params):
 
 	if mode == tf.estimator.ModeKeys.EVAL:
 
+		def pad_to_label_seq_len(t):
+			delta = tf.shape(labels_t)[0] - tf.shape(t)[0]
 
-		# delta = tf.shape(labels_t)[0] - tf.shape(free_predictions)[0]
-		
-		# padded_free_predictions = tf.pad(free_predictions, 
-		# 	[ [0,delta], [0,0] ], 
-		# 	constant_values=tf.cast(vocab_const['tgt_eos_id'], tf.int64)
-		# )
+			# Don't touch the other dimensions
+			no_padding = [[0,0] for i in range(len(t.shape)-1)]
+
+			return tf.pad(t, 
+				[ [0,delta], *no_padding ], 
+				constant_values=tf.cast(vocab_const['tgt_eos_id'], t.dtype)
+			)
+
 
 		eval_metric_ops = {
 			"guided_accuracy": tf.metrics.accuracy(
 				labels=labels_t, 
-				predictions=tf.argmax(guided_logits, axis=-1),
+				predictions=guided_predictions,
 				weights=target_weights
 			),
 			# "free_accuracy": tf.metrics.accuracy(
 			# 	labels=labels_t, 
-			# 	predictions=padded_free_predictions,
+			# 	predictions=pad_to_label_seq_len(free_predictions),
 			# 	weights=target_weights
 			# ),
-			# "beam_accuracy": tf.metrics.accuracy(
-			# 	labels=tf.tile(tf.expand_dims(labels_t,-1),[1,1,args["beam_width"]]), 
-			# 	predictions=tf.expand_dims(beam_sample_ids,-1),
-			# 	weights=target_weights
-			# )
+			"beam_accuracy": tf.metrics.accuracy(
+				labels=tf.tile(tf.expand_dims(labels_t,-1),[1,1,args["beam_width"]]), 
+				predictions=pad_to_label_seq_len(beam_predictions),
+				weights=target_weights
+			)
 		}
 
 	else:
@@ -313,7 +350,7 @@ def model_fn(features, labels, mode, params):
 	# --------------------------------------------------------------------------
 
 	if mode == tf.estimator.ModeKeys.PREDICT:
-		predictions = free_words
+		predictions = vocab_inverse.lookup(tf.to_int64(beam_predictions))
 
 	else:
 		predictions = None
