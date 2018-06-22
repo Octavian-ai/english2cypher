@@ -221,7 +221,7 @@ def model_fn(features, labels, mode, params):
 		start_tokens = tf.fill([dynamic_batch_size], vocab_const['tgt_sos_id'])
 		end_token = vocab_const['tgt_eos_id']
 
-		maximum_iterations = tf.round(tf.reduce_max(features["src_len"]) * 2)
+		maximum_iterations = tf.round(tf.reduce_max(features["src_len"]) * 6)
 
 		with tf.variable_scope("decoder",reuse=tf.AUTO_REUSE) as decoder_scope:
 
