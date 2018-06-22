@@ -149,7 +149,7 @@ def model_fn(features, labels, mode, params):
 	# Basic decoder: Train the attention and and RNN cell
 	# --------------------------------------------------------------------------
 	
-	if mode in [tf.estimator.ModeKeys.TRAIN, tf.estimator.ModeKeys.EVAL]:
+	if mode in [tf.estimator.ModeKeys.TRAIN, tf.estimator.ModeKeys.EVAL, tf.estimator.ModeKeys.PREDICT]:
 
 		tgt_in  = tf.nn.embedding_lookup(word_embedding, tf.transpose(features["tgt_in"]))
 
@@ -350,7 +350,11 @@ def model_fn(features, labels, mode, params):
 	# --------------------------------------------------------------------------
 
 	if mode == tf.estimator.ModeKeys.PREDICT:
-		predictions = vocab_inverse.lookup(tf.to_int64(beam_predictions))
+
+		predictions = {
+			"guided": vocab_inverse.lookup(tf.to_int64(tf.transpose(guided_predictions))),
+			"beam": vocab_inverse.lookup(tf.to_int64(tf.transpose(beam_predictions, [1,2,0]))),
+		}
 
 	else:
 		predictions = None

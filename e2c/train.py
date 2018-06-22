@@ -2,6 +2,7 @@
 import tensorflow as tf
 import os.path
 import numpy as np
+import traceback
 
 from .input import gen_input_fn, EOS
 from .model import model_fn
@@ -47,33 +48,45 @@ def train(args):
 		print("Predictions")
 
 		predictions = estimator.predict(input_fn=lambda:gen_input_fn(args, "predict"))
-		predictions = np.array(list(predictions))
-		print("Predictions shape:",predictions.shape)
 
-		decode_utf8 = np.vectorize(lambda v: v.decode("utf-8"))
-		predictions = decode_utf8(predictions)
+		def print_a_prediction(k, p):
+			decode_utf8 = np.vectorize(lambda v: v.decode("utf-8"))
+			p = decode_utf8(p)
+			if len(p.shape) == 1:
+				p = [p]
+			for i in p:
+				print(k + ": " + ' '.join(i))
 
-		print("-----------RAW------------")
+		for prediction in predictions:
+			for k,v in prediction.items():
+				print_a_prediction(k, v)
 
-		print(predictions)
 
-		print("-----------TIDY------------")
 
-		predictions = predictions.transpose([1,2,0]) # Put text stream as last dim
-		predictions = np.reshape(predictions, [-1,predictions.shape[-1]]) # Concat batch and beam dims
-		dump_predictions(args, predictions)
+		# print("-----------TIDY------------")
 
-		for i in predictions:
-			print(' '.join(i))
-			print()
-		
-		print("-----------TRANSPOSE------------")
-		print(predictions.transpose())
+		# predictions = list(predictions)
+		# print(predictions)
+		# predictions = np.array(list(predictions))
+		# print("Predictions shape:",predictions.shape)
+
+		# predictions = predictions.transpose([1,2,0]) # Put text stream as last dim
+		# predictions = np.reshape(predictions, [-1,predictions.shape[-1]]) # Concat batch and beam dims
+		# dump_predictions(args, predictions)
+
+		# for i in predictions:
+		# 	print()
+
 
 
 	for i in range(args["predict_freq"]):
 		do_train(steps_per_cycle * (i+1))
-		do_predict()
+
+		try:
+			do_predict()
+		except Exception:
+			traceback.print_exc()
+			pass
 
 
 
