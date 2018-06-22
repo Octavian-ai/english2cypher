@@ -60,6 +60,7 @@ def train(args):
 		for prediction in predictions:
 			for k,v in prediction.items():
 				print_a_prediction(k, v)
+			print("")
 
 
 

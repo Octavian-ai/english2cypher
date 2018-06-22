@@ -352,6 +352,8 @@ def model_fn(features, labels, mode, params):
 	if mode == tf.estimator.ModeKeys.PREDICT:
 
 		predictions = {
+			"input": vocab_inverse.lookup(tf.to_int64(features["src"])),
+			"target": vocab_inverse.lookup(tf.to_int64(features["tgt_out"])),
 			"guided": vocab_inverse.lookup(tf.to_int64(tf.transpose(guided_predictions))),
 			"beam": vocab_inverse.lookup(tf.to_int64(tf.transpose(beam_predictions, [1,2,0]))),
 		}
