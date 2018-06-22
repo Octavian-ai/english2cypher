@@ -7,12 +7,13 @@ dtype = tf.float32
 
 def basic_cell(args, i, unit_mul):
 
-	c = tf.contrib.rnn.LayerNormBasicLSTMCell(
+	c = tf.contrib.rnn.LSTMCell(
 		args['num_units']*unit_mul, 
-		dropout_keep_prob=args['dropout'])
+		# dropout_keep_prob=args['dropout']
+		)
 
-	# c = tf.contrib.rnn.DropoutWrapper(
-	# 	cell=c, input_keep_prob=(1.0 - args['dropout']))
+	c = tf.contrib.rnn.DropoutWrapper(
+		cell=c, input_keep_prob=(1.0 - args['dropout']))
 
 	if i > 1:
 		c = tf.contrib.rnn.ResidualWrapper(c)
