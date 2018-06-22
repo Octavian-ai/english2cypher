@@ -7,6 +7,16 @@ from .input import gen_input_fn, EOS
 from .model import model_fn
 from .args import get_args
 
+def dump_predictions(args, predictions):
+	with tf.gfile.GFile(os.path.join(args["output_dir"], "predictions.txt"), "w") as file:
+		for prediction in predictions:
+			s = ' '.join(prediction)
+			end = s.find(EOS)
+			if end != -1:
+				s = s[0:end]
+
+			file.write(s + "\n")
+
 def train(args):
 
 	tf.logging.set_verbosity(tf.logging.DEBUG)
@@ -37,24 +47,29 @@ def train(args):
 		print("Predictions")
 
 		predictions = estimator.predict(input_fn=lambda:gen_input_fn(args, "predict"))
-		predictions = list(predictions)
-		predictions = [[char.decode("utf-8") for char in row] for row in predictions]
-		predictions = np.array(predictions)
+		predictions = np.array(list(predictions))
+		print("Predictions shape:",predictions.shape)
+
+		decode_utf8 = np.vectorize(lambda v: v.decode("utf-8"))
+		predictions = decode_utf8(predictions)
+
+		print("-----------RAW------------")
 
 		print(predictions)
+
+		print("-----------TIDY------------")
+
+		predictions = predictions.transpose([1,2,0]) # Put text stream as last dim
+		predictions = np.reshape(predictions, [-1,predictions.shape[-1]]) # Concat batch and beam dims
+		dump_predictions(args, predictions)
+
+		for i in predictions:
+			print(' '.join(i))
+			print()
+		
 		print("-----------TRANSPOSE------------")
 		print(predictions.transpose())
 
-		# with tf.gfile.GFile(os.path.join(args["output_dir"], "predictions.txt"), "w") as file:
-		# 	i = 0
-		# 	for prediction in predictions:
-		# 		s = ' '.join([b.decode("utf-8") for b in prediction])
-		# 		end = s.find(EOS)
-		# 		if end != -1:
-		# 			s = s[0:end]
-
-		# 		print(s)
-		# 		file.write(s + "\n")
 
 	for i in range(args["predict_freq"]):
 		do_train(steps_per_cycle * (i+1))

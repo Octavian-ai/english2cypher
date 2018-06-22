@@ -69,7 +69,7 @@ def decoder_cell(name, args, layer_mul, beam_width, dynamic_batch_size, features
 		attention_layer_size=args["num_units"],
 		alignment_history=alignment_history,
 		output_attention=True,
-		name=name)
+		name="attention")
 
 	d_cell_initial = d_cell.zero_state(attn_batch_size, dtype).clone(cell_state=attn_encoder_state)
 
@@ -138,20 +138,6 @@ def model_fn(features, labels, mode, params):
 		encoder_state.append(bw_states[layer_id])  # backward
 	encoder_state = tuple(encoder_state)
 
-	# e_initial_state = e_cell.zero_state(args["batch_size"], dtype)
-	# 'outputs' is a tensor of shape [max_time, batch_size, cell.output_size]
-	# 'state' is a tensor of shape [batch_size, cell_state_size]
-	# inputs [max_time, batch_size, cell_state_size]
-	# encoder_outputs, encoder_state = tf.nn.dynamic_rnn(
-	# 		e_cell,
-	# 		src,
-	# 		initial_state = e_initial_state,
-	# 		dtype=dtype,
-	# 		sequence_length=features["src_len"],
-	# 		time_major=True,
-	# 		swap_memory=True)
-
-
 
 	# --------------------------------------------------------------------------
 	# Decoder base
@@ -159,67 +145,74 @@ def model_fn(features, labels, mode, params):
 
 	output_layer = tf.layers.Dense(
 		args["vocab_size"], 
-		use_bias=False)
+		use_bias=False,
+		name="output_dense"
+	)
 
 
 	if mode in [tf.estimator.ModeKeys.TRAIN, tf.estimator.ModeKeys.EVAL]:
 
 		tgt_in  = tf.nn.embedding_lookup(word_embedding, tf.transpose(features["tgt_in"]))
 
-		decoder_helper = tf.contrib.seq2seq.TrainingHelper(
-				tgt_in, 
-				features["tgt_len"],
-				time_major=time_major)
+		with tf.variable_scope("decoder") as decoder_scope:
+			decoder_helper = tf.contrib.seq2seq.TrainingHelper(
+					tgt_in, 
+					features["tgt_len"],
+					time_major=time_major)
 
-		d_cell, d_cell_initial = decoder_cell("basic_decoder", args, 2, None, dynamic_batch_size, features, encoder_outputs, encoder_state)
+			d_cell, d_cell_initial = decoder_cell("basic_decoder", args, 2, None, dynamic_batch_size, features, encoder_outputs, encoder_state)
 
-		guided_decoder = tf.contrib.seq2seq.BasicDecoder(
-			d_cell,
-			decoder_helper,
-			d_cell_initial)
+			guided_decoder = tf.contrib.seq2seq.BasicDecoder(
+				d_cell,
+				decoder_helper,
+				d_cell_initial)
 
-		# 'outputs' is a tensor of shape [max_time, batch_size, cell.output_size]
-		guided_decoded, _, _ = tf.contrib.seq2seq.dynamic_decode(
-			guided_decoder,
-			output_time_major=time_major,
-			swap_memory=True,
-			maximum_iterations=None)
+			# 'outputs' is a tensor of shape [max_time, batch_size, cell.output_size]
+			guided_decoded, _, _ = tf.contrib.seq2seq.dynamic_decode(
+				guided_decoder,
+				output_time_major=time_major,
+				swap_memory=True,
+				maximum_iterations=None,
+				scope=decoder_scope)
 
-		guided_logits = output_layer(guided_decoded.rnn_output)
+			guided_logits = output_layer(guided_decoded.rnn_output)
 
 
 
-	if False and mode in [tf.estimator.ModeKeys.PREDICT, tf.estimator.ModeKeys.EVAL]:
+	if mode in [tf.estimator.ModeKeys.PREDICT]: #, tf.estimator.ModeKeys.EVAL
 
 		start_tokens = tf.fill([dynamic_batch_size], vocab_const['tgt_sos_id'])
 		end_token = vocab_const['tgt_eos_id']
 
 		maximum_iterations = tf.round(tf.reduce_max(features["src_len"]) * 2)
 
-		p_cell, p_cell_initial = decoder_cell("beam_decoder", args, 2, args["beam_width"], dynamic_batch_size, features, encoder_outputs, encoder_state)
+		with tf.variable_scope("decoder") as decoder_scope:
 
-		free_decoder = tf.contrib.seq2seq.BeamSearchDecoder(
-			cell=p_cell,
-			embedding=word_embedding,
-			start_tokens=start_tokens,
-			end_token=end_token,
-			initial_state=p_cell_initial,
-			beam_width=args["beam_width"],
-			output_layer=output_layer,
-			length_penalty_weight=args['length_penalty_weight'])
+			p_cell, p_cell_initial = decoder_cell("beam_decoder", args, 2, args["beam_width"], dynamic_batch_size, features, encoder_outputs, encoder_state)
 
-		free_decoded, _, _ = tf.contrib.seq2seq.dynamic_decode(
-			free_decoder,
-			output_time_major=time_major,
-			swap_memory=True,
-			maximum_iterations=maximum_iterations)
+			free_decoder = tf.contrib.seq2seq.BeamSearchDecoder(
+				cell=p_cell,
+				embedding=word_embedding,
+				start_tokens=start_tokens,
+				end_token=end_token,
+				initial_state=p_cell_initial,
+				beam_width=args["beam_width"],
+				output_layer=output_layer,
+				length_penalty_weight=args['length_penalty_weight'])
 
-		beam_sample_ids = free_decoded.predicted_ids
+			free_decoded, _, _ = tf.contrib.seq2seq.dynamic_decode(
+				free_decoder,
+				output_time_major=time_major,
+				swap_memory=True,
+				maximum_iterations=maximum_iterations,
+				scope=decoder_scope)
 
-		# free_logits = output_layer(free_decoded.rnn_output)
-		# free_predictions = tf.argmax(free_logits, axis=-1)
+			beam_sample_ids = free_decoded.predicted_ids
 
-		free_words = vocab_inverse.lookup(tf.to_int64(beam_sample_ids))
+			# free_logits = output_layer(free_decoded.rnn_output)
+			# free_predictions = tf.argmax(free_logits, axis=-1)
+
+			free_words = vocab_inverse.lookup(tf.to_int64(beam_sample_ids))
 
 	
 
@@ -241,8 +234,6 @@ def model_fn(features, labels, mode, params):
 		
 		crossent = tf.nn.sparse_softmax_cross_entropy_with_logits(
 			labels=labels_t, logits=guided_logits)
-
-		tf.summary.historgram("crossent", crossent)
 
 		loss = tf.reduce_sum(crossent * target_weights) / tf.to_float(dynamic_batch_size)
 
@@ -321,7 +312,7 @@ def model_fn(features, labels, mode, params):
 	# Predictions
 	# --------------------------------------------------------------------------
 
-	if False and mode == tf.estimator.ModeKeys.PREDICT:
+	if mode == tf.estimator.ModeKeys.PREDICT:
 		predictions = free_words
 
 	else:
