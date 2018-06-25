@@ -63,7 +63,8 @@ def decoder_cell(args, layer_mul, beam_width, dynamic_batch_size, features, enco
 	d_cell = tf.contrib.seq2seq.AttentionWrapper(
 		d_cell,
 		attention_mechanism,
-		attention_layer_size=args["num_units"],
+		attention_layer_size=None, # don't do any Dense(attn, cell_output)
+		# attention_layer_size=args["num_units"],
 		alignment_history=alignment_history,
 		output_attention=True,
 		name="attention")
@@ -174,39 +175,6 @@ def model_fn(features, labels, mode, params):
 
 			guided_logits = output_layer(guided_decoded.rnn_output)
 			guided_predictions = tf.argmax(guided_logits, axis=-1)
-
-
-	# --------------------------------------------------------------------------
-	# Decode greedily (for eval metric)
-	# --------------------------------------------------------------------------
-
-	# if mode in [tf.estimator.ModeKeys.EVAL]:
-
-	# 	free_decoder_helper = tf.contrib.seq2seq.GreedyEmbeddingHelper(
-	# 		word_embedding,
-	# 		tf.fill([dynamic_batch_size], vocab_const['tgt_sos_id']), vocab_const['tgt_eos_id'])
-
-	# 	maximum_iterations = tf.round(tf.reduce_max(features["src_len"]) * 2)
-
-	# 	with tf.variable_scope("decoder",reuse=tf.AUTO_REUSE) as decoder_scope:
-
-	# 		d_cell, d_cell_initial = decoder_cell(args, 2, None, dynamic_batch_size, features, encoder_outputs, encoder_state)
-
-	# 		free_decoder = tf.contrib.seq2seq.BasicDecoder(
-	# 			d_cell,
-	# 			decoder_helper,
-	# 			d_cell_initial)
-
-	# 		# 'outputs' is a tensor of shape [max_time, batch_size, cell.output_size]
-	# 		free_decoded, _, _ = tf.contrib.seq2seq.dynamic_decode(
-	# 			free_decoder,
-	# 			output_time_major=time_major,
-	# 			swap_memory=True,
-	# 			maximum_iterations=maximum_iterations,
-	# 			scope=decoder_scope)
-
-	# 		free_logits = output_layer(free_decoded.rnn_output)
-	#		free_predictions = tf.argmax(free_logits, axis=-1)
 
 
 	# --------------------------------------------------------------------------
