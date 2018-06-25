@@ -40,15 +40,12 @@ def decoder_cell(args, layer_mul, beam_width, dynamic_batch_size, features, enco
 		attn_memory = tf.contrib.seq2seq.tile_batch(
 			attn_memory, multiplier=beam_width)
 
-	if beam_width is not None:
 		attn_sequence_length = tf.contrib.seq2seq.tile_batch(
 			attn_sequence_length, multiplier=beam_width)
 	
-	if beam_width is not None:
 		attn_encoder_state = tf.contrib.seq2seq.tile_batch(
 			attn_encoder_state, multiplier=beam_width)
 	
-	if beam_width is not None:
 		attn_batch_size *= beam_width
 	
 	# set up attention
