@@ -2,6 +2,7 @@
 import tensorflow as tf
 
 from .input import get_constants, load_inverse_vocab
+from .hooks import FloydMetricHook
 
 dtype = tf.float32
 
@@ -63,8 +64,8 @@ def decoder_cell(args, layer_mul, beam_width, dynamic_batch_size, features, enco
 	d_cell = tf.contrib.seq2seq.AttentionWrapper(
 		d_cell,
 		attention_mechanism,
-		attention_layer_size=None, # don't do any Dense(attn, cell_output)
-		# attention_layer_size=args["num_units"],
+		# attention_layer_size=None, # don't do any Dense(attn, cell_output)
+		attention_layer_size=args["num_units"],
 		alignment_history=alignment_history,
 		output_attention=True,
 		name="attention")
@@ -277,16 +278,19 @@ def model_fn(features, labels, mode, params):
 
 	if mode == tf.estimator.ModeKeys.EVAL:
 
-		def pad_to_label_seq_len(t):
-			delta = tf.shape(labels_t)[0] - tf.shape(t)[0]
+		def pad_to_seq_len(this, be_like):
+			delta = tf.maximum(tf.shape(be_like)[0] - tf.shape(this)[0], 0)
 
 			# Don't touch the other dimensions
-			no_padding = [[0,0] for i in range(len(t.shape)-1)]
+			no_padding = [[0,0] for i in range(len(this.shape)-1)]
 
-			return tf.pad(t, 
+			return tf.pad(this, 
 				[ [0,delta], *no_padding ], 
-				constant_values=tf.cast(vocab_const['tgt_eos_id'], t.dtype)
+				constant_values=tf.cast(vocab_const['tgt_eos_id'], this.dtype)
 			)
+
+		def tile_to_beam(v): 
+			return tf.tile(tf.expand_dims(v,-1),[1,1,args["beam_width"]])
 
 
 		eval_metric_ops = {
@@ -295,20 +299,23 @@ def model_fn(features, labels, mode, params):
 				predictions=guided_predictions,
 				weights=target_weights
 			),
-			# "free_accuracy": tf.metrics.accuracy(
-			# 	labels=labels_t, 
-			# 	predictions=pad_to_label_seq_len(free_predictions),
-			# 	weights=target_weights
-			# ),
 			"beam_accuracy": tf.metrics.accuracy(
-				labels=tf.tile(tf.expand_dims(labels_t,-1),[1,1,args["beam_width"]]), 
-				predictions=pad_to_label_seq_len(beam_predictions),
+				labels=tile_to_beam(pad_to_seq_len(labels_t, beam_predictions)), 
+				predictions=pad_to_seq_len(beam_predictions, labels_t),
 				weights=target_weights
 			)
 		}
 
+		eval_metric_ops_ext = {**eval_metric_ops}
+		eval_metric_ops_ext["loss"] = tf.metrics.mean(loss)
+
+		eval_hooks = [
+			FloydMetricHook(eval_metric_ops_ext, prefix="eval_")
+		]
+
 	else:
 		eval_metric_ops = None
+		eval_hooks = None
 
 	# --------------------------------------------------------------------------
 	# Predictions
@@ -336,7 +343,7 @@ def model_fn(features, labels, mode, params):
 		training_chief_hooks=None,
 		training_hooks=None,
 		scaffold=None,
-		evaluation_hooks=None,
+		evaluation_hooks=eval_hooks,
 		prediction_hooks=None
 	)
 

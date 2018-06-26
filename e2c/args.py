@@ -36,7 +36,7 @@ def get_args():
 
 	parser.add_argument('--max-gradient-norm', type=float, default=4)
 
-	parser.add_argument('--build-vocab', action='store_true')
+	parser.add_argument('--quick', action='store_true', help="Compromise model quality for training speed")
 
 
 	
@@ -51,5 +51,11 @@ def get_args():
 		args[mode+"tgt_path"] = os.path.join(args["input_dir"], mode+args["tgt_filename"])
 
 	args["vocab_path"] = os.path.join(args["input_dir"], "vocab.txt")
+
+	if args["quick"]:
+		args["batch_size"] = 4
+		args["num_units"] = 4
+		args["num_layers"] = 1
+		args["vocab_size"] = 32
 
 	return args

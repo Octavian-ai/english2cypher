@@ -7,6 +7,7 @@ import traceback
 from .input import gen_input_fn, EOS
 from .model import model_fn
 from .args import get_args
+from .hooks import *
 
 def dump_predictions(args, predictions):
 	with tf.gfile.GFile(os.path.join(args["output_dir"], "predictions.txt"), "w") as file:
@@ -28,6 +29,7 @@ def train(args):
 		config=None,
 		params=args,
 		warm_start_from=None)
+
 
 	eval_spec = tf.estimator.EvalSpec(input_fn=lambda:gen_input_fn(args, "eval"))
 

@@ -2,21 +2,22 @@
 import yaml
 import os.path
 import tensorflow as tf
+from collections import Counter
 
 UNK = "<unk>"
 SOS = "<s>"
 EOS = "</s>"
 special_tokens = [UNK, SOS, EOS]
 
+UNK_ID = special_tokens.index(UNK)
+SOS_ID = special_tokens.index(SOS)
+EOS_ID = special_tokens.index(EOS)
+
 
 
 def build_vocab(args):
 
-	tokens = set()
-
-	tokens.add(UNK)
-	tokens.add(SOS)
-	tokens.add(EOS)
+	hits = Counter()
 
 	def add_lines(lines):
 		for line in lines:
@@ -24,24 +25,34 @@ def build_vocab(args):
 
 			for word in line.split(' '):
 				if word != "" and word != " ":
-					tokens.add(word)
+					hits[word] += 1
 
 	for i in args["modes"]:
 		for j in ["src", "tgt"]:
 			with tf.gfile.GFile(args[f"{i}_{j}_path"]) as in_file:
 				add_lines(in_file.readlines())
-			
+
+	tokens = set()
+
+	for t, c in hits.most_common(args["vocab_size"] - len(special_tokens)):
+		tokens.add(t)
 
 	with tf.gfile.GFile(args["vocab_path"], 'w') as out_file:
-		for i in tokens:
+		for i in [*special_tokens, *tokens]:
 			out_file.write(i + "\n")	
 
 
 def load_vocab(args):
-	return tf.contrib.lookup.index_table_from_file(args["vocab_path"])
+	return tf.contrib.lookup.index_table_from_file(
+		args["vocab_path"],
+		vocab_size=args["vocab_size"],
+		default_value=UNK_ID)
 
 def load_inverse_vocab(args):
-	return tf.contrib.lookup.index_to_string_table_from_file(args["vocab_path"])
+	return tf.contrib.lookup.index_to_string_table_from_file(
+		args["vocab_path"], 
+		vocab_size=args["vocab_size"],
+		default_value=UNK)
 
 def get_constants(args):
 	vocab_table = load_vocab(args)
@@ -55,10 +66,8 @@ def get_constants(args):
 
 def gen_input_fn(args, mode):
 	# Heavily based off the NMT tutorial structure
-
 	vocab_table = load_vocab(args)
-	sos_id = tf.cast(vocab_table.lookup(tf.constant(SOS)), tf.int32)
-	eos_id = tf.cast(vocab_table.lookup(tf.constant(EOS)), tf.int32)
+	consts = get_constants(args)
 
 	# Load, split and tokenize
 	src_dataset = tf.data.TextLineDataset(args[f"{mode}_src_path"])
@@ -73,8 +82,8 @@ def gen_input_fn(args, mode):
 	# Shape for the encoder-decoder
 	d = tf.data.Dataset.zip((src_dataset, tgt_dataset))
 	d = d.map(lambda src, tgt: (src,
-		tf.concat(([sos_id], tgt), 0),
-		tf.concat((tgt, [eos_id]), 0)))
+		tf.concat(([consts["tgt_sos_id"]], tgt), 0),
+		tf.concat((tgt, [consts["tgt_eos_id"]]), 0)))
 
 	if args["limit"] is not None:
 		d = d.take(args["limit"])
@@ -112,13 +121,13 @@ def gen_input_fn(args, mode):
 		# later on we will be masking out calculations past the true sequence.
 		padding_values=(
 			{
-				"src":     eos_id,  # src
-				"tgt_in":  eos_id,  # tgt_input
-				"tgt_out":  eos_id,  # tgt_input
-				"src_len": 0,  # src_len -- unused
-				"tgt_len": 0,  # tgt_len -- unused
+				"src":     consts["src_eos_id"], 
+				"tgt_in":  consts["tgt_eos_id"],  
+				"tgt_out": consts["tgt_eos_id"], 
+				"src_len": 0, 
+				"tgt_len": 0,  
 			},
-			eos_id,  # tgt_output
+			consts["tgt_eos_id"],
 		)
 	)
 			

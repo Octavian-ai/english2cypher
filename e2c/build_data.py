@@ -3,6 +3,7 @@ import yaml
 import sys
 import tensorflow as tf
 import random
+from collections import Counter
 from tqdm import tqdm
 
 from .util import *
@@ -11,6 +12,9 @@ from .input import build_vocab
 
 
 def etl(args, filepath):
+
+	types = Counter()
+
 	with tf.gfile.GFile(filepath, 'r') as in_file:
 		d = yaml.safe_load_all(in_file)
 
@@ -23,6 +27,8 @@ def etl(args, filepath):
 
 		for i in tqdm(d):
 			if i["question"] and i["question"]["cypher"] is not None:
+
+				types[i["question"]["tpe"]] += 1
 
 				r = random.random()
 
@@ -40,8 +46,11 @@ def etl(args, filepath):
 			for file in i.values():
 				file.close()
 
+		print(types)
+
 		build_vocab(args)
 
 
 if __name__ == "__main__":
 	etl(get_args(), "./data/gqa.yaml")
+	
