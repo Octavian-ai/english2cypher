@@ -2,7 +2,7 @@
 import tensorflow as tf
 
 from .input import get_constants, load_inverse_vocab
-from .hooks import FloydMetricHook
+from .hooks import FloydHubMetricHook
 
 dtype = tf.float32
 
@@ -302,7 +302,7 @@ def model_fn(features, labels, mode, params):
 			"beam_accuracy": tf.metrics.accuracy(
 				labels=tile_to_beam(pad_to_seq_len(labels_t, beam_predictions)), 
 				predictions=pad_to_seq_len(beam_predictions, labels_t),
-				weights=target_weights
+				weights=pad_to_seq_len(target_weights, beam_predictions),
 			)
 		}
 
@@ -310,7 +310,7 @@ def model_fn(features, labels, mode, params):
 		eval_metric_ops_ext["loss"] = tf.metrics.mean(loss)
 
 		eval_hooks = [
-			FloydMetricHook(eval_metric_ops_ext, prefix="eval_")
+			FloydHubMetricHook(eval_metric_ops_ext, prefix="eval_")
 		]
 
 	else:

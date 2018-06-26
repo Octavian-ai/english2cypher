@@ -3,6 +3,7 @@ import yaml
 import os.path
 import tensorflow as tf
 from collections import Counter
+import string
 
 UNK = "<unk>"
 SOS = "<s>"
@@ -27,19 +28,28 @@ def build_vocab(args):
 				if word != "" and word != " ":
 					hits[word] += 1
 
-	for i in args["modes"]:
+	for i in ["all"]:
 		for j in ["src", "tgt"]:
 			with tf.gfile.GFile(args[f"{i}_{j}_path"]) as in_file:
 				add_lines(in_file.readlines())
 
 	tokens = set()
+	tokens.update(special_tokens)
+	tokens.update(string.ascii_lowercase)
+	tokens.update(string.ascii_uppercase)
 
-	for t, c in hits.most_common(args["vocab_size"] - len(special_tokens)):
+	for t, c in hits.most_common(args["vocab_size"] - len(tokens)):
 		tokens.add(t)
 
 	with tf.gfile.GFile(args["vocab_path"], 'w') as out_file:
-		for i in [*special_tokens, *tokens]:
-			out_file.write(i + "\n")	
+		for i in special_tokens:
+			out_file.write(i + "\n")
+			
+		for i in tokens:
+			if i not in special_tokens:
+				out_file.write(i + "\n")
+
+	return tokens
 
 
 def load_vocab(args):

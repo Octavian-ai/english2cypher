@@ -13,7 +13,7 @@ def get_args():
 	parser.add_argument('--src-filename', type=str, default="src.txt")
 	parser.add_argument('--tgt-filename', type=str, default="tgt.txt")
 
-	parser.add_argument('--vocab-size', type=int, default=5000)
+	parser.add_argument('--vocab-size', type=int, default=300)
 	parser.add_argument('--batch-size', type=int, default=128)
 	parser.add_argument('--num-units',  type=int, default=1024)
 	parser.add_argument('--num-layers', type=int, default=2)
@@ -29,8 +29,8 @@ def get_args():
 
 	parser.add_argument('--learning-rate', type=float, default=0.001)
 	parser.add_argument('--dropout', type=float, default=0.2)
-	parser.add_argument('--eval-holdback', type=float, default=0.2)
-	parser.add_argument('--predict-holdback', type=float, default=0.01)
+	parser.add_argument('--eval-holdback', type=float, default=0.1)
+	parser.add_argument('--predict-holdback', type=float, default=0.005)
 	parser.add_argument('--forget-bias', type=float, default=1.0)
 	parser.add_argument('--length-penalty-weight', type=float, default=1.0)
 
@@ -46,9 +46,10 @@ def get_args():
 	args = vars(parser.parse_args())
 	args["modes"] = ["eval", "train", "predict"]
 
-	for mode in [i+"_" for i in args["modes"]]:
-		args[mode+"src_path"] = os.path.join(args["input_dir"], mode+args["src_filename"])
-		args[mode+"tgt_path"] = os.path.join(args["input_dir"], mode+args["tgt_filename"])
+	for i in [*args["modes"], "all"]:
+
+		args[i+"_src_path"] = os.path.join(args["input_dir"], i+"_"+args["src_filename"])
+		args[i+"_tgt_path"] = os.path.join(args["input_dir"], i+"_"+args["tgt_filename"])
 
 	args["vocab_path"] = os.path.join(args["input_dir"], "vocab.txt")
 
