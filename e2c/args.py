@@ -2,12 +2,16 @@
 import argparse
 import os.path
 
-def get_args():
+def get_args(extend=lambda a:None):
 
 	parser = argparse.ArgumentParser()
 
+	extend(parser)
+
 	parser.add_argument('--model-dir',  type=str, default="./output/model")
 	parser.add_argument('--output-dir', type=str, default="./output")
+	parser.add_argument('--log-level',  type=str, default="DEBUG")
+
 
 	parser.add_argument('--input-dir',    type=str, default="./data")
 	parser.add_argument('--src-filename', type=str, default="src.txt")

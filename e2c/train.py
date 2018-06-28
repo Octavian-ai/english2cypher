@@ -8,6 +8,7 @@ from .input import gen_input_fn, EOS
 from .model import model_fn
 from .args import get_args
 from .hooks import *
+from .util import prediction_to_string
 
 def dump_predictions(args, predictions):
 	with tf.gfile.GFile(os.path.join(args["output_dir"], "predictions.txt"), "w") as file:
@@ -26,9 +27,7 @@ def train(args):
 	estimator = tf.estimator.Estimator(
 		model_fn,
 		model_dir=args["model_dir"],
-		config=None,
-		params=args,
-		warm_start_from=None)
+		params=args)
 
 
 	eval_spec = tf.estimator.EvalSpec(input_fn=lambda:gen_input_fn(args, "eval"))
@@ -51,34 +50,16 @@ def train(args):
 
 		predictions = estimator.predict(input_fn=lambda:gen_input_fn(args, "predict"))
 
-		def print_a_prediction(k, p):
-			decode_utf8 = np.vectorize(lambda v: v.decode("utf-8"))
-			p = decode_utf8(p)
-			if len(p.shape) == 1:
-				p = [p]
-			for i in p:
-				print(k + ": " + ' '.join(i))
-
 		for prediction in predictions:
-			for k,v in prediction.items():
-				print_a_prediction(k, v)
+			for k, v in prediction.items():
+				if len(v.shape) == 1:
+					v = [v]
+
+				for p in v:
+					ps = prediction_to_string(p)
+					print(f"{k}: {ps}")
+					# dump_predictions(args, predictions)
 			print("")
-
-
-
-		# print("-----------TIDY------------")
-
-		# predictions = list(predictions)
-		# print(predictions)
-		# predictions = np.array(list(predictions))
-		# print("Predictions shape:",predictions.shape)
-
-		# predictions = predictions.transpose([1,2,0]) # Put text stream as last dim
-		# predictions = np.reshape(predictions, [-1,predictions.shape[-1]]) # Concat batch and beam dims
-		# dump_predictions(args, predictions)
-
-		# for i in predictions:
-		# 	print()
 
 
 

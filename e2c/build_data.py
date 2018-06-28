@@ -9,7 +9,76 @@ import os.path
 
 from .util import *
 from .args import *
-from .input import build_vocab
+
+
+UNK = "<unk>"
+SOS = "<s>"
+EOS = "</s>"
+special_tokens = [UNK, SOS, EOS]
+
+UNK_ID = special_tokens.index(UNK)
+SOS_ID = special_tokens.index(SOS)
+EOS_ID = special_tokens.index(EOS)
+
+
+
+def build_vocab(args):
+
+	hits = Counter()
+
+	def add_lines(lines):
+		for line in lines:
+			line = line.replace("\n", "")
+
+			for word in line.split(' '):
+				if word != "" and word != " ":
+					hits[word] += 1
+
+	for i in ["all"]:
+		for j in ["src", "tgt"]:
+			with tf.gfile.GFile(args[f"{i}_{j}_path"]) as in_file:
+				add_lines(in_file.readlines())
+
+	tokens = set()
+	tokens.update(special_tokens)
+	tokens.update(string.ascii_lowercase)
+	tokens.update(string.ascii_uppercase)
+
+	for t, c in hits.most_common(args["vocab_size"] - len(tokens)):
+		tokens.add(t)
+
+	with tf.gfile.GFile(args["vocab_path"], 'w') as out_file:
+		for i in special_tokens:
+			out_file.write(i + "\n")
+			
+		for i in tokens:
+			if i not in special_tokens:
+				out_file.write(i + "\n")
+
+	return tokens
+
+
+def load_vocab_set(args):
+	tokens = set()
+
+	with tf.gfile.GFile(args["vocab_path"]) as file:
+		for line in file.readlines():
+			tokens.add(line.replace("\n", ""))
+
+	return tokens
+
+def expand_unknown_vocab(line, vocab_set):
+	ts = set(line.split(' '))
+	unkowns = ts - vocab_set
+	unkowns -= set('\n')
+
+	for t in unkowns:
+		spaced = ''.join([f" {c} " for c in t])
+		line = line.replace(t, spaced)
+		line = line.replace("  ", " ")
+
+	return line
+
 
 
 def etl(args, filepath):
@@ -41,18 +110,6 @@ def etl(args, filepath):
 
 		tokens = build_vocab(args)
 
-		def expand_unknowns(line, tokens):
-			ts = set(line.split(' '))
-			unkowns = ts - tokens
-			unkowns -= set('\n')
-
-			for t in unkowns:
-				spaced = ''.join([f" {c} " for c in t])
-				line = line.replace(t, spaced)
-				line = line.replace("  ", " ")
-
-			return line
-
 		in_files = [tf.gfile.GFile(args[f"all_{suffix}_path"]) for suffix in suffixes]
 		lines = zip(*[i.readlines() for i in in_files])
 
@@ -68,7 +125,7 @@ def etl(args, filepath):
 				mode = "train"
 
 			for idx, suffix in enumerate(suffixes):
-				files[mode][suffix].write(expand_unknowns(line[idx], tokens))
+				files[mode][suffix].write(expand_unknown_vocab(line[idx], tokens))
 
 		for i in in_files:
 			i.close()

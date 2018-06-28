@@ -18,6 +18,10 @@ pipenv install
 pipenv shell
 ```
 
+All the command line python invocations assume `pipenv shell`
+
+### Train
+
 Then from the virtual-environment pipenv has provided, run the training:
 ```shell
 python -m e2c.train
@@ -29,6 +33,14 @@ Training is quite slow without a GPU. If you don't happen to have a NVIDIA Titan
 sudo pip install -U floyd-cli
 floyd login
 ./floyd-train.sh
+```
+
+### Predict
+
+Once you have your shiney trained model (or, just use ours!) you can ask questions and get answers from a real-deal Neo4j graph:
+
+```shell
+python -m e2c.predict --question What is the meaning of life?
 ```
 
 ## Dataset generation

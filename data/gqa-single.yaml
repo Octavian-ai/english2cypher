@@ -1,0 +1,1722 @@
+---
+answer: 6
+graph:
+  edges:
+  - {line_color: green, line_id: be50d37b-9e76-4729-810f-4d8858c5f50c, line_name: Green
+      Soosh, line_stroke: dashed, station1: 43dda73b-488d-4fba-b87c-b6e7104aa62a,
+    station2: fa7cb112-955b-4056-b0cb-164b74ae9d0c}
+  - {line_color: green, line_id: be50d37b-9e76-4729-810f-4d8858c5f50c, line_name: Green
+      Soosh, line_stroke: dashed, station1: fa7cb112-955b-4056-b0cb-164b74ae9d0c,
+    station2: 29a62e6b-d442-4e93-8f43-ec5d931ada20}
+  - {line_color: green, line_id: be50d37b-9e76-4729-810f-4d8858c5f50c, line_name: Green
+      Soosh, line_stroke: dashed, station1: 29a62e6b-d442-4e93-8f43-ec5d931ada20,
+    station2: 02b9d0e6-7f12-4684-ae22-2d70e7901bb0}
+  - {line_color: green, line_id: be50d37b-9e76-4729-810f-4d8858c5f50c, line_name: Green
+      Soosh, line_stroke: dashed, station1: 02b9d0e6-7f12-4684-ae22-2d70e7901bb0,
+    station2: d324c658-aeb3-4617-bf08-3fb3e9077af4}
+  - {line_color: green, line_id: be50d37b-9e76-4729-810f-4d8858c5f50c, line_name: Green
+      Soosh, line_stroke: dashed, station1: d324c658-aeb3-4617-bf08-3fb3e9077af4,
+    station2: e0048e50-5628-42eb-a951-b535cdb1aac8}
+  - {line_color: green, line_id: be50d37b-9e76-4729-810f-4d8858c5f50c, line_name: Green
+      Soosh, line_stroke: dashed, station1: e0048e50-5628-42eb-a951-b535cdb1aac8,
+    station2: 02675f9d-8754-401f-9daa-53287ba4306e}
+  - {line_color: green, line_id: be50d37b-9e76-4729-810f-4d8858c5f50c, line_name: Green
+      Soosh, line_stroke: dashed, station1: 02675f9d-8754-401f-9daa-53287ba4306e,
+    station2: fe87dcc8-c254-4731-a3d8-0f15f4ace872}
+  - {line_color: green, line_id: be50d37b-9e76-4729-810f-4d8858c5f50c, line_name: Green
+      Soosh, line_stroke: dashed, station1: fe87dcc8-c254-4731-a3d8-0f15f4ace872,
+    station2: f174168f-44d7-4088-b633-d70eecb57b1a}
+  - {line_color: green, line_id: be50d37b-9e76-4729-810f-4d8858c5f50c, line_name: Green
+      Soosh, line_stroke: dashed, station1: f174168f-44d7-4088-b633-d70eecb57b1a,
+    station2: 0bb897dc-fa0f-4e60-bbc6-2a2a490e65c0}
+  - {line_color: green, line_id: be50d37b-9e76-4729-810f-4d8858c5f50c, line_name: Green
+      Soosh, line_stroke: dashed, station1: 0bb897dc-fa0f-4e60-bbc6-2a2a490e65c0,
+    station2: af751b62-fc59-49f6-ac80-21d224bc3439}
+  - {line_color: green, line_id: be50d37b-9e76-4729-810f-4d8858c5f50c, line_name: Green
+      Soosh, line_stroke: dashed, station1: af751b62-fc59-49f6-ac80-21d224bc3439,
+    station2: b8c9fa90-c859-415d-9465-bafd9d784532}
+  - {line_color: green, line_id: be50d37b-9e76-4729-810f-4d8858c5f50c, line_name: Green
+      Soosh, line_stroke: dashed, station1: b8c9fa90-c859-415d-9465-bafd9d784532,
+    station2: 4ced1799-57d3-4546-93e1-d51bb7007c1d}
+  - {line_color: green, line_id: be50d37b-9e76-4729-810f-4d8858c5f50c, line_name: Green
+      Soosh, line_stroke: dashed, station1: 4ced1799-57d3-4546-93e1-d51bb7007c1d,
+    station2: 9c380d5b-b2f3-4216-a9e6-8639e112dd66}
+  - {line_color: green, line_id: f6dd970c-14ca-4fd0-b04b-1ea93d7b210a, line_name: Green
+      Fliv, line_stroke: dotted, station1: d8a59c55-9548-4e91-92fc-5d705ee59767, station2: 6b4bf6f4-604a-4a14-af93-f0484e0d9866}
+  - {line_color: green, line_id: f6dd970c-14ca-4fd0-b04b-1ea93d7b210a, line_name: Green
+      Fliv, line_stroke: dotted, station1: 6b4bf6f4-604a-4a14-af93-f0484e0d9866, station2: 45f66d39-91ca-4ce1-8628-9997aea7559e}
+  - {line_color: green, line_id: f6dd970c-14ca-4fd0-b04b-1ea93d7b210a, line_name: Green
+      Fliv, line_stroke: dotted, station1: 45f66d39-91ca-4ce1-8628-9997aea7559e, station2: c64662f7-d775-4476-bb2f-368791d2a39d}
+  - {line_color: green, line_id: f6dd970c-14ca-4fd0-b04b-1ea93d7b210a, line_name: Green
+      Fliv, line_stroke: dotted, station1: c64662f7-d775-4476-bb2f-368791d2a39d, station2: 23dcca44-0543-45d5-92f5-4675634bca5d}
+  - {line_color: green, line_id: f6dd970c-14ca-4fd0-b04b-1ea93d7b210a, line_name: Green
+      Fliv, line_stroke: dotted, station1: 23dcca44-0543-45d5-92f5-4675634bca5d, station2: 117388d8-2348-4fe9-a4c4-43e621d9c2fd}
+  - {line_color: green, line_id: f6dd970c-14ca-4fd0-b04b-1ea93d7b210a, line_name: Green
+      Fliv, line_stroke: dotted, station1: 117388d8-2348-4fe9-a4c4-43e621d9c2fd, station2: afa2038f-a94c-4c3e-8c58-6a3a2518fd02}
+  - {line_color: green, line_id: f6dd970c-14ca-4fd0-b04b-1ea93d7b210a, line_name: Green
+      Fliv, line_stroke: dotted, station1: afa2038f-a94c-4c3e-8c58-6a3a2518fd02, station2: 54f51eb1-d139-4773-a6e9-b6999559358f}
+  - {line_color: green, line_id: f6dd970c-14ca-4fd0-b04b-1ea93d7b210a, line_name: Green
+      Fliv, line_stroke: dotted, station1: 54f51eb1-d139-4773-a6e9-b6999559358f, station2: b52848f6-495e-480c-bf43-4e23cdb484d3}
+  - {line_color: green, line_id: f6dd970c-14ca-4fd0-b04b-1ea93d7b210a, line_name: Green
+      Fliv, line_stroke: dotted, station1: b52848f6-495e-480c-bf43-4e23cdb484d3, station2: 7294eddd-92cc-42c1-a5d1-635a8d7d4aef}
+  - {line_color: green, line_id: f6dd970c-14ca-4fd0-b04b-1ea93d7b210a, line_name: Green
+      Fliv, line_stroke: dotted, station1: 7294eddd-92cc-42c1-a5d1-635a8d7d4aef, station2: 82c458f0-1489-4467-9e87-a3cc9192ffa5}
+  - {line_color: green, line_id: f6dd970c-14ca-4fd0-b04b-1ea93d7b210a, line_name: Green
+      Fliv, line_stroke: dotted, station1: 82c458f0-1489-4467-9e87-a3cc9192ffa5, station2: e0536752-15c0-4b69-b718-ae04d22b3804}
+  - {line_color: green, line_id: f6dd970c-14ca-4fd0-b04b-1ea93d7b210a, line_name: Green
+      Fliv, line_stroke: dotted, station1: e0536752-15c0-4b69-b718-ae04d22b3804, station2: e6f274f6-5f93-4feb-b68a-b51ad9ef2a7f}
+  - {line_color: green, line_id: f6dd970c-14ca-4fd0-b04b-1ea93d7b210a, line_name: Green
+      Fliv, line_stroke: dotted, station1: e6f274f6-5f93-4feb-b68a-b51ad9ef2a7f, station2: 2f42902e-492d-469a-88bc-a6cd90f7d15c}
+  - {line_color: olive, line_id: bdd72df0-97d3-4c86-a9f7-938708a549c5, line_name: Olive
+      Huw, line_stroke: solid, station1: 565e7ca5-e43d-428c-b70c-cefb6ecb0cac, station2: ae6ba4bb-bbdf-4abe-b25b-863f01a07b23}
+  - {line_color: olive, line_id: bdd72df0-97d3-4c86-a9f7-938708a549c5, line_name: Olive
+      Huw, line_stroke: solid, station1: ae6ba4bb-bbdf-4abe-b25b-863f01a07b23, station2: 02de25a3-8e54-4167-bd00-f7fad626b24a}
+  - {line_color: olive, line_id: bdd72df0-97d3-4c86-a9f7-938708a549c5, line_name: Olive
+      Huw, line_stroke: solid, station1: 02de25a3-8e54-4167-bd00-f7fad626b24a, station2: 834904ea-3a33-49c4-9f56-fd031c5709f9}
+  - {line_color: olive, line_id: bdd72df0-97d3-4c86-a9f7-938708a549c5, line_name: Olive
+      Huw, line_stroke: solid, station1: 834904ea-3a33-49c4-9f56-fd031c5709f9, station2: b2ad8bf9-54a0-4699-91fd-bdc329a2f0be}
+  - {line_color: olive, line_id: bdd72df0-97d3-4c86-a9f7-938708a549c5, line_name: Olive
+      Huw, line_stroke: solid, station1: b2ad8bf9-54a0-4699-91fd-bdc329a2f0be, station2: 8bd8fc6f-781a-4298-b1ab-f4178d952a82}
+  - {line_color: olive, line_id: bdd72df0-97d3-4c86-a9f7-938708a549c5, line_name: Olive
+      Huw, line_stroke: solid, station1: 8bd8fc6f-781a-4298-b1ab-f4178d952a82, station2: 01852352-6c3d-4cc1-8415-2d9ca9338a52}
+  - {line_color: olive, line_id: bdd72df0-97d3-4c86-a9f7-938708a549c5, line_name: Olive
+      Huw, line_stroke: solid, station1: 01852352-6c3d-4cc1-8415-2d9ca9338a52, station2: 8ad249f8-a179-4e64-aa81-aea36111352f}
+  - {line_color: olive, line_id: bdd72df0-97d3-4c86-a9f7-938708a549c5, line_name: Olive
+      Huw, line_stroke: solid, station1: 8ad249f8-a179-4e64-aa81-aea36111352f, station2: 0ee0018b-6b29-4181-ad80-b921797058ac}
+  - {line_color: olive, line_id: bdd72df0-97d3-4c86-a9f7-938708a549c5, line_name: Olive
+      Huw, line_stroke: solid, station1: 0ee0018b-6b29-4181-ad80-b921797058ac, station2: 02b9d0e6-7f12-4684-ae22-2d70e7901bb0}
+  - {line_color: olive, line_id: bdd72df0-97d3-4c86-a9f7-938708a549c5, line_name: Olive
+      Huw, line_stroke: solid, station1: 02b9d0e6-7f12-4684-ae22-2d70e7901bb0, station2: 430c5f45-0af3-418b-97f2-bd1d0d22fb51}
+  - {line_color: olive, line_id: bdd72df0-97d3-4c86-a9f7-938708a549c5, line_name: Olive
+      Huw, line_stroke: solid, station1: 430c5f45-0af3-418b-97f2-bd1d0d22fb51, station2: b8c9fa90-c859-415d-9465-bafd9d784532}
+  - {line_color: olive, line_id: bdd72df0-97d3-4c86-a9f7-938708a549c5, line_name: Olive
+      Huw, line_stroke: solid, station1: b8c9fa90-c859-415d-9465-bafd9d784532, station2: 9f15f187-3fd9-4159-b71a-938695087e8b}
+  - {line_color: olive, line_id: bdd72df0-97d3-4c86-a9f7-938708a549c5, line_name: Olive
+      Huw, line_stroke: solid, station1: 9f15f187-3fd9-4159-b71a-938695087e8b, station2: 813dfc8b-2596-4bc8-818c-e05fcbd0b85e}
+  - {line_color: olive, line_id: bdd72df0-97d3-4c86-a9f7-938708a549c5, line_name: Olive
+      Huw, line_stroke: solid, station1: 813dfc8b-2596-4bc8-818c-e05fcbd0b85e, station2: 87e2be77-344c-4475-b80c-6c2a6d6fe518}
+  - {line_color: olive, line_id: bdd72df0-97d3-4c86-a9f7-938708a549c5, line_name: Olive
+      Huw, line_stroke: solid, station1: 87e2be77-344c-4475-b80c-6c2a6d6fe518, station2: 0765104e-51cd-4381-898b-1daeacafab26}
+  - {line_color: olive, line_id: bdd72df0-97d3-4c86-a9f7-938708a549c5, line_name: Olive
+      Huw, line_stroke: solid, station1: 0765104e-51cd-4381-898b-1daeacafab26, station2: e7bef59a-a4ac-4540-8ba0-fd291c562e1d}
+  - {line_color: olive, line_id: bdd72df0-97d3-4c86-a9f7-938708a549c5, line_name: Olive
+      Huw, line_stroke: solid, station1: e7bef59a-a4ac-4540-8ba0-fd291c562e1d, station2: fc02c347-3f4a-4353-9355-4f5dd1f16f2b}
+  - {line_color: olive, line_id: bdd72df0-97d3-4c86-a9f7-938708a549c5, line_name: Olive
+      Huw, line_stroke: solid, station1: fc02c347-3f4a-4353-9355-4f5dd1f16f2b, station2: 8890e0e5-aaa6-47cf-9f97-c7eb53932e0c}
+  - {line_color: olive, line_id: bdd72df0-97d3-4c86-a9f7-938708a549c5, line_name: Olive
+      Huw, line_stroke: solid, station1: 8890e0e5-aaa6-47cf-9f97-c7eb53932e0c, station2: 200eb63e-b015-4e63-8069-495314caf405}
+  - {line_color: purple, line_id: 642f7028-3480-460c-9c87-00585796459b, line_name: Purple
+      Sweb, line_stroke: dashed, station1: e6de8b5c-f8e6-4292-a763-55e756886d1d, station2: 4091e44e-5280-4c4f-b0ea-27e62549d83d}
+  - {line_color: purple, line_id: 642f7028-3480-460c-9c87-00585796459b, line_name: Purple
+      Sweb, line_stroke: dashed, station1: 4091e44e-5280-4c4f-b0ea-27e62549d83d, station2: 0bb897dc-fa0f-4e60-bbc6-2a2a490e65c0}
+  - {line_color: purple, line_id: 642f7028-3480-460c-9c87-00585796459b, line_name: Purple
+      Sweb, line_stroke: dashed, station1: 0bb897dc-fa0f-4e60-bbc6-2a2a490e65c0, station2: ba629556-ad5b-4457-93fd-d0dbcd2c06ed}
+  - {line_color: purple, line_id: 642f7028-3480-460c-9c87-00585796459b, line_name: Purple
+      Sweb, line_stroke: dashed, station1: ba629556-ad5b-4457-93fd-d0dbcd2c06ed, station2: 93fd80aa-45ef-452a-8b8a-e8b4d07ae5eb}
+  - {line_color: purple, line_id: 642f7028-3480-460c-9c87-00585796459b, line_name: Purple
+      Sweb, line_stroke: dashed, station1: 93fd80aa-45ef-452a-8b8a-e8b4d07ae5eb, station2: 7bd406f6-b5d7-4dcb-8f6b-f5e5d8041b70}
+  - {line_color: purple, line_id: 642f7028-3480-460c-9c87-00585796459b, line_name: Purple
+      Sweb, line_stroke: dashed, station1: 7bd406f6-b5d7-4dcb-8f6b-f5e5d8041b70, station2: c52cea61-3302-44d4-8482-8e83a15b8dbc}
+  - {line_color: purple, line_id: 642f7028-3480-460c-9c87-00585796459b, line_name: Purple
+      Sweb, line_stroke: dashed, station1: c52cea61-3302-44d4-8482-8e83a15b8dbc, station2: 2986a189-8c6b-46b1-ac12-37d2074fa0a1}
+  - {line_color: purple, line_id: 642f7028-3480-460c-9c87-00585796459b, line_name: Purple
+      Sweb, line_stroke: dashed, station1: 2986a189-8c6b-46b1-ac12-37d2074fa0a1, station2: 1b89d2c0-cba7-426f-8478-dd4c2e4a45dd}
+  - {line_color: purple, line_id: 642f7028-3480-460c-9c87-00585796459b, line_name: Purple
+      Sweb, line_stroke: dashed, station1: 1b89d2c0-cba7-426f-8478-dd4c2e4a45dd, station2: 50865399-ed2d-435a-9297-5019f5be3da3}
+  - {line_color: purple, line_id: 642f7028-3480-460c-9c87-00585796459b, line_name: Purple
+      Sweb, line_stroke: dashed, station1: 50865399-ed2d-435a-9297-5019f5be3da3, station2: c6e832fc-bd59-4f72-af18-65e1edf11549}
+  - {line_color: purple, line_id: 642f7028-3480-460c-9c87-00585796459b, line_name: Purple
+      Sweb, line_stroke: dashed, station1: c6e832fc-bd59-4f72-af18-65e1edf11549, station2: 2182ef8d-4217-4745-90d7-0f3e5301b5c6}
+  - {line_color: purple, line_id: 642f7028-3480-460c-9c87-00585796459b, line_name: Purple
+      Sweb, line_stroke: dashed, station1: 2182ef8d-4217-4745-90d7-0f3e5301b5c6, station2: 01124931-a7cd-4550-858f-10ff3c6eabc7}
+  - {line_color: purple, line_id: 642f7028-3480-460c-9c87-00585796459b, line_name: Purple
+      Sweb, line_stroke: dashed, station1: 01124931-a7cd-4550-858f-10ff3c6eabc7, station2: 2468cb8b-ce26-4cab-8495-8f043b0830e4}
+  - {line_color: purple, line_id: 642f7028-3480-460c-9c87-00585796459b, line_name: Purple
+      Sweb, line_stroke: dashed, station1: 2468cb8b-ce26-4cab-8495-8f043b0830e4, station2: 6a462f97-1ca9-4455-9cf5-bf5c74d965a7}
+  - {line_color: purple, line_id: 642f7028-3480-460c-9c87-00585796459b, line_name: Purple
+      Sweb, line_stroke: dashed, station1: 6a462f97-1ca9-4455-9cf5-bf5c74d965a7, station2: 94e90cb7-2cf8-47ae-91d2-59f7ba334a7e}
+  - {line_color: blue, line_id: 942ea0d9-b81f-4f4b-a37e-389da7651c5f, line_name: Blue
+      Prooy, line_stroke: dashdot, station1: aa7ebbd7-c509-4784-8aec-d206271ba60a,
+    station2: a7df2a68-8726-4226-b2b1-ad4aae1bda36}
+  - {line_color: blue, line_id: 942ea0d9-b81f-4f4b-a37e-389da7651c5f, line_name: Blue
+      Prooy, line_stroke: dashdot, station1: a7df2a68-8726-4226-b2b1-ad4aae1bda36,
+    station2: ac94bfb5-2465-4130-ac7a-4af618f4e7de}
+  - {line_color: blue, line_id: 942ea0d9-b81f-4f4b-a37e-389da7651c5f, line_name: Blue
+      Prooy, line_stroke: dashdot, station1: ac94bfb5-2465-4130-ac7a-4af618f4e7de,
+    station2: 02b9d0e6-7f12-4684-ae22-2d70e7901bb0}
+  - {line_color: blue, line_id: 942ea0d9-b81f-4f4b-a37e-389da7651c5f, line_name: Blue
+      Prooy, line_stroke: dashdot, station1: 02b9d0e6-7f12-4684-ae22-2d70e7901bb0,
+    station2: af751b62-fc59-49f6-ac80-21d224bc3439}
+  - {line_color: blue, line_id: 942ea0d9-b81f-4f4b-a37e-389da7651c5f, line_name: Blue
+      Prooy, line_stroke: dashdot, station1: af751b62-fc59-49f6-ac80-21d224bc3439,
+    station2: 0bb897dc-fa0f-4e60-bbc6-2a2a490e65c0}
+  - {line_color: blue, line_id: 942ea0d9-b81f-4f4b-a37e-389da7651c5f, line_name: Blue
+      Prooy, line_stroke: dashdot, station1: 0bb897dc-fa0f-4e60-bbc6-2a2a490e65c0,
+    station2: 2986a189-8c6b-46b1-ac12-37d2074fa0a1}
+  - {line_color: blue, line_id: 942ea0d9-b81f-4f4b-a37e-389da7651c5f, line_name: Blue
+      Prooy, line_stroke: dashdot, station1: 2986a189-8c6b-46b1-ac12-37d2074fa0a1,
+    station2: 93fd80aa-45ef-452a-8b8a-e8b4d07ae5eb}
+  - {line_color: blue, line_id: 942ea0d9-b81f-4f4b-a37e-389da7651c5f, line_name: Blue
+      Prooy, line_stroke: dashdot, station1: 93fd80aa-45ef-452a-8b8a-e8b4d07ae5eb,
+    station2: 8542c78a-c4ec-4dd4-8cff-5cf5422c0ada}
+  - {line_color: blue, line_id: 942ea0d9-b81f-4f4b-a37e-389da7651c5f, line_name: Blue
+      Prooy, line_stroke: dashdot, station1: 8542c78a-c4ec-4dd4-8cff-5cf5422c0ada,
+    station2: e4574b99-0bef-4a06-ab3d-957d0972ba48}
+  - {line_color: blue, line_id: 942ea0d9-b81f-4f4b-a37e-389da7651c5f, line_name: Blue
+      Prooy, line_stroke: dashdot, station1: e4574b99-0bef-4a06-ab3d-957d0972ba48,
+    station2: 18d4bb44-0cf7-4719-b765-dbf65c3b9e14}
+  - {line_color: blue, line_id: 942ea0d9-b81f-4f4b-a37e-389da7651c5f, line_name: Blue
+      Prooy, line_stroke: dashdot, station1: 18d4bb44-0cf7-4719-b765-dbf65c3b9e14,
+    station2: 4e1aca2a-05c8-46d0-9d52-09c6251d61f3}
+  - {line_color: blue, line_id: 942ea0d9-b81f-4f4b-a37e-389da7651c5f, line_name: Blue
+      Prooy, line_stroke: dashdot, station1: 4e1aca2a-05c8-46d0-9d52-09c6251d61f3,
+    station2: 0a7c4533-5519-4c21-b9a6-827756457afb}
+  - {line_color: blue, line_id: 942ea0d9-b81f-4f4b-a37e-389da7651c5f, line_name: Blue
+      Prooy, line_stroke: dashdot, station1: 0a7c4533-5519-4c21-b9a6-827756457afb,
+    station2: 53b1fd64-82f6-49cb-8b09-f03300c3de46}
+  - {line_color: blue, line_id: 942ea0d9-b81f-4f4b-a37e-389da7651c5f, line_name: Blue
+      Prooy, line_stroke: dashdot, station1: 53b1fd64-82f6-49cb-8b09-f03300c3de46,
+    station2: cf727b6e-9328-4af8-b48e-538c55964f52}
+  - {line_color: blue, line_id: 942ea0d9-b81f-4f4b-a37e-389da7651c5f, line_name: Blue
+      Prooy, line_stroke: dashdot, station1: cf727b6e-9328-4af8-b48e-538c55964f52,
+    station2: 4a7e6795-a3d0-4088-925c-7a1896dff4cd}
+  - {line_color: blue, line_id: 942ea0d9-b81f-4f4b-a37e-389da7651c5f, line_name: Blue
+      Prooy, line_stroke: dashdot, station1: 4a7e6795-a3d0-4088-925c-7a1896dff4cd,
+    station2: 2bb71e81-0d9c-4a05-97de-321a4739ca7b}
+  - {line_color: blue, line_id: 942ea0d9-b81f-4f4b-a37e-389da7651c5f, line_name: Blue
+      Prooy, line_stroke: dashdot, station1: 2bb71e81-0d9c-4a05-97de-321a4739ca7b,
+    station2: 11acee04-8a32-41ae-b8f7-1d0b86785f7c}
+  - {line_color: blue, line_id: 942ea0d9-b81f-4f4b-a37e-389da7651c5f, line_name: Blue
+      Prooy, line_stroke: dashdot, station1: 11acee04-8a32-41ae-b8f7-1d0b86785f7c,
+    station2: cb74add8-9c8b-4325-bc0d-f9be816d3247}
+  - {line_color: blue, line_id: 4a88043e-b233-46b7-a787-28df2a8418d2, line_name: Blue
+      Moss, line_stroke: dotted, station1: d008864d-c559-4086-ba81-68f3d1c6ae2b, station2: bbb14292-b169-4d84-b5ad-8261bcfdd541}
+  - {line_color: blue, line_id: 4a88043e-b233-46b7-a787-28df2a8418d2, line_name: Blue
+      Moss, line_stroke: dotted, station1: bbb14292-b169-4d84-b5ad-8261bcfdd541, station2: 24d6f732-78ef-442d-bfd5-2534490f3ec7}
+  - {line_color: blue, line_id: 4a88043e-b233-46b7-a787-28df2a8418d2, line_name: Blue
+      Moss, line_stroke: dotted, station1: 24d6f732-78ef-442d-bfd5-2534490f3ec7, station2: 899eafe8-14f5-44d4-a8a1-ccd11594e24f}
+  - {line_color: blue, line_id: 4a88043e-b233-46b7-a787-28df2a8418d2, line_name: Blue
+      Moss, line_stroke: dotted, station1: 899eafe8-14f5-44d4-a8a1-ccd11594e24f, station2: b93ddfd8-4428-4472-a5a9-939ef9a5f0df}
+  - {line_color: blue, line_id: 4a88043e-b233-46b7-a787-28df2a8418d2, line_name: Blue
+      Moss, line_stroke: dotted, station1: b93ddfd8-4428-4472-a5a9-939ef9a5f0df, station2: 40b316d1-e437-48c1-9088-1655b18151f9}
+  - {line_color: blue, line_id: 4a88043e-b233-46b7-a787-28df2a8418d2, line_name: Blue
+      Moss, line_stroke: dotted, station1: 40b316d1-e437-48c1-9088-1655b18151f9, station2: 2986a189-8c6b-46b1-ac12-37d2074fa0a1}
+  - {line_color: blue, line_id: 4a88043e-b233-46b7-a787-28df2a8418d2, line_name: Blue
+      Moss, line_stroke: dotted, station1: 2986a189-8c6b-46b1-ac12-37d2074fa0a1, station2: ba629556-ad5b-4457-93fd-d0dbcd2c06ed}
+  - {line_color: blue, line_id: 4a88043e-b233-46b7-a787-28df2a8418d2, line_name: Blue
+      Moss, line_stroke: dotted, station1: ba629556-ad5b-4457-93fd-d0dbcd2c06ed, station2: a2809efe-d56b-4e1e-b48c-fc6381cfc7fe}
+  - {line_color: blue, line_id: 4a88043e-b233-46b7-a787-28df2a8418d2, line_name: Blue
+      Moss, line_stroke: dotted, station1: a2809efe-d56b-4e1e-b48c-fc6381cfc7fe, station2: d881acb9-45ee-45a4-a840-0348153fe358}
+  - {line_color: blue, line_id: 4a88043e-b233-46b7-a787-28df2a8418d2, line_name: Blue
+      Moss, line_stroke: dotted, station1: d881acb9-45ee-45a4-a840-0348153fe358, station2: d7baac32-20f4-46b1-b273-fc998e17506b}
+  - {line_color: blue, line_id: 4a88043e-b233-46b7-a787-28df2a8418d2, line_name: Blue
+      Moss, line_stroke: dotted, station1: d7baac32-20f4-46b1-b273-fc998e17506b, station2: 6ef51916-a443-4124-b649-b8ad5e623814}
+  - {line_color: blue, line_id: 4a88043e-b233-46b7-a787-28df2a8418d2, line_name: Blue
+      Moss, line_stroke: dotted, station1: 6ef51916-a443-4124-b649-b8ad5e623814, station2: 21c7f8f4-4f8e-4cdd-b5c9-069f47b3d4de}
+  - {line_color: blue, line_id: 4a88043e-b233-46b7-a787-28df2a8418d2, line_name: Blue
+      Moss, line_stroke: dotted, station1: 21c7f8f4-4f8e-4cdd-b5c9-069f47b3d4de, station2: cebde781-7c6d-4898-a151-9b62b0458647}
+  - {line_color: blue, line_id: 4a88043e-b233-46b7-a787-28df2a8418d2, line_name: Blue
+      Moss, line_stroke: dotted, station1: cebde781-7c6d-4898-a151-9b62b0458647, station2: c8d4d8e1-eb8d-4bc9-899a-38bc34abe6f8}
+  - {line_color: blue, line_id: 4a88043e-b233-46b7-a787-28df2a8418d2, line_name: Blue
+      Moss, line_stroke: dotted, station1: c8d4d8e1-eb8d-4bc9-899a-38bc34abe6f8, station2: d437bcb6-f649-4e46-95f8-9d79683b1c1b}
+  - {line_color: blue, line_id: 4a88043e-b233-46b7-a787-28df2a8418d2, line_name: Blue
+      Moss, line_stroke: dotted, station1: d437bcb6-f649-4e46-95f8-9d79683b1c1b, station2: c64662f7-d775-4476-bb2f-368791d2a39d}
+  - {line_color: blue, line_id: 4a88043e-b233-46b7-a787-28df2a8418d2, line_name: Blue
+      Moss, line_stroke: dotted, station1: c64662f7-d775-4476-bb2f-368791d2a39d, station2: 22d570bc-bd86-4a98-b892-7eb83374e05f}
+  - {line_color: orange, line_id: afea254b-9c16-46ae-a78f-a14dab6a92f2, line_name: Orange
+      Hift, line_stroke: dashed, station1: 158450e4-edb6-4858-bc52-4c347c66c24a, station2: 6f8353db-f095-4a4e-9801-6b34158ce735}
+  - {line_color: orange, line_id: afea254b-9c16-46ae-a78f-a14dab6a92f2, line_name: Orange
+      Hift, line_stroke: dashed, station1: 6f8353db-f095-4a4e-9801-6b34158ce735, station2: ee496b11-a229-451f-9d93-c03e621ec755}
+  - {line_color: orange, line_id: afea254b-9c16-46ae-a78f-a14dab6a92f2, line_name: Orange
+      Hift, line_stroke: dashed, station1: ee496b11-a229-451f-9d93-c03e621ec755, station2: 8b9b21a8-8029-4a4d-b14e-5a52f8603761}
+  - {line_color: orange, line_id: afea254b-9c16-46ae-a78f-a14dab6a92f2, line_name: Orange
+      Hift, line_stroke: dashed, station1: 8b9b21a8-8029-4a4d-b14e-5a52f8603761, station2: 9da4d267-aa81-47f1-affc-0b40dec77bf8}
+  - {line_color: orange, line_id: afea254b-9c16-46ae-a78f-a14dab6a92f2, line_name: Orange
+      Hift, line_stroke: dashed, station1: 9da4d267-aa81-47f1-affc-0b40dec77bf8, station2: 70e73832-866e-45fe-a882-8556ab4d1f19}
+  - {line_color: orange, line_id: afea254b-9c16-46ae-a78f-a14dab6a92f2, line_name: Orange
+      Hift, line_stroke: dashed, station1: 70e73832-866e-45fe-a882-8556ab4d1f19, station2: 01fbcc33-1598-4c02-b404-6649d741da3b}
+  - {line_color: orange, line_id: afea254b-9c16-46ae-a78f-a14dab6a92f2, line_name: Orange
+      Hift, line_stroke: dashed, station1: 01fbcc33-1598-4c02-b404-6649d741da3b, station2: 3728873d-bb2d-4499-894d-0dfcd96e45d8}
+  - {line_color: orange, line_id: afea254b-9c16-46ae-a78f-a14dab6a92f2, line_name: Orange
+      Hift, line_stroke: dashed, station1: 3728873d-bb2d-4499-894d-0dfcd96e45d8, station2: 31f665ca-2646-440b-a419-27c76e763c1f}
+  - {line_color: orange, line_id: afea254b-9c16-46ae-a78f-a14dab6a92f2, line_name: Orange
+      Hift, line_stroke: dashed, station1: 31f665ca-2646-440b-a419-27c76e763c1f, station2: 094dde5e-8d0a-4f30-b1df-6874da55bade}
+  - {line_color: pink, line_id: a8469ac1-3159-4736-b29c-28e1cc61865f, line_name: Pink
+      Woog, line_stroke: dashdot, station1: fecca20d-3c61-44e5-a2bf-bb955af5c044,
+    station2: 733f7862-9466-42ec-bbe7-e1fd1a4be397}
+  - {line_color: pink, line_id: a8469ac1-3159-4736-b29c-28e1cc61865f, line_name: Pink
+      Woog, line_stroke: dashdot, station1: 733f7862-9466-42ec-bbe7-e1fd1a4be397,
+    station2: 3c96435f-b2e1-4e84-a785-726b219a35a1}
+  - {line_color: pink, line_id: a8469ac1-3159-4736-b29c-28e1cc61865f, line_name: Pink
+      Woog, line_stroke: dashdot, station1: 3c96435f-b2e1-4e84-a785-726b219a35a1,
+    station2: cf406c15-1713-45cc-acf0-1e31b17888b3}
+  - {line_color: pink, line_id: a8469ac1-3159-4736-b29c-28e1cc61865f, line_name: Pink
+      Woog, line_stroke: dashdot, station1: cf406c15-1713-45cc-acf0-1e31b17888b3,
+    station2: efffae3e-7fc5-4e01-ba45-14ecfb2a733c}
+  - {line_color: pink, line_id: a8469ac1-3159-4736-b29c-28e1cc61865f, line_name: Pink
+      Woog, line_stroke: dashdot, station1: efffae3e-7fc5-4e01-ba45-14ecfb2a733c,
+    station2: 975e4202-b9d5-4a16-8417-62708553ab0c}
+  - {line_color: pink, line_id: a8469ac1-3159-4736-b29c-28e1cc61865f, line_name: Pink
+      Woog, line_stroke: dashdot, station1: 975e4202-b9d5-4a16-8417-62708553ab0c,
+    station2: afff6265-41a8-4195-aaa7-2857517cbe25}
+  - {line_color: pink, line_id: a8469ac1-3159-4736-b29c-28e1cc61865f, line_name: Pink
+      Woog, line_stroke: dashdot, station1: afff6265-41a8-4195-aaa7-2857517cbe25,
+    station2: 335fe0d5-ee03-4bfb-8f5c-28b282621f01}
+  - {line_color: pink, line_id: a8469ac1-3159-4736-b29c-28e1cc61865f, line_name: Pink
+      Woog, line_stroke: dashdot, station1: 335fe0d5-ee03-4bfb-8f5c-28b282621f01,
+    station2: 37d7fa10-8ff9-4b2f-90e2-c247e0049228}
+  - {line_color: pink, line_id: a8469ac1-3159-4736-b29c-28e1cc61865f, line_name: Pink
+      Woog, line_stroke: dashdot, station1: 37d7fa10-8ff9-4b2f-90e2-c247e0049228,
+    station2: deb45d30-e26f-48d7-9003-d762f9ac647c}
+  - {line_color: pink, line_id: a8469ac1-3159-4736-b29c-28e1cc61865f, line_name: Pink
+      Woog, line_stroke: dashdot, station1: deb45d30-e26f-48d7-9003-d762f9ac647c,
+    station2: 525ea815-bff6-4c1b-ac72-d63a7844b6a5}
+  - {line_color: pink, line_id: a8469ac1-3159-4736-b29c-28e1cc61865f, line_name: Pink
+      Woog, line_stroke: dashdot, station1: 525ea815-bff6-4c1b-ac72-d63a7844b6a5,
+    station2: 9879d9ed-43fe-4cb2-abe1-8468f68b8780}
+  - {line_color: pink, line_id: a8469ac1-3159-4736-b29c-28e1cc61865f, line_name: Pink
+      Woog, line_stroke: dashdot, station1: 9879d9ed-43fe-4cb2-abe1-8468f68b8780,
+    station2: 234e03de-e61f-4b30-af5a-6b27b0c7bfe6}
+  - {line_color: pink, line_id: a8469ac1-3159-4736-b29c-28e1cc61865f, line_name: Pink
+      Woog, line_stroke: dashdot, station1: 234e03de-e61f-4b30-af5a-6b27b0c7bfe6,
+    station2: ca912ed2-9562-4188-bd5b-11a278b72961}
+  - {line_color: pink, line_id: a8469ac1-3159-4736-b29c-28e1cc61865f, line_name: Pink
+      Woog, line_stroke: dashdot, station1: ca912ed2-9562-4188-bd5b-11a278b72961,
+    station2: c27d2e95-57b6-48ed-9cd7-333709badaf7}
+  - {line_color: blue, line_id: 35807bca-9f0f-4665-9f44-f3dcebc7e35e, line_name: Blue
+      Grek, line_stroke: dashed, station1: bbb14292-b169-4d84-b5ad-8261bcfdd541, station2: 0fb27974-335a-4c44-91b6-bfc1f8a8511a}
+  - {line_color: blue, line_id: 35807bca-9f0f-4665-9f44-f3dcebc7e35e, line_name: Blue
+      Grek, line_stroke: dashed, station1: 0fb27974-335a-4c44-91b6-bfc1f8a8511a, station2: 9bcef0f3-d0dc-4dca-bd7b-cae1f469a421}
+  - {line_color: blue, line_id: 35807bca-9f0f-4665-9f44-f3dcebc7e35e, line_name: Blue
+      Grek, line_stroke: dashed, station1: 9bcef0f3-d0dc-4dca-bd7b-cae1f469a421, station2: 89418082-f27e-476a-bbb0-f2b2a32adaf1}
+  - {line_color: blue, line_id: 35807bca-9f0f-4665-9f44-f3dcebc7e35e, line_name: Blue
+      Grek, line_stroke: dashed, station1: 89418082-f27e-476a-bbb0-f2b2a32adaf1, station2: b7ac9b3c-e03d-42ff-aae9-f2a49fdf2469}
+  - {line_color: blue, line_id: 35807bca-9f0f-4665-9f44-f3dcebc7e35e, line_name: Blue
+      Grek, line_stroke: dashed, station1: b7ac9b3c-e03d-42ff-aae9-f2a49fdf2469, station2: 3cabf463-d9d0-406d-8e2b-3ea2c489bd56}
+  - {line_color: blue, line_id: 35807bca-9f0f-4665-9f44-f3dcebc7e35e, line_name: Blue
+      Grek, line_stroke: dashed, station1: 3cabf463-d9d0-406d-8e2b-3ea2c489bd56, station2: 7b9cecd3-2f60-4ccc-acf4-f9530b722285}
+  - {line_color: blue, line_id: 35807bca-9f0f-4665-9f44-f3dcebc7e35e, line_name: Blue
+      Grek, line_stroke: dashed, station1: 7b9cecd3-2f60-4ccc-acf4-f9530b722285, station2: 0bb897dc-fa0f-4e60-bbc6-2a2a490e65c0}
+  - {line_color: blue, line_id: 35807bca-9f0f-4665-9f44-f3dcebc7e35e, line_name: Blue
+      Grek, line_stroke: dashed, station1: 0bb897dc-fa0f-4e60-bbc6-2a2a490e65c0, station2: af751b62-fc59-49f6-ac80-21d224bc3439}
+  - {line_color: blue, line_id: 35807bca-9f0f-4665-9f44-f3dcebc7e35e, line_name: Blue
+      Grek, line_stroke: dashed, station1: af751b62-fc59-49f6-ac80-21d224bc3439, station2: 430c5f45-0af3-418b-97f2-bd1d0d22fb51}
+  - {line_color: blue, line_id: 35807bca-9f0f-4665-9f44-f3dcebc7e35e, line_name: Blue
+      Grek, line_stroke: dashed, station1: 430c5f45-0af3-418b-97f2-bd1d0d22fb51, station2: b8c9fa90-c859-415d-9465-bafd9d784532}
+  - {line_color: blue, line_id: 35807bca-9f0f-4665-9f44-f3dcebc7e35e, line_name: Blue
+      Grek, line_stroke: dashed, station1: b8c9fa90-c859-415d-9465-bafd9d784532, station2: b6d56447-1926-4d58-94c0-5bb7e925216c}
+  - {line_color: blue, line_id: 35807bca-9f0f-4665-9f44-f3dcebc7e35e, line_name: Blue
+      Grek, line_stroke: dashed, station1: b6d56447-1926-4d58-94c0-5bb7e925216c, station2: ad207948-33b6-4f72-a656-20cf94556a8f}
+  - {line_color: blue, line_id: 35807bca-9f0f-4665-9f44-f3dcebc7e35e, line_name: Blue
+      Grek, line_stroke: dashed, station1: ad207948-33b6-4f72-a656-20cf94556a8f, station2: 6f606d2b-8abd-4847-9080-8f417098024d}
+  - {line_color: blue, line_id: 35807bca-9f0f-4665-9f44-f3dcebc7e35e, line_name: Blue
+      Grek, line_stroke: dashed, station1: 6f606d2b-8abd-4847-9080-8f417098024d, station2: d45fcdb3-b8c3-41fe-aca5-78e98cfd3320}
+  - {line_color: blue, line_id: 35807bca-9f0f-4665-9f44-f3dcebc7e35e, line_name: Blue
+      Grek, line_stroke: dashed, station1: d45fcdb3-b8c3-41fe-aca5-78e98cfd3320, station2: b841acaf-0621-46fc-a2b8-9c6cebec4a33}
+  - {line_color: blue, line_id: 35807bca-9f0f-4665-9f44-f3dcebc7e35e, line_name: Blue
+      Grek, line_stroke: dashed, station1: b841acaf-0621-46fc-a2b8-9c6cebec4a33, station2: 899eafe8-14f5-44d4-a8a1-ccd11594e24f}
+  - {line_color: blue, line_id: 35807bca-9f0f-4665-9f44-f3dcebc7e35e, line_name: Blue
+      Grek, line_stroke: dashed, station1: 899eafe8-14f5-44d4-a8a1-ccd11594e24f, station2: 1e41be2a-8115-4f5d-bbd8-b447859fb23b}
+  - {line_color: blue, line_id: 35807bca-9f0f-4665-9f44-f3dcebc7e35e, line_name: Blue
+      Grek, line_stroke: dashed, station1: 1e41be2a-8115-4f5d-bbd8-b447859fb23b, station2: ce2fc460-3453-437e-b782-09484334b05c}
+  - {line_color: red, line_id: d21cac45-bce9-40ba-b157-696b00f8164a, line_name: Red
+      Nub, line_stroke: dashdot, station1: c64662f7-d775-4476-bb2f-368791d2a39d, station2: afa2038f-a94c-4c3e-8c58-6a3a2518fd02}
+  - {line_color: red, line_id: d21cac45-bce9-40ba-b157-696b00f8164a, line_name: Red
+      Nub, line_stroke: dashdot, station1: afa2038f-a94c-4c3e-8c58-6a3a2518fd02, station2: 205220f1-c462-48e9-b745-f157a88eb17e}
+  - {line_color: red, line_id: d21cac45-bce9-40ba-b157-696b00f8164a, line_name: Red
+      Nub, line_stroke: dashdot, station1: 205220f1-c462-48e9-b745-f157a88eb17e, station2: 0fba818e-c552-4191-8afc-6848bd0ed73e}
+  - {line_color: red, line_id: d21cac45-bce9-40ba-b157-696b00f8164a, line_name: Red
+      Nub, line_stroke: dashdot, station1: 0fba818e-c552-4191-8afc-6848bd0ed73e, station2: 8b02f231-5aaf-484f-8292-3f233b781f0c}
+  - {line_color: red, line_id: d21cac45-bce9-40ba-b157-696b00f8164a, line_name: Red
+      Nub, line_stroke: dashdot, station1: 8b02f231-5aaf-484f-8292-3f233b781f0c, station2: 9923278a-1d88-4658-af85-7a0b51980e75}
+  - {line_color: red, line_id: d21cac45-bce9-40ba-b157-696b00f8164a, line_name: Red
+      Nub, line_stroke: dashdot, station1: 9923278a-1d88-4658-af85-7a0b51980e75, station2: 8d4a18ee-1ee4-4d4c-8f8c-572c74c91da3}
+  - {line_color: red, line_id: d21cac45-bce9-40ba-b157-696b00f8164a, line_name: Red
+      Nub, line_stroke: dashdot, station1: 8d4a18ee-1ee4-4d4c-8f8c-572c74c91da3, station2: 60231540-313d-4239-a2a9-7b80f11b19b0}
+  - {line_color: red, line_id: d21cac45-bce9-40ba-b157-696b00f8164a, line_name: Red
+      Nub, line_stroke: dashdot, station1: 60231540-313d-4239-a2a9-7b80f11b19b0, station2: d437bcb6-f649-4e46-95f8-9d79683b1c1b}
+  - {line_color: red, line_id: d21cac45-bce9-40ba-b157-696b00f8164a, line_name: Red
+      Nub, line_stroke: dashdot, station1: d437bcb6-f649-4e46-95f8-9d79683b1c1b, station2: ffc10af8-3ac9-4f81-a111-32490254e063}
+  - {line_color: red, line_id: d21cac45-bce9-40ba-b157-696b00f8164a, line_name: Red
+      Nub, line_stroke: dashdot, station1: ffc10af8-3ac9-4f81-a111-32490254e063, station2: 272dbe86-a097-4ed5-9274-e1ed496bb8f9}
+  - {line_color: red, line_id: d21cac45-bce9-40ba-b157-696b00f8164a, line_name: Red
+      Nub, line_stroke: dashdot, station1: 272dbe86-a097-4ed5-9274-e1ed496bb8f9, station2: 94e90cb7-2cf8-47ae-91d2-59f7ba334a7e}
+  - {line_color: red, line_id: d21cac45-bce9-40ba-b157-696b00f8164a, line_name: Red
+      Nub, line_stroke: dashdot, station1: 94e90cb7-2cf8-47ae-91d2-59f7ba334a7e, station2: 6a462f97-1ca9-4455-9cf5-bf5c74d965a7}
+  - {line_color: red, line_id: d21cac45-bce9-40ba-b157-696b00f8164a, line_name: Red
+      Nub, line_stroke: dashdot, station1: 6a462f97-1ca9-4455-9cf5-bf5c74d965a7, station2: 2468cb8b-ce26-4cab-8495-8f043b0830e4}
+  - {line_color: red, line_id: e4187511-dfc3-4423-9702-7591a783dcd4, line_name: Red
+      Bruy, line_stroke: solid, station1: 66ea4673-8d39-4171-9c18-c899d4a97e99, station2: 9f15f187-3fd9-4159-b71a-938695087e8b}
+  - {line_color: red, line_id: e4187511-dfc3-4423-9702-7591a783dcd4, line_name: Red
+      Bruy, line_stroke: solid, station1: 9f15f187-3fd9-4159-b71a-938695087e8b, station2: af751b62-fc59-49f6-ac80-21d224bc3439}
+  - {line_color: red, line_id: e4187511-dfc3-4423-9702-7591a783dcd4, line_name: Red
+      Bruy, line_stroke: solid, station1: af751b62-fc59-49f6-ac80-21d224bc3439, station2: fe87dcc8-c254-4731-a3d8-0f15f4ace872}
+  - {line_color: red, line_id: e4187511-dfc3-4423-9702-7591a783dcd4, line_name: Red
+      Bruy, line_stroke: solid, station1: fe87dcc8-c254-4731-a3d8-0f15f4ace872, station2: d881acb9-45ee-45a4-a840-0348153fe358}
+  - {line_color: red, line_id: e4187511-dfc3-4423-9702-7591a783dcd4, line_name: Red
+      Bruy, line_stroke: solid, station1: d881acb9-45ee-45a4-a840-0348153fe358, station2: d7baac32-20f4-46b1-b273-fc998e17506b}
+  - {line_color: red, line_id: e4187511-dfc3-4423-9702-7591a783dcd4, line_name: Red
+      Bruy, line_stroke: solid, station1: d7baac32-20f4-46b1-b273-fc998e17506b, station2: 6b4bf6f4-604a-4a14-af93-f0484e0d9866}
+  - {line_color: red, line_id: e4187511-dfc3-4423-9702-7591a783dcd4, line_name: Red
+      Bruy, line_stroke: solid, station1: 6b4bf6f4-604a-4a14-af93-f0484e0d9866, station2: 45f66d39-91ca-4ce1-8628-9997aea7559e}
+  - {line_color: red, line_id: e4187511-dfc3-4423-9702-7591a783dcd4, line_name: Red
+      Bruy, line_stroke: solid, station1: 45f66d39-91ca-4ce1-8628-9997aea7559e, station2: b78a0323-2bfe-4507-8789-7134f400966c}
+  - {line_color: red, line_id: e4187511-dfc3-4423-9702-7591a783dcd4, line_name: Red
+      Bruy, line_stroke: solid, station1: b78a0323-2bfe-4507-8789-7134f400966c, station2: edf7ac48-e3b0-4e53-82ad-2b04e2c158db}
+  - {line_color: red, line_id: e4187511-dfc3-4423-9702-7591a783dcd4, line_name: Red
+      Bruy, line_stroke: solid, station1: edf7ac48-e3b0-4e53-82ad-2b04e2c158db, station2: 53b1fd64-82f6-49cb-8b09-f03300c3de46}
+  - {line_color: red, line_id: e4187511-dfc3-4423-9702-7591a783dcd4, line_name: Red
+      Bruy, line_stroke: solid, station1: 53b1fd64-82f6-49cb-8b09-f03300c3de46, station2: e2a51d19-7322-440b-bfe7-563b08322c2d}
+  - {line_color: red, line_id: e4187511-dfc3-4423-9702-7591a783dcd4, line_name: Red
+      Bruy, line_stroke: solid, station1: e2a51d19-7322-440b-bfe7-563b08322c2d, station2: a74d0e21-f5cc-42c4-bb0f-989a297f2a92}
+  - {line_color: red, line_id: e4187511-dfc3-4423-9702-7591a783dcd4, line_name: Red
+      Bruy, line_stroke: solid, station1: a74d0e21-f5cc-42c4-bb0f-989a297f2a92, station2: 66d5afa7-e2a4-417e-903d-931ca7049e19}
+  - {line_color: red, line_id: e4187511-dfc3-4423-9702-7591a783dcd4, line_name: Red
+      Bruy, line_stroke: solid, station1: 66d5afa7-e2a4-417e-903d-931ca7049e19, station2: f2f8783f-89c2-41a9-bf8d-e2b74fdcd488}
+  - {line_color: red, line_id: e4187511-dfc3-4423-9702-7591a783dcd4, line_name: Red
+      Bruy, line_stroke: solid, station1: f2f8783f-89c2-41a9-bf8d-e2b74fdcd488, station2: bbb14292-b169-4d84-b5ad-8261bcfdd541}
+  - {line_color: red, line_id: e4187511-dfc3-4423-9702-7591a783dcd4, line_name: Red
+      Bruy, line_stroke: solid, station1: bbb14292-b169-4d84-b5ad-8261bcfdd541, station2: 1e41be2a-8115-4f5d-bbd8-b447859fb23b}
+  - {line_color: red, line_id: e4187511-dfc3-4423-9702-7591a783dcd4, line_name: Red
+      Bruy, line_stroke: solid, station1: 1e41be2a-8115-4f5d-bbd8-b447859fb23b, station2: b841acaf-0621-46fc-a2b8-9c6cebec4a33}
+  - {line_color: red, line_id: e4187511-dfc3-4423-9702-7591a783dcd4, line_name: Red
+      Bruy, line_stroke: solid, station1: b841acaf-0621-46fc-a2b8-9c6cebec4a33, station2: 0f565d86-c06d-483c-8dc7-5bda0e213401}
+  - {line_color: red, line_id: e4187511-dfc3-4423-9702-7591a783dcd4, line_name: Red
+      Bruy, line_stroke: solid, station1: 0f565d86-c06d-483c-8dc7-5bda0e213401, station2: 83b056f6-18bf-4a1d-bd4f-478fb6609259}
+  - {line_color: pink, line_id: 293b7b48-5c38-4cea-9d89-7bbf3fccaf65, line_name: Pink
+      Strush, line_stroke: dashed, station1: 8b9eaad4-06e5-4b69-aa22-1a7cd8221487,
+    station2: ce5ecb5a-c2a4-424d-b731-4bee020df674}
+  - {line_color: pink, line_id: 293b7b48-5c38-4cea-9d89-7bbf3fccaf65, line_name: Pink
+      Strush, line_stroke: dashed, station1: ce5ecb5a-c2a4-424d-b731-4bee020df674,
+    station2: 484222fe-2a03-4c51-850c-b51371e76c30}
+  - {line_color: pink, line_id: 293b7b48-5c38-4cea-9d89-7bbf3fccaf65, line_name: Pink
+      Strush, line_stroke: dashed, station1: 484222fe-2a03-4c51-850c-b51371e76c30,
+    station2: f693acc0-953f-4585-ad88-a4475f787976}
+  - {line_color: pink, line_id: 293b7b48-5c38-4cea-9d89-7bbf3fccaf65, line_name: Pink
+      Strush, line_stroke: dashed, station1: f693acc0-953f-4585-ad88-a4475f787976,
+    station2: ccbc8eeb-f566-44df-81ec-65be3a4b4f79}
+  - {line_color: pink, line_id: 293b7b48-5c38-4cea-9d89-7bbf3fccaf65, line_name: Pink
+      Strush, line_stroke: dashed, station1: ccbc8eeb-f566-44df-81ec-65be3a4b4f79,
+    station2: 83b3a8fd-3cd6-461b-b5c0-c01f5539f564}
+  - {line_color: pink, line_id: 293b7b48-5c38-4cea-9d89-7bbf3fccaf65, line_name: Pink
+      Strush, line_stroke: dashed, station1: 83b3a8fd-3cd6-461b-b5c0-c01f5539f564,
+    station2: 7eaa04f9-9dea-4ca7-8085-a568b3415fd7}
+  - {line_color: pink, line_id: 293b7b48-5c38-4cea-9d89-7bbf3fccaf65, line_name: Pink
+      Strush, line_stroke: dashed, station1: 7eaa04f9-9dea-4ca7-8085-a568b3415fd7,
+    station2: f057d4f2-6674-4a2d-8c64-e197c3ad861a}
+  - {line_color: pink, line_id: 293b7b48-5c38-4cea-9d89-7bbf3fccaf65, line_name: Pink
+      Strush, line_stroke: dashed, station1: f057d4f2-6674-4a2d-8c64-e197c3ad861a,
+    station2: 430abb8f-8766-47bd-872a-fa84b6b25f59}
+  - {line_color: pink, line_id: 293b7b48-5c38-4cea-9d89-7bbf3fccaf65, line_name: Pink
+      Strush, line_stroke: dashed, station1: 430abb8f-8766-47bd-872a-fa84b6b25f59,
+    station2: ee496b11-a229-451f-9d93-c03e621ec755}
+  - {line_color: pink, line_id: 293b7b48-5c38-4cea-9d89-7bbf3fccaf65, line_name: Pink
+      Strush, line_stroke: dashed, station1: ee496b11-a229-451f-9d93-c03e621ec755,
+    station2: 6f8353db-f095-4a4e-9801-6b34158ce735}
+  - {line_color: pink, line_id: 293b7b48-5c38-4cea-9d89-7bbf3fccaf65, line_name: Pink
+      Strush, line_stroke: dashed, station1: 6f8353db-f095-4a4e-9801-6b34158ce735,
+    station2: 8cb6ca0c-5d13-43b6-8932-5b13b926cb0d}
+  - {line_color: pink, line_id: 293b7b48-5c38-4cea-9d89-7bbf3fccaf65, line_name: Pink
+      Strush, line_stroke: dashed, station1: 8cb6ca0c-5d13-43b6-8932-5b13b926cb0d,
+    station2: b7e93a11-4fe4-48e1-b954-38aab725209e}
+  - {line_color: pink, line_id: 293b7b48-5c38-4cea-9d89-7bbf3fccaf65, line_name: Pink
+      Strush, line_stroke: dashed, station1: b7e93a11-4fe4-48e1-b954-38aab725209e,
+    station2: 8d5d030e-9895-4639-b8ee-0f1283fe63b0}
+  - {line_color: pink, line_id: 293b7b48-5c38-4cea-9d89-7bbf3fccaf65, line_name: Pink
+      Strush, line_stroke: dashed, station1: 8d5d030e-9895-4639-b8ee-0f1283fe63b0,
+    station2: 0c3a28f2-ccda-4af6-acee-c87be9c58108}
+  - {line_color: pink, line_id: 293b7b48-5c38-4cea-9d89-7bbf3fccaf65, line_name: Pink
+      Strush, line_stroke: dashed, station1: 0c3a28f2-ccda-4af6-acee-c87be9c58108,
+    station2: 98d54d41-2c63-40c9-a46e-075aca64ca81}
+  - {line_color: pink, line_id: 293b7b48-5c38-4cea-9d89-7bbf3fccaf65, line_name: Pink
+      Strush, line_stroke: dashed, station1: 98d54d41-2c63-40c9-a46e-075aca64ca81,
+    station2: a55fcac6-ee3b-45eb-85ba-0b5b20e6745a}
+  - {line_color: pink, line_id: 293b7b48-5c38-4cea-9d89-7bbf3fccaf65, line_name: Pink
+      Strush, line_stroke: dashed, station1: a55fcac6-ee3b-45eb-85ba-0b5b20e6745a,
+    station2: faac6fee-e975-49cf-8e5d-4d822d9d5f08}
+  - {line_color: pink, line_id: 293b7b48-5c38-4cea-9d89-7bbf3fccaf65, line_name: Pink
+      Strush, line_stroke: dashed, station1: faac6fee-e975-49cf-8e5d-4d822d9d5f08,
+    station2: 91359757-9fad-4f45-9feb-843333c430c8}
+  - {line_color: pink, line_id: 293b7b48-5c38-4cea-9d89-7bbf3fccaf65, line_name: Pink
+      Strush, line_stroke: dashed, station1: 91359757-9fad-4f45-9feb-843333c430c8,
+    station2: 91340c10-120a-47a9-8f73-40c68410d77e}
+  - {line_color: red, line_id: 218a7cdb-140f-4ed1-bad8-a9998fa1eb15, line_name: Red
+      Stoost, line_stroke: solid, station1: 6a462f97-1ca9-4455-9cf5-bf5c74d965a7,
+    station2: 0752b85a-fd65-496c-891b-f0b83d62d8ad}
+  - {line_color: red, line_id: 218a7cdb-140f-4ed1-bad8-a9998fa1eb15, line_name: Red
+      Stoost, line_stroke: solid, station1: 0752b85a-fd65-496c-891b-f0b83d62d8ad,
+    station2: 4723d67b-0266-4bf0-a3d2-aea892db6c20}
+  - {line_color: red, line_id: 218a7cdb-140f-4ed1-bad8-a9998fa1eb15, line_name: Red
+      Stoost, line_stroke: solid, station1: 4723d67b-0266-4bf0-a3d2-aea892db6c20,
+    station2: 2d45e0c7-773c-4a35-9c31-73269d791b6a}
+  - {line_color: red, line_id: 218a7cdb-140f-4ed1-bad8-a9998fa1eb15, line_name: Red
+      Stoost, line_stroke: solid, station1: 2d45e0c7-773c-4a35-9c31-73269d791b6a,
+    station2: 9402cb36-7c21-4cc6-9d9d-5ddfc378947c}
+  - {line_color: red, line_id: 218a7cdb-140f-4ed1-bad8-a9998fa1eb15, line_name: Red
+      Stoost, line_stroke: solid, station1: 9402cb36-7c21-4cc6-9d9d-5ddfc378947c,
+    station2: 68ec52bb-c3ca-4f32-803a-2d6d302c6641}
+  - {line_color: red, line_id: 218a7cdb-140f-4ed1-bad8-a9998fa1eb15, line_name: Red
+      Stoost, line_stroke: solid, station1: 68ec52bb-c3ca-4f32-803a-2d6d302c6641,
+    station2: 2b18212f-1a56-4333-b896-28be8b449e4d}
+  - {line_color: red, line_id: 218a7cdb-140f-4ed1-bad8-a9998fa1eb15, line_name: Red
+      Stoost, line_stroke: solid, station1: 2b18212f-1a56-4333-b896-28be8b449e4d,
+    station2: fe7a2278-317b-4a52-9abc-939714546875}
+  - {line_color: red, line_id: 218a7cdb-140f-4ed1-bad8-a9998fa1eb15, line_name: Red
+      Stoost, line_stroke: solid, station1: fe7a2278-317b-4a52-9abc-939714546875,
+    station2: 5570241e-66c5-417d-b879-02abf92c50a8}
+  - {line_color: red, line_id: 218a7cdb-140f-4ed1-bad8-a9998fa1eb15, line_name: Red
+      Stoost, line_stroke: solid, station1: 5570241e-66c5-417d-b879-02abf92c50a8,
+    station2: 6b4bf6f4-604a-4a14-af93-f0484e0d9866}
+  - {line_color: red, line_id: 218a7cdb-140f-4ed1-bad8-a9998fa1eb15, line_name: Red
+      Stoost, line_stroke: solid, station1: 6b4bf6f4-604a-4a14-af93-f0484e0d9866,
+    station2: ba7dbc66-a875-4a57-a32a-14d1cb797b6b}
+  - {line_color: red, line_id: 218a7cdb-140f-4ed1-bad8-a9998fa1eb15, line_name: Red
+      Stoost, line_stroke: solid, station1: ba7dbc66-a875-4a57-a32a-14d1cb797b6b,
+    station2: 032c2013-2cf5-4493-86ba-4016fe40efc9}
+  - {line_color: red, line_id: 218a7cdb-140f-4ed1-bad8-a9998fa1eb15, line_name: Red
+      Stoost, line_stroke: solid, station1: 032c2013-2cf5-4493-86ba-4016fe40efc9,
+    station2: cb81014e-95dd-4fad-8f84-bca2e7e7c750}
+  - {line_color: red, line_id: 218a7cdb-140f-4ed1-bad8-a9998fa1eb15, line_name: Red
+      Stoost, line_stroke: solid, station1: cb81014e-95dd-4fad-8f84-bca2e7e7c750,
+    station2: 66d5afa7-e2a4-417e-903d-931ca7049e19}
+  - {line_color: red, line_id: 218a7cdb-140f-4ed1-bad8-a9998fa1eb15, line_name: Red
+      Stoost, line_stroke: solid, station1: 66d5afa7-e2a4-417e-903d-931ca7049e19,
+    station2: f2adc3c6-b5e7-42d3-b497-9d8aeb1f8f01}
+  - {line_color: red, line_id: 218a7cdb-140f-4ed1-bad8-a9998fa1eb15, line_name: Red
+      Stoost, line_stroke: solid, station1: f2adc3c6-b5e7-42d3-b497-9d8aeb1f8f01,
+    station2: 692145f6-dfa4-4ffd-83f8-86bafaf7a991}
+  - {line_color: olive, line_id: 6ad51020-3def-4f5b-a1c2-ec55a7035499, line_name: Olive
+      Pooh, line_stroke: dashed, station1: 4594f393-9123-4126-9706-07058ce07d91, station2: b712414e-002c-4d58-9b9a-a9e5b2b89a9a}
+  - {line_color: olive, line_id: 6ad51020-3def-4f5b-a1c2-ec55a7035499, line_name: Olive
+      Pooh, line_stroke: dashed, station1: b712414e-002c-4d58-9b9a-a9e5b2b89a9a, station2: 9b56e843-98f2-4cff-9308-d55027614307}
+  - {line_color: olive, line_id: 6ad51020-3def-4f5b-a1c2-ec55a7035499, line_name: Olive
+      Pooh, line_stroke: dashed, station1: 9b56e843-98f2-4cff-9308-d55027614307, station2: 4f670421-5410-41f5-8430-fccd3e4cda57}
+  - {line_color: olive, line_id: 6ad51020-3def-4f5b-a1c2-ec55a7035499, line_name: Olive
+      Pooh, line_stroke: dashed, station1: 4f670421-5410-41f5-8430-fccd3e4cda57, station2: 7bd406f6-b5d7-4dcb-8f6b-f5e5d8041b70}
+  - {line_color: olive, line_id: 6ad51020-3def-4f5b-a1c2-ec55a7035499, line_name: Olive
+      Pooh, line_stroke: dashed, station1: 7bd406f6-b5d7-4dcb-8f6b-f5e5d8041b70, station2: 93fd80aa-45ef-452a-8b8a-e8b4d07ae5eb}
+  - {line_color: olive, line_id: 6ad51020-3def-4f5b-a1c2-ec55a7035499, line_name: Olive
+      Pooh, line_stroke: dashed, station1: 93fd80aa-45ef-452a-8b8a-e8b4d07ae5eb, station2: c8349018-f408-4072-834c-22715dfcf0c6}
+  - {line_color: olive, line_id: 6ad51020-3def-4f5b-a1c2-ec55a7035499, line_name: Olive
+      Pooh, line_stroke: dashed, station1: c8349018-f408-4072-834c-22715dfcf0c6, station2: 2da4da42-8890-4340-8828-2e2e83f0720b}
+  - {line_color: olive, line_id: 6ad51020-3def-4f5b-a1c2-ec55a7035499, line_name: Olive
+      Pooh, line_stroke: dashed, station1: 2da4da42-8890-4340-8828-2e2e83f0720b, station2: d881acb9-45ee-45a4-a840-0348153fe358}
+  - {line_color: olive, line_id: 6ad51020-3def-4f5b-a1c2-ec55a7035499, line_name: Olive
+      Pooh, line_stroke: dashed, station1: d881acb9-45ee-45a4-a840-0348153fe358, station2: a987173c-1a8f-45ed-81f1-5c1e08127298}
+  - {line_color: olive, line_id: 6ad51020-3def-4f5b-a1c2-ec55a7035499, line_name: Olive
+      Pooh, line_stroke: dashed, station1: a987173c-1a8f-45ed-81f1-5c1e08127298, station2: 9402cb36-7c21-4cc6-9d9d-5ddfc378947c}
+  - {line_color: olive, line_id: 6ad51020-3def-4f5b-a1c2-ec55a7035499, line_name: Olive
+      Pooh, line_stroke: dashed, station1: 9402cb36-7c21-4cc6-9d9d-5ddfc378947c, station2: 78ef8145-0532-4aa4-ac76-de3a6be38a53}
+  - {line_color: olive, line_id: 6ad51020-3def-4f5b-a1c2-ec55a7035499, line_name: Olive
+      Pooh, line_stroke: dashed, station1: 78ef8145-0532-4aa4-ac76-de3a6be38a53, station2: ce5ecb5a-c2a4-424d-b731-4bee020df674}
+  - {line_color: olive, line_id: 6ad51020-3def-4f5b-a1c2-ec55a7035499, line_name: Olive
+      Pooh, line_stroke: dashed, station1: ce5ecb5a-c2a4-424d-b731-4bee020df674, station2: 55ba5cc8-9d13-46cc-9cd6-e19ce99a10c4}
+  - {line_color: olive, line_id: 6ad51020-3def-4f5b-a1c2-ec55a7035499, line_name: Olive
+      Pooh, line_stroke: dashed, station1: 55ba5cc8-9d13-46cc-9cd6-e19ce99a10c4, station2: 713d2825-bfaf-4462-800b-c628aee42d5e}
+  - {line_color: brown, line_id: e5ea91e7-b7a6-488a-9e43-09ca29ed9009, line_name: Brown
+      Trog, line_stroke: dotted, station1: 174ead24-61d4-4de6-bd6b-05c17a56ca2d, station2: 00b9b1ff-2f6e-488f-b6b8-dabb1dd7ac0d}
+  - {line_color: brown, line_id: e5ea91e7-b7a6-488a-9e43-09ca29ed9009, line_name: Brown
+      Trog, line_stroke: dotted, station1: 00b9b1ff-2f6e-488f-b6b8-dabb1dd7ac0d, station2: 9402cb36-7c21-4cc6-9d9d-5ddfc378947c}
+  - {line_color: brown, line_id: e5ea91e7-b7a6-488a-9e43-09ca29ed9009, line_name: Brown
+      Trog, line_stroke: dotted, station1: 9402cb36-7c21-4cc6-9d9d-5ddfc378947c, station2: fe7a2278-317b-4a52-9abc-939714546875}
+  - {line_color: brown, line_id: e5ea91e7-b7a6-488a-9e43-09ca29ed9009, line_name: Brown
+      Trog, line_stroke: dotted, station1: fe7a2278-317b-4a52-9abc-939714546875, station2: 6b4bf6f4-604a-4a14-af93-f0484e0d9866}
+  - {line_color: brown, line_id: e5ea91e7-b7a6-488a-9e43-09ca29ed9009, line_name: Brown
+      Trog, line_stroke: dotted, station1: 6b4bf6f4-604a-4a14-af93-f0484e0d9866, station2: b78a0323-2bfe-4507-8789-7134f400966c}
+  - {line_color: brown, line_id: e5ea91e7-b7a6-488a-9e43-09ca29ed9009, line_name: Brown
+      Trog, line_stroke: dotted, station1: b78a0323-2bfe-4507-8789-7134f400966c, station2: e0f953f8-1a6d-41ec-b3ef-e1b19c73bfea}
+  - {line_color: brown, line_id: e5ea91e7-b7a6-488a-9e43-09ca29ed9009, line_name: Brown
+      Trog, line_stroke: dotted, station1: e0f953f8-1a6d-41ec-b3ef-e1b19c73bfea, station2: 8d2d9930-9b0c-4693-b8ee-d0a4d1be4720}
+  - {line_color: brown, line_id: e5ea91e7-b7a6-488a-9e43-09ca29ed9009, line_name: Brown
+      Trog, line_stroke: dotted, station1: 8d2d9930-9b0c-4693-b8ee-d0a4d1be4720, station2: cf727b6e-9328-4af8-b48e-538c55964f52}
+  - {line_color: brown, line_id: e5ea91e7-b7a6-488a-9e43-09ca29ed9009, line_name: Brown
+      Trog, line_stroke: dotted, station1: cf727b6e-9328-4af8-b48e-538c55964f52, station2: a60a7cd9-5d61-42cb-acb2-60afb1eb303e}
+  - {line_color: brown, line_id: e5ea91e7-b7a6-488a-9e43-09ca29ed9009, line_name: Brown
+      Trog, line_stroke: dotted, station1: a60a7cd9-5d61-42cb-acb2-60afb1eb303e, station2: 0fba818e-c552-4191-8afc-6848bd0ed73e}
+  - {line_color: brown, line_id: e5ea91e7-b7a6-488a-9e43-09ca29ed9009, line_name: Brown
+      Trog, line_stroke: dotted, station1: 0fba818e-c552-4191-8afc-6848bd0ed73e, station2: e6455999-ca57-45e0-86e8-0c828094d02e}
+  - {line_color: brown, line_id: e5ea91e7-b7a6-488a-9e43-09ca29ed9009, line_name: Brown
+      Trog, line_stroke: dotted, station1: e6455999-ca57-45e0-86e8-0c828094d02e, station2: 5c432f15-d806-4c25-9530-17699eb560e9}
+  - {line_color: brown, line_id: e5ea91e7-b7a6-488a-9e43-09ca29ed9009, line_name: Brown
+      Trog, line_stroke: dotted, station1: 5c432f15-d806-4c25-9530-17699eb560e9, station2: 1dcd5d53-e05f-414f-96c4-74375f7bd4a0}
+  - {line_color: brown, line_id: e5ea91e7-b7a6-488a-9e43-09ca29ed9009, line_name: Brown
+      Trog, line_stroke: dotted, station1: 1dcd5d53-e05f-414f-96c4-74375f7bd4a0, station2: a4cfe95a-c24c-49ed-99c2-ceaab3986210}
+  - {line_color: brown, line_id: e5ea91e7-b7a6-488a-9e43-09ca29ed9009, line_name: Brown
+      Trog, line_stroke: dotted, station1: a4cfe95a-c24c-49ed-99c2-ceaab3986210, station2: 2827bede-645f-4422-9a20-12f840d62c6e}
+  - {line_color: brown, line_id: e5ea91e7-b7a6-488a-9e43-09ca29ed9009, line_name: Brown
+      Trog, line_stroke: dotted, station1: 2827bede-645f-4422-9a20-12f840d62c6e, station2: afff6265-41a8-4195-aaa7-2857517cbe25}
+  - {line_color: brown, line_id: e5ea91e7-b7a6-488a-9e43-09ca29ed9009, line_name: Brown
+      Trog, line_stroke: dotted, station1: afff6265-41a8-4195-aaa7-2857517cbe25, station2: 20753238-b0cb-4745-bb6b-874443ec0b79}
+  - {line_color: purple, line_id: 55141114-4c89-45fd-8853-0c98e34e7de1, line_name: Purple
+      Cling, line_stroke: dashdot, station1: 3cb37969-eccf-4d6b-90c8-72d208c77083,
+    station2: b0ae8017-325c-405f-9e40-0d37e1827ca9}
+  - {line_color: purple, line_id: 55141114-4c89-45fd-8853-0c98e34e7de1, line_name: Purple
+      Cling, line_stroke: dashdot, station1: b0ae8017-325c-405f-9e40-0d37e1827ca9,
+    station2: 1ad141a6-dbb7-48c6-a021-e0a5e32b22de}
+  - {line_color: purple, line_id: 55141114-4c89-45fd-8853-0c98e34e7de1, line_name: Purple
+      Cling, line_stroke: dashdot, station1: 1ad141a6-dbb7-48c6-a021-e0a5e32b22de,
+    station2: b3f82e54-7219-4033-8395-fe13ddde3ee0}
+  - {line_color: purple, line_id: 55141114-4c89-45fd-8853-0c98e34e7de1, line_name: Purple
+      Cling, line_stroke: dashdot, station1: b3f82e54-7219-4033-8395-fe13ddde3ee0,
+    station2: c8a8028a-91a4-40a3-877c-a414a5e282c4}
+  - {line_color: purple, line_id: 55141114-4c89-45fd-8853-0c98e34e7de1, line_name: Purple
+      Cling, line_stroke: dashdot, station1: c8a8028a-91a4-40a3-877c-a414a5e282c4,
+    station2: 60231540-313d-4239-a2a9-7b80f11b19b0}
+  - {line_color: purple, line_id: 55141114-4c89-45fd-8853-0c98e34e7de1, line_name: Purple
+      Cling, line_stroke: dashdot, station1: 60231540-313d-4239-a2a9-7b80f11b19b0,
+    station2: 18d4bb44-0cf7-4719-b765-dbf65c3b9e14}
+  - {line_color: purple, line_id: 55141114-4c89-45fd-8853-0c98e34e7de1, line_name: Purple
+      Cling, line_stroke: dashdot, station1: 18d4bb44-0cf7-4719-b765-dbf65c3b9e14,
+    station2: 40b316d1-e437-48c1-9088-1655b18151f9}
+  - {line_color: purple, line_id: 55141114-4c89-45fd-8853-0c98e34e7de1, line_name: Purple
+      Cling, line_stroke: dashdot, station1: 40b316d1-e437-48c1-9088-1655b18151f9,
+    station2: 7901e253-c045-4205-b76d-1348f445cf42}
+  - {line_color: purple, line_id: 55141114-4c89-45fd-8853-0c98e34e7de1, line_name: Purple
+      Cling, line_stroke: dashdot, station1: 7901e253-c045-4205-b76d-1348f445cf42,
+    station2: ff65d8c5-b4ad-4805-bcf2-e78d5273752a}
+  - {line_color: purple, line_id: 879c70aa-5952-4be6-b066-ec03d2886547, line_name: Purple
+      Plad, line_stroke: dashdot, station1: 3a2c7f10-17a5-46fa-8819-47fd9b1cbb8c,
+    station2: d164ae00-bc0b-4305-b4b8-3ab4b143b611}
+  - {line_color: purple, line_id: 879c70aa-5952-4be6-b066-ec03d2886547, line_name: Purple
+      Plad, line_stroke: dashdot, station1: d164ae00-bc0b-4305-b4b8-3ab4b143b611,
+    station2: 3c4ed94b-cece-457c-b2a8-f4400930b55f}
+  - {line_color: purple, line_id: 879c70aa-5952-4be6-b066-ec03d2886547, line_name: Purple
+      Plad, line_stroke: dashdot, station1: 3c4ed94b-cece-457c-b2a8-f4400930b55f,
+    station2: c7e1e076-1dc1-456c-bac8-9229ea86102f}
+  - {line_color: purple, line_id: 879c70aa-5952-4be6-b066-ec03d2886547, line_name: Purple
+      Plad, line_stroke: dashdot, station1: c7e1e076-1dc1-456c-bac8-9229ea86102f,
+    station2: f7441bb3-115c-4f3c-b5a7-30d424a5d57d}
+  - {line_color: purple, line_id: 879c70aa-5952-4be6-b066-ec03d2886547, line_name: Purple
+      Plad, line_stroke: dashdot, station1: f7441bb3-115c-4f3c-b5a7-30d424a5d57d,
+    station2: 41934085-b84c-4c66-ba9f-0c4ef77895d0}
+  - {line_color: purple, line_id: 879c70aa-5952-4be6-b066-ec03d2886547, line_name: Purple
+      Plad, line_stroke: dashdot, station1: 41934085-b84c-4c66-ba9f-0c4ef77895d0,
+    station2: 11ce0ddc-20cb-4f44-ae9f-338c9de6a2b2}
+  - {line_color: purple, line_id: 879c70aa-5952-4be6-b066-ec03d2886547, line_name: Purple
+      Plad, line_stroke: dashdot, station1: 11ce0ddc-20cb-4f44-ae9f-338c9de6a2b2,
+    station2: b2ad8bf9-54a0-4699-91fd-bdc329a2f0be}
+  - {line_color: purple, line_id: 879c70aa-5952-4be6-b066-ec03d2886547, line_name: Purple
+      Plad, line_stroke: dashdot, station1: b2ad8bf9-54a0-4699-91fd-bdc329a2f0be,
+    station2: aa7ebbd7-c509-4784-8aec-d206271ba60a}
+  - {line_color: purple, line_id: 879c70aa-5952-4be6-b066-ec03d2886547, line_name: Purple
+      Plad, line_stroke: dashdot, station1: aa7ebbd7-c509-4784-8aec-d206271ba60a,
+    station2: ac290ca0-669a-4de1-81aa-65bce588b600}
+  - {line_color: purple, line_id: 879c70aa-5952-4be6-b066-ec03d2886547, line_name: Purple
+      Plad, line_stroke: dashdot, station1: ac290ca0-669a-4de1-81aa-65bce588b600,
+    station2: 005689a9-c0c5-457d-87a3-79aa4892bde5}
+  - {line_color: purple, line_id: 879c70aa-5952-4be6-b066-ec03d2886547, line_name: Purple
+      Plad, line_stroke: dashdot, station1: 005689a9-c0c5-457d-87a3-79aa4892bde5,
+    station2: cf985777-192c-4fac-b910-fb42ce8ef496}
+  - {line_color: purple, line_id: 879c70aa-5952-4be6-b066-ec03d2886547, line_name: Purple
+      Plad, line_stroke: dashdot, station1: cf985777-192c-4fac-b910-fb42ce8ef496,
+    station2: 5c9c9c9c-6863-48e0-9ab2-71e2485b3d84}
+  - {line_color: purple, line_id: 879c70aa-5952-4be6-b066-ec03d2886547, line_name: Purple
+      Plad, line_stroke: dashdot, station1: 5c9c9c9c-6863-48e0-9ab2-71e2485b3d84,
+    station2: 75ba174b-f407-4c0c-a128-8106bc889b44}
+  - {line_color: purple, line_id: 879c70aa-5952-4be6-b066-ec03d2886547, line_name: Purple
+      Plad, line_stroke: dashdot, station1: 75ba174b-f407-4c0c-a128-8106bc889b44,
+    station2: 7fa3148c-bc67-4a29-b121-bda3b4ca4bb0}
+  - {line_color: purple, line_id: 879c70aa-5952-4be6-b066-ec03d2886547, line_name: Purple
+      Plad, line_stroke: dashdot, station1: 7fa3148c-bc67-4a29-b121-bda3b4ca4bb0,
+    station2: 5283c800-a191-4c03-b479-032db29ee2ba}
+  - {line_color: purple, line_id: 879c70aa-5952-4be6-b066-ec03d2886547, line_name: Purple
+      Plad, line_stroke: dashdot, station1: 5283c800-a191-4c03-b479-032db29ee2ba,
+    station2: bfce997e-89fc-4590-835f-b67c9dc94a46}
+  - {line_color: purple, line_id: 879c70aa-5952-4be6-b066-ec03d2886547, line_name: Purple
+      Plad, line_stroke: dashdot, station1: bfce997e-89fc-4590-835f-b67c9dc94a46,
+    station2: 200eb63e-b015-4e63-8069-495314caf405}
+  - {line_color: brown, line_id: 489897a4-1fbf-4581-8103-d7e5a76659f5, line_name: Brown
+      Zand, line_stroke: dashdot, station1: f99d7186-6f4f-4d2f-9339-eeb8016fc297,
+    station2: 41934085-b84c-4c66-ba9f-0c4ef77895d0}
+  - {line_color: brown, line_id: 489897a4-1fbf-4581-8103-d7e5a76659f5, line_name: Brown
+      Zand, line_stroke: dashdot, station1: 41934085-b84c-4c66-ba9f-0c4ef77895d0,
+    station2: 5b30a2c6-0f29-4afe-8296-f9b8a225fee2}
+  - {line_color: brown, line_id: 489897a4-1fbf-4581-8103-d7e5a76659f5, line_name: Brown
+      Zand, line_stroke: dashdot, station1: 5b30a2c6-0f29-4afe-8296-f9b8a225fee2,
+    station2: 0bf67925-361f-446e-a066-19d2f9828601}
+  - {line_color: brown, line_id: 489897a4-1fbf-4581-8103-d7e5a76659f5, line_name: Brown
+      Zand, line_stroke: dashdot, station1: 0bf67925-361f-446e-a066-19d2f9828601,
+    station2: b356f9ea-aed4-4cf5-816c-3104d037e8f3}
+  - {line_color: brown, line_id: 489897a4-1fbf-4581-8103-d7e5a76659f5, line_name: Brown
+      Zand, line_stroke: dashdot, station1: b356f9ea-aed4-4cf5-816c-3104d037e8f3,
+    station2: d8ea4bb3-3709-4dad-8791-906c54a19610}
+  - {line_color: brown, line_id: 489897a4-1fbf-4581-8103-d7e5a76659f5, line_name: Brown
+      Zand, line_stroke: dashdot, station1: d8ea4bb3-3709-4dad-8791-906c54a19610,
+    station2: f693acc0-953f-4585-ad88-a4475f787976}
+  - {line_color: brown, line_id: 489897a4-1fbf-4581-8103-d7e5a76659f5, line_name: Brown
+      Zand, line_stroke: dashdot, station1: f693acc0-953f-4585-ad88-a4475f787976,
+    station2: df6bff6a-3352-40ab-9e8e-33759330f74a}
+  - {line_color: brown, line_id: 489897a4-1fbf-4581-8103-d7e5a76659f5, line_name: Brown
+      Zand, line_stroke: dashdot, station1: df6bff6a-3352-40ab-9e8e-33759330f74a,
+    station2: a57353ba-2df1-4b15-b20f-ba4402005a0c}
+  - {line_color: brown, line_id: 489897a4-1fbf-4581-8103-d7e5a76659f5, line_name: Brown
+      Zand, line_stroke: dashdot, station1: a57353ba-2df1-4b15-b20f-ba4402005a0c,
+    station2: 39ff6bd1-2fb5-45af-b230-83621c45a0ad}
+  - {line_color: brown, line_id: 489897a4-1fbf-4581-8103-d7e5a76659f5, line_name: Brown
+      Zand, line_stroke: dashdot, station1: 39ff6bd1-2fb5-45af-b230-83621c45a0ad,
+    station2: d1fe0ae8-a54f-431b-9f0b-28c27c97e5ef}
+  - {line_color: brown, line_id: 489897a4-1fbf-4581-8103-d7e5a76659f5, line_name: Brown
+      Zand, line_stroke: dashdot, station1: d1fe0ae8-a54f-431b-9f0b-28c27c97e5ef,
+    station2: 29073608-1ea3-483d-a284-b29bec61ffbd}
+  - {line_color: brown, line_id: 489897a4-1fbf-4581-8103-d7e5a76659f5, line_name: Brown
+      Zand, line_stroke: dashdot, station1: 29073608-1ea3-483d-a284-b29bec61ffbd,
+    station2: c7e1e076-1dc1-456c-bac8-9229ea86102f}
+  - {line_color: brown, line_id: 489897a4-1fbf-4581-8103-d7e5a76659f5, line_name: Brown
+      Zand, line_stroke: dashdot, station1: c7e1e076-1dc1-456c-bac8-9229ea86102f,
+    station2: ce5ecb5a-c2a4-424d-b731-4bee020df674}
+  - {line_color: brown, line_id: 489897a4-1fbf-4581-8103-d7e5a76659f5, line_name: Brown
+      Zand, line_stroke: dashdot, station1: ce5ecb5a-c2a4-424d-b731-4bee020df674,
+    station2: 9044d255-31ab-4b22-bbf4-56c4f304560d}
+  - {line_color: brown, line_id: 489897a4-1fbf-4581-8103-d7e5a76659f5, line_name: Brown
+      Zand, line_stroke: dashdot, station1: 9044d255-31ab-4b22-bbf4-56c4f304560d,
+    station2: 08311a2e-9281-48c0-8518-5896f982333c}
+  - {line_color: brown, line_id: 7b527350-dc51-4c25-88bf-191b3683786f, line_name: Brown
+      Yimp, line_stroke: dashdot, station1: 8cbdcc40-1929-4d7d-936b-2f961adc18e0,
+    station2: 0b059d6f-bfb8-4010-9d2d-1f7e38eca85a}
+  - {line_color: brown, line_id: 7b527350-dc51-4c25-88bf-191b3683786f, line_name: Brown
+      Yimp, line_stroke: dashdot, station1: 0b059d6f-bfb8-4010-9d2d-1f7e38eca85a,
+    station2: 083c658c-92ad-4a03-b237-171b8cdba102}
+  - {line_color: brown, line_id: 7b527350-dc51-4c25-88bf-191b3683786f, line_name: Brown
+      Yimp, line_stroke: dashdot, station1: 083c658c-92ad-4a03-b237-171b8cdba102,
+    station2: 8ddd4dce-5898-484b-b95d-6d81dde31640}
+  - {line_color: brown, line_id: 7b527350-dc51-4c25-88bf-191b3683786f, line_name: Brown
+      Yimp, line_stroke: dashdot, station1: 8ddd4dce-5898-484b-b95d-6d81dde31640,
+    station2: 8d4a18ee-1ee4-4d4c-8f8c-572c74c91da3}
+  - {line_color: brown, line_id: 7b527350-dc51-4c25-88bf-191b3683786f, line_name: Brown
+      Yimp, line_stroke: dashdot, station1: 8d4a18ee-1ee4-4d4c-8f8c-572c74c91da3,
+    station2: 5d43fbc2-1a41-492c-b259-fbc957dd683f}
+  - {line_color: brown, line_id: 7b527350-dc51-4c25-88bf-191b3683786f, line_name: Brown
+      Yimp, line_stroke: dashdot, station1: 5d43fbc2-1a41-492c-b259-fbc957dd683f,
+    station2: cc55efe7-49d7-4daf-9aae-db8f2173b768}
+  - {line_color: brown, line_id: 7b527350-dc51-4c25-88bf-191b3683786f, line_name: Brown
+      Yimp, line_stroke: dashdot, station1: cc55efe7-49d7-4daf-9aae-db8f2173b768,
+    station2: bb1997ec-22a2-40d2-9347-6dd19f70aa4a}
+  - {line_color: brown, line_id: 7b527350-dc51-4c25-88bf-191b3683786f, line_name: Brown
+      Yimp, line_stroke: dashdot, station1: bb1997ec-22a2-40d2-9347-6dd19f70aa4a,
+    station2: 52eb6db2-1bc5-4284-9a41-d0855d84b50d}
+  - {line_color: brown, line_id: 7b527350-dc51-4c25-88bf-191b3683786f, line_name: Brown
+      Yimp, line_stroke: dashdot, station1: 52eb6db2-1bc5-4284-9a41-d0855d84b50d,
+    station2: d5c3f3d3-1282-40a7-86a9-25e9dda8cf4f}
+  - {line_color: brown, line_id: 7b527350-dc51-4c25-88bf-191b3683786f, line_name: Brown
+      Yimp, line_stroke: dashdot, station1: d5c3f3d3-1282-40a7-86a9-25e9dda8cf4f,
+    station2: 39575419-909c-4367-85ec-1ce67ab910f1}
+  - {line_color: brown, line_id: 7b527350-dc51-4c25-88bf-191b3683786f, line_name: Brown
+      Yimp, line_stroke: dashdot, station1: 39575419-909c-4367-85ec-1ce67ab910f1,
+    station2: 9abd4a0a-8405-41bc-b26f-2801cd4090c4}
+  - {line_color: brown, line_id: 7b527350-dc51-4c25-88bf-191b3683786f, line_name: Brown
+      Yimp, line_stroke: dashdot, station1: 9abd4a0a-8405-41bc-b26f-2801cd4090c4,
+    station2: 9cad5550-992d-45d3-9dfb-2ea8fddaf215}
+  - {line_color: brown, line_id: 7b527350-dc51-4c25-88bf-191b3683786f, line_name: Brown
+      Yimp, line_stroke: dashdot, station1: 9cad5550-992d-45d3-9dfb-2ea8fddaf215,
+    station2: 6c19246a-3f5a-48e1-8784-100e605e80ec}
+  - {line_color: brown, line_id: 7b527350-dc51-4c25-88bf-191b3683786f, line_name: Brown
+      Yimp, line_stroke: dashdot, station1: 6c19246a-3f5a-48e1-8784-100e605e80ec,
+    station2: 3e6d5045-63d8-496b-a214-e4ac133fb281}
+  - {line_color: brown, line_id: 7b527350-dc51-4c25-88bf-191b3683786f, line_name: Brown
+      Yimp, line_stroke: dashdot, station1: 3e6d5045-63d8-496b-a214-e4ac133fb281,
+    station2: efffae3e-7fc5-4e01-ba45-14ecfb2a733c}
+  - {line_color: brown, line_id: 7b527350-dc51-4c25-88bf-191b3683786f, line_name: Brown
+      Yimp, line_stroke: dashdot, station1: efffae3e-7fc5-4e01-ba45-14ecfb2a733c,
+    station2: a9cd7289-738d-499a-a237-483e21591fdc}
+  - {line_color: gray, line_id: dcdb5887-4519-4088-88dd-336f0465a738, line_name: Gray
+      Bor, line_stroke: dashed, station1: 563a37f3-fe5b-4450-a8bd-185417824bbf, station2: 8d5d030e-9895-4639-b8ee-0f1283fe63b0}
+  - {line_color: gray, line_id: dcdb5887-4519-4088-88dd-336f0465a738, line_name: Gray
+      Bor, line_stroke: dashed, station1: 8d5d030e-9895-4639-b8ee-0f1283fe63b0, station2: 6d52d966-087b-4491-8457-5e2c4a7d499f}
+  - {line_color: gray, line_id: dcdb5887-4519-4088-88dd-336f0465a738, line_name: Gray
+      Bor, line_stroke: dashed, station1: 6d52d966-087b-4491-8457-5e2c4a7d499f, station2: 0153855c-5c49-4bf3-9120-cce00a3890d8}
+  - {line_color: gray, line_id: dcdb5887-4519-4088-88dd-336f0465a738, line_name: Gray
+      Bor, line_stroke: dashed, station1: 0153855c-5c49-4bf3-9120-cce00a3890d8, station2: d6ea7912-d473-4c2f-ae36-b27e7397a5b2}
+  - {line_color: gray, line_id: dcdb5887-4519-4088-88dd-336f0465a738, line_name: Gray
+      Bor, line_stroke: dashed, station1: d6ea7912-d473-4c2f-ae36-b27e7397a5b2, station2: 94e90cb7-2cf8-47ae-91d2-59f7ba334a7e}
+  - {line_color: gray, line_id: dcdb5887-4519-4088-88dd-336f0465a738, line_name: Gray
+      Bor, line_stroke: dashed, station1: 94e90cb7-2cf8-47ae-91d2-59f7ba334a7e, station2: 89b90bef-cbef-4dc6-b033-6953e8bf14f3}
+  - {line_color: gray, line_id: dcdb5887-4519-4088-88dd-336f0465a738, line_name: Gray
+      Bor, line_stroke: dashed, station1: 89b90bef-cbef-4dc6-b033-6953e8bf14f3, station2: dc1e57d4-f8cc-4fdf-9b7b-9be8450e9702}
+  - {line_color: gray, line_id: dcdb5887-4519-4088-88dd-336f0465a738, line_name: Gray
+      Bor, line_stroke: dashed, station1: dc1e57d4-f8cc-4fdf-9b7b-9be8450e9702, station2: 4822368a-c7f4-4916-bf39-3b9a0c8f082d}
+  - {line_color: gray, line_id: dcdb5887-4519-4088-88dd-336f0465a738, line_name: Gray
+      Bor, line_stroke: dashed, station1: 4822368a-c7f4-4916-bf39-3b9a0c8f082d, station2: b2ad8bf9-54a0-4699-91fd-bdc329a2f0be}
+  - {line_color: gray, line_id: dcdb5887-4519-4088-88dd-336f0465a738, line_name: Gray
+      Bor, line_stroke: dashed, station1: b2ad8bf9-54a0-4699-91fd-bdc329a2f0be, station2: 01ded27f-8991-4067-a43e-cc2f6125f5fa}
+  - {line_color: gray, line_id: dcdb5887-4519-4088-88dd-336f0465a738, line_name: Gray
+      Bor, line_stroke: dashed, station1: 01ded27f-8991-4067-a43e-cc2f6125f5fa, station2: 12c51c8b-c064-46f9-9e0e-56d6fd28c86f}
+  - {line_color: gray, line_id: dcdb5887-4519-4088-88dd-336f0465a738, line_name: Gray
+      Bor, line_stroke: dashed, station1: 12c51c8b-c064-46f9-9e0e-56d6fd28c86f, station2: 93100d13-94a9-4279-90e0-7d5f659540e6}
+  - {line_color: gray, line_id: dcdb5887-4519-4088-88dd-336f0465a738, line_name: Gray
+      Bor, line_stroke: dashed, station1: 93100d13-94a9-4279-90e0-7d5f659540e6, station2: a7df2a68-8726-4226-b2b1-ad4aae1bda36}
+  - {line_color: gray, line_id: 04e7290c-a421-48cf-97c8-c3caa8c59fc2, line_name: Gray
+      Prong, line_stroke: dashed, station1: 9abd4a0a-8405-41bc-b26f-2801cd4090c4,
+    station2: 7bc5b112-c0e5-4ab3-a58e-d681d8ed5b7b}
+  - {line_color: gray, line_id: 04e7290c-a421-48cf-97c8-c3caa8c59fc2, line_name: Gray
+      Prong, line_stroke: dashed, station1: 7bc5b112-c0e5-4ab3-a58e-d681d8ed5b7b,
+    station2: 49817d3e-7301-4859-b5c3-0f0cf13fe313}
+  - {line_color: gray, line_id: 04e7290c-a421-48cf-97c8-c3caa8c59fc2, line_name: Gray
+      Prong, line_stroke: dashed, station1: 49817d3e-7301-4859-b5c3-0f0cf13fe313,
+    station2: 31f665ca-2646-440b-a419-27c76e763c1f}
+  - {line_color: gray, line_id: 04e7290c-a421-48cf-97c8-c3caa8c59fc2, line_name: Gray
+      Prong, line_stroke: dashed, station1: 31f665ca-2646-440b-a419-27c76e763c1f,
+    station2: 01fbcc33-1598-4c02-b404-6649d741da3b}
+  - {line_color: gray, line_id: 04e7290c-a421-48cf-97c8-c3caa8c59fc2, line_name: Gray
+      Prong, line_stroke: dashed, station1: 01fbcc33-1598-4c02-b404-6649d741da3b,
+    station2: 791b9567-c89b-46d7-852e-488520de10a8}
+  - {line_color: gray, line_id: 04e7290c-a421-48cf-97c8-c3caa8c59fc2, line_name: Gray
+      Prong, line_stroke: dashed, station1: 791b9567-c89b-46d7-852e-488520de10a8,
+    station2: 83b3a8fd-3cd6-461b-b5c0-c01f5539f564}
+  - {line_color: gray, line_id: 04e7290c-a421-48cf-97c8-c3caa8c59fc2, line_name: Gray
+      Prong, line_stroke: dashed, station1: 83b3a8fd-3cd6-461b-b5c0-c01f5539f564,
+    station2: cebfca4b-5b53-4695-b309-8de626d76b0e}
+  - {line_color: gray, line_id: 04e7290c-a421-48cf-97c8-c3caa8c59fc2, line_name: Gray
+      Prong, line_stroke: dashed, station1: cebfca4b-5b53-4695-b309-8de626d76b0e,
+    station2: 6648b4f6-7252-41dc-871c-2724888d575b}
+  - {line_color: gray, line_id: 04e7290c-a421-48cf-97c8-c3caa8c59fc2, line_name: Gray
+      Prong, line_stroke: dashed, station1: 6648b4f6-7252-41dc-871c-2724888d575b,
+    station2: 07a614af-e99d-4499-8a64-fd755cae6035}
+  - {line_color: gray, line_id: 04e7290c-a421-48cf-97c8-c3caa8c59fc2, line_name: Gray
+      Prong, line_stroke: dashed, station1: 07a614af-e99d-4499-8a64-fd755cae6035,
+    station2: d8a59c55-9548-4e91-92fc-5d705ee59767}
+  - {line_color: gray, line_id: 04e7290c-a421-48cf-97c8-c3caa8c59fc2, line_name: Gray
+      Prong, line_stroke: dashed, station1: d8a59c55-9548-4e91-92fc-5d705ee59767,
+    station2: d881acb9-45ee-45a4-a840-0348153fe358}
+  - {line_color: gray, line_id: 04e7290c-a421-48cf-97c8-c3caa8c59fc2, line_name: Gray
+      Prong, line_stroke: dashed, station1: d881acb9-45ee-45a4-a840-0348153fe358,
+    station2: ba629556-ad5b-4457-93fd-d0dbcd2c06ed}
+  - {line_color: gray, line_id: 04e7290c-a421-48cf-97c8-c3caa8c59fc2, line_name: Gray
+      Prong, line_stroke: dashed, station1: ba629556-ad5b-4457-93fd-d0dbcd2c06ed,
+    station2: 40b316d1-e437-48c1-9088-1655b18151f9}
+  - {line_color: gray, line_id: 04e7290c-a421-48cf-97c8-c3caa8c59fc2, line_name: Gray
+      Prong, line_stroke: dashed, station1: 40b316d1-e437-48c1-9088-1655b18151f9,
+    station2: b841acaf-0621-46fc-a2b8-9c6cebec4a33}
+  - {line_color: cyan, line_id: 0c1c00c7-f097-4f35-8d2e-2890ccfcfbc9, line_name: Cyan
+      Mesk, line_stroke: dashdot, station1: f693acc0-953f-4585-ad88-a4475f787976,
+    station2: 3d22e21c-b946-4aad-a40a-a06e80964aed}
+  - {line_color: cyan, line_id: 0c1c00c7-f097-4f35-8d2e-2890ccfcfbc9, line_name: Cyan
+      Mesk, line_stroke: dashdot, station1: 3d22e21c-b946-4aad-a40a-a06e80964aed,
+    station2: c7e1e076-1dc1-456c-bac8-9229ea86102f}
+  - {line_color: cyan, line_id: 0c1c00c7-f097-4f35-8d2e-2890ccfcfbc9, line_name: Cyan
+      Mesk, line_stroke: dashdot, station1: c7e1e076-1dc1-456c-bac8-9229ea86102f,
+    station2: 180e8b98-1460-474d-8ca8-37304100661c}
+  - {line_color: cyan, line_id: 0c1c00c7-f097-4f35-8d2e-2890ccfcfbc9, line_name: Cyan
+      Mesk, line_stroke: dashdot, station1: 180e8b98-1460-474d-8ca8-37304100661c,
+    station2: be800216-9074-4195-a17d-9945681e389b}
+  - {line_color: cyan, line_id: 0c1c00c7-f097-4f35-8d2e-2890ccfcfbc9, line_name: Cyan
+      Mesk, line_stroke: dashdot, station1: be800216-9074-4195-a17d-9945681e389b,
+    station2: 7881ddb3-f42d-4f57-9f5b-60a8102ce4b9}
+  - {line_color: cyan, line_id: 0c1c00c7-f097-4f35-8d2e-2890ccfcfbc9, line_name: Cyan
+      Mesk, line_stroke: dashdot, station1: 7881ddb3-f42d-4f57-9f5b-60a8102ce4b9,
+    station2: 374164a8-bfdd-497d-be43-344d8bfde0a2}
+  - {line_color: cyan, line_id: 0c1c00c7-f097-4f35-8d2e-2890ccfcfbc9, line_name: Cyan
+      Mesk, line_stroke: dashdot, station1: 374164a8-bfdd-497d-be43-344d8bfde0a2,
+    station2: 0b65fe53-f179-47dc-b78c-e8b8a9376623}
+  - {line_color: cyan, line_id: 0c1c00c7-f097-4f35-8d2e-2890ccfcfbc9, line_name: Cyan
+      Mesk, line_stroke: dashdot, station1: 0b65fe53-f179-47dc-b78c-e8b8a9376623,
+    station2: 31f665ca-2646-440b-a419-27c76e763c1f}
+  - {line_color: cyan, line_id: 0c1c00c7-f097-4f35-8d2e-2890ccfcfbc9, line_name: Cyan
+      Mesk, line_stroke: dashdot, station1: 31f665ca-2646-440b-a419-27c76e763c1f,
+    station2: d5c3f3d3-1282-40a7-86a9-25e9dda8cf4f}
+  - {line_color: cyan, line_id: 0c1c00c7-f097-4f35-8d2e-2890ccfcfbc9, line_name: Cyan
+      Mesk, line_stroke: dashdot, station1: d5c3f3d3-1282-40a7-86a9-25e9dda8cf4f,
+    station2: 7e17a4ab-c943-470f-8906-46cc9be5fcd8}
+  - {line_color: cyan, line_id: 0c1c00c7-f097-4f35-8d2e-2890ccfcfbc9, line_name: Cyan
+      Mesk, line_stroke: dashdot, station1: 7e17a4ab-c943-470f-8906-46cc9be5fcd8,
+    station2: 316e2b98-8eac-4fa6-bcec-c638040623ae}
+  - {line_color: cyan, line_id: 0c1c00c7-f097-4f35-8d2e-2890ccfcfbc9, line_name: Cyan
+      Mesk, line_stroke: dashdot, station1: 316e2b98-8eac-4fa6-bcec-c638040623ae,
+    station2: b3f82e54-7219-4033-8395-fe13ddde3ee0}
+  - {line_color: cyan, line_id: 0c1c00c7-f097-4f35-8d2e-2890ccfcfbc9, line_name: Cyan
+      Mesk, line_stroke: dashdot, station1: b3f82e54-7219-4033-8395-fe13ddde3ee0,
+    station2: deb45d30-e26f-48d7-9003-d762f9ac647c}
+  - {line_color: cyan, line_id: 0c1c00c7-f097-4f35-8d2e-2890ccfcfbc9, line_name: Cyan
+      Mesk, line_stroke: dashdot, station1: deb45d30-e26f-48d7-9003-d762f9ac647c,
+    station2: 532e1253-885f-4537-83de-c33d3147a806}
+  - {line_color: cyan, line_id: 0c1c00c7-f097-4f35-8d2e-2890ccfcfbc9, line_name: Cyan
+      Mesk, line_stroke: dashdot, station1: 532e1253-885f-4537-83de-c33d3147a806,
+    station2: 3002f4c6-0e8f-4b92-bfd2-a2665a014767}
+  - {line_color: cyan, line_id: 0c1c00c7-f097-4f35-8d2e-2890ccfcfbc9, line_name: Cyan
+      Mesk, line_stroke: dashdot, station1: 3002f4c6-0e8f-4b92-bfd2-a2665a014767,
+    station2: 757fb838-a404-4e4d-8df3-27999fb4c7a6}
+  id: 0f867994-4d5c-4771-9fdd-b842d8dc461c
+  lines:
+  - {built: 50s, color: green, has_aircon: false, id: be50d37b-9e76-4729-810f-4d8858c5f50c,
+    name: Green Soosh, stroke: dashed}
+  - {built: 60s, color: green, has_aircon: true, id: f6dd970c-14ca-4fd0-b04b-1ea93d7b210a,
+    name: Green Fliv, stroke: dotted}
+  - {built: recent, color: olive, has_aircon: true, id: bdd72df0-97d3-4c86-a9f7-938708a549c5,
+    name: Olive Huw, stroke: solid}
+  - {built: recent, color: purple, has_aircon: false, id: 642f7028-3480-460c-9c87-00585796459b,
+    name: Purple Sweb, stroke: dashed}
+  - {built: 50s, color: blue, has_aircon: true, id: 942ea0d9-b81f-4f4b-a37e-389da7651c5f,
+    name: Blue Prooy, stroke: dashdot}
+  - {built: 50s, color: blue, has_aircon: true, id: 4a88043e-b233-46b7-a787-28df2a8418d2,
+    name: Blue Moss, stroke: dotted}
+  - {built: 80s, color: orange, has_aircon: false, id: afea254b-9c16-46ae-a78f-a14dab6a92f2,
+    name: Orange Hift, stroke: dashed}
+  - {built: 00s, color: pink, has_aircon: false, id: a8469ac1-3159-4736-b29c-28e1cc61865f,
+    name: Pink Woog, stroke: dashdot}
+  - {built: 90s, color: blue, has_aircon: true, id: 35807bca-9f0f-4665-9f44-f3dcebc7e35e,
+    name: Blue Grek, stroke: dashed}
+  - {built: recent, color: red, has_aircon: true, id: d21cac45-bce9-40ba-b157-696b00f8164a,
+    name: Red Nub, stroke: dashdot}
+  - {built: 50s, color: red, has_aircon: false, id: e4187511-dfc3-4423-9702-7591a783dcd4,
+    name: Red Bruy, stroke: solid}
+  - {built: 80s, color: pink, has_aircon: true, id: 293b7b48-5c38-4cea-9d89-7bbf3fccaf65,
+    name: Pink Strush, stroke: dashed}
+  - {built: 80s, color: red, has_aircon: true, id: 218a7cdb-140f-4ed1-bad8-a9998fa1eb15,
+    name: Red Stoost, stroke: solid}
+  - {built: 00s, color: olive, has_aircon: false, id: 6ad51020-3def-4f5b-a1c2-ec55a7035499,
+    name: Olive Pooh, stroke: dashed}
+  - {built: 60s, color: brown, has_aircon: false, id: e5ea91e7-b7a6-488a-9e43-09ca29ed9009,
+    name: Brown Trog, stroke: dotted}
+  - {built: 00s, color: purple, has_aircon: false, id: 55141114-4c89-45fd-8853-0c98e34e7de1,
+    name: Purple Cling, stroke: dashdot}
+  - {built: 70s, color: purple, has_aircon: false, id: 879c70aa-5952-4be6-b066-ec03d2886547,
+    name: Purple Plad, stroke: dashdot}
+  - {built: 70s, color: brown, has_aircon: true, id: 489897a4-1fbf-4581-8103-d7e5a76659f5,
+    name: Brown Zand, stroke: dashdot}
+  - {built: 60s, color: brown, has_aircon: false, id: 7b527350-dc51-4c25-88bf-191b3683786f,
+    name: Brown Yimp, stroke: dashdot}
+  - {built: 70s, color: gray, has_aircon: true, id: dcdb5887-4519-4088-88dd-336f0465a738,
+    name: Gray Bor, stroke: dashed}
+  - {built: 80s, color: gray, has_aircon: false, id: 04e7290c-a421-48cf-97c8-c3caa8c59fc2,
+    name: Gray Prong, stroke: dashed}
+  - {built: 50s, color: cyan, has_aircon: false, id: 0c1c00c7-f097-4f35-8d2e-2890ccfcfbc9,
+    name: Cyan Mesk, stroke: dashdot}
+  nodes:
+  - {architecture: art-deco, cleanliness: dirty, disabled_access: true, has_rail: false,
+    id: 43dda73b-488d-4fba-b87c-b6e7104aa62a, music: country, name: Draz Boulevard,
+    size: large, x: -14.24831569939515, y: 25.068028905618483}
+  - {architecture: new, cleanliness: shabby, disabled_access: false, has_rail: true,
+    id: fa7cb112-955b-4056-b0cb-164b74ae9d0c, music: swing, name: Strov Boulevard,
+    size: tiny, x: -14.35867881617859, y: 15.700675719054859}
+  - {architecture: modernist, cleanliness: dirty, disabled_access: false, has_rail: true,
+    id: 29a62e6b-d442-4e93-8f43-ec5d931ada20, music: rnb, name: Swuct Hospital, size: tiny,
+    x: -12.987390866619716, y: 11.16577110788357}
+  - {architecture: concrete, cleanliness: clean, disabled_access: false, has_rail: false,
+    id: 02b9d0e6-7f12-4684-ae22-2d70e7901bb0, music: none, name: Fak Boulevard, size: medium,
+    x: -11.559520188705932, y: 7.960892505530832}
+  - {architecture: art-deco, cleanliness: clean, disabled_access: false, has_rail: false,
+    id: d324c658-aeb3-4617-bf08-3fb3e9077af4, music: country, name: Frook Lane, size: small,
+    x: -10.100745215289049, y: 5.249907131692715}
+  - {architecture: new, cleanliness: rat-infested, disabled_access: true, has_rail: true,
+    id: e0048e50-5628-42eb-a951-b535cdb1aac8, music: country, name: Niwham, size: large,
+    x: -8.515079513339359, y: 4.18735753691595}
+  - {architecture: modernist, cleanliness: shabby, disabled_access: true, has_rail: true,
+    id: 02675f9d-8754-401f-9daa-53287ba4306e, music: country, name: Dawbridge, size: small,
+    x: -7.393524997499883, y: 4.614731875724975}
+  - {architecture: glass, cleanliness: dirty, disabled_access: false, has_rail: true,
+    id: fe87dcc8-c254-4731-a3d8-0f15f4ace872, music: electronic, name: Flip Bridge,
+    size: massive, x: -6.3696170661083675, y: 5.664226565821372}
+  - {architecture: art-deco, cleanliness: shabby, disabled_access: true, has_rail: true,
+    id: f174168f-44d7-4088-b633-d70eecb57b1a, music: rnb, name: Greh Lane, size: small,
+    x: -5.630139827859717, y: 7.039861907055912}
+  - {architecture: glass, cleanliness: rat-infested, disabled_access: true, has_rail: false,
+    id: 0bb897dc-fa0f-4e60-bbc6-2a2a490e65c0, music: classical, name: Swess Way, size: small,
+    x: -6.929619249435076, y: 8.920197851328652}
+  - {architecture: modernist, cleanliness: rat-infested, disabled_access: false, has_rail: true,
+    id: af751b62-fc59-49f6-ac80-21d224bc3439, music: pop, name: Swift Estate, size: massive,
+    x: -9.216974578489978, y: 9.080261717187211}
+  - {architecture: glass, cleanliness: shabby, disabled_access: true, has_rail: false,
+    id: b8c9fa90-c859-415d-9465-bafd9d784532, music: swing, name: Zoond Palace, size: massive,
+    x: -9.677166038383117, y: 11.434596613342528}
+  - {architecture: concrete, cleanliness: derilict, disabled_access: false, has_rail: false,
+    id: 4ced1799-57d3-4546-93e1-d51bb7007c1d, music: swing, name: Brint Grove, size: tiny,
+    x: -15.335454995330695, y: 12.442432990650813}
+  - {architecture: modernist, cleanliness: shabby, disabled_access: true, has_rail: true,
+    id: 9c380d5b-b2f3-4216-a9e6-8639e112dd66, music: swing, name: Tiz Square, size: small,
+    x: -22.460922283723775, y: 12.741891041978537}
+  - {architecture: victorian, cleanliness: dirty, disabled_access: false, has_rail: true,
+    id: d8a59c55-9548-4e91-92fc-5d705ee59767, music: none, name: Dif Palace, size: large,
+    x: -3.490080405247416, y: 2.3006240641790687}
+  - {architecture: victorian, cleanliness: clean, disabled_access: true, has_rail: true,
+    id: 6b4bf6f4-604a-4a14-af93-f0484e0d9866, music: swing, name: Kuvbridge, size: small,
+    x: -0.2041119564471522, y: 1.8605345091861862}
+  - {architecture: new, cleanliness: rat-infested, disabled_access: true, has_rail: true,
+    id: 45f66d39-91ca-4ce1-8628-9997aea7559e, music: none, name: Brozneyland, size: medium,
+    x: 2.397202339507187, y: 1.676331564678783}
+  - {architecture: art-deco, cleanliness: derilict, disabled_access: false, has_rail: false,
+    id: c64662f7-d775-4476-bb2f-368791d2a39d, music: electronic, name: Presk Hospital,
+    size: large, x: 4.296999324294923, y: 2.101623906903115}
+  - {architecture: modernist, cleanliness: shabby, disabled_access: true, has_rail: true,
+    id: 23dcca44-0543-45d5-92f5-4675634bca5d, music: rock n roll, name: Hih International,
+    size: tiny, x: 5.977241165271145, y: 2.195570301533512}
+  - {architecture: new, cleanliness: clean, disabled_access: false, has_rail: true,
+    id: 117388d8-2348-4fe9-a4c4-43e621d9c2fd, music: none, name: Grift Way, size: medium,
+    x: 7.100361908284428, y: 2.3342892801167}
+  - {architecture: glass, cleanliness: rat-infested, disabled_access: false, has_rail: true,
+    id: afa2038f-a94c-4c3e-8c58-6a3a2518fd02, music: classical, name: Treng Grove,
+    size: medium, x: 7.513348098605225, y: 3.1864306292965456}
+  - {architecture: concrete, cleanliness: derilict, disabled_access: false, has_rail: false,
+    id: 54f51eb1-d139-4773-a6e9-b6999559358f, music: electronic, name: Dim Palace,
+    size: massive, x: 8.994110994437175, y: 2.175975749421139}
+  - {architecture: modernist, cleanliness: clean, disabled_access: false, has_rail: true,
+    id: b52848f6-495e-480c-bf43-4e23cdb484d3, music: swing, name: Jam Manor, size: medium,
+    x: 9.037246941104708, y: 0.15943801883636655}
+  - {architecture: concrete, cleanliness: clean, disabled_access: true, has_rail: true,
+    id: 7294eddd-92cc-42c1-a5d1-635a8d7d4aef, music: swing, name: Ploor Bridge, size: small,
+    x: 9.434552244654203, y: -1.9162308118379483}
+  - {architecture: art-deco, cleanliness: rat-infested, disabled_access: true, has_rail: false,
+    id: 82c458f0-1489-4467-9e87-a3cc9192ffa5, music: pop, name: Griv Manor, size: massive,
+    x: 9.587424491981647, y: -4.868995571088763}
+  - {architecture: new, cleanliness: rat-infested, disabled_access: false, has_rail: false,
+    id: e0536752-15c0-4b69-b718-ae04d22b3804, music: none, name: Sof On Trent, size: large,
+    x: 10.6783266798019, y: -8.591790946737202}
+  - {architecture: glass, cleanliness: shabby, disabled_access: false, has_rail: false,
+    id: e6f274f6-5f93-4feb-b68a-b51ad9ef2a7f, music: rnb, name: Glum Palace, size: massive,
+    x: 12.353995949462538, y: -12.54164281782659}
+  - {architecture: concrete, cleanliness: clean, disabled_access: false, has_rail: true,
+    id: 2f42902e-492d-469a-88bc-a6cd90f7d15c, music: country, name: Hich St, size: tiny,
+    x: 14.003129756559932, y: -18.705212511380054}
+  - {architecture: modernist, cleanliness: dirty, disabled_access: true, has_rail: false,
+    id: 565e7ca5-e43d-428c-b70c-cefb6ecb0cac, music: country, name: Funkton, size: medium,
+    x: -21.337033795340446, y: 5.453994692153038}
+  - {architecture: concrete, cleanliness: dirty, disabled_access: false, has_rail: false,
+    id: ae6ba4bb-bbdf-4abe-b25b-863f01a07b23, music: rnb, name: Zont Street, size: massive,
+    x: -20.662475332507267, y: 4.3816380106005495}
+  - {architecture: new, cleanliness: derilict, disabled_access: true, has_rail: true,
+    id: 02de25a3-8e54-4167-bd00-f7fad626b24a, music: rock n roll, name: Nokneyland,
+    size: massive, x: -19.514788866388756, y: 3.226890640780544}
+  - {architecture: art-deco, cleanliness: clean, disabled_access: true, has_rail: false,
+    id: 834904ea-3a33-49c4-9f56-fd031c5709f9, music: none, name: Midington, size: tiny,
+    x: -17.414351528119983, y: 2.2864976420275016}
+  - {architecture: glass, cleanliness: shabby, disabled_access: true, has_rail: false,
+    id: b2ad8bf9-54a0-4699-91fd-bdc329a2f0be, music: rock n roll, name: Spooz Street,
+    size: tiny, x: -16.29298307723648, y: 1.9943924800599484}
+  - {architecture: art-deco, cleanliness: shabby, disabled_access: false, has_rail: true,
+    id: 8bd8fc6f-781a-4298-b1ab-f4178d952a82, music: swing, name: Gribwich, size: massive,
+    x: -14.270989695650792, y: 3.167115836369375}
+  - {architecture: glass, cleanliness: dirty, disabled_access: true, has_rail: true,
+    id: 01852352-6c3d-4cc1-8415-2d9ca9338a52, music: pop, name: Bloosp Lane, size: tiny,
+    x: -12.378133068859551, y: 4.857123065368701}
+  - {architecture: new, cleanliness: derilict, disabled_access: false, has_rail: true,
+    id: 8ad249f8-a179-4e64-aa81-aea36111352f, music: rnb, name: Wekneyland, size: large,
+    x: -11.535380942122814, y: 5.705455925924561}
+  - {architecture: glass, cleanliness: dirty, disabled_access: false, has_rail: true,
+    id: 0ee0018b-6b29-4181-ad80-b921797058ac, music: pop, name: Skuch Court, size: small,
+    x: -11.057480245058052, y: 6.588311563415591}
+  - {architecture: modernist, cleanliness: rat-infested, disabled_access: false, has_rail: false,
+    id: 430c5f45-0af3-418b-97f2-bd1d0d22fb51, music: rnb, name: Nuft Way, size: medium,
+    x: -11.50273135970334, y: 9.66229234605929}
+  - {architecture: new, cleanliness: dirty, disabled_access: false, has_rail: false,
+    id: 9f15f187-3fd9-4159-b71a-938695087e8b, music: pop, name: Woop Square, size: medium,
+    x: -11.174005242856065, y: 13.156658772636169}
+  - {architecture: victorian, cleanliness: rat-infested, disabled_access: true, has_rail: true,
+    id: 813dfc8b-2596-4bc8-818c-e05fcbd0b85e, music: electronic, name: Wunk Upon Thames,
+    size: small, x: -12.03392147524137, y: 15.045424785431967}
+  - {architecture: art-deco, cleanliness: shabby, disabled_access: true, has_rail: true,
+    id: 87e2be77-344c-4475-b80c-6c2a6d6fe518, music: rock n roll, name: Snek Square,
+    size: large, x: -12.897788329128263, y: 16.524857816965508}
+  - {architecture: victorian, cleanliness: derilict, disabled_access: true, has_rail: true,
+    id: 0765104e-51cd-4381-898b-1daeacafab26, music: classical, name: Chooct Square,
+    size: massive, x: -14.370830470389313, y: 17.519720454039817}
+  - {architecture: glass, cleanliness: dirty, disabled_access: true, has_rail: true,
+    id: e7bef59a-a4ac-4540-8ba0-fd291c562e1d, music: electronic, name: Moct Court,
+    size: medium, x: -15.292637035494517, y: 18.253571544164934}
+  - {architecture: glass, cleanliness: rat-infested, disabled_access: false, has_rail: true,
+    id: fc02c347-3f4a-4353-9355-4f5dd1f16f2b, music: pop, name: Bluv St, size: tiny,
+    x: -17.14196118427005, y: 17.91187247509018}
+  - {architecture: victorian, cleanliness: rat-infested, disabled_access: true, has_rail: true,
+    id: 8890e0e5-aaa6-47cf-9f97-c7eb53932e0c, music: pop, name: Leb Crossing, size: massive,
+    x: -18.684461477818193, y: 19.433461313798993}
+  - {architecture: concrete, cleanliness: dirty, disabled_access: true, has_rail: true,
+    id: 200eb63e-b015-4e63-8069-495314caf405, music: electronic, name: Clig Upon Thames,
+    size: small, x: -19.54074804367616, y: 20.896893835663573}
+  - {architecture: victorian, cleanliness: derilict, disabled_access: true, has_rail: true,
+    id: e6de8b5c-f8e6-4292-a763-55e756886d1d, music: country, name: Stuvham, size: massive,
+    x: -12.812639414725478, y: 5.895350832117213}
+  - {architecture: concrete, cleanliness: rat-infested, disabled_access: false, has_rail: true,
+    id: 4091e44e-5280-4c4f-b0ea-27e62549d83d, music: rnb, name: Wiy Palace, size: small,
+    x: -10.004092994292723, y: 6.457432650975159}
+  - {architecture: concrete, cleanliness: shabby, disabled_access: true, has_rail: false,
+    id: ba629556-ad5b-4457-93fd-d0dbcd2c06ed, music: pop, name: Triw International,
+    size: large, x: -4.614023872390156, y: 7.850583108713574}
+  - {architecture: art-deco, cleanliness: derilict, disabled_access: true, has_rail: false,
+    id: 93fd80aa-45ef-452a-8b8a-e8b4d07ae5eb, music: swing, name: Japtneyland, size: small,
+    x: -2.865637965595067, y: 8.672693103101137}
+  - {architecture: glass, cleanliness: dirty, disabled_access: true, has_rail: false,
+    id: 7bd406f6-b5d7-4dcb-8f6b-f5e5d8041b70, music: rock n roll, name: Jictneyland,
+    size: medium, x: -1.281610125659369, y: 9.738421872586182}
+  - {architecture: new, cleanliness: rat-infested, disabled_access: false, has_rail: false,
+    id: c52cea61-3302-44d4-8482-8e83a15b8dbc, music: rnb, name: Disp Grove, size: large,
+    x: -2.7029672982319313, y: 10.462988562045421}
+  - {architecture: new, cleanliness: derilict, disabled_access: true, has_rail: false,
+    id: 2986a189-8c6b-46b1-ac12-37d2074fa0a1, music: pop, name: Dih Crossing, size: small,
+    x: -3.659089561261851, y: 9.375297319720282}
+  - {architecture: concrete, cleanliness: rat-infested, disabled_access: true, has_rail: true,
+    id: 1b89d2c0-cba7-426f-8478-dd4c2e4a45dd, music: swing, name: Swept Hospital,
+    size: large, x: -7.918788517886575, y: 7.753233708687253}
+  - {architecture: concrete, cleanliness: rat-infested, disabled_access: false, has_rail: false,
+    id: 50865399-ed2d-435a-9297-5019f5be3da3, music: swing, name: Soomp Manor, size: large,
+    x: -8.814304867175133, y: 6.185196213159358}
+  - {architecture: art-deco, cleanliness: rat-infested, disabled_access: true, has_rail: false,
+    id: c6e832fc-bd59-4f72-af18-65e1edf11549, music: electronic, name: Flect Palace,
+    size: massive, x: -9.366467551035154, y: 4.847248326260868}
+  - {architecture: concrete, cleanliness: rat-infested, disabled_access: false, has_rail: false,
+    id: 2182ef8d-4217-4745-90d7-0f3e5301b5c6, music: swing, name: Monkbridge, size: massive,
+    x: -9.314376772904708, y: 3.893153410886757}
+  - {architecture: modernist, cleanliness: shabby, disabled_access: false, has_rail: false,
+    id: 01124931-a7cd-4550-858f-10ff3c6eabc7, music: country, name: Droontneyland,
+    size: medium, x: -9.64320285369525, y: 2.6101313368090957}
+  - {architecture: glass, cleanliness: rat-infested, disabled_access: false, has_rail: true,
+    id: 2468cb8b-ce26-4cab-8495-8f043b0830e4, music: classical, name: Tror Crossing,
+    size: medium, x: -8.59034461599533, y: 1.2217502706122134}
+  - {architecture: concrete, cleanliness: derilict, disabled_access: true, has_rail: false,
+    id: 6a462f97-1ca9-4455-9cf5-bf5c74d965a7, music: electronic, name: Bast Grove,
+    size: massive, x: -8.18918339717426, y: -0.2724550580275855}
+  - {architecture: glass, cleanliness: dirty, disabled_access: true, has_rail: false,
+    id: 94e90cb7-2cf8-47ae-91d2-59f7ba334a7e, music: none, name: Cloch Square, size: large,
+    x: -6.088477410349296, y: -2.207063169249045}
+  - {architecture: new, cleanliness: clean, disabled_access: false, has_rail: true,
+    id: aa7ebbd7-c509-4784-8aec-d206271ba60a, music: rnb, name: Lochham, size: tiny,
+    x: -17.527631984724344, y: 5.777348971750194}
+  - {architecture: art-deco, cleanliness: rat-infested, disabled_access: false, has_rail: false,
+    id: a7df2a68-8726-4226-b2b1-ad4aae1bda36, music: rock n roll, name: Koch Manor,
+    size: medium, x: -15.357949769938902, y: 6.362888272577956}
+  - {architecture: victorian, cleanliness: clean, disabled_access: true, has_rail: true,
+    id: ac94bfb5-2465-4130-ac7a-4af618f4e7de, music: pop, name: Pig Boulevard, size: medium,
+    x: -12.998139410634598, y: 7.007334941139489}
+  - {architecture: modernist, cleanliness: rat-infested, disabled_access: false, has_rail: false,
+    id: 8542c78a-c4ec-4dd4-8cff-5cf5422c0ada, music: rock n roll, name: Yoobwich,
+    size: massive, x: -1.5867125837657334, y: 8.40875267874785}
+  - {architecture: concrete, cleanliness: dirty, disabled_access: true, has_rail: true,
+    id: e4574b99-0bef-4a06-ab3d-957d0972ba48, music: rock n roll, name: Prectneyland,
+    size: large, x: -0.4300462554136535, y: 8.19299789812991}
+  - {architecture: concrete, cleanliness: derilict, disabled_access: true, has_rail: false,
+    id: 18d4bb44-0cf7-4719-b765-dbf65c3b9e14, music: swing, name: Skuch St, size: medium,
+    x: 0.9866404950367624, y: 7.274245858731009}
+  - {architecture: victorian, cleanliness: rat-infested, disabled_access: false, has_rail: false,
+    id: 4e1aca2a-05c8-46d0-9d52-09c6251d61f3, music: swing, name: Yoochneyland, size: small,
+    x: 2.625477867143935, y: 7.22989248821204}
+  - {architecture: modernist, cleanliness: clean, disabled_access: false, has_rail: true,
+    id: 0a7c4533-5519-4c21-b9a6-827756457afb, music: country, name: Shamp Crossing,
+    size: massive, x: 4.790599710115748, y: 6.656924007575228}
+  - {architecture: glass, cleanliness: derilict, disabled_access: false, has_rail: true,
+    id: 53b1fd64-82f6-49cb-8b09-f03300c3de46, music: none, name: Proob Lane, size: large,
+    x: 5.953031233363696, y: 6.096784387826365}
+  - {architecture: glass, cleanliness: dirty, disabled_access: false, has_rail: false,
+    id: cf727b6e-9328-4af8-b48e-538c55964f52, music: country, name: Pim Grove, size: small,
+    x: 9.644359938154055, y: 5.3007167125656744}
+  - {architecture: art-deco, cleanliness: derilict, disabled_access: false, has_rail: false,
+    id: 4a7e6795-a3d0-4088-925c-7a1896dff4cd, music: rock n roll, name: Droong Road,
+    size: large, x: 12.613624229323689, y: 5.065821392610631}
+  - {architecture: modernist, cleanliness: rat-infested, disabled_access: false, has_rail: false,
+    id: 2bb71e81-0d9c-4a05-97de-321a4739ca7b, music: none, name: Yuw Road, size: large,
+    x: 15.429306846191828, y: 4.395185238682971}
+  - {architecture: art-deco, cleanliness: shabby, disabled_access: true, has_rail: false,
+    id: 11acee04-8a32-41ae-b8f7-1d0b86785f7c, music: swing, name: Stimington, size: massive,
+    x: 20.640472491422386, y: 4.0711423595709}
+  - {architecture: victorian, cleanliness: shabby, disabled_access: true, has_rail: true,
+    id: cb74add8-9c8b-4325-bc0d-f9be816d3247, music: electronic, name: Yissham, size: massive,
+    x: 26.042636486702673, y: 3.5432707182094663}
+  - {architecture: glass, cleanliness: shabby, disabled_access: false, has_rail: false,
+    id: d008864d-c559-4086-ba81-68f3d1c6ae2b, music: none, name: Bih Upon Thames,
+    size: massive, x: 7.944082257214489, y: 14.406874459321253}
+  - {architecture: new, cleanliness: shabby, disabled_access: true, has_rail: false,
+    id: bbb14292-b169-4d84-b5ad-8261bcfdd541, music: rnb, name: Skuhington, size: small,
+    x: 4.219225078349744, y: 15.24139240273171}
+  - {architecture: concrete, cleanliness: derilict, disabled_access: true, has_rail: true,
+    id: 24d6f732-78ef-442d-bfd5-2534490f3ec7, music: pop, name: Flek Crossing, size: small,
+    x: 1.5200795322987695, y: 15.992351238487377}
+  - {architecture: modernist, cleanliness: rat-infested, disabled_access: true, has_rail: true,
+    id: 899eafe8-14f5-44d4-a8a1-ccd11594e24f, music: pop, name: Rindham, size: massive,
+    x: -0.719185152684205, y: 15.369189358620723}
+  - {architecture: victorian, cleanliness: derilict, disabled_access: true, has_rail: false,
+    id: b93ddfd8-4428-4472-a5a9-939ef9a5f0df, music: electronic, name: Clut Road,
+    size: tiny, x: -2.1845273299518873, y: 13.868516268274627}
+  - {architecture: concrete, cleanliness: rat-infested, disabled_access: false, has_rail: true,
+    id: 40b316d1-e437-48c1-9088-1655b18151f9, music: pop, name: Prok Way, size: tiny,
+    x: -4.022361716411846, y: 11.849048882982144}
+  - {architecture: modernist, cleanliness: shabby, disabled_access: true, has_rail: true,
+    id: a2809efe-d56b-4e1e-b48c-fc6381cfc7fe, music: swing, name: Mog St, size: tiny,
+    x: -4.1191651691039946, y: 5.8378498053481085}
+  - {architecture: concrete, cleanliness: derilict, disabled_access: false, has_rail: false,
+    id: d881acb9-45ee-45a4-a840-0348153fe358, music: rock n roll, name: Kiy Hospital,
+    size: tiny, x: -3.6902513200325004, y: 4.412331647381442}
+  - {architecture: art-deco, cleanliness: clean, disabled_access: false, has_rail: true,
+    id: d7baac32-20f4-46b1-b273-fc998e17506b, music: pop, name: Vank Boulevard, size: tiny,
+    x: -2.7749148086585294, y: 2.688602301155587}
+  - {architecture: victorian, cleanliness: clean, disabled_access: false, has_rail: false,
+    id: 6ef51916-a443-4124-b649-b8ad5e623814, music: electronic, name: Sel Lane, size: massive,
+    x: -1.864098060436272, y: 1.1785383440718797}
+  - {architecture: art-deco, cleanliness: shabby, disabled_access: true, has_rail: true,
+    id: 21c7f8f4-4f8e-4cdd-b5c9-069f47b3d4de, music: pop, name: Stak Road, size: small,
+    x: -0.7778749642639057, y: 0.12305455242687437}
+  - {architecture: victorian, cleanliness: dirty, disabled_access: true, has_rail: false,
+    id: cebde781-7c6d-4898-a151-9b62b0458647, music: pop, name: Wust Street, size: medium,
+    x: 0.40220652110855465, y: -0.497538279850289}
+  - {architecture: glass, cleanliness: dirty, disabled_access: true, has_rail: true,
+    id: c8d4d8e1-eb8d-4bc9-899a-38bc34abe6f8, music: swing, name: God Court, size: tiny,
+    x: 1.5559445636777398, y: -0.6349696713587953}
+  - {architecture: art-deco, cleanliness: dirty, disabled_access: false, has_rail: true,
+    id: d437bcb6-f649-4e46-95f8-9d79683b1c1b, music: electronic, name: Swink Boulevard,
+    size: large, x: 3.157605284522678, y: -0.7451855266460954}
+  - {architecture: modernist, cleanliness: dirty, disabled_access: true, has_rail: true,
+    id: 22d570bc-bd86-4a98-b892-7eb83374e05f, music: rnb, name: Slerwich, size: large,
+    x: 4.884559825222293, y: 3.0530165829686764}
+  - {architecture: concrete, cleanliness: derilict, disabled_access: true, has_rail: true,
+    id: 158450e4-edb6-4858-bc52-4c347c66c24a, music: rock n roll, name: Blel Boulevard,
+    size: small, x: 11.399801354017383, y: -2.3656429335443763}
+  - {architecture: concrete, cleanliness: dirty, disabled_access: true, has_rail: false,
+    id: 6f8353db-f095-4a4e-9801-6b34158ce735, music: classical, name: Dent Hospital,
+    size: small, x: 10.439545692172057, y: -3.741555899989269}
+  - {architecture: modernist, cleanliness: dirty, disabled_access: false, has_rail: true,
+    id: ee496b11-a229-451f-9d93-c03e621ec755, music: country, name: Chih Way, size: massive,
+    x: 7.9791150463348455, y: -5.12681561949388}
+  - {architecture: new, cleanliness: derilict, disabled_access: true, has_rail: true,
+    id: 8b9b21a8-8029-4a4d-b14e-5a52f8603761, music: country, name: Smad Road, size: massive,
+    x: 5.787715417523604, y: -6.637806573698693}
+  - {architecture: glass, cleanliness: clean, disabled_access: false, has_rail: false,
+    id: 9da4d267-aa81-47f1-affc-0b40dec77bf8, music: swing, name: Gusk Square, size: medium,
+    x: 3.1086128548342677, y: -8.441860500746186}
+  - {architecture: modernist, cleanliness: dirty, disabled_access: false, has_rail: true,
+    id: 70e73832-866e-45fe-a882-8556ab4d1f19, music: pop, name: Hum Upon Thames, size: massive,
+    x: 0.9219756996640582, y: -9.5056527467901}
+  - {architecture: concrete, cleanliness: shabby, disabled_access: false, has_rail: true,
+    id: 01fbcc33-1598-4c02-b404-6649d741da3b, music: classical, name: Ploongwich,
+    size: tiny, x: -0.6105974320327741, y: -10.671547672488007}
+  - {architecture: glass, cleanliness: derilict, disabled_access: false, has_rail: true,
+    id: 3728873d-bb2d-4499-894d-0dfcd96e45d8, music: rnb, name: Guz Way, size: massive,
+    x: -1.1176182577058194, y: -12.153535778649315}
+  - {architecture: new, cleanliness: dirty, disabled_access: false, has_rail: false,
+    id: 31f665ca-2646-440b-a419-27c76e763c1f, music: none, name: Chot Estate, size: tiny,
+    x: 0.2990029821547818, y: -12.193589623945481}
+  - {architecture: concrete, cleanliness: dirty, disabled_access: false, has_rail: true,
+    id: 094dde5e-8d0a-4f30-b1df-6874da55bade, music: country, name: Tump Hospital,
+    size: massive, x: 2.371456517747973, y: -11.455883649887085}
+  - {architecture: concrete, cleanliness: derilict, disabled_access: true, has_rail: true,
+    id: fecca20d-3c61-44e5-a2bf-bb955af5c044, music: pop, name: Snash Upon Thames,
+    size: large, x: -10.964236263339288, y: -15.711769531055891}
+  - {architecture: glass, cleanliness: shabby, disabled_access: true, has_rail: true,
+    id: 733f7862-9466-42ec-bbe7-e1fd1a4be397, music: rnb, name: Crash Upon Thames,
+    size: medium, x: -7.695724884776312, y: -15.641199034407022}
+  - {architecture: concrete, cleanliness: clean, disabled_access: true, has_rail: true,
+    id: 3c96435f-b2e1-4e84-a785-726b219a35a1, music: none, name: Strom Hospital, size: massive,
+    x: -4.180906345753435, y: -15.478757349858606}
+  - {architecture: glass, cleanliness: clean, disabled_access: false, has_rail: false,
+    id: cf406c15-1713-45cc-acf0-1e31b17888b3, music: rock n roll, name: Praw On Trent,
+    size: large, x: -1.0356256721407182, y: -16.47731842738181}
+  - {architecture: art-deco, cleanliness: derilict, disabled_access: false, has_rail: false,
+    id: efffae3e-7fc5-4e01-ba45-14ecfb2a733c, music: rock n roll, name: Past Court,
+    size: small, x: 2.0342387440405596, y: -16.215544638161607}
+  - {architecture: modernist, cleanliness: dirty, disabled_access: false, has_rail: false,
+    id: 975e4202-b9d5-4a16-8417-62708553ab0c, music: electronic, name: Treft International,
+    size: small, x: 5.14908487645094, y: -15.355555497464987}
+  - {architecture: concrete, cleanliness: derilict, disabled_access: true, has_rail: true,
+    id: afff6265-41a8-4195-aaa7-2857517cbe25, music: country, name: Besk Palace, size: massive,
+    x: 7.666071045157761, y: -14.869939476724397}
+  - {architecture: modernist, cleanliness: shabby, disabled_access: false, has_rail: false,
+    id: 335fe0d5-ee03-4bfb-8f5c-28b282621f01, music: rnb, name: Dooy Grove, size: tiny,
+    x: 10.79632435429138, y: -13.485028548662552}
+  - {architecture: new, cleanliness: derilict, disabled_access: false, has_rail: true,
+    id: 37d7fa10-8ff9-4b2f-90e2-c247e0049228, music: rnb, name: Yooshwich, size: medium,
+    x: 13.649662361078333, y: -11.42655298718306}
+  - {architecture: victorian, cleanliness: clean, disabled_access: false, has_rail: false,
+    id: deb45d30-e26f-48d7-9003-d762f9ac647c, music: pop, name: Desk On Trent, size: large,
+    x: 15.747026837031681, y: -9.930128718120526}
+  - {architecture: new, cleanliness: shabby, disabled_access: true, has_rail: false,
+    id: 525ea815-bff6-4c1b-ac72-d63a7844b6a5, music: none, name: Tonkington, size: massive,
+    x: 18.42482847263279, y: -5.988081600085343}
+  - {architecture: victorian, cleanliness: derilict, disabled_access: true, has_rail: false,
+    id: 9879d9ed-43fe-4cb2-abe1-8468f68b8780, music: pop, name: Yet Crossing, size: small,
+    x: 19.86775843403547, y: -1.9021735270383162}
+  - {architecture: concrete, cleanliness: shabby, disabled_access: true, has_rail: true,
+    id: 234e03de-e61f-4b30-af5a-6b27b0c7bfe6, music: country, name: Womp International,
+    size: large, x: 21.211382626310467, y: 3.1537844693199033}
+  - {architecture: art-deco, cleanliness: shabby, disabled_access: false, has_rail: true,
+    id: ca912ed2-9562-4188-bd5b-11a278b72961, music: classical, name: Flerbridge,
+    size: tiny, x: 23.006783845605554, y: 9.558718573053175}
+  - {architecture: victorian, cleanliness: derilict, disabled_access: false, has_rail: true,
+    id: c27d2e95-57b6-48ed-9cd7-333709badaf7, music: none, name: Stroospham, size: tiny,
+    x: 22.328590033117212, y: 17.225620152903925}
+  - {architecture: modernist, cleanliness: derilict, disabled_access: true, has_rail: true,
+    id: 0fb27974-335a-4c44-91b6-bfc1f8a8511a, music: classical, name: Hoob Hospital,
+    size: massive, x: 2.124917583189676, y: 13.658758574726903}
+  - {architecture: concrete, cleanliness: clean, disabled_access: false, has_rail: false,
+    id: 9bcef0f3-d0dc-4dca-bd7b-cae1f469a421, music: rnb, name: Spect Square, size: medium,
+    x: 0.5060486884727194, y: 12.5718450159353}
+  - {architecture: victorian, cleanliness: derilict, disabled_access: true, has_rail: false,
+    id: 89418082-f27e-476a-bbb0-f2b2a32adaf1, music: pop, name: Ked Road, size: massive,
+    x: -1.0105710854339125, y: 11.628442503458919}
+  - {architecture: glass, cleanliness: clean, disabled_access: false, has_rail: true,
+    id: b7ac9b3c-e03d-42ff-aae9-f2a49fdf2469, music: electronic, name: Snont Lane,
+    size: small, x: -2.452221421530184, y: 11.33031260068187}
+  - {architecture: glass, cleanliness: clean, disabled_access: true, has_rail: false,
+    id: 3cabf463-d9d0-406d-8e2b-3ea2c489bd56, music: country, name: Roh International,
+    size: medium, x: -3.60490572353078, y: 10.285010186068108}
+  - {architecture: glass, cleanliness: shabby, disabled_access: true, has_rail: false,
+    id: 7b9cecd3-2f60-4ccc-acf4-f9530b722285, music: rnb, name: Frep On Trent, size: massive,
+    x: -5.135164984408461, y: 10.570398404418057}
+  - {architecture: glass, cleanliness: rat-infested, disabled_access: false, has_rail: true,
+    id: b6d56447-1926-4d58-94c0-5bb7e925216c, music: swing, name: Bruch Grove, size: massive,
+    x: -8.109453949945252, y: 13.261656789662464}
+  - {architecture: glass, cleanliness: clean, disabled_access: true, has_rail: false,
+    id: ad207948-33b6-4f72-a656-20cf94556a8f, music: swing, name: Pich Manor, size: massive,
+    x: -7.212073168066617, y: 13.589006704299393}
+  - {architecture: new, cleanliness: clean, disabled_access: true, has_rail: true,
+    id: 6f606d2b-8abd-4847-9080-8f417098024d, music: rnb, name: Smink Way, size: large,
+    x: -6.278293235658422, y: 13.40063447550483}
+  - {architecture: concrete, cleanliness: clean, disabled_access: false, has_rail: false,
+    id: d45fcdb3-b8c3-41fe-aca5-78e98cfd3320, music: swing, name: Spung Estate, size: tiny,
+    x: -4.295958913912918, y: 14.60067818153131}
+  - {architecture: glass, cleanliness: shabby, disabled_access: true, has_rail: true,
+    id: b841acaf-0621-46fc-a2b8-9c6cebec4a33, music: none, name: Troosp Way, size: tiny,
+    x: -3.29002778930659, y: 14.850580600176386}
+  - {architecture: victorian, cleanliness: derilict, disabled_access: true, has_rail: true,
+    id: 1e41be2a-8115-4f5d-bbd8-b447859fb23b, music: rnb, name: Gitington, size: tiny,
+    x: 1.055856944877848, y: 15.012946383973443}
+  - {architecture: concrete, cleanliness: derilict, disabled_access: false, has_rail: true,
+    id: ce2fc460-3453-437e-b782-09484334b05c, music: none, name: Jeb Lane, size: medium,
+    x: 4.0393287261629425, y: 16.091751923676085}
+  - {architecture: concrete, cleanliness: rat-infested, disabled_access: false, has_rail: true,
+    id: 205220f1-c462-48e9-b745-f157a88eb17e, music: classical, name: Sunk Palace,
+    size: tiny, x: 9.75205085491339, y: 3.7586524163003605}
+  - {architecture: modernist, cleanliness: rat-infested, disabled_access: true, has_rail: true,
+    id: 0fba818e-c552-4191-8afc-6848bd0ed73e, music: swing, name: Glask Bridge, size: tiny,
+    x: 11.310258299040392, y: 3.551774905073481}
+  - {architecture: glass, cleanliness: shabby, disabled_access: false, has_rail: false,
+    id: 8b02f231-5aaf-484f-8292-3f233b781f0c, music: swing, name: Vuhton, size: massive,
+    x: 10.54004427017903, y: 2.9888505515544876}
+  - {architecture: art-deco, cleanliness: rat-infested, disabled_access: false, has_rail: false,
+    id: 9923278a-1d88-4658-af85-7a0b51980e75, music: classical, name: Bred Road, size: tiny,
+    x: 9.789968290431279, y: 2.269183074723636}
+  - {architecture: glass, cleanliness: dirty, disabled_access: true, has_rail: true,
+    id: 8d4a18ee-1ee4-4d4c-8f8c-572c74c91da3, music: pop, name: Snoonkwich, size: small,
+    x: 7.4710897185352385, y: 1.316999304559237}
+  - {architecture: new, cleanliness: derilict, disabled_access: true, has_rail: true,
+    id: 60231540-313d-4239-a2a9-7b80f11b19b0, music: pop, name: Trontwich, size: tiny,
+    x: 5.891265755047058, y: 0.14898304658448408}
+  - {architecture: glass, cleanliness: clean, disabled_access: false, has_rail: true,
+    id: ffc10af8-3ac9-4f81-a111-32490254e063, music: rock n roll, name: Top Road,
+    size: medium, x: 0.41825788720516205, y: -1.3949357500926065}
+  - {architecture: modernist, cleanliness: dirty, disabled_access: false, has_rail: true,
+    id: 272dbe86-a097-4ed5-9274-e1ed496bb8f9, music: rnb, name: Flass Lane, size: small,
+    x: -2.5768859567880744, y: -1.6595965709980134}
+  - {architecture: art-deco, cleanliness: clean, disabled_access: true, has_rail: true,
+    id: 66ea4673-8d39-4171-9c18-c899d4a97e99, music: rnb, name: Geb Palace, size: large,
+    x: -12.419985505779401, y: 18.52776051094066}
+  - {architecture: modernist, cleanliness: derilict, disabled_access: false, has_rail: true,
+    id: b78a0323-2bfe-4507-8789-7134f400966c, music: classical, name: Nuss Upon Thames,
+    size: massive, x: 3.7098034277675316, y: 3.1365378137539164}
+  - {architecture: concrete, cleanliness: clean, disabled_access: true, has_rail: true,
+    id: edf7ac48-e3b0-4e53-82ad-2b04e2c158db, music: pop, name: Yoow International,
+    size: massive, x: 5.283398610987342, y: 4.260221409952962}
+  - {architecture: victorian, cleanliness: shabby, disabled_access: true, has_rail: false,
+    id: e2a51d19-7322-440b-bfe7-563b08322c2d, music: none, name: Stromp Hospital,
+    size: massive, x: 7.087425217681805, y: 7.330221365735863}
+  - {architecture: glass, cleanliness: derilict, disabled_access: false, has_rail: false,
+    id: a74d0e21-f5cc-42c4-bb0f-989a297f2a92, music: pop, name: Sloct Palace, size: large,
+    x: 6.679588685624631, y: 8.887674555106688}
+  - {architecture: modernist, cleanliness: derilict, disabled_access: false, has_rail: false,
+    id: 66d5afa7-e2a4-417e-903d-931ca7049e19, music: country, name: Grok Road, size: medium,
+    x: 6.7041549544460715, y: 11.671986264172077}
+  - {architecture: victorian, cleanliness: shabby, disabled_access: true, has_rail: false,
+    id: f2f8783f-89c2-41a9-bf8d-e2b74fdcd488, music: rock n roll, name: Loorbridge,
+    size: massive, x: 5.3548905109217575, y: 13.299501108696713}
+  - {architecture: art-deco, cleanliness: shabby, disabled_access: false, has_rail: false,
+    id: 0f565d86-c06d-483c-8dc7-5bda0e213401, music: rnb, name: Flondwich, size: small,
+    x: -6.775988196741627, y: 15.500668211103642}
+  - {architecture: modernist, cleanliness: shabby, disabled_access: false, has_rail: false,
+    id: 83b056f6-18bf-4a1d-bd4f-478fb6609259, music: electronic, name: Zostham, size: medium,
+    x: -12.234515598492823, y: 14.233947319179155}
+  - {architecture: art-deco, cleanliness: shabby, disabled_access: false, has_rail: false,
+    id: 8b9eaad4-06e5-4b69-aa22-1a7cd8221487, music: none, name: Swer Manor, size: massive,
+    x: -14.140608277245347, y: -11.099990636433349}
+  - {architecture: concrete, cleanliness: dirty, disabled_access: false, has_rail: true,
+    id: ce5ecb5a-c2a4-424d-b731-4bee020df674, music: country, name: Skoy Court, size: large,
+    x: -12.601028929285048, y: -10.47837520566085}
+  - {architecture: modernist, cleanliness: derilict, disabled_access: false, has_rail: true,
+    id: 484222fe-2a03-4c51-850c-b51371e76c30, music: electronic, name: Yooch International,
+    size: massive, x: -9.394080555220643, y: -9.480976901872976}
+  - {architecture: art-deco, cleanliness: dirty, disabled_access: true, has_rail: true,
+    id: f693acc0-953f-4585-ad88-a4475f787976, music: classical, name: Hudham, size: large,
+    x: -7.445833883356551, y: -8.46216886430674}
+  - {architecture: modernist, cleanliness: derilict, disabled_access: false, has_rail: true,
+    id: ccbc8eeb-f566-44df-81ec-65be3a4b4f79, music: classical, name: Pleyneyland,
+    size: medium, x: -4.776802648227481, y: -7.793257431962509}
+  - {architecture: art-deco, cleanliness: derilict, disabled_access: false, has_rail: true,
+    id: 83b3a8fd-3cd6-461b-b5c0-c01f5539f564, music: country, name: Cray Way, size: small,
+    x: -2.094289500745765, y: -7.343956761538103}
+  - {architecture: concrete, cleanliness: derilict, disabled_access: true, has_rail: false,
+    id: 7eaa04f9-9dea-4ca7-8085-a568b3415fd7, music: rock n roll, name: Clong Court,
+    size: large, x: 0.5834105414631026, y: -6.508043268568506}
+  - {architecture: victorian, cleanliness: rat-infested, disabled_access: true, has_rail: false,
+    id: f057d4f2-6674-4a2d-8c64-e197c3ad861a, music: none, name: Strob International,
+    size: large, x: 3.070499818011777, y: -5.860926567341274}
+  - {architecture: art-deco, cleanliness: shabby, disabled_access: false, has_rail: false,
+    id: 430abb8f-8766-47bd-872a-fa84b6b25f59, music: country, name: Fut Street, size: tiny,
+    x: 5.698884029329108, y: -5.215668929158735}
+  - {architecture: concrete, cleanliness: derilict, disabled_access: true, has_rail: false,
+    id: 8cb6ca0c-5d13-43b6-8932-5b13b926cb0d, music: country, name: Lag Lane, size: tiny,
+    x: 12.662857995140426, y: -3.0241068348417004}
+  - {architecture: art-deco, cleanliness: clean, disabled_access: false, has_rail: false,
+    id: b7e93a11-4fe4-48e1-b954-38aab725209e, music: none, name: Glumpwich, size: small,
+    x: 14.229380224203704, y: -2.066122186956082}
+  - {architecture: new, cleanliness: rat-infested, disabled_access: true, has_rail: false,
+    id: 8d5d030e-9895-4639-b8ee-0f1283fe63b0, music: rock n roll, name: Poog St, size: large,
+    x: 15.322140891854888, y: -0.940461589819429}
+  - {architecture: new, cleanliness: rat-infested, disabled_access: true, has_rail: true,
+    id: 0c3a28f2-ccda-4af6-acee-c87be9c58108, music: none, name: Flast Street, size: small,
+    x: 16.583910959811888, y: 0.2787443715780371}
+  - {architecture: concrete, cleanliness: shabby, disabled_access: true, has_rail: false,
+    id: 98d54d41-2c63-40c9-a46e-075aca64ca81, music: classical, name: Spumham, size: medium,
+    x: 17.485693585071193, y: 1.7198100907007297}
+  - {architecture: new, cleanliness: rat-infested, disabled_access: false, has_rail: true,
+    id: a55fcac6-ee3b-45eb-85ba-0b5b20e6745a, music: none, name: Stuf Lane, size: small,
+    x: 19.055695301622745, y: 3.374751938691681}
+  - {architecture: new, cleanliness: rat-infested, disabled_access: false, has_rail: false,
+    id: faac6fee-e975-49cf-8e5d-4d822d9d5f08, music: classical, name: Gledington,
+    size: tiny, x: 17.963957902986603, y: 4.947800007502073}
+  - {architecture: modernist, cleanliness: shabby, disabled_access: false, has_rail: true,
+    id: 91359757-9fad-4f45-9feb-843333c430c8, music: classical, name: Fasp Estate,
+    size: tiny, x: 18.29715712688584, y: 6.858122476662837}
+  - {architecture: art-deco, cleanliness: dirty, disabled_access: false, has_rail: true,
+    id: 91340c10-120a-47a9-8f73-40c68410d77e, music: rock n roll, name: For St, size: large,
+    x: 17.316567142903363, y: 9.594803666045369}
+  - {architecture: new, cleanliness: shabby, disabled_access: false, has_rail: true,
+    id: 0752b85a-fd65-496c-891b-f0b83d62d8ad, music: pop, name: Swampbridge, size: large,
+    x: -9.616600652926303, y: 0.03435982713987532}
+  - {architecture: glass, cleanliness: clean, disabled_access: false, has_rail: false,
+    id: 4723d67b-0266-4bf0-a3d2-aea892db6c20, music: rnb, name: Crif Street, size: tiny,
+    x: -11.532430723295018, y: 2.2762981722893696}
+  - {architecture: new, cleanliness: clean, disabled_access: true, has_rail: true,
+    id: 2d45e0c7-773c-4a35-9c31-73269d791b6a, music: rnb, name: Gresk Crossing, size: massive,
+    x: -12.369162305142575, y: 1.3228788655643258}
+  - {architecture: new, cleanliness: clean, disabled_access: false, has_rail: false,
+    id: 9402cb36-7c21-4cc6-9d9d-5ddfc378947c, music: pop, name: Spop Crossing, size: medium,
+    x: -6.64976155224446, y: -0.39450852028942984}
+  - {architecture: victorian, cleanliness: dirty, disabled_access: true, has_rail: true,
+    id: 68ec52bb-c3ca-4f32-803a-2d6d302c6641, music: rnb, name: Piz Palace, size: large,
+    x: -5.3857500322386045, y: -0.3537190965297449}
+  - {architecture: victorian, cleanliness: clean, disabled_access: false, has_rail: true,
+    id: 2b18212f-1a56-4333-b896-28be8b449e4d, music: rock n roll, name: Folbridge,
+    size: medium, x: -3.944049327490876, y: -0.08741428610922407}
+  - {architecture: victorian, cleanliness: clean, disabled_access: false, has_rail: true,
+    id: fe7a2278-317b-4a52-9abc-939714546875, music: pop, name: Foolneyland, size: medium,
+    x: -2.704484908174946, y: 0.4799512132183248}
+  - {architecture: glass, cleanliness: shabby, disabled_access: false, has_rail: true,
+    id: 5570241e-66c5-417d-b879-02abf92c50a8, music: pop, name: Dop Upon Thames, size: small,
+    x: -1.0545651183428613, y: 1.420146329758076}
+  - {architecture: art-deco, cleanliness: rat-infested, disabled_access: true, has_rail: true,
+    id: ba7dbc66-a875-4a57-a32a-14d1cb797b6b, music: classical, name: Skosh Bridge,
+    size: massive, x: 2.299330014319929, y: 4.130545866886458}
+  - {architecture: concrete, cleanliness: rat-infested, disabled_access: true, has_rail: true,
+    id: 032c2013-2cf5-4493-86ba-4016fe40efc9, music: pop, name: Lab Lane, size: massive,
+    x: 3.7763578969118363, y: 6.366424964522051}
+  - {architecture: new, cleanliness: shabby, disabled_access: true, has_rail: false,
+    id: cb81014e-95dd-4fad-8f84-bca2e7e7c750, music: pop, name: Yer Square, size: massive,
+    x: 5.621167183740739, y: 8.899475699792038}
+  - {architecture: art-deco, cleanliness: clean, disabled_access: false, has_rail: false,
+    id: f2adc3c6-b5e7-42d3-b497-9d8aeb1f8f01, music: country, name: Drum Crossing,
+    size: tiny, x: 8.638382978196914, y: 15.93181124503586}
+  - {architecture: new, cleanliness: rat-infested, disabled_access: true, has_rail: true,
+    id: 692145f6-dfa4-4ffd-83f8-86bafaf7a991, music: country, name: Gik Grove, size: massive,
+    x: 9.509692019718388, y: 20.275186584959012}
+  - {architecture: glass, cleanliness: dirty, disabled_access: true, has_rail: false,
+    id: 4594f393-9123-4126-9706-07058ce07d91, music: pop, name: Flom Grove, size: massive,
+    x: 8.1516531158197, y: 13.022502919639782}
+  - {architecture: concrete, cleanliness: rat-infested, disabled_access: false, has_rail: false,
+    id: b712414e-002c-4d58-9b9a-a9e5b2b89a9a, music: rock n roll, name: Drisp Manor,
+    size: massive, x: 4.176053946973869, y: 11.639220383259401}
+  - {architecture: new, cleanliness: shabby, disabled_access: true, has_rail: false,
+    id: 9b56e843-98f2-4cff-9308-d55027614307, music: classical, name: Tamp Way, size: medium,
+    x: 1.342150823980358, y: 9.977945225783348}
+  - {architecture: new, cleanliness: rat-infested, disabled_access: true, has_rail: true,
+    id: 4f670421-5410-41f5-8430-fccd3e4cda57, music: pop, name: Loy Hospital, size: tiny,
+    x: -0.4380555998795798, y: 9.192406763195601}
+  - {architecture: art-deco, cleanliness: derilict, disabled_access: false, has_rail: false,
+    id: c8349018-f408-4072-834c-22715dfcf0c6, music: pop, name: Biftneyland, size: medium,
+    x: -2.7738650877128, y: 6.84302346385912}
+  - {architecture: glass, cleanliness: derilict, disabled_access: false, has_rail: false,
+    id: 2da4da42-8890-4340-8828-2e2e83f0720b, music: country, name: Blest Hospital,
+    size: medium, x: -3.2730591776285722, y: 5.375563282054839}
+  - {architecture: modernist, cleanliness: derilict, disabled_access: false, has_rail: false,
+    id: a987173c-1a8f-45ed-81f1-5c1e08127298, music: none, name: Strid Hospital, size: large,
+    x: -4.79599235317021, y: 1.8310245319114136}
+  - {architecture: glass, cleanliness: dirty, disabled_access: true, has_rail: true,
+    id: 78ef8145-0532-4aa4-ac76-de3a6be38a53, music: pop, name: Len Palace, size: small,
+    x: -9.042421056441206, y: -4.798352872233479}
+  - {architecture: modernist, cleanliness: rat-infested, disabled_access: false, has_rail: true,
+    id: 55ba5cc8-9d13-46cc-9cd6-e19ce99a10c4, music: electronic, name: Cresp On Trent,
+    size: massive, x: -17.075296866249165, y: -15.528261341103253}
+  - {architecture: modernist, cleanliness: dirty, disabled_access: true, has_rail: true,
+    id: 713d2825-bfaf-4462-800b-c628aee42d5e, music: rnb, name: Jost Grove, size: tiny,
+    x: -24.426536968282385, y: -22.128634566179326}
+  - {architecture: art-deco, cleanliness: shabby, disabled_access: true, has_rail: true,
+    id: 174ead24-61d4-4de6-bd6b-05c17a56ca2d, music: country, name: Zood Lane, size: tiny,
+    x: -18.26095813847166, y: -6.065744499498505}
+  - {architecture: modernist, cleanliness: rat-infested, disabled_access: false, has_rail: false,
+    id: 00b9b1ff-2f6e-488f-b6b8-dabb1dd7ac0d, music: rnb, name: Grenk Lane, size: large,
+    x: -12.300801910172463, y: -3.595879420133573}
+  - {architecture: art-deco, cleanliness: rat-infested, disabled_access: false, has_rail: true,
+    id: e0f953f8-1a6d-41ec-b3ef-e1b19c73bfea, music: swing, name: Brodneyland, size: large,
+    x: 6.154507700695964, y: 4.66923859008349}
+  - {architecture: new, cleanliness: dirty, disabled_access: true, has_rail: false,
+    id: 8d2d9930-9b0c-4693-b8ee-d0a4d1be4720, music: rnb, name: Prind Square, size: tiny,
+    x: 8.135909915265364, y: 5.108991721279107}
+  - {architecture: glass, cleanliness: dirty, disabled_access: true, has_rail: true,
+    id: a60a7cd9-5d61-42cb-acb2-60afb1eb303e, music: swing, name: Luss Manor, size: small,
+    x: 10.790429686484524, y: 4.890753356181695}
+  - {architecture: art-deco, cleanliness: shabby, disabled_access: false, has_rail: false,
+    id: e6455999-ca57-45e0-86e8-0c828094d02e, music: electronic, name: Cheng Palace,
+    size: small, x: 10.608953687406968, y: 2.0952864256257593}
+  - {architecture: concrete, cleanliness: derilict, disabled_access: false, has_rail: true,
+    id: 5c432f15-d806-4c25-9530-17699eb560e9, music: electronic, name: Brun Manor,
+    size: massive, x: 10.887201360156704, y: -0.04041673545797319}
+  - {architecture: modernist, cleanliness: dirty, disabled_access: true, has_rail: true,
+    id: 1dcd5d53-e05f-414f-96c4-74375f7bd4a0, music: classical, name: Flook On Trent,
+    size: massive, x: 9.787000002847714, y: -2.770056796018724}
+  - {architecture: glass, cleanliness: clean, disabled_access: true, has_rail: true,
+    id: a4cfe95a-c24c-49ed-99c2-ceaab3986210, music: rock n roll, name: Chor Square,
+    size: large, x: 8.77009154828309, y: -6.112112291735714}
+  - {architecture: victorian, cleanliness: clean, disabled_access: true, has_rail: false,
+    id: 2827bede-645f-4422-9a20-12f840d62c6e, music: swing, name: Yoomp Square, size: medium,
+    x: 7.821572848931182, y: -9.451375216543513}
+  - {architecture: concrete, cleanliness: derilict, disabled_access: false, has_rail: false,
+    id: 20753238-b0cb-4745-bb6b-874443ec0b79, music: pop, name: Sind Hospital, size: massive,
+    x: 6.149824740258005, y: -20.090316669431996}
+  - {architecture: modernist, cleanliness: clean, disabled_access: false, has_rail: true,
+    id: 3cb37969-eccf-4d6b-90c8-72d208c77083, music: classical, name: Slow Palace,
+    size: massive, x: 21.53300976485789, y: -8.276482022471265}
+  - {architecture: concrete, cleanliness: derilict, disabled_access: false, has_rail: true,
+    id: b0ae8017-325c-405f-9e40-0d37e1827ca9, music: rnb, name: Plawneyland, size: medium,
+    x: 20.187547216687285, y: -11.609584389348889}
+  - {architecture: glass, cleanliness: rat-infested, disabled_access: false, has_rail: true,
+    id: 1ad141a6-dbb7-48c6-a021-e0a5e32b22de, music: rnb, name: Sunton, size: medium,
+    x: 17.175644580398714, y: -12.287777332817635}
+  - {architecture: new, cleanliness: shabby, disabled_access: false, has_rail: false,
+    id: b3f82e54-7219-4033-8395-fe13ddde3ee0, music: rnb, name: Jooctbridge, size: large,
+    x: 13.332253733340774, y: -10.199547100864145}
+  - {architecture: glass, cleanliness: rat-infested, disabled_access: true, has_rail: false,
+    id: c8a8028a-91a4-40a3-877c-a414a5e282c4, music: classical, name: Yisswich, size: small,
+    x: 10.056925762849579, y: -5.625385096956714}
+  - {architecture: victorian, cleanliness: clean, disabled_access: false, has_rail: true,
+    id: 7901e253-c045-4205-b76d-1348f445cf42, music: rock n roll, name: Frept St,
+    size: tiny, x: -8.536856938375186, y: 19.061469328921028}
+  - {architecture: glass, cleanliness: dirty, disabled_access: true, has_rail: true,
+    id: ff65d8c5-b4ad-4805-bcf2-e78d5273752a, music: rock n roll, name: Skooy Court,
+    size: large, x: -13.189981437135922, y: 23.776236094996914}
+  - {architecture: victorian, cleanliness: dirty, disabled_access: true, has_rail: true,
+    id: 3a2c7f10-17a5-46fa-8819-47fd9b1cbb8c, music: rock n roll, name: Papt Manor,
+    size: massive, x: -7.109664156114455, y: -23.060301200382415}
+  - {architecture: victorian, cleanliness: rat-infested, disabled_access: false, has_rail: true,
+    id: d164ae00-bc0b-4305-b4b8-3ab4b143b611, music: rnb, name: Smoch Square, size: tiny,
+    x: -8.359314857641749, y: -18.985856023908266}
+  - {architecture: glass, cleanliness: shabby, disabled_access: false, has_rail: true,
+    id: 3c4ed94b-cece-457c-b2a8-f4400930b55f, music: electronic, name: Diwbridge,
+    size: tiny, x: -9.352926202692734, y: -14.889658808345793}
+  - {architecture: art-deco, cleanliness: rat-infested, disabled_access: true, has_rail: false,
+    id: c7e1e076-1dc1-456c-bac8-9229ea86102f, music: rnb, name: Blon On Trent, size: large,
+    x: -11.258230821056408, y: -10.998060975870738}
+  - {architecture: concrete, cleanliness: dirty, disabled_access: false, has_rail: true,
+    id: f7441bb3-115c-4f3c-b5a7-30d424a5d57d, music: none, name: Rebbridge, size: medium,
+    x: -11.877949701444194, y: -7.205447901220058}
+  - {architecture: concrete, cleanliness: rat-infested, disabled_access: true, has_rail: false,
+    id: 41934085-b84c-4c66-ba9f-0c4ef77895d0, music: pop, name: Troog Bridge, size: medium,
+    x: -13.298849599084207, y: -3.8874431621747276}
+  - {architecture: glass, cleanliness: clean, disabled_access: false, has_rail: true,
+    id: 11ce0ddc-20cb-4f44-ae9f-338c9de6a2b2, music: none, name: Snam Way, size: small,
+    x: -15.018026840948723, y: -0.40377797299836304}
+  - {architecture: new, cleanliness: rat-infested, disabled_access: true, has_rail: true,
+    id: ac290ca0-669a-4de1-81aa-65bce588b600, music: classical, name: Froom Square,
+    size: small, x: -18.187690483756562, y: 8.25958061139148}
+  - {architecture: glass, cleanliness: derilict, disabled_access: true, has_rail: false,
+    id: 005689a9-c0c5-457d-87a3-79aa4892bde5, music: swing, name: Croov Lane, size: medium,
+    x: -18.64085374733211, y: 10.40385266023806}
+  - {architecture: victorian, cleanliness: dirty, disabled_access: true, has_rail: true,
+    id: cf985777-192c-4fac-b910-fb42ce8ef496, music: classical, name: Brib Lane, size: massive,
+    x: -20.026732760670214, y: 13.33333334516784}
+  - {architecture: modernist, cleanliness: rat-infested, disabled_access: true, has_rail: false,
+    id: 5c9c9c9c-6863-48e0-9ab2-71e2485b3d84, music: classical, name: Shict Street,
+    size: small, x: -18.931246456892342, y: 14.109439635937663}
+  - {architecture: glass, cleanliness: dirty, disabled_access: true, has_rail: false,
+    id: 75ba174b-f407-4c0c-a128-8106bc889b44, music: rnb, name: Sosk Estate, size: large,
+    x: -19.946258550539344, y: 17.093846989080422}
+  - {architecture: art-deco, cleanliness: rat-infested, disabled_access: true, has_rail: true,
+    id: 7fa3148c-bc67-4a29-b121-bda3b4ca4bb0, music: swing, name: Jist Grove, size: massive,
+    x: -21.10203105722062, y: 18.436538479255965}
+  - {architecture: concrete, cleanliness: clean, disabled_access: false, has_rail: false,
+    id: 5283c800-a191-4c03-b479-032db29ee2ba, music: rnb, name: Fep Bridge, size: small,
+    x: -20.182310491430663, y: 19.309405699915835}
+  - {architecture: victorian, cleanliness: shabby, disabled_access: false, has_rail: true,
+    id: bfce997e-89fc-4590-835f-b67c9dc94a46, music: rnb, name: Lod Road, size: massive,
+    x: -20.799698157468164, y: 20.755691570138218}
+  - {architecture: art-deco, cleanliness: shabby, disabled_access: false, has_rail: false,
+    id: f99d7186-6f4f-4d2f-9339-eeb8016fc297, music: country, name: Snay Grove, size: medium,
+    x: -14.3507875763187, y: -2.609274990619402}
+  - {architecture: new, cleanliness: rat-infested, disabled_access: true, has_rail: false,
+    id: 5b30a2c6-0f29-4afe-8296-f9b8a225fee2, music: swing, name: Yavbridge, size: medium,
+    x: -11.806643324538909, y: -4.501464356543927}
+  - {architecture: modernist, cleanliness: rat-infested, disabled_access: false, has_rail: false,
+    id: 0bf67925-361f-446e-a066-19d2f9828601, music: none, name: Snost Manor, size: small,
+    x: -10.491977239749724, y: -5.8660492721860615}
+  - {architecture: new, cleanliness: derilict, disabled_access: false, has_rail: false,
+    id: b356f9ea-aed4-4cf5-816c-3104d037e8f3, music: rock n roll, name: Grez Lane,
+    size: massive, x: -8.944382751721982, y: -6.972347928835752}
+  - {architecture: art-deco, cleanliness: shabby, disabled_access: true, has_rail: false,
+    id: d8ea4bb3-3709-4dad-8791-906c54a19610, music: none, name: Spen Road, size: massive,
+    x: -7.929955939942097, y: -7.402697374429727}
+  - {architecture: glass, cleanliness: derilict, disabled_access: true, has_rail: true,
+    id: df6bff6a-3352-40ab-9e8e-33759330f74a, music: none, name: Grusp Street, size: small,
+    x: -6.418138728994677, y: -9.521401262942586}
+  - {architecture: new, cleanliness: rat-infested, disabled_access: false, has_rail: false,
+    id: a57353ba-2df1-4b15-b20f-ba4402005a0c, music: electronic, name: Zampneyland,
+    size: medium, x: -6.445716979616529, y: -10.481304379283793}
+  - {architecture: modernist, cleanliness: shabby, disabled_access: false, has_rail: false,
+    id: 39ff6bd1-2fb5-45af-b230-83621c45a0ad, music: swing, name: Yosp Estate, size: small,
+    x: -6.1053261201160485, y: -11.611640595253544}
+  - {architecture: concrete, cleanliness: clean, disabled_access: false, has_rail: true,
+    id: d1fe0ae8-a54f-431b-9f0b-28c27c97e5ef, music: none, name: Stingington, size: small,
+    x: -7.3576020141603635, y: -12.672696888749156}
+  - {architecture: concrete, cleanliness: dirty, disabled_access: false, has_rail: true,
+    id: 29073608-1ea3-483d-a284-b29bec61ffbd, music: classical, name: Toonk Palace,
+    size: medium, x: -8.284372886706763, y: -12.240551511403266}
+  - {architecture: new, cleanliness: rat-infested, disabled_access: true, has_rail: false,
+    id: 9044d255-31ab-4b22-bbf4-56c4f304560d, music: country, name: Slast Court, size: medium,
+    x: -14.041104808244713, y: -8.513403741711494}
+  - {architecture: modernist, cleanliness: rat-infested, disabled_access: true, has_rail: true,
+    id: 08311a2e-9281-48c0-8518-5896f982333c, music: country, name: Crum Grove, size: small,
+    x: -15.899312002051325, y: -7.167423807764416}
+  - {architecture: victorian, cleanliness: clean, disabled_access: true, has_rail: true,
+    id: 8cbdcc40-1929-4d7d-936b-2f961adc18e0, music: electronic, name: Rivington,
+    size: medium, x: 15.602534280785111, y: 16.014350876702906}
+  - {architecture: victorian, cleanliness: rat-infested, disabled_access: true, has_rail: false,
+    id: 0b059d6f-bfb8-4010-9d2d-1f7e38eca85a, music: country, name: Yundbridge, size: medium,
+    x: 13.21930928549875, y: 12.293668131880047}
+  - {architecture: glass, cleanliness: clean, disabled_access: false, has_rail: false,
+    id: 083c658c-92ad-4a03-b237-171b8cdba102, music: classical, name: Grush Way, size: small,
+    x: 10.234408535337852, y: 8.467256100502967}
+  - {architecture: modernist, cleanliness: shabby, disabled_access: true, has_rail: false,
+    id: 8ddd4dce-5898-484b-b95d-6d81dde31640, music: pop, name: Stuntham, size: small,
+    x: 8.70139767622606, y: 4.426625609440661}
+  - {architecture: art-deco, cleanliness: derilict, disabled_access: false, has_rail: true,
+    id: 5d43fbc2-1a41-492c-b259-fbc957dd683f, music: pop, name: Gral St, size: massive,
+    x: 6.410459516010162, y: -1.7217250915184705}
+  - {architecture: victorian, cleanliness: dirty, disabled_access: false, has_rail: false,
+    id: cc55efe7-49d7-4daf-9aae-db8f2173b768, music: country, name: Skenwich, size: tiny,
+    x: 5.243410325505197, y: -4.53931255278988}
+  - {architecture: glass, cleanliness: derilict, disabled_access: true, has_rail: true,
+    id: bb1997ec-22a2-40d2-9347-6dd19f70aa4a, music: none, name: Rift St, size: massive,
+    x: 4.541645764949336, y: -7.261413785277778}
+  - {architecture: victorian, cleanliness: derilict, disabled_access: true, has_rail: false,
+    id: 52eb6db2-1bc5-4284-9a41-d0855d84b50d, music: country, name: Jungington, size: small,
+    x: 3.746286482755452, y: -9.596962978638128}
+  - {architecture: modernist, cleanliness: clean, disabled_access: true, has_rail: true,
+    id: d5c3f3d3-1282-40a7-86a9-25e9dda8cf4f, music: none, name: Blevham, size: massive,
+    x: 3.2793830256959198, y: -11.339209476077878}
+  - {architecture: new, cleanliness: shabby, disabled_access: false, has_rail: false,
+    id: 39575419-909c-4367-85ec-1ce67ab910f1, music: country, name: Hooz Estate, size: massive,
+    x: 3.2446072946658036, y: -12.959772061464172}
+  - {architecture: concrete, cleanliness: rat-infested, disabled_access: true, has_rail: false,
+    id: 9abd4a0a-8405-41bc-b26f-2801cd4090c4, music: none, name: Juyington, size: tiny,
+    x: 3.4085851374221243, y: -14.656773888616195}
+  - {architecture: art-deco, cleanliness: clean, disabled_access: false, has_rail: true,
+    id: 9cad5550-992d-45d3-9dfb-2ea8fddaf215, music: classical, name: Poopt On Trent,
+    size: medium, x: 3.2203602195313823, y: -17.47129662868069}
+  - {architecture: new, cleanliness: rat-infested, disabled_access: false, has_rail: false,
+    id: 6c19246a-3f5a-48e1-8784-100e605e80ec, music: electronic, name: Ponkbridge,
+    size: small, x: 3.752474716697539, y: -18.663720250274825}
+  - {architecture: victorian, cleanliness: shabby, disabled_access: true, has_rail: false,
+    id: 3e6d5045-63d8-496b-a214-e4ac133fb281, music: swing, name: Yept Manor, size: large,
+    x: 4.63853108032638, y: -20.695931621642682}
+  - {architecture: concrete, cleanliness: dirty, disabled_access: false, has_rail: false,
+    id: a9cd7289-738d-499a-a237-483e21591fdc, music: rock n roll, name: Pluft Road,
+    size: medium, x: 0.23679304134711296, y: -14.878596653461788}
+  - {architecture: modernist, cleanliness: rat-infested, disabled_access: false, has_rail: true,
+    id: 563a37f3-fe5b-4450-a8bd-185417824bbf, music: none, name: Flun Boulevard, size: tiny,
+    x: 20.470576502532218, y: 0.0749404246790058}
+  - {architecture: new, cleanliness: shabby, disabled_access: false, has_rail: true,
+    id: 6d52d966-087b-4491-8457-5e2c4a7d499f, music: none, name: Brepington, size: medium,
+    x: 8.646417856136841, y: -2.3346655737955406}
+  - {architecture: victorian, cleanliness: clean, disabled_access: true, has_rail: false,
+    id: 0153855c-5c49-4bf3-9120-cce00a3890d8, music: electronic, name: Yendham, size: massive,
+    x: 3.2943237314760054, y: -2.707602737566769}
+  - {architecture: victorian, cleanliness: derilict, disabled_access: true, has_rail: false,
+    id: d6ea7912-d473-4c2f-ae36-b27e7397a5b2, music: pop, name: Swump St, size: tiny,
+    x: -1.7617307037755536, y: -2.679197699061217}
+  - {architecture: modernist, cleanliness: clean, disabled_access: true, has_rail: true,
+    id: 89b90bef-cbef-4dc6-b033-6953e8bf14f3, music: none, name: Clongneyland, size: small,
+    x: -10.404767968478124, y: -1.4286543730066932}
+  - {architecture: victorian, cleanliness: rat-infested, disabled_access: true, has_rail: false,
+    id: dc1e57d4-f8cc-4fdf-9b7b-9be8450e9702, music: pop, name: Drool Street, size: tiny,
+    x: -12.377207836879192, y: -0.42282181961242404}
+  - {architecture: victorian, cleanliness: clean, disabled_access: false, has_rail: true,
+    id: 4822368a-c7f4-4916-bf39-3b9a0c8f082d, music: electronic, name: Yistington,
+    size: medium, x: -15.952109481900251, y: 0.7772142235349275}
+  - {architecture: glass, cleanliness: derilict, disabled_access: true, has_rail: false,
+    id: 01ded27f-8991-4067-a43e-cc2f6125f5fa, music: pop, name: Mah Estate, size: large,
+    x: -17.276662756880942, y: 3.5019475175252346}
+  - {architecture: new, cleanliness: shabby, disabled_access: true, has_rail: true,
+    id: 12c51c8b-c064-46f9-9e0e-56d6fd28c86f, music: electronic, name: Kop Grove,
+    size: massive, x: -18.217251162090715, y: 4.689631752918069}
+  - {architecture: new, cleanliness: dirty, disabled_access: false, has_rail: true,
+    id: 93100d13-94a9-4279-90e0-7d5f659540e6, music: swing, name: Hesk St, size: medium,
+    x: -16.61494313630451, y: 6.357010596639631}
+  - {architecture: new, cleanliness: dirty, disabled_access: false, has_rail: false,
+    id: 7bc5b112-c0e5-4ab3-a58e-d681d8ed5b7b, music: country, name: Drud Street, size: massive,
+    x: 3.3319490168385357, y: -15.448893313061994}
+  - {architecture: art-deco, cleanliness: shabby, disabled_access: true, has_rail: true,
+    id: 49817d3e-7301-4859-b5c3-0f0cf13fe313, music: classical, name: Stroont Street,
+    size: small, x: 0.8858416778172133, y: -12.891688591145657}
+  - {architecture: victorian, cleanliness: clean, disabled_access: true, has_rail: false,
+    id: 791b9567-c89b-46d7-852e-488520de10a8, music: rnb, name: Tank Court, size: small,
+    x: -1.492555395368492, y: -8.902178317482308}
+  - {architecture: glass, cleanliness: rat-infested, disabled_access: false, has_rail: false,
+    id: cebfca4b-5b53-4695-b309-8de626d76b0e, music: electronic, name: Tiz Square,
+    size: tiny, x: -2.4900301364281128, y: -5.509179908887865}
+  - {architecture: glass, cleanliness: shabby, disabled_access: false, has_rail: false,
+    id: 6648b4f6-7252-41dc-871c-2724888d575b, music: electronic, name: Flel On Trent,
+    size: tiny, x: -2.94012578452572, y: -3.3781639415002966}
+  - {architecture: modernist, cleanliness: rat-infested, disabled_access: true, has_rail: true,
+    id: 07a614af-e99d-4499-8a64-fd755cae6035, music: swing, name: Blum Way, size: massive,
+    x: -3.388211499421591, y: -1.0129343751765865}
+  - {architecture: modernist, cleanliness: derilict, disabled_access: false, has_rail: true,
+    id: 3d22e21c-b946-4aad-a40a-a06e80964aed, music: classical, name: Chut On Trent,
+    size: small, x: -9.840921768807595, y: -10.89825242206607}
+  - {architecture: modernist, cleanliness: shabby, disabled_access: true, has_rail: false,
+    id: 180e8b98-1460-474d-8ca8-37304100661c, music: electronic, name: Rabington,
+    size: massive, x: -11.39221188372116, y: -13.771305198930566}
+  - {architecture: modernist, cleanliness: shabby, disabled_access: false, has_rail: false,
+    id: be800216-9074-4195-a17d-9945681e389b, music: rock n roll, name: Kood International,
+    size: small, x: -9.886039875600597, y: -14.14049942331489}
+  - {architecture: glass, cleanliness: rat-infested, disabled_access: false, has_rail: false,
+    id: 7881ddb3-f42d-4f57-9f5b-60a8102ce4b9, music: pop, name: Swompneyland, size: massive,
+    x: -7.81828912844315, y: -14.235393903314366}
+  - {architecture: concrete, cleanliness: rat-infested, disabled_access: false, has_rail: false,
+    id: 374164a8-bfdd-497d-be43-344d8bfde0a2, music: swing, name: Sneshington, size: tiny,
+    x: -5.774351054005515, y: -13.376688498431568}
+  - {architecture: modernist, cleanliness: clean, disabled_access: false, has_rail: true,
+    id: 0b65fe53-f179-47dc-b78c-e8b8a9376623, music: rnb, name: Diz Bridge, size: large,
+    x: -3.033818621128437, y: -13.575360254893415}
+  - {architecture: glass, cleanliness: derilict, disabled_access: false, has_rail: false,
+    id: 7e17a4ab-c943-470f-8906-46cc9be5fcd8, music: country, name: Dunk Boulevard,
+    size: large, x: 6.377646809979411, y: -10.68029768665798}
+  - {architecture: art-deco, cleanliness: shabby, disabled_access: true, has_rail: true,
+    id: 316e2b98-8eac-4fa6-bcec-c638040623ae, music: rnb, name: Primp On Trent, size: massive,
+    x: 9.944707600701804, y: -10.583535876047069}
+  - {architecture: concrete, cleanliness: clean, disabled_access: false, has_rail: true,
+    id: 532e1253-885f-4537-83de-c33d3147a806, music: rnb, name: Wisk Lane, size: small,
+    x: 18.371650331713486, y: -9.682122828471405}
+  - {architecture: concrete, cleanliness: shabby, disabled_access: true, has_rail: false,
+    id: 3002f4c6-0e8f-4b92-bfd2-a2665a014767, music: none, name: Pant Upon Thames,
+    size: tiny, x: 21.917912374212985, y: -10.705609607327746}
+  - {architecture: victorian, cleanliness: derilict, disabled_access: false, has_rail: false,
+    id: 757fb838-a404-4e4d-8df3-27999fb4c7a6, music: classical, name: Saw Square,
+    size: massive, x: 23.87511075823822, y: -13.016197614390649}
+question:
+  cypher: MATCH (var1) MATCH (var2) MATCH tmp1 = shortestPath((var1)-[*]-(var2))  WHERE
+    var1.name="Diz Bridge" AND var2.name="Wisk Lane"  WITH 1 AS foo, tmp1 AS var3
+    UNWIND nodes(var3) AS var4  RETURN length(collect(var4))  - 2
+  english: How many stations are between Diz Bridge and Wisk Lane?
+  functional:
+    Subtract:
+    - Count:
+      - ShortestPath:
+        - Station:
+          - {architecture: modernist, cleanliness: clean, disabled_access: false,
+            has_rail: true, id: 0b65fe53-f179-47dc-b78c-e8b8a9376623, music: rnb,
+            name: Diz Bridge, size: large, x: -3.033818621128437, y: -13.575360254893415}
+        - Station:
+          - {architecture: concrete, cleanliness: clean, disabled_access: false, has_rail: true,
+            id: 532e1253-885f-4537-83de-c33d3147a806, music: rnb, name: Wisk Lane,
+            size: small, x: 18.371650331713486, y: -9.682122828471405}
+    - 2
+  tpe: StationShortestCount
+---

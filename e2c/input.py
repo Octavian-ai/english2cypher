@@ -5,51 +5,8 @@ import tensorflow as tf
 from collections import Counter
 import string
 
-UNK = "<unk>"
-SOS = "<s>"
-EOS = "</s>"
-special_tokens = [UNK, SOS, EOS]
-
-UNK_ID = special_tokens.index(UNK)
-SOS_ID = special_tokens.index(SOS)
-EOS_ID = special_tokens.index(EOS)
-
-
-
-def build_vocab(args):
-
-	hits = Counter()
-
-	def add_lines(lines):
-		for line in lines:
-			line = line.replace("\n", "")
-
-			for word in line.split(' '):
-				if word != "" and word != " ":
-					hits[word] += 1
-
-	for i in ["all"]:
-		for j in ["src", "tgt"]:
-			with tf.gfile.GFile(args[f"{i}_{j}_path"]) as in_file:
-				add_lines(in_file.readlines())
-
-	tokens = set()
-	tokens.update(special_tokens)
-	tokens.update(string.ascii_lowercase)
-	tokens.update(string.ascii_uppercase)
-
-	for t, c in hits.most_common(args["vocab_size"] - len(tokens)):
-		tokens.add(t)
-
-	with tf.gfile.GFile(args["vocab_path"], 'w') as out_file:
-		for i in special_tokens:
-			out_file.write(i + "\n")
-			
-		for i in tokens:
-			if i not in special_tokens:
-				out_file.write(i + "\n")
-
-	return tokens
+from .util import *
+from .build_data import *
 
 
 def load_vocab(args):
@@ -74,18 +31,37 @@ def get_constants(args):
 	}
 
 
-def gen_input_fn(args, mode):
+def StringDataset(s):
+
+	def generator():
+		yield s
+
+	return tf.data.Dataset.from_generator(generator, tf.string, tf.TensorShape([]) )
+
+
+def gen_input_fn(args, mode, question=None):
 	# Heavily based off the NMT tutorial structure
 	vocab_table = load_vocab(args)
 	consts = get_constants(args)
 
-	# Load, split and tokenize
-	src_dataset = tf.data.TextLineDataset(args[f"{mode}_src_path"])
+	# Load data source
+	if question is not None:
+		# Quickly pre-process for tokenisation (e.g. add spaces, strip formatting)
+		vocab_set = load_vocab_set(args)
+		pre_token = transform_english_pretokenize(question)
+		pre_token = expand_unknown_vocab(pre_token, vocab_set)
+
+		src_dataset = StringDataset(pre_token)
+		tgt_dataset = StringDataset("")
+	else: 
+		src_dataset = tf.data.TextLineDataset(args[f"{mode}_src_path"])
+		tgt_dataset = tf.data.TextLineDataset(args[f"{mode}_tgt_path"])
+
+
+	# Tokenise and add vocab
 	src_dataset = src_dataset.map(lambda l: tf.string_split([l]).values)
 	src_dataset = src_dataset.map(lambda l: tf.cast(vocab_table.lookup(l), tf.int32))
-
-	# Load, split and tokenize
-	tgt_dataset = tf.data.TextLineDataset(args[f"{mode}_tgt_path"])
+	
 	tgt_dataset = tgt_dataset.map(lambda l: tf.string_split([l]).values)
 	tgt_dataset = tgt_dataset.map(lambda l: tf.cast(vocab_table.lookup(l), tf.int32))
 
@@ -109,7 +85,6 @@ def gen_input_fn(args, mode):
 
 	d = d.shuffle(args["batch_size"]*10)
 
-	# Currently dynamic_rnn seems to crash if the last batch is smaller
 	d = d.padded_batch(
 		args["batch_size"],
 		# The first three entries are the source and target line rows;
@@ -140,9 +115,6 @@ def gen_input_fn(args, mode):
 			consts["tgt_eos_id"],
 		)
 	)
-			
-			
-
 	
 	return d
 
