@@ -47,8 +47,8 @@ if __name__ == "__main__":
 	logger.info(query)
 
 	with Neo4jSession(args) as session:
-		# logger.debug("Empty database")
-		# nuke(session)
+		logger.debug("Empty database")
+		nuke(session)
 
 		logger.debug("Load database")
 		load_yaml(session, args["graph_path"])

@@ -18,16 +18,17 @@ class Neo4jSession(object):
 		self.args = args
 
 	def __enter__(self):
-		driver = GraphDatabase.driver(
+		self.driver = GraphDatabase.driver(
 			self.args["neo_url"], 
 			auth=(self.args["neo_user"], self.args["neo_password"]), 
 			encrypted=False)
-		self.session = driver.session()
+		self.session = self.driver.session()
 
 		return self.session
 
 	def __exit__(self, a, b, c):
 		self.session.close()
+		self.driver = None
 
 
 def load_yaml(session, graph_path):

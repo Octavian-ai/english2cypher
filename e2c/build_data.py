@@ -11,16 +11,6 @@ from .util import *
 from .args import *
 
 
-UNK = "<unk>"
-SOS = "<s>"
-EOS = "</s>"
-special_tokens = [UNK, SOS, EOS]
-
-UNK_ID = special_tokens.index(UNK)
-SOS_ID = special_tokens.index(SOS)
-EOS_ID = special_tokens.index(EOS)
-
-
 
 def build_vocab(args):
 
