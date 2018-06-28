@@ -1,6 +1,7 @@
 
 from collections import Counter
 import numpy as np
+import string
 
 
 UNK = "<unk>"
@@ -60,6 +61,10 @@ def prediction_to_string(p):
 	s = ' '.join(p)
 	for i in special_tokens:
 		s = s.replace(" "+i, "")
+
+	for i in string.ascii_lowercase:
+		s = s.replace("_"+i+" ", i)
+		s = s.replace("_"+i.upper()+" ", i)
 
 	return s
 

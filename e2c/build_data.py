@@ -31,8 +31,10 @@ def build_vocab(args):
 
 	tokens = set()
 	tokens.update(special_tokens)
-	tokens.update(string.ascii_lowercase)
-	tokens.update(string.ascii_uppercase)
+
+	for i in string.ascii_lowercase:
+		tokens.add("_"+i)
+		tokens.add("_"+i.upper())
 
 	for t, c in hits.most_common(args["vocab_size"] - len(tokens)):
 		tokens.add(t)
@@ -63,7 +65,7 @@ def expand_unknown_vocab(line, vocab_set):
 	unkowns -= set('\n')
 
 	for t in unkowns:
-		spaced = ''.join([f" {c} " for c in t])
+		spaced = ''.join([f"_{c} " for c in t])
 		line = line.replace(t, spaced)
 		line = line.replace("  ", " ")
 
