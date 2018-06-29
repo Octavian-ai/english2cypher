@@ -25,7 +25,7 @@ def get_args(extend=lambda a:None):
 
 
 	parser.add_argument('--max-steps',    type=int, default=400)
-	parser.add_argument('--predict-freq', type=int, default=3)
+	parser.add_argument('--predict-freq', type=int, default=1)
 
 
 	parser.add_argument('--limit', type=int, default=None,help="Limit number of data points, to quickly test code")

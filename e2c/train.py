@@ -8,7 +8,7 @@ from .input import gen_input_fn, EOS
 from .model import model_fn
 from .args import get_args
 from .hooks import *
-from .util import prediction_to_string
+from .util import *
 
 def dump_predictions(args, predictions):
 	with tf.gfile.GFile(os.path.join(args["output_dir"], "predictions.txt"), "w") as file:
@@ -56,7 +56,7 @@ def train(args):
 					v = [v]
 
 				for p in v:
-					ps = prediction_to_string(p)
+					ps = prediction_to_cypher(p)
 					print(f"{k}: {ps}")
 					# dump_predictions(args, predictions)
 			print("")

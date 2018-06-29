@@ -33,10 +33,12 @@ def build_vocab(args):
 	tokens.extend(special_tokens)
 
 	for i in string.ascii_lowercase:
-		tokens.append("_"+i)
-		tokens.append("_"+i.upper())
+		tokens.append("<"+i+">")
+		tokens.append("<"+i.upper()+">")
 
-	tokens.extend([i for i, c in hits.most_common(args["vocab_size"] - len(tokens))])
+	for i, c in hits.most_common(args["vocab_size"] - len(tokens)):
+		if i not in tokens:
+			tokens.append(i)
 
 	assert len(tokens) <= args["vocab_size"]
 
@@ -55,18 +57,6 @@ def load_vocab_set(args):
 			tokens.append(line.replace("\n", ""))
 
 	return tokens
-
-def expand_unknown_vocab(line, vocab_set):
-	ts = set(line.split(' '))
-	unkowns = ts - set(vocab_set)
-	unkowns -= set('\n')
-
-	for t in unkowns:
-		spaced = ''.join([f"_{c} " for c in t])
-		line = line.replace(t, spaced)
-		# line = line.replace("  ", " ")
-
-	return line
 
 
 
