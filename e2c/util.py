@@ -3,6 +3,8 @@ from collections import Counter
 import numpy as np
 import string
 
+import logging
+logger = logging.getLogger(__name__)
 
 UNK = "<unk>"
 SOS = "<s>"
@@ -14,7 +16,7 @@ SOS_ID = special_tokens.index(SOS)
 EOS_ID = special_tokens.index(EOS)
 
 
-def transform_cypher_pretokenize(s):
+def pretokenize_cypher(s):
 	# We want to tokenize these seperate from the keywords
 	punctuation = "()[]-=\"',.;:?"
 
@@ -22,13 +24,13 @@ def transform_cypher_pretokenize(s):
 
 	for p in punctuation:
 		l = l.replace(p, f" {p} ")
-		l = l.replace("  ", " ")
+		# l = l.replace("  ", " ")
 	
 	
 	return l
 
 
-def transform_english_pretokenize(text):
+def pretokenize_english(text):
 	"""From Keras Tokenizer"""
 
 	filters = '!"#$%&()*+,-./:;<=>?@[\\]^_`{|}~\t\n'
@@ -41,6 +43,20 @@ def transform_english_pretokenize(text):
 	return text
 
 
+
+def detokenize_english(s):
+	for i in special_tokens:
+		s = s.replace(" "+i, "")
+
+	for i in string.ascii_lowercase:
+		s = s.replace("_"+i+" ", i)
+		s = s.replace("_"+i.upper()+" ", i.upper())
+
+	return s
+
+
+# --------------------------------------------------------------------------
+
 def mode_best_effort(l):
 	"""Mode of list. Will return single element even if multi-modal"""
 
@@ -51,6 +67,10 @@ def mode_best_effort(l):
 	return c.most_common(1)[0][0]
 
 
+
+# --------------------------------------------------------------------------
+
+
 def prediction_row_to_cypher(pred):
 	options = [prediction_to_string(i) for i in pred["beam"]]
 	return mode_best_effort(options)
@@ -59,12 +79,8 @@ def prediction_to_string(p):
 	decode_utf8 = np.vectorize(lambda v: v.decode("utf-8"))
 	p = decode_utf8(p)
 	s = ' '.join(p)
-	for i in special_tokens:
-		s = s.replace(" "+i, "")
-
-	for i in string.ascii_lowercase:
-		s = s.replace("_"+i+" ", i)
-		s = s.replace("_"+i.upper()+" ", i)
+	logger.debug("Raw prediction string: " + s)
+	s = detokenize_english(s)
 
 	return s
 

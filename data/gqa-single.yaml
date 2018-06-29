@@ -1,4 +1,3 @@
----
 answer: 6
 graph:
   edges:
@@ -1719,4 +1718,3 @@ question:
             size: small, x: 18.371650331713486, y: -9.682122828471405}
     - 2
   tpe: StationShortestCount
----

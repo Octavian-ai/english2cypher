@@ -4,6 +4,9 @@ import os.path
 import tensorflow as tf
 from collections import Counter
 import string
+import logging
+
+logger = logging.getLogger(__name__)
 
 from .util import *
 from .build_data import *
@@ -48,10 +51,12 @@ def gen_input_fn(args, mode, question=None):
 	if question is not None:
 		# Quickly pre-process for tokenisation (e.g. add spaces, strip formatting)
 		vocab_set = load_vocab_set(args)
-		pre_token = transform_english_pretokenize(question)
-		pre_token = expand_unknown_vocab(pre_token, vocab_set)
+		q = pretokenize_english(question)
+		logger.debug("Pretokenized: "+ q)
+		q = expand_unknown_vocab(q, vocab_set)
+		logger.debug("With unkown vocab expanded: " + q)
 
-		src_dataset = StringDataset(pre_token)
+		src_dataset = StringDataset(q)
 		tgt_dataset = StringDataset("")
 	else: 
 		src_dataset = tf.data.TextLineDataset(args[f"{mode}_src_path"])

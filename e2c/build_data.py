@@ -67,7 +67,7 @@ def expand_unknown_vocab(line, vocab_set):
 	for t in unkowns:
 		spaced = ''.join([f"_{c} " for c in t])
 		line = line.replace(t, spaced)
-		line = line.replace("  ", " ")
+		# line = line.replace("  ", " ")
 
 	return line
 
@@ -97,8 +97,8 @@ def etl(args, filepath):
 					if i["question"] and i["question"]["cypher"] is not None:
 						types[i["question"]["tpe"]] += 1
 
-						src_file.write(transform_english_pretokenize(i["question"]["english"]) + "\n")
-						tgt_file.write(transform_cypher_pretokenize(i["question"]["cypher"]) + "\n")
+						src_file.write(pretokenize_english(i["question"]["english"]) + "\n")
+						tgt_file.write(pretokenize_cypher(i["question"]["cypher"]) + "\n")
 
 		tokens = build_vocab(args)
 
