@@ -29,39 +29,36 @@ def build_vocab(args):
 			with tf.gfile.GFile(args[f"{i}_{j}_path"]) as in_file:
 				add_lines(in_file.readlines())
 
-	tokens = set()
-	tokens.update(special_tokens)
+	tokens = list()
+	tokens.extend(special_tokens)
 
 	for i in string.ascii_lowercase:
-		tokens.add("_"+i)
-		tokens.add("_"+i.upper())
+		tokens.append("_"+i)
+		tokens.append("_"+i.upper())
 
-	for t, c in hits.most_common(args["vocab_size"] - len(tokens)):
-		tokens.add(t)
+	tokens.extend([i for i, c in hits.most_common(args["vocab_size"] - len(tokens))])
+
+	assert len(tokens) <= args["vocab_size"]
 
 	with tf.gfile.GFile(args["vocab_path"], 'w') as out_file:
-		for i in special_tokens:
-			out_file.write(i + "\n")
-			
 		for i in tokens:
-			if i not in special_tokens:
-				out_file.write(i + "\n")
+			out_file.write(i + "\n")
 
 	return tokens
 
 
 def load_vocab_set(args):
-	tokens = set()
+	tokens = list()
 
 	with tf.gfile.GFile(args["vocab_path"]) as file:
 		for line in file.readlines():
-			tokens.add(line.replace("\n", ""))
+			tokens.append(line.replace("\n", ""))
 
 	return tokens
 
 def expand_unknown_vocab(line, vocab_set):
 	ts = set(line.split(' '))
-	unkowns = ts - vocab_set
+	unkowns = ts - set(vocab_set)
 	unkowns -= set('\n')
 
 	for t in unkowns:

@@ -1,822 +1,772 @@
-Which lines is _S _n _u _c _h _n _e _y _l _a _n _d on 
-How clean is _P _r _i _v _w _i _c _h 
-How clean is _Y _i _k St 
-How many art deco stations are on the Purple _D _r _a _w line 
-How many architecture styles does Green _S _p _a _z pass through 
-How many new stations are on the Gray _S _m _i _d line 
-Are _B _e _y Court and _H _e _l Boulevard on the same line 
-How clean is _C _h _o _f _t On Trent 
-How many architecture styles does Red _P _l _i _k pass through 
-How many lines is _H _e _s _k Lane on 
-Are Gek On Trent and _Y _o _s _h Square on the same line 
-Which stations does Olive _B _r _a _s _s pass through 
-How many architecture styles does Blue _S _w _a _f _t pass through 
-How many new stations are on the Olive _D _o _k line 
-How clean is _C _r _e _n _g Hospital 
-How clean is _C _l _e _w Manor 
-How many lines is Bess Road on 
-Are _F _l _i _f Square and _M _e _p _t _b _r _i _d _g _e on the same line 
-How many lines is _T _u _s _h Hospital on 
-How many lines is _M _e _n _g Square on 
-Which stations does Brown _C _r _u _v pass through 
-How many architecture styles does Olive _D _a _m pass through 
-How many victorian stations are on the Olive _R _i _n line 
-How many art deco stations are on the Pink _L _o _o _f _t line 
-How many lines is _F _l _e _z Palace on 
-How many architecture styles does Pink _S _p _o _p _t pass through 
-Which lines is _C _h _u _s _t Hospital on 
-How clean is _L _a _n _g Manor 
-How many new stations are on the Pink _S _t _o _o _y line 
-How many lines is _S _w _o _o _w Hospital on 
-How clean is _P _o _o _z Crossing 
-Which stations does Blue _S _h _o _o _s _t pass through 
-How clean is _S _l _i _v Palace 
-Which stations does Olive _F _r _e _n _k pass through 
-Are _S _t _r _a _l _i _n _g _t _o _n and _F _o _y Estate on the same line 
-Which lines is _B _o _b Hospital on 
-How many architecture styles does Purple _T _r _u _s _h pass through 
-How many stations are between Temp Way and _S _t _u _n Manor 
-Which lines is _P _l _i _n _k Manor on 
-How many architecture styles does Blue _S _t _r _o _p pass through 
-Which lines is _F _r _o _s _h Palace on 
-How many modernist stations are on the Red _S _p _o _o _f line 
-How many lines is _P _r _o _o _f _t Way on 
-How many architecture styles does Olive _W _i _p _t pass through 
-How many stations are between _D _i _w _n _e _y _l _a _n _d and _S _l _e _s _t On Trent 
-How many victorian stations are on the Pink _B _l _o _n _g line 
-How many victorian stations are on the Red _R _o _b line 
-How many lines is _S _h _i _t _b _r _i _d _g _e on 
-Are _C _h _e _f _t Estate and _K _a _m _p Street on the same line 
-Are _C _h _o _o _y Bridge and _G _l _u _s _k On Trent on the same line 
-Which lines is _B _u _t Lane on 
-Which stations does Cyan _G _l _u _s _k pass through 
-How many lines is _S _h _o _o _r _w _i _c _h on 
-How many architecture styles does Olive _W _e _t pass through 
-How many lines is _G _o _f Hospital on 
-Which stations does Purple _S _l _u _n _g pass through 
-Which lines is _S _w _i _k Crossing on 
-Which lines is _D _o _o _s _t _w _i _c _h on 
-How many lines is _S _m _i _z Street on 
-Are _F _l _i _g _n _e _y _l _a _n _d and Nuct Palace on the same line 
-Which stations does Purple Frood pass through 
-How many victorian stations are on the Green _C _l _a _d line 
-How many architecture styles does Olive _F _r _a _s _t pass through 
-How many lines is _G _l _o _o _n _n _e _y _l _a _n _d on 
-How clean is _B _r _o _o _n _t Hospital 
-How many glass stations are on the Orange _P _a _z line 
-Which stations does Brown _G _r _i _w pass through 
-Which lines is _Z _o _z _t _o _n on 
-How many architecture styles does Pink _C _r _o _t pass through 
-Which stations does Blue _V _e _g pass through 
-Which lines is _S _m _u _s _t Way on 
-Are _R _a _d _i _n _g _t _o _n and _D _r _o _o _n _k Bridge on the same line 
-How many lines is _P _l _a _r Boulevard on 
-How clean is _S _w _a _s _h _n _e _y _l _a _n _d 
-Are Kosh Estate and _F _l _a _n _g Bridge on the same line 
-How clean is _L _o _s _s Estate 
-How clean is Voosh Hospital 
-Which stations does Brown _B _r _o _o _t pass through 
-How clean is _D _r _o _o _s _k St 
-Which lines is _G _r _o _o _s _s Street on 
-Which stations does Brown _P _i _p pass through 
-How many architecture styles does Red _Z _o _o _f pass through 
-How clean is _B _l _i _k Crossing 
-Which lines is _J _i _s _t Bridge on 
-How many lines is _D _r _u _k _t _o _n on 
-How many architecture styles does Brown _B _l _o _r pass through 
-How many art deco stations are on the Pink _B _o _o _z line 
-Which lines is _R _u _f _t _o _n on 
-How many lines is _P _o _d Boulevard on 
-How clean is _C _h _o _o _v _w _i _c _h 
-How many victorian stations are on the Brown _T _u _p line 
-How clean is _L _e _l Upon Thames 
-Which stations does Red _S _p _o _o _f pass through 
-How many lines is _R _o _z Lane on 
-How many victorian stations are on the Gray _Y _i _b line 
-Which stations does Cyan _Y _a _s _p pass through 
-How clean is _G _i _m Bridge 
-How many victorian stations are on the Brown _G _l _o _o _p _t line 
-Which lines is _T _o _h Estate on 
-How clean is _T _r _o _o _c _t _n _e _y _l _a _n _d 
-How many lines is _S _m _a _s _k Crossing on 
-Which stations does Purple _S _h _u _p _t pass through 
-How many architecture styles does Pink _D _e _p _t pass through 
-Are _N _a _n _k On Trent and _G _a _w Boulevard on the same line 
-How many lines is _R _o _p _t Palace on 
-Are _B _e _n _k Lane and _S _p _e _b On Trent on the same line 
-Are Stemp Crossing and _R _o _o _g _t _o _n on the same line 
-Which stations does Brown _V _e _m pass through 
-How many architecture styles does Pink Freb pass through 
-How clean is _Z _o _o _c _t Court 
-Are _N _i _y _i _n _g _t _o _n and _G _r _a _s _k Manor on the same line 
-Which stations does Purple _S _t _r _a _s _p pass through 
-How clean is _J _i _s _p Hospital 
-How many architecture styles does Orange _G _r _u _s _k pass through 
-How many modernist stations are on the Blue Div line 
-Which lines is _S _w _o _v St on 
-Which stations does Pink _T _r _o _o _p pass through 
-How clean is _S _p _o _o _z _w _i _c _h 
-Which stations does Olive _L _a _l pass through 
-How many new stations are on the Green _C _h _o _s _t line 
-Which stations does Orange _V _o _o _f pass through 
-How many new stations are on the Green _W _o _o _s _k line 
-How many lines is _H _o _v Upon Thames on 
-How many lines is _T _r _u _n _k Street on 
-How many architecture styles does Olive _Z _a _t pass through 
-How many lines is _B _o _o _y Bridge on 
-How clean is _H _o _b Manor 
-Are _S _i _c _t Square and _P _l _o _o _y Boulevard on the same line 
-How many stations are between _G _r _a _s _k Boulevard and _P _a _f _b _r _i _d _g _e 
-How many lines is _D _r _a _n _g Hospital on 
-How many lines is _B _l _o _k Crossing on 
-How many glass stations are on the Orange Shoosh line 
-Which lines is _B _l _o _o _f _t _t _o _n on 
-How many concrete stations are on the Brown _P _r _a _f _t line 
-Which lines is _C _r _o _f _t Hospital on 
-How many lines is _S _n _u _n _k Square on 
-How clean is _G _o _s _p On Trent 
-Which lines is _Z _e _t _b _r _i _d _g _e on 
-How many glass stations are on the Orange _F _o _m line 
-How clean is Resk On Trent 
-Which stations does Cyan Fep pass through 
-Which lines is Prooch Crossing on 
-How many new stations are on the Brown Smush line 
-Which stations does Green _R _i _s _p pass through 
+How many architecture styles does Green Kot pass through 
+How many lines is _D _r _a _m _p  Palace on 
+How many lines is _Y _e _d  Upon Thames on 
+How many stations are between _F _e _r  Palace and _G _l _e _f _t _t _o _n  
+How clean is Dot Grove 
+Are _S _p _a _p  Bridge and _B _r _i _t  Boulevard on the same line 
+How many architecture styles does Green _F _r _u _s _k  pass through 
+Which lines is _B _o _s _p  Upon Thames on 
+How many new stations are on the Cyan _D _r _o _p  line 
+How many art deco stations are on the Purple _S _n _u _d  line 
+Are _B _e _y  Court and _H _e _l  Boulevard on the same line 
+Which lines is _G _o _b  Estate on 
+Which stations does Gray Mund pass through 
+How many art deco stations are on the Purple _G _l _e _w  line 
+How many lines is _H _e _s _k  Lane on 
+How many glass stations are on the Green _F _o _p  line 
+Which lines is _Y _u _n  Hospital on 
+Which stations does Orange _C _r _a _b  pass through 
+Which stations does Olive _F _o _v  pass through 
+How clean is _C _r _e _n _g  Hospital 
+Are _W _e _k  Road and _Y _a _g  St on the same line 
+Are _S _p _e _c _t  Lane and _F _r _o _o _c _t  Street on the same line 
+Are _F _l _i _f  Square and _M _e _p _t _b _r _i _d _g _e  on the same line 
+How many architecture styles does Pink _N _i _l  pass through 
+How many lines is _M _u _g  Court on 
+How many architecture styles does Purple _T _r _a _p  pass through 
+How many stations are between _G _r _e _m _p _n _e _y _l _a _n _d  and _S _k _i _p _t  Grove 
+Are _G _a _d  Palace and _S _h _i _f  Palace on the same line 
+How many lines is _Y _o _b _w _i _c _h  on 
+How many architecture styles does Brown _B _e _g  pass through 
+How many architecture styles does Olive _P _u _n  pass through 
+Are _S _k _i _g  Estate and _P _l _o _o _s _h _h _a _m  on the same line 
+How many stations are between _P _e _p _t  Grove and _B _o _o _r  Way 
+How clean is _F _r _o _m _p  Estate 
+Which stations does Olive _G _r _i _n _g  pass through 
+How clean is _D _o _n _g _n _e _y _l _a _n _d  
+Which stations does Brown Famp pass through 
+Which stations does Blue _S _h _o _o _s _t  pass through 
+Which stations does Olive _F _r _e _n _k  pass through 
+Which stations does Olive Shoosh pass through 
+How many glass stations are on the Orange _D _r _e _v  line 
+Which stations does Olive _G _a _c _t  pass through 
+How many lines is _J _o _o _m  International on 
+How many architecture styles does Olive _G _u _n _g  pass through 
+How many modernist stations are on the Brown Nost line 
+How many architecture styles does Olive _W _i _p _t  pass through 
+Which lines is _S _m _a _p _t  Road on 
+Are _P _r _u _s _k _b _r _i _d _g _e  and _T _r _a _s _k  Street on the same line 
+How clean is _D _e _z _h _a _m  
+Which stations does Gray _P _e _l  pass through 
+Which stations does Green _P _l _o _o _v  pass through 
+How many lines is Stren Court on 
+Which lines is _D _o _o _s _t _w _i _c _h  on 
+Are _F _r _e _h  Way and _S _m _e _s _s _t _o _n  on the same line 
+Which stations does Brown _W _o _o _t  pass through 
+How many lines is _S _t _i _n _g  Manor on 
+How many architecture styles does Olive _P _l _u _g  pass through 
+How many lines is _M _o _o _m _b _r _i _d _g _e  on 
+How many new stations are on the Cyan _V _u _n _g  line 
+Which lines is _S _i _h  Hospital on 
+How clean is _R _i _n _k _t _o _n  
+Which lines is _C _l _a _z  Square on 
+How many victorian stations are on the Cyan _B _o _o _m  line 
+How many lines is _W _o _r  Bridge on 
+Which stations does Purple _S _t _r _u _c _h  pass through 
+How clean is _F _r _u _m _p _h _a _m  
+Are _S _m _u _p  Square and _G _l _a _z  On Trent on the same line 
+Which lines is _P _r _e _c _h  Street on 
+How many lines is _T _e _l  St on 
+How many lines is _M _i _s _t  Manor on 
+How clean is _D _u _c _t  Grove 
+How many architecture styles does Pink _C _h _i _s _h  pass through 
+How clean is _S _t _r _e _n _k  Lane 
+Are _R _a _d _i _n _g _t _o _n  and _D _r _o _o _n _k  Bridge on the same line 
+How many new stations are on the Red _T _o _o _n _d  line 
+Which stations does Green _J _e _s _h  pass through 
+How many art deco stations are on the Olive _G _l _o _s _k  line 
+How many lines is _S _m _i _f  Estate on 
+How many glass stations are on the Red _M _i _z  line 
+How clean is _B _l _i _k  Crossing 
+How many architecture styles does Pink _B _l _i _p _t  pass through 
+How clean is _V _o _o _h  Palace 
+How many architecture styles does Blue _C _h _u _w  pass through 
+How many architecture styles does Blue _S _h _u _v  pass through 
+How clean is _H _o _n  Way 
+Which stations does Gray _G _o _o _z  pass through 
+How clean is _S _n _u _g  Lane 
+How many stations are between _S _n _a _s _t _i _n _g _t _o _n  and Gresh Hospital 
+How clean is _S _l _e _k  Manor 
+Which stations does Red _S _p _o _o _f  pass through 
+How many stations are between _P _l _a _t _h _a _m  and _S _t _o _o _n _k _i _n _g _t _o _n  
+Which lines is _S _u _f  Bridge on 
+How many art deco stations are on the Pink _S _h _u _t  line 
+How many modernist stations are on the Brown _S _t _r _u _c _h  line 
+How many lines is _S _m _a _s _k  Crossing on 
+How clean is _R _i _c _t  Upon Thames 
+How many lines is _S _m _u _f _t _o _n  on 
+Which lines is _C _h _o _o _w  On Trent on 
+How many lines is _F _r _e _f _b _r _i _d _g _e  on 
+How many architecture styles does Pink _S _h _o _o _t  pass through 
+How many stations are between _B _l _e _t  Square and _S _e _s _k  Square 
+How many lines is _P _l _a _v  Bridge on 
+How many glass stations are on the Pink _S _m _i _p _t  line 
+Which lines is _P _l _u _p _t  Grove on 
+How many architecture styles does Brown _V _o _o _n _d  pass through 
+How many modernist stations are on the Green _M _i _n _d  line 
+How many new stations are on the Pink Glast line 
+Are _S _o _f _t  Court and _S _l _e _f  St on the same line 
+How many lines is _W _i _f  Court on 
+Which lines is Shond Way on 
+Are _C _l _i _s _h  On Trent and _G _a _l  Lane on the same line 
+How many lines is _W _o _o _b  Estate on 
+How clean is _P _o _s _t  On Trent 
+Which stations does Green _G _r _e _n _t  pass through 
+How many modernist stations are on the Brown _K _u _n _k  line 
+Are _S _m _e _c _h _i _n _g _t _o _n  and _S _l _u _p  Grove on the same line 
+Which stations does Brown _J _a _f _t  pass through 
+Which stations does Blue _S _p _o _s _s  pass through 
+How many new stations are on the Pink _T _r _o _v  line 
+How many new stations are on the Cyan _P _i _z  line 
+How many architecture styles does Pink _S _k _i _v  pass through 
+How many modernist stations are on the Purple _S _i _f _t  line 
+Are _L _o _f _t _b _r _i _d _g _e  and _K _e _r  Street on the same line 
+Which stations does Olive _G _l _i _s _k  pass through 
+How many architecture styles does Purple _F _o _o _t  pass through 
+Which stations does Gray _S _k _a _s _t  pass through 
+How many stations are between _B _r _o _y  Crossing and _S _u _w  Road 
+How many architecture styles does Brown _K _e _s _k  pass through 
+Which lines is _J _o _b  Estate on 
+How many concrete stations are on the Olive _H _a _l  line 
+Are _B _l _a _l _t _o _n  and _R _a _t _b _r _i _d _g _e  on the same line 
 How many art deco stations are on the Green Vooy line 
-How many stations are between _Z _o _v Way and Mast Hospital 
-Which lines is _S _t _i _d Court on 
-Are _F _l _i _l _i _n _g _t _o _n and _W _o _b _t _o _n on the same line 
-Which stations does Cyan _G _l _i _d pass through 
-Which lines is _H _a _c _h Way on 
-How clean is _V _u _t Lane 
-Which stations does Green _G _l _e _g pass through 
-Which lines is Drest Lane on 
-Which stations does Olive _L _i _r pass through 
-How clean is _C _r _e _p Road 
-How many architecture styles does Brown _B _u _k pass through 
-How many stations are between _D _o _w Estate and _F _l _i _r Square 
-How many victorian stations are on the Pink _G _r _u _c _h line 
-How clean is _S _m _o _o _v Hospital 
-Which stations does Green _V _e _n _g pass through 
-How clean is _F _i _y _i _n _g _t _o _n 
-How many architecture styles does Gray _C _h _o _s _s pass through 
-Are Fooss Lane and _S _l _o _o _f Crossing on the same line 
-How many lines is _S _w _e _p _t Square on 
-Are _W _o _o _p Hospital and _S _t _r _o _o _w Bridge on the same line 
-How many architecture styles does Orange _D _r _e _s _s pass through 
-How many architecture styles does Red _S _k _o _o _m pass through 
-How many art deco stations are on the Blue _R _i _d line 
-Are _B _a _t Way and _T _r _u _z Manor on the same line 
-How clean is _S _h _u _m Court 
-How many lines is _T _r _o _o _r Boulevard on 
-Are _Y _i _s _k Estate and _F _r _e _v Grove on the same line 
-Which stations does Green _V _i _z pass through 
-How many art deco stations are on the Gray _G _l _e _c _t line 
-Which lines is _S _w _a _d Lane on 
-Which stations does Green _H _o _s _p pass through 
-How many art deco stations are on the Gray _F _u _n _t line 
-How many lines is _H _u _r _n _e _y _l _a _n _d on 
-Which lines is _V _a _s _h International on 
-How many lines is _V _a _d Street on 
-How many new stations are on the Pink Droob line 
-How many lines is _S _p _o _k Crossing on 
-How many architecture styles does Blue _F _l _a _d pass through 
-Are _P _r _i _s _t Upon Thames and _P _l _o _s _p Boulevard on the same line 
-How many lines is Priss Grove on 
-How many modernist stations are on the Olive _F _a _p line 
-Are _G _e _s _t _t _o _n and _B _r _i _s _k Street on the same line 
-How many glass stations are on the Green _B _i _t line 
-How many lines is _G _o _s _s Estate on 
-How clean is _P _r _o _m _p _b _r _i _d _g _e 
-How many lines is _T _a _h Court on 
-Which stations does Pink _S _t _i _l pass through 
-Which lines is _F _r _o _o _p Crossing on 
-How many concrete stations are on the Olive _N _i _m _p line 
-Are _F _r _u _z _n _e _y _l _a _n _d and _N _e _b _w _i _c _h on the same line 
-Which stations does Green _P _l _e _p _t pass through 
-Which stations does Green _P _o _o _k pass through 
-How many architecture styles does Gray _F _e _f _t pass through 
-Which lines is _P _l _e _b On Trent on 
-How clean is _G _l _o _s _t Lane 
-How many concrete stations are on the Cyan _L _u _g line 
-Which lines is _H _o _v _i _n _g _t _o _n on 
-How clean is _G _r _u _m On Trent 
-How many stations are between _S _h _e _m _n _e _y _l _a _n _d and _S _m _o _o _f _t Manor 
-How clean is _M _o _o _g _b _r _i _d _g _e 
-How many glass stations are on the Orange _K _o _g line 
-Which lines is _Y _o _y Court on 
-How many art deco stations are on the Orange _G _l _i _s _s line 
+Are _B _l _o _o _s _k  Grove and _D _r _i _n _g  Hospital on the same line 
+How many glass stations are on the Cyan _G _l _i _f _t  line 
+Are _F _l _i _l _i _n _g _t _o _n  and _W _o _b _t _o _n  on the same line 
+Which stations does Green _G _l _e _g  pass through 
+Which lines is _S _p _a _m  Crossing on 
+Are _S _m _i _v  Crossing and _R _i _k  Estate on the same line 
+Which stations does Pink _S _t _e _c _t  pass through 
+How many victorian stations are on the Pink Gloonk line 
+Which lines is _P _l _o _n _t  St on 
+How many stations are between _Z _i _p _t  Crossing and _B _r _o _s _h _n _e _y _l _a _n _d  
+How many lines is _B _r _a _h _w _i _c _h  on 
+How many lines is _W _a _k  Street on 
+How many stations are between _F _l _o _o _p _i _n _g _t _o _n  and _S _p _o _o _z  St 
+Which stations does Pink _R _a _d  pass through 
+Are _S _u _f  St and _P _l _e _z  Manor on the same line 
+How many concrete stations are on the Blue _J _a _v  line 
+Are _M _o _o _s _h _i _n _g _t _o _n  and _Y _i _n _g  St on the same line 
+Which lines is _M _u _r _w _i _c _h  on 
+Which stations does Purple _T _i _r  pass through 
+How many architecture styles does Orange _D _r _e _s _s  pass through 
+Are _J _a _w _h _a _m  and _P _l _o _o _f _t  On Trent on the same line 
+How many lines is _P _l _o _o _b  Road on 
+How clean is _F _l _i _s _s _h _a _m  
+How many stations are between _F _e _p _t _h _a _m  and _S _p _u _y  Street 
+Are _J _u _g  Palace and _L _u _p  Square on the same line 
+How many lines is _B _o _z  Square on 
+Are _S _t _r _o _o _w  Road and _B _i _d _t _o _n  on the same line 
+How many architecture styles does Brown Flant pass through 
+How many lines is _S _p _o _k  Crossing on 
+How many architecture styles does Gray _G _l _e _b  pass through 
+How clean is _J _e _s _p _n _e _y _l _a _n _d  
+How many art deco stations are on the Brown _R _i _f  line 
+How many lines is _G _r _i _n _d  Palace on 
+Which stations does Pink _D _r _u _s _k  pass through 
+How many modernist stations are on the Olive _F _a _p  line 
+How many lines is _B _u _p _n _e _y _l _a _n _d  on 
+How many lines is _F _o _o _n _k  Bridge on 
+How many lines is _R _e _s _s  Lane on 
+How many lines is _D _r _i _l  St on 
+Are _C _l _e _n _k  Court and _T _e _l _w _i _c _h  on the same line 
+How many stations are between _B _l _i _n _t _h _a _m  and _C _l _e _s _s  Street 
+How many architecture styles does Gray _F _e _f _t  pass through 
+How many lines is _G _r _a _f _t _t _o _n  on 
+Which stations does Gray Shond pass through 
+How many concrete stations are on the Cyan _L _u _g  line 
+How many stations are between _Z _e _d _n _e _y _l _a _n _d  and Red Upon Thames 
+How many concrete stations are on the Purple _C _r _o _o _f  line 
+Which stations does Red _T _u _k  pass through 
+How many lines is _D _r _e _d  Bridge on 
+How many glass stations are on the Pink _P _r _o _o _m  line 
+Which stations does Green _G _r _u _m  pass through 
 Which stations does Olive Bipt pass through 
-Which lines is _P _i _v On Trent on 
-How many lines is _B _l _o _o _h Hospital on 
-How many architecture styles does Cyan _N _a _l pass through 
-How many lines is _B _u _g Boulevard on 
-How many new stations are on the Orange _S _m _o _n _t line 
-Are _C _r _i _t Manor and _W _a _s _p Lane on the same line 
-How many victorian stations are on the Cyan _B _r _i _p line 
-How many architecture styles does Red _C _r _a _n _t pass through 
-Which lines is _T _o _s _t Boulevard on 
-How many lines is _B _i _n _k Manor on 
-How many art deco stations are on the Olive _S _l _o _f line 
-How clean is _D _o _p Bridge 
-How many lines is _T _r _a _l Road on 
-How many stations are between _B _i _s _s Crossing and _S _t _r _o _n _k International 
-How clean is _L _i _c _t _i _n _g _t _o _n 
-Which stations does Purple _H _i _s _p pass through 
-How clean is _P _a _g Street 
+How many new stations are on the Orange _S _m _o _n _t  line 
+Which lines is _S _t _i _m _i _n _g _t _o _n  on 
+How many architecture styles does Purple _R _u _m _p  pass through 
+How many lines is _B _i _n _k  Manor on 
+How clean is _T _r _u _w  Boulevard 
+Which lines is _F _a _c _t  Grove on 
+Are _G _l _o _s _t  Square and _S _w _o _o _m  Grove on the same line 
+Which stations does Blue Mast pass through 
+How many lines is _D _u _s _p _w _i _c _h  on 
+How many lines is _F _r _e _p _t _t _o _n  on 
+How many architecture styles does Red _S _w _e _n _t  pass through 
+How clean is _G _r _a _n _t  Upon Thames 
+How many glass stations are on the Orange _P _r _u _s _p  line 
+How many architecture styles does Gray _S _k _o _p _t  pass through 
+How many lines is _G _i _s _h  St on 
+How clean is Way International 
+How many stations are between _C _h _a _c _t _w _i _c _h  and _F _l _u _n _k  Grove 
+How many lines is Voomp Crossing on 
 How many architecture styles does Blue Huv pass through 
-Which lines is _P _o _o _p Hospital on 
-How clean is _S _k _i _r _h _a _m 
-Which stations does Pink _S _m _u _n pass through 
-How many architecture styles does Red _G _l _e _m _p pass through 
-Which stations does Cyan _P _l _e _g pass through 
-How clean is _D _r _e _y Lane 
-Are _M _a _v Manor and _F _r _o _o _w _t _o _n on the same line 
-Which lines is _F _r _i _n _g _b _r _i _d _g _e on 
-How many lines is _S _h _u _t Square on 
-How many concrete stations are on the Green _W _a _n _k line 
-How many lines is _S _h _e _t International on 
-How clean is Temp International 
-How many architecture styles does Pink _C _l _i _f _t pass through 
-Are Droob Square and _B _e _p _t Hospital on the same line 
-Which stations does Olive _F _r _i _f _t pass through 
-How many modernist stations are on the Blue _C _r _u _y line 
-Are _C _l _o _o _z Square and _S _t _r _u _h Estate on the same line 
-How clean is _K _o _n On Trent 
-How clean is _N _o _n _g On Trent 
-Are _M _a _s _p _h _a _m and _K _a _c _t Grove on the same line 
-How many new stations are on the Pink _F _r _e _c _t line 
-How clean is _F _r _o _p _t Lane 
-How many architecture styles does Brown _F _l _i _n _g pass through 
-How many architecture styles does Blue _G _r _o _n pass through 
-How many lines is _T _i _g Boulevard on 
-How many architecture styles does Green _J _e _s _t pass through 
-How many victorian stations are on the Purple _C _h _e _z line 
-How many lines is _D _i _z Boulevard on 
-How many architecture styles does Brown _Y _o _o _m _p pass through 
-Which lines is _S _p _a _n _t _w _i _c _h on 
-How many architecture styles does Cyan _K _a _p _t pass through 
-Which lines is _H _o _r _b _r _i _d _g _e on 
-Which lines is _M _o _d Estate on 
-How many victorian stations are on the Orange _S _u _g line 
-Which lines is _C _h _u _p _t Upon Thames on 
-How many lines is Friss Estate on 
-How clean is _C _r _u _c _t Upon Thames 
-Are _D _u _b International and Slamp Square on the same line 
-How many art deco stations are on the Orange _S _t _r _o _n _g line 
-How clean is _P _u _t Estate 
-How many stations are between _S _l _a _v _h _a _m and _P _r _u _g Estate 
-Are _S _l _o _g Bridge and _L _o _h Crossing on the same line 
-Which stations does Brown _M _a _s _h pass through 
-How clean is _L _o _s _k Crossing 
-How many modernist stations are on the Red _S _h _u _k line 
-How many architecture styles does Blue _G _r _a _p _t pass through 
-How clean is _G _l _i _f _t Hospital 
-Which stations does Pink _D _a _p _t pass through 
-How many new stations are on the Pink _B _l _o _h line 
-How many lines is _Z _o _o _c _h _n _e _y _l _a _n _d on 
-How many architecture styles does Orange _S _o _k pass through 
-How clean is _G _r _a _f Boulevard 
-How many new stations are on the Brown _R _a _s _t line 
-How many architecture styles does Olive Trib pass through 
-Which stations does Orange _N _e _c _h pass through 
-Are _S _e _n _t On Trent and _B _r _a _m Square on the same line 
-How many modernist stations are on the Olive _K _o _o _f line 
-Are _T _u _z On Trent and _B _u _b _t _o _n on the same line 
-Which lines is _N _e _n _w _i _c _h on 
-Are _S _t _a _f Upon Thames and _S _p _u _f Boulevard on the same line 
-How many stations are between _S _k _o _n _t Lane and _B _l _e _d Court 
-How many victorian stations are on the Orange _C _l _o _o _v line 
-How many lines is _J _o _v International on 
-Which stations does Cyan _F _r _o _p _t pass through 
-Which stations does Red _S _i _p _t pass through 
-Which stations does Gray _S _n _u _p pass through 
-How many architecture styles does Cyan _S _h _o _s _t pass through 
-How clean is _S _k _a _n Palace 
-How many architecture styles does Cyan _P _r _a _n pass through 
-Which stations does Purple _S _h _e _s _p pass through 
-How many architecture styles does Blue _G _l _e _c _t pass through 
-Which stations does Orange _G _o _d pass through 
-How many new stations are on the Orange _B _r _a _k line 
-How many new stations are on the Red _S _l _a _n _t line 
-How many modernist stations are on the Brown _S _w _i _s _h line 
-How many architecture styles does Red _S _w _i _w pass through 
-How many modernist stations are on the Cyan _G _r _e _r line 
-Which lines is _K _e _p _t Square on 
-Which lines is _S _i _s _k Palace on 
-How many architecture styles does Orange _D _o _r pass through 
-Which lines is _S _k _u _s _s _b _r _i _d _g _e on 
-How many stations are between _G _o _k Street and _L _e _p _t Bridge 
-How many lines is _B _r _u _s _p _b _r _i _d _g _e on 
-Which stations does Green _S _m _o _n _t pass through 
-How many stations are between _S _w _o _o _k _h _a _m and _R _u _t International 
-Which lines is Stemp Lane on 
+How clean is _F _l _a _c _t  Lane 
+Which lines is _S _o _o _m _p  Lane on 
+How many architecture styles does Red Swoft pass through 
+How clean is _N _i _g  On Trent 
+How many victorian stations are on the Cyan Snool line 
+Which lines is _G _r _o _n _k  Palace on 
+Which stations does Cyan _S _l _u _y  pass through 
+How many lines is _S _n _u _s _p _t _o _n  on 
+How many lines is _S _p _o _m _p _h _a _m  on 
+Which stations does Olive _Y _a _y  pass through 
+How many stations are between _P _l _a _r  Manor and _F _l _o _o _n _k  Way 
+Are _D _r _o _o _m _p  Road and _D _r _o _n _k  Street on the same line 
+How many architecture styles does Blue _V _i _p  pass through 
+Which lines is _P _i _h _h _a _m  on 
+Are _G _r _u _s _t  Court and _T _o _o _s _s  Street on the same line 
+Which lines is _T _a _y  Manor on 
+How many lines is _P _l _i _g  Square on 
+How many victorian stations are on the Gray _S _n _e _y  line 
+How many architecture styles does Cyan _C _l _e _s _h  pass through 
+How many architecture styles does Blue _G _r _o _n  pass through 
+Which lines is _S _p _o _o _l _w _i _c _h  on 
+Are _S _w _u _s _k  Hospital and _S _n _o _o _c _h  Square on the same line 
+Which stations does Orange _S _t _r _o _w  pass through 
+How many lines is _D _i _z  Boulevard on 
+Which lines is _N _o _o _p _w _i _c _h  on 
+Which stations does Red _K _e _n  pass through 
+Are _S _p _e _m _h _a _m  and _S _p _e _s _t  Way on the same line 
+How many victorian stations are on the Orange _S _u _g  line 
+How clean is _F _l _u _b  Hospital 
+How many victorian stations are on the Green _H _o _n _g  line 
+Which lines is _Z _i _p  Crossing on 
+Which lines is _G _r _e _t  Crossing on 
+Which lines is _B _a _g _t _o _n  on 
+How many lines is _F _i _z  Upon Thames on 
+How many lines is Kot Hospital on 
+How clean is _C _r _u _g  Upon Thames 
+How many architecture styles does Olive _R _o _l  pass through 
+How many architecture styles does Green _P _o _p  pass through 
+How clean is _S _k _a _s _p  Manor 
+How many lines is _M _e _n _d  Hospital on 
+How many lines is Grut Lane on 
+How many new stations are on the Brown _R _a _s _t  line 
+Are _W _u _d  Grove and _L _o _o _n _k _b _r _i _d _g _e  on the same line 
+Which stations does Orange _N _e _c _h  pass through 
+How many architecture styles does Brown _N _u _k  pass through 
+How many lines is _F _r _e _f _t  Manor on 
+Are _S _e _n _t  On Trent and _B _r _a _m  Square on the same line 
+How many lines is _M _o _r  On Trent on 
+Which stations does Orange _P _l _o _f _t  pass through 
+How many architecture styles does Orange _S _l _a _f _t  pass through 
+Are _P _l _o _o _k _w _i _c _h  and _H _o _o _y  St on the same line 
+Are _W _e _p _t  Estate and _C _l _u _s _s  Square on the same line 
+Which lines is _B _o _n _t  On Trent on 
+How many architecture styles does Orange _B _i _l  pass through 
+Which stations does Cyan _F _r _o _p _t  pass through 
+Are _S _m _u _d  Palace and _S _m _i _c _t _b _r _i _d _g _e  on the same line 
+Which lines is _G _e _n  International on 
+How many concrete stations are on the Orange _D _r _a _t  line 
+How clean is _S _h _a _y  Lane 
+How many lines is _D _e _w  Boulevard on 
+How many lines is _D _r _e _p _t  Hospital on 
+Which lines is _C _r _e _s _h _n _e _y _l _a _n _d  on 
+Which stations does Purple _S _h _e _s _p  pass through 
+How many glass stations are on the Red _G _i _f _t  line 
+How many lines is _J _o _o _m  Estate on 
+Which lines is _J _o _n  Grove on 
+Which stations does Orange _G _o _d  pass through 
+How many modernist stations are on the Brown _S _m _a _m  line 
+Which stations does Pink _C _l _a _h  pass through 
+How many new stations are on the Green _Y _o _n  line 
+How clean is _W _a _m _p  On Trent 
+How many lines is _S _t _o _o _f  Grove on 
+Which stations does Olive _G _r _i _k  pass through 
+How many architecture styles does Blue Tunt pass through 
+How many architecture styles does Pink _R _a _p _t  pass through 
+How many lines is _M _o _c _h  Grove on 
+How many lines is _P _o _c _h  Square on 
+How many architecture styles does Blue _S _p _o _c _h  pass through 
+How clean is _K _e _l _i _n _g _t _o _n  
 How many architecture styles does Olive Skaw pass through 
-How many victorian stations are on the Green _S _n _e _v line 
-How many new stations are on the Pink _L _u _d line 
-How clean is _S _m _i _w Upon Thames 
-How clean is _G _l _e _t _t _o _n 
-Which stations does Orange _N _o _o _m pass through 
-How many architecture styles does Blue _C _r _a _g pass through 
-How many stations are between _S _u _c _h Lane and _V _i _d International 
-How many architecture styles does Gray _C _l _u _s _s pass through 
-How many architecture styles does Orange _S _k _o _s _s pass through 
-How clean is _B _a _s _s International 
-How many architecture styles does Purple _C _r _o _o _n pass through 
-How many glass stations are on the Purple _S _h _u _s _s line 
-Are _G _r _e _p Grove and _P _u _s _h _w _i _c _h on the same line 
-Which stations does Orange _P _l _o _m _p pass through 
-Are _S _w _e _r _i _n _g _t _o _n and _G _l _e _h Boulevard on the same line 
-How many lines is _F _r _a _s _p Way on 
-Which lines is _Y _i _l Manor on 
-Which stations does Red _F _r _u _y pass through 
-How many concrete stations are on the Olive _B _a _y line 
-How many modernist stations are on the Gray _T _r _a _z line 
-Which lines is _S _w _a _r Way on 
-Which lines is _H _i _d Square on 
-Which lines is _S _m _u _c _t St on 
-How many architecture styles does Red _S _l _u _k pass through 
-Which lines is _S _w _u _n _t _h _a _m on 
-Which stations does Orange _S _l _i _n _d pass through 
-How many architecture styles does Olive _C _r _o _o _b pass through 
-Which lines is _C _r _e _n _d Road on 
-How many architecture styles does Orange Tript pass through 
-How many new stations are on the Cyan _B _i _b line 
-How clean is _S _t _r _a _p _i _n _g _t _o _n 
-Which lines is _D _o _o _p Lane on 
-How many lines is _J _a _s _t Way on 
-How many architecture styles does Red _S _m _a _h pass through 
-How many architecture styles does Cyan _S _k _e _m _p pass through 
-Which stations does Green _S _k _e _h pass through 
-Are _F _l _e _s _t Street and _B _l _o _n _d Square on the same line 
-Which stations does Cyan _S _e _r pass through 
-How many new stations are on the Red Skef line 
-Which stations does Blue _D _r _i _n _d pass through 
-How many architecture styles does Red _D _o _n _d pass through 
-How many modernist stations are on the Green _D _r _o _c _h line 
-Are _P _e _n _g _n _e _y _l _a _n _d and _S _w _u _s _h On Trent on the same line 
-How many lines is _B _o _o _s _s _w _i _c _h on 
-Which lines is _C _r _e _n _g St on 
-Which lines is _P _l _o _r Bridge on 
-How many lines is _Z _u _k _t _o _n on 
-How many architecture styles does Blue _G _o _o _t pass through 
-Which lines is _C _r _a _f Palace on 
-How many stations are between _B _l _u _z On Trent and _L _o _o _l _n _e _y _l _a _n _d 
-How clean is _Z _e _p _t Boulevard 
-Are _C _l _u _m _p International and _Z _a _n _g Road on the same line 
-How many modernist stations are on the Pink _B _o _s _k line 
-How many lines is _F _r _u _g _n _e _y _l _a _n _d on 
-How many architecture styles does Cyan _S _t _r _u _s _p pass through 
-How many lines is _S _o _c _t Hospital on 
-How many architecture styles does Olive _S _t _o _n _k pass through 
-How many architecture styles does Pink _C _l _o _o _d pass through 
-How many modernist stations are on the Purple _M _e _v line 
-Which lines is _S _m _u _t Upon Thames on 
-Are _S _w _a _v Grove and _C _l _e _s _k Boulevard on the same line 
-Which stations does Green _V _o _c _t pass through 
-How clean is _C _r _u _c _h _i _n _g _t _o _n 
-Are _C _h _u _l Palace and _B _l _e _w Road on the same line 
-Are _T _a _c _t International and _S _t _i _s _t Bridge on the same line 
-Are _G _r _a _s _s Lane and _N _o _o _n _k International on the same line 
-How many architecture styles does Brown _S _m _o _m pass through 
-How many art deco stations are on the Red _S _k _a _f _t line 
-How many stations are between _D _e _c _h Upon Thames and _J _o _f Way 
-Which stations does Blue _G _r _e _c _h pass through 
-How many lines is _S _t _r _o _o _d Road on 
-How many architecture styles does Pink _D _u _h pass through 
-Which lines is _T _u _n _k _h _a _m on 
-How clean is _R _o _o _s _h Road 
-How many stations are between _S _h _a _g _i _n _g _t _o _n and _S _l _a _r Boulevard 
-Which stations does Gray _S _n _a _l pass through 
-How many lines is _V _e _g _b _r _i _d _g _e on 
-How many lines is _R _u _t Bridge on 
-How clean is Ruct Bridge 
-How many architecture styles does Gray _S _o _o _f pass through 
-How many lines is _Y _u _n _k _w _i _c _h on 
-How many new stations are on the Brown _J _o _z line 
-Which stations does Purple _B _i _n _d pass through 
-Which stations does Olive _B _l _i _c _t pass through 
-How many architecture styles does Red _S _l _o _s _p pass through 
-Which stations does Green _N _u _f _t pass through 
-Which stations does Olive _Z _i _t pass through 
-Are _M _a _z Street and _C _l _o _o _p _t Square on the same line 
-How clean is _B _r _i _f Boulevard 
-Which stations does Cyan _S _o _o _k pass through 
-Are _K _u _d _t _o _n and _S _n _u _m _p _h _a _m on the same line 
-Are _S _p _o _s _p Palace and _T _r _a _n _t _t _o _n on the same line 
-Are _S _n _o _o _c _t St and _F _l _a _r _t _o _n on the same line 
-How many architecture styles does Gray _P _r _u _f _t pass through 
-Which lines is _R _o _k _i _n _g _t _o _n on 
-How clean is _S _o _o _c _h Lane 
-How clean is _B _l _i _m _p _t _o _n 
-Are _C _h _e _v Hospital and _S _p _i _n _k _b _r _i _d _g _e on the same line 
-How many architecture styles does Orange _G _a _l pass through 
-How many architecture styles does Brown _F _i _n pass through 
-Which stations does Green _P _i _l pass through 
-How clean is _D _r _i _s _s Crossing 
-Which lines is _B _r _o _o _s _s _n _e _y _l _a _n _d on 
-How many stations are between _B _r _o _o _s _k Court and _G _u _v Hospital 
-How many concrete stations are on the Gray _B _a _d line 
-How many modernist stations are on the Blue _L _a _f line 
-How many architecture styles does Olive _K _i _m _p pass through 
-How clean is _D _o _o _c _h _w _i _c _h 
-Which stations does Cyan _Y _e _p _t pass through 
-How many modernist stations are on the Brown _F _l _u _k line 
-Which stations does Cyan _Y _u _z pass through 
-How many architecture styles does Green _V _a _n _g pass through 
-How clean is _S _l _u _k _i _n _g _t _o _n 
-How many architecture styles does Red _F _r _e _g pass through 
-Are Huv Bridge and _G _r _i _s _s Street on the same line 
-How many new stations are on the Green _C _r _a _d line 
-Are _G _r _i _y Hospital and _S _n _e _p Palace on the same line 
-How many lines is _H _o _o _f _t Palace on 
-How many lines is _K _i _h Manor on 
-How many lines is _B _r _u _w Boulevard on 
-How many glass stations are on the Brown _F _r _u _w line 
-Which lines is _S _l _o _n _g Street on 
-How clean is _S _a _v Court 
-Are _S _p _e _b On Trent and _F _r _o _o _m Hospital on the same line 
-How many art deco stations are on the Green Frood line 
-Which lines is _S _p _o _n _k _b _r _i _d _g _e on 
-Are _J _o _o _w Grove and _C _r _o _o _c _t Lane on the same line 
-How many architecture styles does Gray _S _w _o _o _m pass through 
-Which lines is _S _l _i _s _h _n _e _y _l _a _n _d on 
-How clean is _D _r _i _n _g _w _i _c _h 
-How many glass stations are on the Cyan _G _r _e _c _t line 
-Which lines is _C _r _i _p _t Bridge on 
-Which lines is _C _r _u _s _k _b _r _i _d _g _e on 
-How many lines is _S _k _o _o _s _h Palace on 
-How clean is _Y _u _r _t _o _n 
-Are _S _t _o _o _s _h Road and _D _o _o _n _k St on the same line 
-How many lines is _C _r _o _o _f _t Bridge on 
-How many modernist stations are on the Pink _S _p _i _r line 
-Are _F _u _n _t Upon Thames and _K _e _n _t Court on the same line 
-Which stations does Red _D _o _b pass through 
-How many lines is _V _a _d _h _a _m on 
-How many architecture styles does Cyan _S _u _m pass through 
-How many stations are between _S _m _o _s _p Crossing and _C _l _i _m _p Grove 
-How clean is _F _o _t _n _e _y _l _a _n _d 
-How clean is _P _l _a _k Upon Thames 
-How clean is _S _t _r _e _f Lane 
-Which stations does Green _S _t _r _u _d pass through 
-How many architecture styles does Purple _S _h _u _n _t pass through 
-How many stations are between _G _i _s _t Estate and _F _l _o _o _n _k _w _i _c _h 
-How many new stations are on the Gray _G _r _o _t line 
-Are _S _m _i _m _p _t _o _n and _W _i _b Square on the same line 
-Are _B _a _s _h Road and _K _i _s _h Street on the same line 
-How many architecture styles does Purple _C _r _a _w pass through 
-Are _K _o _m _p International and _J _o _g Way on the same line 
-Which lines is _K _a _m _h _a _m on 
-Which stations does Brown _S _l _a _p _t pass through 
-Which lines is _S _l _u _y Court on 
-How many lines is _T _r _o _o _s _s _b _r _i _d _g _e on 
-Which lines is _V _u _l Manor on 
-How many stations are between _B _r _e _n _k Palace and _S _k _e _s _k Crossing 
-How many architecture styles does Olive _S _w _e _s _k pass through 
-How many stations are between _K _a _n _d Road and _R _e _m Estate 
-How many lines is _G _r _o _o _n _t Way on 
-Which stations does Red Sland pass through 
-How many modernist stations are on the Purple Gruz line 
-Are _S _l _u _t On Trent and _G _a _w St on the same line 
-How clean is Paf Manor 
-How many concrete stations are on the Gray _T _o _r line 
-How many new stations are on the Blue _D _r _o _y line 
-How many stations are between _C _h _o _o _p _i _n _g _t _o _n and _H _o _o _f Court 
-How many lines is _B _r _u _s _k _n _e _y _l _a _n _d on 
-Which stations does Green _S _l _o _z pass through 
-Which lines is _N _o _n _t _h _a _m on 
-How many architecture styles does Pink _S _i _k pass through 
-How many lines is _W _o _l Street on 
-How many architecture styles does Green _S _k _u _g pass through 
-How many lines is _Z _e _s _p _t _o _n on 
-Are _B _r _o _m _p Court and _D _r _e _n _g Palace on the same line 
-Which stations does Purple _B _e _z pass through 
-Which lines is _J _e _t Manor on 
-Are _C _l _u _p _b _r _i _d _g _e and _L _o _o _m Crossing on the same line 
-How many architecture styles does Blue _P _u _f _t pass through 
-How clean is _H _u _p Crossing 
-How many lines is _S _p _o _o _n _k _n _e _y _l _a _n _d on 
-How clean is _H _i _c _h St 
-How clean is _C _h _i _p Crossing 
-How many architecture styles does Cyan _S _h _u _c _t pass through 
-How clean is _S _p _o _s _t Crossing 
-Which stations does Red _S _t _r _u _m pass through 
-How many victorian stations are on the Purple _Y _o _g line 
-Which lines is _P _l _e _p St on 
-How many victorian stations are on the Red _S _e _m _p line 
-How many lines is _S _m _i _r Lane on 
-Are _T _o _o _n Crossing and _F _e _c _t Palace on the same line 
-How many lines is _Y _u _s _h Road on 
-How many victorian stations are on the Blue _B _l _o _o _w line 
-Which lines is _T _a _n International on 
-Which lines is _G _r _o _o _p _n _e _y _l _a _n _d on 
-How many concrete stations are on the Gray _T _r _e _b line 
-How clean is _P _i _n _k _n _e _y _l _a _n _d 
-Which lines is _S _h _a _h Grove on 
-How many glass stations are on the Olive Prong line 
-Which stations does Cyan _H _u _d pass through 
-How clean is _C _h _e _f _t Upon Thames 
-Are _F _r _o _s _k Manor and _L _o _c _t Palace on the same line 
-How clean is _S _l _i _s _t International 
-How many architecture styles does Purple _S _p _e _v pass through 
-Which lines is _S _w _o _r Street on 
-Which stations does Blue _F _l _o _o _s _h pass through 
-Are _R _i _r _w _i _c _h and _C _h _e _y Square on the same line 
-Are _K _o _o _p _n _e _y _l _a _n _d and _T _i _b _w _i _c _h on the same line 
-How clean is _K _o _o _g St 
-How many stations are between _G _r _a _m St and _F _l _u _s _h _n _e _y _l _a _n _d 
-Which lines is _D _r _a _f Boulevard on 
-How clean is _F _l _i _g Hospital 
-Are _B _r _a _z Road and _S _m _a _r Lane on the same line 
-Which lines is _V _i _f _t Grove on 
-Are _S _k _o _s _k St and _M _e _h _w _i _c _h on the same line 
-Which lines is _D _r _o _o _c _t Square on 
-How many lines is _S _u _n _d Upon Thames on 
-How many new stations are on the Cyan _S _w _i _p _t line 
-Which lines is _C _r _e _f Street on 
-Are _B _l _u _k Hospital and _Y _o _o _n _d Upon Thames on the same line 
-Which lines is _P _u _h Square on 
-Which lines is _N _a _k Boulevard on 
-Which stations does Purple _P _o _o _m _p pass through 
-How many lines is _S _t _o _n Estate on 
-How clean is _S _t _i _s _h Bridge 
-How clean is _B _l _u _s _p Hospital 
-How many architecture styles does Purple _P _r _o _v pass through 
-How many new stations are on the Cyan _S _t _r _o _o _n _t line 
-How clean is _S _p _o _n _d Boulevard 
-How many lines is _P _i _n _g Court on 
-How clean is _B _r _o _o _s _s Court 
-How clean is _S _n _a _f _t _o _n 
-How many victorian stations are on the Olive _F _r _e _n _g line 
-How many concrete stations are on the Green _G _a _n _k line 
-How many architecture styles does Blue _G _r _i _m _p pass through 
-How many lines is _L _i _b Bridge on 
-Which stations does Gray _G _u _p _t pass through 
-How many glass stations are on the Pink _J _a _m _p line 
-How many stations are between _H _a _m _p _b _r _i _d _g _e and _K _o _o _c _h _w _i _c _h 
-How clean is _S _p _e _l _i _n _g _t _o _n 
-Which stations does Purple _B _l _u _f _t pass through 
-How many victorian stations are on the Gray _K _u _n _d line 
-Which lines is _S _k _i _k Boulevard on 
-Which stations does Brown _Y _i _t pass through 
-Which lines is _S _p _e _s _p _t _o _n on 
-How clean is _F _r _u _c _t Court 
-Which lines is _F _r _a _z _b _r _i _d _g _e on 
-Which lines is Moomp Estate on 
-How clean is _G _e _h _w _i _c _h 
-How many lines is _S _i _h _n _e _y _l _a _n _d on 
-How many stations are between _S _k _e _b Street and _G _r _i _m Grove 
-Which stations does Brown _P _l _i _c _t pass through 
-How many architecture styles does Green _F _r _o _m pass through 
-Are _W _e _s _k International and _P _r _u _g _t _o _n on the same line 
-How many architecture styles does Pink _L _i _s _k pass through 
-Which stations does Green _K _i _n _g pass through 
-How many architecture styles does Brown _C _h _i _n _k pass through 
-How many modernist stations are on the Purple _P _l _o _z line 
-Which lines is _W _e _c _t Grove on 
-Which lines is _H _a _s _s Palace on 
-How many architecture styles does Cyan _N _i _s _t pass through 
-How many lines is _Z _i _h Estate on 
-How many modernist stations are on the Cyan _S _t _r _o _s _h line 
-Which lines is _C _h _o _k Street on 
-How many lines is _S _t _o _s _p Hospital on 
-Which stations does Green _K _i _v pass through 
-How many architecture styles does Red _S _p _u _n pass through 
-How many lines is _S _t _r _o _n _t _i _n _g _t _o _n on 
-Which lines is _Z _a _b Boulevard on 
-How clean is _S _t _i _s _p Manor 
-How many lines is _S _t _e _s _s _b _r _i _d _g _e on 
-Which lines is _D _u _m _h _a _m on 
-How many architecture styles does Orange _M _o _o _s _k pass through 
-How many lines is _C _h _o _o _s _h Manor on 
-How many architecture styles does Blue _M _o _o _w pass through 
-Which stations does Brown _B _a _c _h pass through 
-How many architecture styles does Green _L _i _k pass through 
-How clean is _B _r _i _t Manor 
-How many lines is _B _i _t Lane on 
-How many lines is _S _t _a _n _i _n _g _t _o _n on 
-Which stations does Blue _P _r _u _t pass through 
-How clean is _S _l _o _o _n _g Bridge 
-Which stations does Cyan _Z _o _o _d pass through 
-Which lines is _B _r _i _l _n _e _y _l _a _n _d on 
-Which stations does Red _D _e _s _h pass through 
-How many architecture styles does Olive Plask pass through 
-Which stations does Brown _B _l _o _h pass through 
-How clean is _F _a _p _t _t _o _n 
-Are _S _l _i _f Way and _C _r _u _m _p _n _e _y _l _a _n _d on the same line 
-Which stations does Cyan Foosh pass through 
-How many stations are between _K _u _n _t Palace and _W _a _c _h Boulevard 
-How many art deco stations are on the Pink _C _l _o _f line 
-Are _J _e _v _h _a _m and _W _e _y _n _e _y _l _a _n _d on the same line 
-How many lines is _R _u _m Boulevard on 
-Are _K _i _d Grove and _C _h _o _w Boulevard on the same line 
-How clean is _W _i _g Bridge 
-Are _R _i _y On Trent and _B _l _e _n _n _e _y _l _a _n _d on the same line 
-How clean is _B _l _o _o _p _t _t _o _n 
-How many lines is _H _u _n _g Square on 
-Which lines is _J _o _f _t International on 
-How many lines is _T _u _d International on 
-Which lines is _J _o _o _p _w _i _c _h on 
-How many glass stations are on the Olive _Z _o _y line 
-How many lines is _T _r _i _r Square on 
-How many architecture styles does Red _B _r _o _o _s _t pass through 
-How many lines is _S _n _e _p International on 
-Which stations does Brown _V _u _w pass through 
-How many lines is _V _u _y Estate on 
-How many stations are between _S _p _u _m _p Grove and _P _l _o _d Square 
-Which stations does Orange _P _r _a _s _t pass through 
-Which lines is _N _e _n _k _b _r _i _d _g _e on 
-Which lines is _J _e _b Way on 
-How many architecture styles does Red _Z _e _n _d pass through 
-How many lines is _C _r _e _t St on 
-How clean is Skor Road 
-Are Brosk Court and _P _u _v Boulevard on the same line 
-How many lines is _S _a _m St on 
-How clean is Swal St 
-How many lines is _R _a _c _h Court on 
-Which stations does Brown _S _l _o _c _t pass through 
-Which lines is _Z _o _c _h Way on 
-How many lines is _S _k _o _o _g _t _o _n on 
-Which stations does Green _S _h _e _p pass through 
-How many lines is _C _l _i _n _k _h _a _m on 
-Are _F _r _o _b _w _i _c _h and _V _o _o _f Square on the same line 
-How clean is _P _i _s _t _w _i _c _h 
-How clean is _S _k _i _f _t Road 
-How many stations are between _B _r _a _s _k Manor and _T _i _n _t Bridge 
-Which lines is _S _t _e _f Court on 
-How many architecture styles does Brown _F _r _u _w pass through 
-How many architecture styles does Cyan _S _t _u _c _h pass through 
-How many stations are between _L _i _n _g _n _e _y _l _a _n _d and _J _a _p Estate 
-Are _S _k _o _d _b _r _i _d _g _e and _Z _o _n _t Square on the same line 
-Are Rint Palace and _B _o _r Street on the same line 
-How many new stations are on the Green _Z _a _n _g line 
-How many concrete stations are on the Green _C _h _u _l line 
-How many concrete stations are on the Gray _G _r _o _o _n line 
-How many modernist stations are on the Cyan _F _i _w line 
-How many stations are between _N _a _c _t _w _i _c _h and _C _h _i _n _k Upon Thames 
-How many lines is _F _r _a _y _i _n _g _t _o _n on 
-Which stations does Pink _G _r _i _s _k pass through 
-How many architecture styles does Cyan _S _l _i _y pass through 
-Which stations does Cyan _S _l _o _n _g pass through 
-How many architecture styles does Orange _G _r _o _w pass through 
-How many lines is _J _a _n _t Estate on 
-Are _Z _a _s _s St and _N _u _s _t _n _e _y _l _a _n _d on the same line 
-Are _C _h _o _o _v _t _o _n and _B _l _u _d Palace on the same line 
-How many architecture styles does Cyan _L _a _s _p pass through 
-Which lines is _P _o _o _h Boulevard on 
-How many lines is _C _h _o _o _s _h Square on 
-Which lines is Remp Boulevard on 
-How many lines is Famp Street on 
-How many lines is _T _r _o _n _k Grove on 
-How many lines is _S _n _i _p Upon Thames on 
-Which stations does Gray _S _t _r _i _b pass through 
-How clean is _T _r _i _d Upon Thames 
-How many lines is _K _e _n _d Square on 
-How many architecture styles does Olive _S _h _e _g pass through 
-How clean is _D _u _p Bridge 
-How many art deco stations are on the Orange _M _o _o _w line 
-How clean is _K _o _n _k Court 
-How many stations are between _S _t _a _n _t International and _B _r _a _d Square 
-How many modernist stations are on the Gray _W _o _o _c _t line 
-How many architecture styles does Green _G _a _t pass through 
-Which stations does Brown _D _r _o _o _s _s pass through 
-Are _R _u _p Way and _S _m _e _f _i _n _g _t _o _n on the same line 
-Which lines is _T _e _t Grove on 
-How clean is _C _l _o _c _h Grove 
-Are _L _u _c _h Estate and _S _k _u _s _t Way on the same line 
-Are _G _l _a _s _p International and _R _a _n _t _t _o _n on the same line 
-Which lines is _S _h _i _r International on 
-Are _Z _i _s _p _h _a _m and _D _r _a _f Way on the same line 
-Which lines is _P _e _s _k Lane on 
-How clean is _N _i _w Way 
-Which lines is _S _h _e _s _k _n _e _y _l _a _n _d on 
-Are _P _o _o _b Estate and _P _r _a _t Palace on the same line 
-How many architecture styles does Pink _S _t _a _n _d pass through 
-How clean is _L _u _h Estate 
-How many concrete stations are on the Green _H _e _w line 
-How many stations are between _P _r _o _o _w Bridge and _S _i _c _t Boulevard 
-How many architecture styles does Olive _R _i _c _t pass through 
-How many lines is _H _u _z Bridge on 
-How many victorian stations are on the Brown _C _r _i _f _t line 
-Which lines is _S _p _e _m _p Way on 
-Are _N _e _n _k Crossing and _J _a _n Palace on the same line 
-How many victorian stations are on the Gray _D _i _b line 
-How many architecture styles does Red _S _t _r _i _p _t pass through 
-How many architecture styles does Brown _H _o _o _s _h pass through 
-Which stations does Red _D _a _v pass through 
-Which lines is _S _t _r _e _d Way on 
-How clean is _H _e _c _h Boulevard 
-How clean is _P _o _h On Trent 
-How many stations are between Stemp Estate and _N _a _l Palace 
-How clean is _L _o _o _c _h _b _r _i _d _g _e 
-How clean is _T _r _u _g _n _e _y _l _a _n _d 
-Which lines is _L _i _n _k Court on 
-How many architecture styles does Green _J _a _k pass through 
-Are _P _o _f _t Bridge and _B _r _o _o _g _w _i _c _h on the same line 
-Which lines is _G _a _m _p _w _i _c _h on 
-How many architecture styles does Purple _C _l _o _o _s _p pass through 
-How clean is _N _o _o _t _w _i _c _h 
-How clean is Swoft Way 
-Are _F _r _o _t _h _a _m and _S _n _a _n _g St on the same line 
-Which lines is _D _r _u _k _t _o _n on 
-How clean is _K _u _m _p Estate 
-How many architecture styles does Red _B _o _o _b pass through 
-Are Nuct International and _C _l _u _k Court on the same line 
-How clean is _D _a _h _w _i _c _h 
-How many architecture styles does Green _B _l _i _c _h pass through 
-How clean is _K _e _n _g Grove 
-How many stations are between _T _r _u _r Palace and _S _l _o _z _t _o _n 
-How clean is _S _p _o _n _g Estate 
-Which lines is _P _e _p Lane on 
-Which stations does Brown _S _p _e _s _k pass through 
-Which stations does Brown _V _e _p pass through 
-How many lines is _M _o _o _l Manor on 
-Are _F _l _i _f _t _t _o _n and _G _l _i _n _g Manor on the same line 
-Which stations does Orange _S _u _b pass through 
-Which lines is _N _a _s _t _b _r _i _d _g _e on 
-How many stations are between _D _r _o _o _c _h _t _o _n and _D _i _m Square 
-Which stations does Brown _C _l _o _o _s _s pass through 
-How clean is _B _l _i _n _d Court 
-How many lines is _P _l _a _s _s Estate on 
-How many lines is _S _k _e _m _p _w _i _c _h on 
-How many architecture styles does Gray _T _r _a _z pass through 
-How clean is _B _r _u _t Crossing 
-Are _L _a _m _p Square and _N _a _w Square on the same line 
-How many modernist stations are on the Purple _K _o _o _n _k line 
-How many glass stations are on the Olive _B _r _e _n _g line 
-Which lines is _K _e _s _s _w _i _c _h on 
-How many glass stations are on the Pink _G _r _a _m _p line 
-How many new stations are on the Purple _B _l _i _m _p line 
-How many architecture styles does Green _G _o _l pass through 
-How many lines is _G _r _u _m _p Court on 
-How many architecture styles does Orange _P _o _o _p pass through 
-How many lines is _V _e _s _k Crossing on 
-Are _C _h _i _t Boulevard and _L _u _n _k _i _n _g _t _o _n on the same line 
-Which lines is _B _a _s _p Road on 
-Which stations does Red Skor pass through 
-How clean is _S _n _o _o _n _k _n _e _y _l _a _n _d 
-Are _B _e _g _t _o _n and _M _i _v Square on the same line 
-Which lines is _S _n _a _m On Trent on 
-How many new stations are on the Cyan _M _o _o _y line 
-How clean is _V _u _k Crossing 
-Are _C _l _a _w Boulevard and _W _o _o _c _h _b _r _i _d _g _e on the same line 
-Which stations does Gray _P _l _e _h pass through 
-How clean is _D _r _e _s _p Bridge 
-How many architecture styles does Red _S _p _o _o _m pass through 
-How many lines is _C _r _i _f _t Road on 
-Are _T _r _u _k Estate and _C _l _o _o _n _d Boulevard on the same line 
-How clean is _S _p _u _n _g Square 
-How many architecture styles does Gray _S _o _m pass through 
-Are _B _r _u _n _k _w _i _c _h and _C _r _a _p _t Court on the same line 
-Which stations does Blue Buh pass through 
-How clean is _B _l _o _p _t St 
-Which stations does Green _P _u _b pass through 
-How many stations are between _P _r _u _t Estate and _D _r _o _o _n _t _h _a _m 
-How many lines is Drir Road on 
-How many lines is _D _i _l Hospital on 
-How many glass stations are on the Green _S _k _e _z line 
-Which lines is _J _e _d Square on 
-How many concrete stations are on the Olive _S _w _e _s _t line 
-How many lines is _B _l _u _w Upon Thames on 
-Which stations does Olive _B _r _o _o _n _k pass through 
-How clean is _K _a _s _k _b _r _i _d _g _e 
-How many architecture styles does Olive _S _w _o _d pass through 
-Which stations does Orange _B _u _l pass through 
-How many architecture styles does Orange _C _h _u _d pass through 
-How many concrete stations are on the Olive _G _r _o _o _s _h line 
-How clean is _H _o _n Hospital 
-How many architecture styles does Cyan _C _r _a _n _g pass through 
-How clean is _N _e _g Square 
-How many architecture styles does Gray _R _e _p pass through 
-How many concrete stations are on the Green _T _o _g line 
-How many lines is _S _t _a _z Bridge on 
-How many architecture styles does Pink _R _a _d pass through 
-Which lines is _B _l _i _c _t _h _a _m on 
-How many lines is _J _e _s _s Way on 
-Which lines is _C _h _i _m _p Hospital on 
-Are _C _r _o _o _k _i _n _g _t _o _n and _V _o _n _t International on the same line 
-How many modernist stations are on the Gray _H _a _k line 
-Are _T _r _e _s _p Court and _G _r _e _p _n _e _y _l _a _n _d on the same line 
-Which lines is _L _i _b International on 
-Which lines is _P _r _u _s _k Square on 
-Are _S _p _u _d Estate and _K _a _m _p International on the same line 
-Which stations does Blue _B _r _u _k pass through 
-How many architecture styles does Red _F _a _v pass through 
-How many victorian stations are on the Cyan _Z _e _z line 
-Which lines is _S _t _i _t Lane on 
-How clean is _B _i _s _p _n _e _y _l _a _n _d 
-How many lines is _Y _o _s _k _h _a _m on 
-How clean is _Y _e _b Hospital 
-How many lines is _S _k _i _n _k _h _a _m on 
-How many stations are between _C _l _o _m Estate and _F _l _e _n _g _i _n _g _t _o _n 
-Which lines is _G _o _z Square on 
-Are _S _o _s _s Grove and _D _u _s _k Grove on the same line 
-How many architecture styles does Blue _S _p _u _w pass through 
-How clean is _B _i _f Street 
-Which stations does Cyan _F _o _o _d pass through 
-How many new stations are on the Red Dir line 
-Which stations does Cyan _Z _e _g pass through 
-Are _S _t _r _o _o _z On Trent and _S _l _e _s _t Court on the same line 
-How many lines is _B _l _o _v Upon Thames on 
-How many lines is _F _r _i _w Court on 
-How clean is _B _i _z _n _e _y _l _a _n _d 
+How many modernist stations are on the Red _G _a _h  line 
+How clean is _S _k _o _o _s _t  Court 
+Which stations does Purple _L _a _f  pass through 
+Which lines is _H _i _n _d _h _a _m  on 
+Which stations does Blue _H _o _o _n _k  pass through 
+How many lines is _T _r _e _f  St on 
+Are _D _r _e _p  Hospital and _S _t _r _u _n _t  Upon Thames on the same line 
+How many lines is _H _o _o _n _k _n _e _y _l _a _n _d  on 
+How many stations are between Nom Upon Thames and _T _i _n _t  Hospital 
+Which lines is _V _a _m _p  Crossing on 
+How clean is _G _r _i _v _t _o _n  
+How clean is _P _l _e _t _i _n _g _t _o _n  
+Which stations does Gray Blift pass through 
+How many victorian stations are on the Cyan _F _o _o _k  line 
+How many architecture styles does Orange _V _a _k  pass through 
+How many architecture styles does Orange Fooct pass through 
+Which stations does Cyan _P _r _o _o _n  pass through 
+Are _D _o _n _t _i _n _g _t _o _n  and _F _o _n _t _h _a _m  on the same line 
+How many lines is _S _m _o _w  Palace on 
+Are _C _l _a _m _p  Grove and Voosh International on the same line 
+How many art deco stations are on the Cyan _P _e _n _t  line 
+How many lines is _G _l _a _p  Hospital on 
+Which lines is _S _w _u _n _t _h _a _m  on 
+Are _L _o _m  Way and _K _e _c _h  Estate on the same line 
+Which lines is _C _r _e _n _d  Road on 
+Which lines is _B _r _a _n _t _n _e _y _l _a _n _d  on 
+How clean is _G _l _e _n _t  Palace 
+How many architecture styles does Green _B _r _o _o _t  pass through 
+How many glass stations are on the Brown _L _o _o _n _t  line 
+How many stations are between _F _r _o _n _k  Crossing and _C _r _o _o _n  Palace 
+Are _S _t _r _o _o _m  Lane and Mess Bridge on the same line 
+How many architecture styles does Gray _J _o _o _f  pass through 
+Which lines is _G _l _u _c _t _n _e _y _l _a _n _d  on 
+How many lines is _D _e _t  St on 
+Which lines is _S _m _o _o _v  Estate on 
+How clean is _B _l _o _l _w _i _c _h  
+How many modernist stations are on the Red _F _u _z  line 
+Which stations does Pink _W _o _o _w  pass through 
+How many lines is _P _l _e _f  Way on 
+Which lines is _S _w _o _m  On Trent on 
+Are _N _a _g _b _r _i _d _g _e  and _M _u _y _w _i _c _h  on the same line 
+Which lines is _P _o _f _w _i _c _h  on 
+How many architecture styles does Blue _G _o _o _t  pass through 
+Which lines is _S _k _e _n _k  Hospital on 
+Which stations does Orange _H _u _r  pass through 
+How many lines is _F _r _u _g _n _e _y _l _a _n _d  on 
+How many glass stations are on the Green _P _r _u _s _k  line 
+How many architecture styles does Cyan _S _t _r _u _s _p  pass through 
+How many victorian stations are on the Blue _B _r _e _f _t  line 
+Which lines is _C _r _u _l  Street on 
+How many modernist stations are on the Gray _F _r _o _n _k  line 
+Which stations does Olive _F _r _e _d  pass through 
+How many architecture styles does Blue _B _a _n  pass through 
+Which stations does Green _V _o _c _t  pass through 
+How many architecture styles does Red _T _u _n  pass through 
+How many victorian stations are on the Brown _L _a _g  line 
+Which lines is _J _o _s _t  Hospital on 
+How many architecture styles does Brown _S _m _o _m  pass through 
+How many architecture styles does Red _W _e _d  pass through 
+How clean is _K _u _h _b _r _i _d _g _e  
+Are _B _l _o _o _c _t  St and _D _a _n _d  Road on the same line 
+Which stations does Purple _S _t _r _u _s _k  pass through 
+How many architecture styles does Red _G _l _i _k  pass through 
+Are _S _o _c _h  Boulevard and Snoopt Hospital on the same line 
+Which stations does Olive _G _l _a _f _t  pass through 
+How many lines is _S _h _o _o _c _t  Road on 
+How clean is _R _o _o _s _h  Road 
+Which lines is _P _a _n _d  Court on 
+How many modernist stations are on the Green _S _m _o _m  line 
+How many architecture styles does Gray _T _r _e _n _d  pass through 
+How many victorian stations are on the Red _S _t _o _m _p  line 
+How many lines is _V _u _k  Court on 
+How many new stations are on the Pink _R _i _p  line 
+Which lines is Slamp Hospital on 
+How many lines is _R _u _t  Bridge on 
+How many architecture styles does Purple _B _r _o _o _r  pass through 
+How many lines is _B _l _o _o _n _d  International on 
+Are _V _a _n _w _i _c _h  and Flind Street on the same line 
+Are _F _o _p  Grove and _S _t _e _z  Grove on the same line 
+Which stations does Blue _C _h _o _n _d  pass through 
+How many victorian stations are on the Brown _S _o _f _t  line 
+Which stations does Cyan _S _w _a _m _p  pass through 
+Which lines is _B _r _a _n _t  International on 
+How many lines is _S _h _o _o _s _k _h _a _m  on 
+How clean is _F _l _o _n _d  Bridge 
+Which stations does Cyan _G _l _o _o _k  pass through 
+How clean is _P _r _e _p _t  Upon Thames 
+Are _Y _o _o _k _t _o _n  and _Y _o _r _b _r _i _d _g _e  on the same line 
+How many stations are between _S _l _u _s _k _i _n _g _t _o _n  and _S _t _r _i _p  On Trent 
+Which lines is _S _o _o _f _t _b _r _i _d _g _e  on 
+Which stations does Purple _F _r _o _o _m  pass through 
+How clean is _S _n _a _g _h _a _m  
+How clean is _Z _i _n  Palace 
+Which lines is _C _h _o _o _n  Way on 
+How many lines is Drest Palace on 
+Which stations does Brown Ved pass through 
+How many architecture styles does Green _Z _o _f  pass through 
+How many lines is _B _r _e _b  Lane on 
+How many new stations are on the Blue _G _r _i _f _t  line 
+How many architecture styles does Orange _G _a _l  pass through 
+How clean is _S _t _o _v  Way 
+Which stations does Green _P _i _l  pass through 
+How clean is _S _h _u _s _t  Way 
+How many architecture styles does Olive _T _r _o _o _w  pass through 
+How many architecture styles does Gray _F _l _o _o _s _t  pass through 
+Which stations does Orange _M _i _p  pass through 
+Which lines is _G _l _e _n _d  Lane on 
+Which stations does Olive _S _w _o _b  pass through 
+How many concrete stations are on the Gray _B _a _d  line 
+How many modernist stations are on the Blue _L _a _f  line 
+Are _S _w _e _n _t _n _e _y _l _a _n _d  and _C _l _a _s _k  Crossing on the same line 
+How many victorian stations are on the Blue _R _a _s _p  line 
+How many lines is _R _a _t  Road on 
+Which stations does Green _W _a _w  pass through 
+How many new stations are on the Olive _S _n _o _o _k  line 
+How many lines is _D _a _n _t _b _r _i _d _g _e  on 
+Are _K _u _k  Manor and _P _r _a _d  Bridge on the same line 
+How clean is _S _m _e _c _h  Estate 
+How many lines is _C _h _i _b  Court on 
+How many glass stations are on the Purple _C _l _e _h  line 
+Are _J _a _t  Grove and _S _t _u _r  Boulevard on the same line 
+How many lines is _Z _o _o _s _h  St on 
+How many architecture styles does Red _F _e _b  pass through 
+Which lines is Sloomp Bridge on 
+How clean is _P _r _i _h  Lane 
+How many architecture styles does Cyan _P _l _i _f  pass through 
+Which stations does Brown _B _l _o _b  pass through 
+Which lines is Saw Estate on 
+How many stations are between _F _r _a _d  St and _D _u _p _t _t _o _n  
+How many lines is _C _r _a _p _i _n _g _t _o _n  on 
+How clean is _P _l _o _o _s _p _n _e _y _l _a _n _d  
+How many architecture styles does Purple _F _r _u _c _t  pass through 
+How many lines is _C _h _a _f _t  St on 
+How many lines is _D _a _f _t  Road on 
+How clean is _D _r _o _o _w _n _e _y _l _a _n _d  
+Which lines is _G _l _a _z  Palace on 
+How many new stations are on the Gray _C _l _a _s _p  line 
+How many architecture styles does Pink Sloomp pass through 
+How clean is _S _m _a _l _t _o _n  
+How many lines is _B _r _o _v _i _n _g _t _o _n  on 
+How many victorian stations are on the Cyan _B _l _u _y  line 
+Are _T _e _s _p  Road and _S _u _m  Square on the same line 
+Which lines is _S _w _o _s _h _b _r _i _d _g _e  on 
+How many lines is _C _r _o _o _f _t  Bridge on 
+How clean is _W _a _r  Street 
+Which stations does Cyan _N _i _n _g  pass through 
+How clean is _L _e _f  Hospital 
+How clean is _P _l _a _k  Upon Thames 
+Are _T _o _n _k  Boulevard and _K _o _o _n _k  St on the same line 
+How many lines is _D _u _n _k  Road on 
+How many stations are between _V _a _l  Hospital and _Z _e _l  Lane 
+Are _K _o _m _p  International and _J _o _g  Way on the same line 
+Are _K _o _o _r  Palace and _F _e _t _n _e _y _l _a _n _d  on the same line 
+Are _Y _o _s _p  Boulevard and _Z _o _o _p _t  Hospital on the same line 
+How many lines is _V _a _s _h _h _a _m  on 
+Which lines is _T _r _i _n _t  Bridge on 
+How many architecture styles does Cyan _T _r _o _c _h  pass through 
+How clean is _P _r _e _g  Palace 
+Are _F _r _e _c _h  Estate and _T _o _s _s  Boulevard on the same line 
+How many architecture styles does Orange _S _n _u _s _t  pass through 
+How many new stations are on the Blue _D _r _o _y  line 
+How many stations are between _C _h _o _o _p _i _n _g _t _o _n  and _H _o _o _f  Court 
+How clean is _S _e _s _h  Square 
+Which lines is _P _l _o _k  On Trent on 
+How clean is Stren Square 
+Which stations does Purple _B _e _z  pass through 
+Which lines is _J _e _t  Manor on 
+How many victorian stations are on the Olive _L _u _c _h  line 
+How clean is _H _i _c _h  St 
+How many architecture styles does Brown _G _l _e _n _g  pass through 
+Are _S _t _u _z  Road and _F _l _o _y  Road on the same line 
+How many lines is _R _e _s _p  Palace on 
+How many architecture styles does Orange _S _t _r _o _k  pass through 
+How many lines is _N _i _m  On Trent on 
+Which lines is _P _o _o _t  On Trent on 
+How many lines is _S _w _u _y  Grove on 
+How many architecture styles does Brown Prong pass through 
+How many architecture styles does Olive _J _a _f  pass through 
+How many stations are between _S _l _o _o _w  Crossing and _K _o _o _l _i _n _g _t _o _n  
+How many concrete stations are on the Orange _C _h _a _c _h  line 
+Are _J _a _p  Lane and _S _o _m _h _a _m  on the same line 
+How many art deco stations are on the Red _B _l _u _n _d  line 
+How many lines is _F _a _n _t  Upon Thames on 
+Which stations does Blue _M _i _c _h  pass through 
+How many architecture styles does Red _C _l _e _s _h  pass through 
+How many architecture styles does Purple _L _e _b  pass through 
+How clean is _D _r _o _f _t  International 
+How many architecture styles does Brown _G _r _a _p  pass through 
+How many architecture styles does Blue _H _u _s _p  pass through 
+How many stations are between _S _u _s _k  Grove and _R _o _o _d  Crossing 
+How many lines is _T _i _w  St on 
+Are _S _t _r _i _l  Bridge and _S _h _o _o _m  Way on the same line 
+Which lines is _G _e _k _w _i _c _h  on 
+How many architecture styles does Cyan _C _l _e _k  pass through 
+How many architecture styles does Green _S _l _i _n _t  pass through 
+How clean is _S _l _i _s _t  International 
+Are _K _o _v  Manor and _D _o _o _v  Boulevard on the same line 
+How clean is _B _l _a _h  Way 
+How many architecture styles does Purple _S _p _e _v  pass through 
+How clean is _N _e _n _k _w _i _c _h  
+How many architecture styles does Green _G _o _m _p  pass through 
+How many architecture styles does Brown _P _l _o _s _s  pass through 
+How many victorian stations are on the Purple _G _r _u _n _t  line 
+Which stations does Brown _C _h _u _m  pass through 
+How many new stations are on the Olive _S _w _i _s _k  line 
+How many stations are between _F _i _t  St and _S _k _i _n _g _t _o _n  
+How clean is _S _h _u _n _i _n _g _t _o _n  
+Are _S _k _o _s _k  St and _M _e _h _w _i _c _h  on the same line 
+Which stations does Pink _Z _u _g  pass through 
+How many stations are between _N _e _s _p  Lane and _G _l _i _h  Manor 
+How many lines is _D _i _y  Bridge on 
+How clean is _P _r _i _f  Manor 
+How many stations are between _B _r _a _s _t  Street and _G _l _o _o _s _t  Street 
+How clean is _J _e _s _h  International 
+Which stations does Green _B _l _i _b  pass through 
+How many stations are between _S _h _a _s _k  On Trent and Plask Lane 
+How many lines is _T _r _i _g  Way on 
+Are _T _r _o _o _k  Lane and _F _l _e _l _i _n _g _t _o _n  on the same line 
+How many architecture styles does Pink _F _l _i _t  pass through 
+Which lines is _N _e _f  Estate on 
+How many architecture styles does Pink _B _e _n _g  pass through 
+Which stations does Gray _B _l _i _t  pass through 
+How many lines is _W _o _o _y  Way on 
+How many stations are between _S _n _u _n _d  Upon Thames and Fooss St 
+How many architecture styles does Red _C _h _e _f  pass through 
+How many lines is _V _o _p _t  Bridge on 
+How many lines is _Z _u _s _s  Grove on 
+Which stations does Olive _S _a _f _t  pass through 
+How many architecture styles does Green _Z _u _c _h  pass through 
+How many glass stations are on the Green _L _a _n _g  line 
+Are _F _r _o _r  Street and _B _e _d _n _e _y _l _a _n _d  on the same line 
+Which lines is _S _n _a _n _d  Road on 
+How many lines is _S _n _o _t _i _n _g _t _o _n  on 
+How many lines is _S _t _o _h  Street on 
+How many victorian stations are on the Gray _S _h _i _s _t  line 
+Are _S _o _o _s _s  St and _W _u _f  Grove on the same line 
+Which lines is _S _p _e _s _p _t _o _n  on 
+Which stations does Brown _B _r _o _c _h  pass through 
+How clean is _G _e _h _w _i _c _h  
+Are _S _h _a _k  Square and _S _w _i _m _p _b _r _i _d _g _e  on the same line 
+Which lines is _S _p _i _s _t _n _e _y _l _a _n _d  on 
+Are _P _l _u _c _t  Road and _P _o _o _z _n _e _y _l _a _n _d  on the same line 
+How many architecture styles does Brown _C _h _i _n _k  pass through 
+How many lines is _G _r _a _c _t  Crossing on 
+How many architecture styles does Brown _T _a _f  pass through 
+How many stations are between _T _r _u _g  Square and _P _i _h  International 
+How many lines is _F _l _o _t  Bridge on 
+How many stations are between _N _u _n _g  Estate and Red On Trent 
+How many lines is _D _r _a _v _i _n _g _t _o _n  on 
+How many concrete stations are on the Pink _S _p _i _p  line 
+How many lines is _S _t _e _s _s _b _r _i _d _g _e  on 
+Are _L _o _o _z  Square and _L _a _n _t  International on the same line 
+How many lines is _M _e _h  Upon Thames on 
+Which lines is _K _o _h _b _r _i _d _g _e  on 
+How many concrete stations are on the Gray _F _r _i _n _g  line 
+Which lines is _P _l _i _m _p  Bridge on 
+How many stations are between _S _i _f _t _n _e _y _l _a _n _d  and _S _l _o _s _h  On Trent 
+How many lines is _Z _o _o _r  Upon Thames on 
+How many new stations are on the Purple _S _w _a _z  line 
+How many stations are between _T _i _g  Square and _Y _o _o _n _g  Court 
+How clean is Tin Lane 
+How clean is _S _o _o _r  Hospital 
+Are _S _w _e _m  Manor and _V _u _p  Street on the same line 
+How clean is _S _n _u _s _s  Court 
+Which stations does Pink _G _u _n _t  pass through 
+How many stations are between _C _r _a _n _d  Bridge and _S _w _o _o _g _w _i _c _h  
+Which stations does Purple _P _l _u _n  pass through 
+Which lines is _S _o _o _m _p _w _i _c _h  on 
+How many architecture styles does Pink _P _i _d  pass through 
+How many concrete stations are on the Orange _B _e _s _h  line 
+How clean is _S _o _o _d  Crossing 
+Which stations does Gray _S _m _o _o _h  pass through 
+How many architecture styles does Orange _S _h _e _m  pass through 
+How clean is _S _l _e _f _t _o _n  
+How many lines is _P _a _s _t  Estate on 
+How many architecture styles does Pink _S _o _s _h  pass through 
+How many stations are between _R _u _d  Bridge and _P _r _o _o _p  Street 
+Which stations does Brown _K _o _o _l  pass through 
+How clean is _W _i _g  Bridge 
+How many architecture styles does Orange _K _a _c _t  pass through 
+How many concrete stations are on the Green _Y _e _s _p  line 
+How many stations are between _H _o _h  Street and _R _e _w  Grove 
+Which lines is _P _r _e _s _s _h _a _m  on 
+How many architecture styles does Blue _S _e _d  pass through 
+How many architecture styles does Green _V _u _b  pass through 
+Which stations does Pink _Y _a _s _s  pass through 
+How many architecture styles does Red _S _t _r _u _y  pass through 
+How many modernist stations are on the Red _V _u _t  line 
+How many lines is _S _w _u _k _n _e _y _l _a _n _d  on 
+Which lines is _W _u _y  Road on 
+Which stations does Pink _T _i _k  pass through 
+How many architecture styles does Orange _S _l _o _s _p  pass through 
+Which lines is _J _e _b  Way on 
+How many architecture styles does Purple _J _o _t  pass through 
+Which lines is _C _l _u _c _h  Manor on 
+Which stations does Cyan _C _l _i _m  pass through 
+How many concrete stations are on the Gray _S _h _o _s _k  line 
+Are _D _a _f  Way and Ved Hospital on the same line 
+How many art deco stations are on the Olive _C _l _i _c _t  line 
+Which lines is _R _u _n _d _i _n _g _t _o _n  on 
+How clean is _P _o _o _f _t  Lane 
+How many architecture styles does Gray _P _e _z  pass through 
+Are _G _a _n _g  Crossing and _S _w _e _b  Court on the same line 
+Which stations does Green _S _h _e _p  pass through 
+Which lines is _D _i _c _h  Road on 
+How many architecture styles does Brown _T _o _o _f _t  pass through 
+How many lines is _B _a _m _p  Court on 
+Are _S _h _e _n _t _n _e _y _l _a _n _d  and _V _o _l  Lane on the same line 
+How many architecture styles does Purple _H _i _f  pass through 
+How many architecture styles does Cyan _T _r _a _t  pass through 
+How many lines is _K _a _n _t _b _r _i _d _g _e  on 
+How many lines is _C _h _e _n _k  St on 
+How clean is _M _o _o _s _h  International 
+How many stations are between _M _o _o _p _t _n _e _y _l _a _n _d  and _C _l _e _n _k  St 
+How clean is _S _n _o _o _y  Road 
+Which stations does Purple _S _m _o _o _k  pass through 
+How many architecture styles does Gray _L _u _l  pass through 
+How many lines is _H _o _o _t _h _a _m  on 
+How many concrete stations are on the Orange _G _u _n _t  line 
+Which lines is _C _h _e _p  Crossing on 
+How many architecture styles does Purple _Y _o _f  pass through 
+How many lines is _C _l _i _s _k  Square on 
+How many lines is _H _i _n _d  Estate on 
+Which stations does Cyan _S _l _o _n _g  pass through 
+Which stations does Blue Swoosh pass through 
+How clean is _J _o _g  Hospital 
+How many stations are between _P _i _n _g  International and _B _r _i _g  Palace 
+How many art deco stations are on the Cyan Zish line 
+Which lines is _N _e _b  Court on 
+How many glass stations are on the Brown _T _a _n _t  line 
+How many architecture styles does Cyan _G _l _e _p  pass through 
+How many new stations are on the Green _S _t _r _i _m  line 
+How clean is _V _o _p _t  Lane 
+How clean is _B _a _d _n _e _y _l _a _n _d  
+How many architecture styles does Pink _C _r _o _o _n  pass through 
+How many lines is _T _o _o _m  Bridge on 
+How clean is _J _o _o _g  Lane 
+How clean is _S _p _a _z _b _r _i _d _g _e  
+Which stations does Cyan _J _u _r  pass through 
+How many lines is _K _a _f _i _n _g _t _o _n  on 
+Which stations does Orange _S _t _i _n _k  pass through 
+How many stations are between _P _l _e _y  Bridge and _S _k _o _n _t  Grove 
+How many stations are between _P _r _i _c _t _t _o _n  and Bipt Upon Thames 
+Which stations does Cyan _Y _e _t  pass through 
+How many art deco stations are on the Purple _P _l _i _s _t  line 
+How many stations are between _B _r _u _z  Lane and _S _l _e _v _i _n _g _t _o _n  
+How many architecture styles does Olive _S _e _p _t  pass through 
+How many stations are between _S _m _e _v _n _e _y _l _a _n _d  and _T _o _o _w _h _a _m  
+Which stations does Pink _M _a _n  pass through 
+Are _Y _u _h  Boulevard and _S _t _i _b _w _i _c _h  on the same line 
+How many architecture styles does Gray _G _l _o _v  pass through 
+How many lines is _L _o _m _h _a _m  on 
+Which stations does Olive _F _r _o _h  pass through 
+How many concrete stations are on the Pink _G _o _w  line 
+Which stations does Orange _G _a _p _t  pass through 
+How many architecture styles does Orange _R _e _c _h  pass through 
+How clean is _F _r _a _f _t  Way 
+How many architecture styles does Gray _L _o _o _c _h  pass through 
+How many architecture styles does Pink _D _r _o _o _m  pass through 
+How many architecture styles does Green _G _a _t  pass through 
+Which lines is _T _e _t  Grove on 
+How many concrete stations are on the Green _H _e _w  line 
+How clean is _L _o _o _s _s _t _o _n  
+Are _S _w _i _f _t  Grove and _S _k _a _n _t  Manor on the same line 
+Which stations does Gray _P _l _u _n _k  pass through 
+How clean is _S _p _a _y  Street 
+Which stations does Green Brosk pass through 
+How many architecture styles does Brown _K _i _g  pass through 
+How many lines is _B _l _i _n  Court on 
+Which stations does Cyan _S _t _r _e _n _d  pass through 
+Which stations does Red _J _o _o _h  pass through 
+How many architecture styles does Red _B _i _s _t  pass through 
+How clean is _H _o _n _t _t _o _n  
+Are _P _r _o _s _h  International and _S _o _o _f _b _r _i _d _g _e  on the same line 
+How many lines is _C _r _i _p  On Trent on 
+How clean is _H _e _c _h  Boulevard 
+Which stations does Gray _L _e _n _d  pass through 
+How many architecture styles does Blue _S _n _e _n  pass through 
+How many new stations are on the Cyan _B _l _o _o _c _t  line 
+How many art deco stations are on the Gray _F _r _o _n  line 
+How many lines is _N _i _w  Manor on 
+Which lines is _B _r _i _t _i _n _g _t _o _n  on 
+Which lines is _T _r _o _o _s _k  Street on 
+How many lines is _R _u _m _p  Court on 
+Which stations does Cyan _S _h _a _g  pass through 
+Which stations does Pink _F _r _i _c _t  pass through 
+How many modernist stations are on the Red _R _i _n _d  line 
+How many lines is _F _r _u _m _p  International on 
+How many stations are between _Y _o _y  Hospital and _B _e _b  Way 
+How many lines is _S _p _o _o _z  Crossing on 
+How clean is _G _r _o _n _d _b _r _i _d _g _e  
+Which lines is _G _a _m _p _w _i _c _h  on 
+How many glass stations are on the Blue _F _l _i _r  line 
+Which lines is _P _i _z  Road on 
+Which stations does Blue _S _h _e _t  pass through 
+How many architecture styles does Olive _Y _e _m _p  pass through 
+Are _T _u _p  Estate and _N _o _n _g _w _i _c _h  on the same line 
+How many concrete stations are on the Blue _S _t _r _i _n _g  line 
+How clean is _J _i _n _t  Grove 
+How many glass stations are on the Brown _S _h _o _y  line 
+How clean is _C _l _o _o _s _p  International 
+Which stations does Orange _H _a _g  pass through 
+How many concrete stations are on the Red _G _o _o _c _h  line 
+Which stations does Green _T _o _o _p  pass through 
+Which stations does Gray _S _m _o _o _s _p  pass through 
+How many lines is _S _p _a _c _t  Boulevard on 
+How clean is _S _h _u _w _w _i _c _h  
+How many lines is _S _h _u _s _p  Crossing on 
+Which stations does Red _W _o _c _h  pass through 
+Which lines is _F _r _e _s _h _h _a _m  on 
+How many lines is _T _i _v  Estate on 
+Which stations does Cyan _J _o _s _s  pass through 
+How many architecture styles does Orange _N _e _g  pass through 
+Which stations does Orange _F _r _i _f  pass through 
+Which lines is _S _k _i _s _k  Crossing on 
+How many lines is _G _o _m _p _b _r _i _d _g _e  on 
+Which lines is _Y _u _m _w _i _c _h  on 
+Which stations does Olive _D _o _p _t  pass through 
+Are _S _i _z  Square and _V _u _n _d  Square on the same line 
+Are _P _o _o _n _i _n _g _t _o _n  and _C _l _o _o _l _w _i _c _h  on the same line 
+How many architecture styles does Pink _F _l _o _o _k  pass through 
+Are _T _r _o _p _t _o _n  and _J _a _z  Road on the same line 
+Which stations does Brown Remp pass through 
+How many architecture styles does Purple Skaw pass through 
+How many art deco stations are on the Red _S _t _r _i _s _s  line 
+Are _Y _a _k  Palace and _N _i _z  Court on the same line 
+How many architecture styles does Cyan _G _u _s _p  pass through 
+Which lines is _B _a _s _p  Road on 
+Are _P _r _a _g  Road and _P _l _o _b  Palace on the same line 
+Which stations does Gray _Z _u _n _g  pass through 
+How many stations are between _T _a _p _i _n _g _t _o _n  and _C _h _i _f _i _n _g _t _o _n  
+How many victorian stations are on the Gray Stoct line 
+How many concrete stations are on the Purple _Z _i _t  line 
+How many concrete stations are on the Brown Groy line 
+Are _S _m _e _n _t  St and _G _r _e _n _t  Lane on the same line 
+How many stations are between Chemp International and _C _h _i _k  Manor 
+How many lines is _J _o _o _c _t  Street on 
+Which stations does Purple Mund pass through 
+How clean is _S _p _u _n _g  Square 
+How clean is _S _l _e _f  Upon Thames 
+How many architecture styles does Gray Tunt pass through 
+How many art deco stations are on the Red _B _r _u _s _p  line 
+Are _S _t _i _f _t  Court and _P _u _m  Estate on the same line 
+Which stations does Blue _P _r _e _s _p  pass through 
+How clean is _S _w _a _m _p  Grove 
+How many lines is _T _r _e _m  Boulevard on 
+How clean is _V _o _f  Hospital 
+How clean is _P _e _w _h _a _m  
+How many victorian stations are on the Red _K _i _n _g  line 
+How many stations are between _F _l _i _m _p  Square and _S _o _o _n _n _e _y _l _a _n _d  
+How many lines is _H _a _b  Grove on 
+How many lines is _B _l _u _w  Upon Thames on 
+How many modernist stations are on the Gray _Z _i _v  line 
+How clean is _H _o _n  Hospital 
+Which stations does Brown _T _r _u _c _h  pass through 
+How many stations are between _S _t _i _s _p  St and _T _o _k _b _r _i _d _g _e  
+How many stations are between _B _l _o _b  Grove and _D _e _p _t _h _a _m  
+How many lines is _B _r _a _z  Upon Thames on 
+Are _B _i _k  Court and _C _l _o _o _s _s  Boulevard on the same line 
+How many modernist stations are on the Orange _G _l _i _s _h  line 
+How many architecture styles does Orange _M _o _w  pass through 
+Are _T _a _z  Lane and Foon Estate on the same line 
+How many art deco stations are on the Gray _K _o _k  line 
+How many lines is _J _e _s _s  Way on 
+How many lines is _L _i _p _t _b _r _i _d _g _e  on 
+How many lines is _S _p _i _s _k _w _i _c _h  on 
+How clean is _V _o _o _k  International 
+Which stations does Blue _B _r _i _g  pass through 
+How many architecture styles does Red _P _o _o _t  pass through 
+Are _C _r _o _o _k _i _n _g _t _o _n  and _V _o _n _t  International on the same line 
+How many lines is _L _e _w _h _a _m  on 
+How many architecture styles does Blue _B _e _k  pass through 
+Which lines is _G _o _n  Road on 
+How many lines is _H _i _s _p _b _r _i _d _g _e  on 
+Which lines is _G _r _i _n  Palace on 
+How many lines is _Y _o _s _k _h _a _m  on 
+How many lines is _S _k _i _n _k _h _a _m  on 
+How many architecture styles does Pink _K _u _c _t  pass through 
+How many lines is _F _r _o _w  St on 
+Are _S _w _o _f  Palace and _F _l _o _o _c _h  Way on the same line 
+How many stations are between _S _h _u _h _n _e _y _l _a _n _d  and _S _w _a _s _s  Crossing 
+Are _S _t _r _o _o _z  On Trent and _S _l _e _s _t  Court on the same line 
+Which lines is _S _l _e _p  Boulevard on 
+Which stations does Brown _S _t _r _e _f  pass through 
+How many architecture styles does Green _R _i _t  pass through 
+How many architecture styles does Blue _S _a _s _p  pass through 
+Which stations does Pink _C _h _a _t  pass through 
+Which stations does Pink _H _e _p _t  pass through 
+How many architecture styles does Purple _C _h _o _v  pass through 
