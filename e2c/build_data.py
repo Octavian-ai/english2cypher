@@ -36,7 +36,10 @@ def build_vocab(args):
 		tokens.append("<"+i+">")
 		tokens.append("<"+i.upper()+">")
 
-	for i, c in hits.most_common(args["vocab_size"] - len(tokens)):
+	for i, c in hits.most_common(args["vocab_size"]):
+		if len(tokens) == args["vocab_size"]:
+			break
+			
 		if i not in tokens:
 			tokens.append(i)
 

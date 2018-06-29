@@ -1,39 +1,47 @@
-Which stations does Pink <S> <t> <e> <c> <t>  pass through 
-How many architecture styles does Brown <B> <e> <g>  pass through 
-How many lines is <C> <l> <e> <s> <h>  Crossing on 
-How many lines is <P> <l> <i> <m>  Bridge on 
-How many lines is <G> <l> <o> <o> <n> <n> <e> <y> <l> <a> <n> <d>  on 
-Which lines is <B> <l> <o> <o> <n> <k>  Estate on 
-How many architecture styles does Red <S> <t> <r> <i> <m>  pass through 
-Which stations does Brown <V> <e> <m>  pass through 
-Are <G> <i> <l>  Estate and <G> <e> <h>  Court on the same line 
-Are <S> <h> <u> <s> <k>  Hospital and <D> <i> <s> <s>  Road on the same line 
-How many architecture styles does Olive <G> <r> <o> <h>  pass through 
-How many architecture styles does Orange <S> <t> <e> <z>  pass through 
+Are <C> <h> <o> <n> <t>  Crossing and <C> <h> <o> <o> <z>  Street on the same line 
+Which lines is <K> <o> <o> <b> <i> <n> <g> <t> <o> <n>  on 
+Are <C> <h> <o> <o> <y>  Bridge and <G> <l> <u> <s> <k>  On Trent on the same line 
+Which stations does Brown <B> <l> <e> <k>  pass through 
+Which stations does Cyan <P> <o> <y>  pass through 
+Which stations does Green <F> <r> <i> <b>  pass through 
+How many concrete stations are on the Cyan <L> <u> <g>  line 
+Are <S> <t> <e> <t>  Upon Thames and <G> <r> <i> <n> <g>  International on the same line 
+How many architecture styles does Red <S> <t> <o> <o> <g>  pass through 
+Which lines is <F> <o> <o> <t> <w> <i> <c> <h>  on 
+Which stations does Orange <F> <l> <i> <s> <t>  pass through 
+Which stations does Gray <S> <n> <u> <p>  pass through 
+Which stations does Pink <C> <l> <i> <n> <g>  pass through 
+Which lines is <S> <l> <o> <w>  Court on 
 Which lines is <H> <i> <b>  Boulevard on 
-How many lines is <C> <h> <u> <y>  Crossing on 
-How clean is <D> <i> <s> <h>  Crossing 
-How many victorian stations are on the Red <S> <l> <u> <s> <p>  line 
-Are <R> <o> <m> <p>  Road and <V> <a> <l> <i> <n> <g> <t> <o> <n>  on the same line 
-Are <S> <m> <u> <b>  Square and <G> <l> <o> <o> <f>  Upon Thames on the same line 
-Which lines is <B> <l> <o> <o> <z>  Way on 
-How clean is <P> <l> <a> <n> <k>  Street 
-Which stations does Cyan Mess pass through 
-Are <K> <e> <d>  Way and <N> <o> <o> <s> <t>  Upon Thames on the same line 
-Are <S> <l> <a> <y>  Bridge and <M> <e> <p>  St on the same line 
-How many architecture styles does Gray <G> <l> <u> <l>  pass through 
-Which stations does Red <S> <m> <e> <n>  pass through 
-How many modernist stations are on the Brown <S> <t> <r> <i> <c> <h>  line 
-Are <C> <l> <u> <z>  Street and <P> <r> <o> <o> <m> <p>  Boulevard on the same line 
-Which lines is <P> <r> <i> <s> <t>  Way on 
-Which lines is <V> <e> <f>  Manor on 
-How clean is <S> <n> <o> <o> <y>  Road 
-Which stations does Cyan <B> <u> <n> <d>  pass through 
-Which stations does Cyan <S> <l> <o> <n> <g>  pass through 
-Which lines is <N> <i> <s> <t> <t> <o> <n>  on 
-How clean is <P> <o> <o> <f>  Manor 
-How many lines is <P> <a> <n> <t>  Palace on 
-How many victorian stations are on the Purple <J> <u> <c> <h>  line 
-How many architecture styles does Orange <D> <r> <i> <h>  pass through 
-Are <T> <r> <u> <w> <t> <o> <n>  and <S> <m> <u> <k>  Crossing on the same line 
-Which lines is <D> <r> <o> <b>  Manor on 
+Which lines is <B> <a> <s> <p>  Way on 
+How many art deco stations are on the Olive <D> <u> <w>  line 
+Which stations does Gray <G> <r> <a> <f> <t>  pass through 
+Which lines is <P> <o> <o> <d>  Hospital on 
+How many stations are between <S> <o> <s> <t>  Grove and <T> <e> <s> <p> <t> <o> <n>  
+Which stations does Green <P> <i> <l>  pass through 
+Are <C> <l> <o> <h>  Hospital and <R> <u> <r>  Bridge on the same line 
+How clean is <P> <r> <o> <m>  Grove 
+How clean is <C> <h> <a> <k>  International 
+Which lines is <B> <r> <a> <n> <k>  Boulevard on 
+How many architecture styles does Cyan <K> <o> <o> <c> <h>  pass through 
+How many modernist stations are on the Pink <S> <p> <i> <r>  line 
+Are <P> <r> <a> <s> <t> <b> <r> <i> <d> <g> <e>  and <S> <h> <o> <o> <n> <t>  Street on the same line 
+How many stations are between <K> <a> <n> <d>  Road and <R> <e> <m>  Estate 
+How clean is <B> <a> <n> <d> <w> <i> <c> <h>  
+How many architecture styles does Green <S> <k> <u> <g>  pass through 
+Which lines is <S> <m> <a> <f> <t>  Way on 
+How many lines is <C> <l> <o> <w> <b> <r> <i> <d> <g> <e>  on 
+Which stations does Purple <F> <o> <o> <h>  pass through 
+Are <T> <r> <u> <s> <p> <i> <n> <g> <t> <o> <n>  and <P> <r> <o> <w>  Upon Thames on the same line 
+Which lines is <L> <o> <o> <l>  Bridge on 
+How many lines is <N> <e> <s> <t>  Court on 
+How many modernist stations are on the Green <S> <h> <i> <s> <s>  line 
+How many architecture styles does Purple Drow pass through 
+How many lines is <F> <o> <o> <n> <d> <b> <r> <i> <d> <g> <e>  on 
+How many architecture styles does Olive <S> <w> <e> <n>  pass through 
+How many art deco stations are on the Green <P> <r> <e> <f> <t>  line 
+Are <C> <h> <a> <m> <p>  Road and <G> <r> <o> <l> <t> <o> <n>  on the same line 
+Which stations does Blue <P> <r> <e> <s> <p>  pass through 
+How many architecture styles does Brown <T> <u> <v>  pass through 
+How many lines is <B> <r> <u> <n> <d>  Crossing on 
+How many lines is <F> <r> <o> <w>  St on 
