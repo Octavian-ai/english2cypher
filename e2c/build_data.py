@@ -39,7 +39,7 @@ def build_vocab(args):
 	for i, c in hits.most_common(args["vocab_size"]):
 		if len(tokens) == args["vocab_size"]:
 			break
-			
+
 		if i not in tokens:
 			tokens.append(i)
 
@@ -62,63 +62,85 @@ def load_vocab_set(args):
 	return tokens
 
 
-
-def etl(args, filepath):
-
-	types = Counter()
-
-	with tf.gfile.GFile(filepath, 'r') as in_file:
+def extract_all_translation_pairs(args):
+	with tf.gfile.GFile(args["gqa_path"], 'r') as in_file:
 		d = yaml.safe_load_all(in_file)
 
 		suffixes = ["src", "tgt"]
 		prefixes = args["modes"]
 
-		files = {k:{} for k in prefixes}
-
-		for i in prefixes:
-			for j in suffixes:
-				files[i][j] = tf.gfile.GFile(args[f"{i}_{j}_path"], "w")
-
-
 		with tf.gfile.GFile(args["all_src_path"], "w") as src_file:
 			with tf.gfile.GFile(args["all_tgt_path"], "w") as tgt_file:
-
 				for i in tqdm(d):
 					if i["question"] and i["question"]["cypher"] is not None:
-						types[i["question"]["tpe"]] += 1
-
 						src_file.write(pretokenize_english(i["question"]["english"]) + "\n")
 						tgt_file.write(pretokenize_cypher(i["question"]["cypher"]) + "\n")
 
-		tokens = build_vocab(args)
 
-		in_files = [tf.gfile.GFile(args[f"all_{suffix}_path"]) for suffix in suffixes]
-		lines = zip(*[i.readlines() for i in in_files])
 
-		for line in tqdm(lines):
+def expand_unknowns_and_partition(args, tokens):
+	
+	suffixes = ["src", "tgt"]
+	prefixes = args["modes"]
 
-			r = random.random()
+	in_files = [tf.gfile.GFile(args[f"all_{suffix}_path"]) for suffix in suffixes]
+	lines = zip(*[i.readlines() for i in in_files])
 
-			if r < args["eval_holdback"]:
-				mode = "eval"
-			elif r < args["eval_holdback"] + args["predict_holdback"]:
-				mode = "predict"
-			else:
-				mode = "train"
+	files = {k:{} for k in prefixes}
 
-			for idx, suffix in enumerate(suffixes):
-				files[mode][suffix].write(expand_unknown_vocab(line[idx], tokens))
+	for i in prefixes:
+		for j in suffixes:
+			files[i][j] = tf.gfile.GFile(args[f"{i}_{j}_path"], "w")
 
-		for i in in_files:
-			i.close()
 
-		for i in files.values():
-			for file in i.values():
-				file.close()
+	for line in tqdm(lines):
+		r = random.random()
+
+		if r < args["eval_holdback"]:
+			mode = "eval"
+		elif r < args["eval_holdback"] + args["predict_holdback"]:
+			mode = "predict"
+		else:
+			mode = "train"
+
+		for idx, suffix in enumerate(suffixes):
+			in_line = line[idx].replace("\n","")
+			out_line = expand_unknown_vocab(in_line, tokens) + "\n"
+
+			files[mode][suffix].write(out_line)
+
+	for i in in_files:
+		i.close()
+
+	for i in files.values():
+		for file in i.values():
+			file.close()
+
+
+
+
+def etl(args):
+
+	if not args["skip_extract"]:
+		extract_all_translation_pairs(args)
+	
+	tokens = build_vocab(args)
+	expand_unknowns_and_partition(args, tokens)
 
 
 		
 
 
 if __name__ == "__main__":
-	etl(get_args(), "./data/gqa.yaml")
+
+	def extras(parser):
+		parser.add_argument('--skip-extract', action='store_true')
+		parser.add_argument('--gqa_path', type=str, default="./data/gqa.yaml")
+
+	args = get_args(extras)
+
+	etl(args)
+
+
+
+

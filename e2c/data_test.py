@@ -28,6 +28,28 @@ class TestStringMethods(unittest.TestCase):
 			p = detokenize_cypher(p)
 			self.assertEqual(p, query)
 
+
+	def test_english_reconstitution(self):
+		"""Simulate the entire data pre-processing, translation, and reconsitution pipeline"""
+
+		data = [
+			"How many lines is Snosk Boulevard on?",
+			"Which lines is Proy Palace on?",
+			"How clean is Grir Court?",
+		]
+
+
+		tokens = load_vocab_set({"vocab_path": "./data/vocab.txt"})
+
+		for query in data:
+			p = pretokenize_english(query)
+			p = expand_unknown_vocab(p, tokens)
+			p = p.split(' ')
+			p = [i for i in p if i != ""]
+			p = ''.join(p)
+			p = detokenize_english(p)
+			self.assertEqual(p, query)
+
   
 
 if __name__ == '__main__':

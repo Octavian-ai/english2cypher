@@ -76,6 +76,7 @@ WHERE
 ]
 name
 var6
+?
 RETURN
 DISTINCT
 as
@@ -297,4 +298,3 @@ Soob
 Crak
 Fluz
 Brooch
-Priss

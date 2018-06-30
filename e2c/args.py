@@ -8,7 +8,9 @@ def get_args(extend=lambda a:None):
 
 	extend(parser)
 
-	parser.add_argument('--model-dir',  type=str, default="./output/model")
+	parser.add_argument('--model-dir',      type=str, default="./output/model")
+	parser.add_argument('--warm-start-dir', type=str, default=None)
+
 	parser.add_argument('--output-dir', type=str, default="./output")
 	parser.add_argument('--log-level',  type=str, default="INFO")
 
@@ -24,8 +26,8 @@ def get_args(extend=lambda a:None):
 	parser.add_argument('--beam-width', type=int, default=10)
 
 
-	parser.add_argument('--max-steps',    type=int, default=400)
-	parser.add_argument('--predict-freq', type=int, default=1)
+	parser.add_argument('--max-steps',    type=int, default=500)
+	parser.add_argument('--predict-freq', type=int, default=3)
 
 
 	parser.add_argument('--limit', type=int, default=None,help="Limit number of data points, to quickly test code")

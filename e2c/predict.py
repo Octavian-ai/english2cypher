@@ -29,10 +29,12 @@ def translate(args, question):
 
 def print_examples(args):
 	print("Example questions:")
-	with open(args["train_src_path"]) as file:
+	with open("./data/all_src.txt") as file:
 		lines = file.readlines()
 		for i in range(5):
-			print("> " + detokenize_english(lines[i]), end='')
+			ex = detokenize_english(lines[i])
+			ex = ex.replace('   ', ' ')
+			print("> " + ex, end='')
 
 	print()
 

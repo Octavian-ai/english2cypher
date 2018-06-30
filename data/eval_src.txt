@@ -1,795 +1,818 @@
-How clean is <G> <r> <i> <r>  Court 
-Which lines is <S> <l> <e> <f> <t>  St on 
-How clean is <P> <r> <i> <v> <w> <i> <c> <h>  
-How many glass stations are on the Orange <M> <e> <p>  line 
-How clean is <D> <o> <m> <p>  International 
-How many new stations are on the Cyan <D> <r> <o> <p>  line 
-Which lines is <S> <n> <a> <k>  Estate on 
-Are <F> <r> <a> <b> <w> <i> <c> <h>  and <Z> <u> <f> <t>  Grove on the same line 
-How many lines is <B> <r> <u> <k> <b> <r> <i> <d> <g> <e>  on 
-How many architecture styles does Gray <B> <l> <a> <m> <p>  pass through 
-Which stations does Red <Z> <o> <o> <s> <k>  pass through 
-How many lines is <F> <r> <e> <g>  Way on 
-How clean is <Z> <e> <f>  Grove 
-Which stations does Purple <L> <u> <s> <s>  pass through 
-Which lines is <Y> <u> <n>  Hospital on 
-How many lines is <M> <o> <n> <g>  Grove on 
-How clean is <F> <o> <f>  Manor 
-How many architecture styles does Orange <Z> <i> <n> <g>  pass through 
-Which lines is <P> <o> <o> <c> <h>  Crossing on 
-How many lines is <S> <t> <r> <i> <b>  Way on 
-Are <W> <e> <k>  Road and <Y> <a> <g>  St on the same line 
-How clean is <S> <p> <o> <f>  Crossing 
-Which lines is <F> <r> <i> <n>  Upon Thames on 
-How clean is <S> <m> <o> <o> <n> <g>  Way 
-How many lines is <D> <r> <o> <f> <t>  Lane on 
-How many stations are between <G> <r> <e> <m> <p> <n> <e> <y> <l> <a> <n> <d>  and <S> <k> <i> <p> <t>  Grove 
-Which lines is <S> <h> <i> <h>  On Trent on 
-Which stations does Cyan <M> <e> <n> <d>  pass through 
-How many lines is <F> <l> <e> <z>  Palace on 
-Are <M> <o> <o> <n> <t>  Street and <S> <h> <i> <f> <i> <n> <g> <t> <o> <n>  on the same line 
-How many architecture styles does Brown <S> <p> <i> <r>  pass through 
-How many stations are between <G> <a> <z>  Upon Thames and <G> <l> <e> <s> <p>  Square 
-How many stations are between <F> <u> <p>  Road and <B> <o> <f> <t> <t> <o> <n>  
-How many lines is <Y> <i> <c> <h>  Estate on 
-How many new stations are on the Purple <S> <t> <e> <s> <k>  line 
-How many lines is <S> <n> <u> <f> <t>  Road on 
-How many architecture styles does Blue <G> <l> <e> <z>  pass through 
-How many lines is <C> <l> <e> <s> <h>  Crossing on 
-Are <F> <e> <n>  Square and <H> <o> <n> <d>  Road on the same line 
-Which lines is Skach Manor on 
-How many concrete stations are on the Purple <V> <e> <n> <g>  line 
-How many lines is <D> <r> <a> <n> <d> <i> <n> <g> <t> <o> <n>  on 
-How many glass stations are on the Orange <D> <r> <e> <v>  line 
-How many architecture styles does Blue <S> <t> <r> <o> <p>  pass through 
-How many architecture styles does Blue Swoost pass through 
-Which stations does Gray Tunt pass through 
-How many victorian stations are on the Pink <B> <l> <o> <n> <g>  line 
-How clean is <F> <r> <i> <l>  Bridge 
-How many stations are between <F> <r> <o> <z>  Upon Thames and <S> <t> <r> <u> <n>  Crossing 
-Which lines is <S> <o> <y> <t> <o> <n>  on 
-How many lines is <K> <i> <c> <t>  Hospital on 
-How clean is <S> <t> <o> <o> <z>  On Trent 
-How many architecture styles does Green <S> <k> <i> <f> <t>  pass through 
-How many stations are between <S> <h> <o> <o> <m> <p>  On Trent and <T> <e> <k>  International 
-How many new stations are on the Green <C> <h> <o> <w>  line 
-How clean is Freb Way 
-Are <F> <l> <i> <g> <n> <e> <y> <l> <a> <n> <d>  and Nuct Palace on the same line 
-Are <S> <k> <a> <n> <d>  Palace and <P> <l> <u> <s> <t>  Street on the same line 
-Are <M> <o> <c> <t>  International and <S> <n> <a> <g> <h> <a> <m>  on the same line 
-How many architecture styles does Cyan <M> <o> <h>  pass through 
-Which stations does Purple <T> <e> <n> <d>  pass through 
-How many lines is <T> <o> <o> <p> <t>  Bridge on 
-How many lines is Frip Bridge on 
-Which lines is <S> <o> <o> <h>  Square on 
-Which stations does Orange <B> <r> <o> <f>  pass through 
-Which lines is Hant Road on 
-How many modernist stations are on the Gray <D> <i> <l>  line 
-Which lines is Swoosh Manor on 
-How many lines is <F> <u> <r> <t> <o> <n>  on 
-Which stations does Olive <V> <o> <s> <h>  pass through 
-How many stations are between <S> <p> <o> <n> <w> <i> <c> <h>  and Gruz Manor 
-How many stations are between <S> <t> <r> <i> <s> <t> <i> <n> <g> <t> <o> <n>  and <T> <a> <n>  Bridge 
-How many architecture styles does Pink <C> <h> <i> <s> <h>  pass through 
-How many architecture styles does Olive <S> <e> <s> <p>  pass through 
-How many architecture styles does Purple <K> <i> <m>  pass through 
-Are <G> <l> <a> <m>  Way and <V> <e> <k>  Palace on the same line 
-How many architecture styles does Red <R> <e> <s> <t>  pass through 
-How many concrete stations are on the Blue <B> <l> <u> <c> <t>  line 
-Which stations does Brown <P> <i> <p>  pass through 
-How many concrete stations are on the Pink Skob line 
-Which lines is Brosk Lane on 
-How many architecture styles does Red <Z> <o> <o> <f>  pass through 
-How many lines is <V> <o> <t> <n> <e> <y> <l> <a> <n> <d>  on 
-Are <W> <o> <o> <c> <h>  Square and <S> <h> <a> <p> <t>  On Trent on the same line 
-Which stations does Brown <G> <u> <s> <t>  pass through 
-Which lines is <J> <i> <s> <t>  Bridge on 
-Are <S> <t> <r> <a> <p>  Court and <G> <r> <u> <s> <h>  Estate on the same line 
-How many stations are between <C> <h> <o> <l>  Boulevard and <L> <e> <n> <g>  Street 
-How many lines is <S> <t> <u> <n>  Court on 
-Which stations does Cyan Voomp pass through 
-Which stations does Purple <M> <i> <n> <d>  pass through 
-How many stations are between <Y> <a> <n> <t>  Crossing and <F> <u> <y>  Lane 
-How many victorian stations are on the Brown <S> <w> <a> <b>  line 
-Are <T> <o> <o> <s> <h>  Court and <C> <h> <u> <f>  Square on the same line 
-Which lines is <C> <l> <o> <m> <p>  Palace on 
-How many modernist stations are on the Olive <P> <u> <c> <t>  line 
-How many architecture styles does Green <L> <o> <o> <l>  pass through 
-Which lines is <B> <r> <o> <s> <s> <b> <r> <i> <d> <g> <e>  on 
-How clean is <S> <h> <o> <p>  Street 
-How many modernist stations are on the Blue Smooy line 
-Which lines is <S> <n> <o> <o> <n> <d> <h> <a> <m>  on 
-Which lines is <P> <l> <e> <n> <t>  St on 
-How many architecture styles does Pink <T> <o> <g>  pass through 
-Which stations does Brown <V> <e> <m>  pass through 
-How many lines is <L> <i> <l>  Bridge on 
-How clean is <C> <l> <o> <o> <n> <d> <n> <e> <y> <l> <a> <n> <d>  
-Which stations does Red <T> <r> <i> <s> <h>  pass through 
-Which lines is <P> <l> <u> <p> <t>  Grove on 
-Which stations does Pink <F> <r> <a> <s> <k>  pass through 
-Which stations does Gray <W> <o> <m>  pass through 
-How many concrete stations are on the Purple <G> <o> <s> <k>  line 
-Which stations does Blue <B> <r> <i> <s> <h>  pass through 
-How many lines is <P> <r> <o> <c> <t>  Way on 
-How many lines is <M> <u> <f> <t>  Court on 
-How clean is <S> <w> <a> <n> <t>  Hospital 
-Are <Y> <e> <s> <h>  Hospital and <W> <o> <t> <t> <o> <n>  on the same line 
-Are <W> <u> <c> <t> <b> <r> <i> <d> <g> <e>  and <S> <t> <r> <a> <r> <h> <a> <m>  on the same line 
-Which lines is Yooct Square on 
-How many architecture styles does Blue <M> <e> <s> <p>  pass through 
-How many architecture styles does Olive <J> <a> <y>  pass through 
-Which stations does Pink <G> <i> <c> <h>  pass through 
-Which lines is <G> <r> <a> <d>  Manor on 
-How many architecture styles does Green <P> <r> <a> <z>  pass through 
-Which stations does Cyan Clink pass through 
-How clean is <G> <r> <i> <c> <t>  Palace 
-How clean is <G> <o> <s> <p>  On Trent 
-Which stations does Gray <G> <r> <i> <c> <h>  pass through 
-Which lines is <P> <o> <m>  Manor on 
-How many art deco stations are on the Olive <S> <n> <o> <o> <n>  line 
-How many stations are between <B> <r> <o> <y>  Crossing and <S> <u> <w>  Road 
-How many concrete stations are on the Red <C> <h> <i> <f>  line 
-How many stations are between <S> <n> <o> <c> <t> <h> <a> <m>  and <G> <l> <u> <s> <k>  Court 
-Which lines is Prooch Crossing on 
-How clean is <M> <i> <w>  Lane 
-Are <S> <n> <e> <n> <g>  International and Ved Way on the same line 
-Which lines is <M> <a> <s> <h>  On Trent on 
-How many lines is Grach Crossing on 
-How many architecture styles does Gray <S> <n> <o> <y>  pass through 
-How many lines is <S> <w> <u> <z>  Grove on 
-Are <P> <o> <c> <t>  Estate and <S> <w> <e> <s> <s>  Lane on the same line 
-Which stations does Pink <S> <t> <e> <c> <t>  pass through 
-How many lines is <S> <p> <e> <m> <p> <w> <i> <c> <h>  on 
-Which stations does Orange <C> <h> <u> <n>  pass through 
-How many architecture styles does Olive <S> <m> <o> <f> <t>  pass through 
-Are <F> <r> <u> <t>  Square and <S> <k> <a> <p> <h> <a> <m>  on the same line 
-How many stations are between <T> <i> <s> <k> <h> <a> <m>  and Saw On Trent 
-How many lines is <R> <a> <z> <t> <o> <n>  on 
-Are <S> <i> <t>  Boulevard and <P> <l> <o> <p> <t>  Lane on the same line 
-Which lines is <W> <o> <o> <n>  St on 
-How clean is <S> <e> <w>  Palace 
-How clean is <S> <o> <z>  Lane 
-How many lines is <W> <a> <k>  Street on 
-How many stations are between <F> <l> <o> <o> <p> <i> <n> <g> <t> <o> <n>  and <S> <p> <o> <o> <z>  St 
-Which lines is <F> <r> <i> <g> <w> <i> <c> <h>  on 
-How many concrete stations are on the Blue <P> <r> <e> <m> <p>  line 
-Are <L> <o> <o> <s> <s>  Upon Thames and <R> <e> <h>  Road on the same line 
-How many architecture styles does Orange <D> <r> <e> <s> <s>  pass through 
-How clean is <J> <e> <s> <k> <h> <a> <m>  
-Which stations does Pink <H> <i> <s> <t>  pass through 
-How many lines is <G> <l> <a> <n> <k> <i> <n> <g> <t> <o> <n>  on 
-Which stations does Pink <H> <e> <c> <t>  pass through 
-How many architecture styles does Olive <F> <r> <u> <s> <p>  pass through 
-How many stations are between <T> <r> <o> <c> <t> <h> <a> <m>  and Crak Square 
-How clean is <D> <o> <r> <t> <o> <n>  
-Which lines is <G> <r> <u> <l>  On Trent on 
-How many art deco stations are on the Gray <F> <u> <n> <t>  line 
-Are Stoct Grove and <T> <r> <o> <s> <t>  St on the same line 
-How clean is <J> <u> <b>  St 
-How many architecture styles does Green Fluz pass through 
-How many glass stations are on the Pink <T> <r> <o> <o> <n> <d>  line 
-How clean is <D> <r> <a> <n> <g>  Road 
-Which stations does Blue <B> <r> <o> <v>  pass through 
-How many lines is <M> <a> <b>  Crossing on 
-How clean is <J> <e> <s> <p> <n> <e> <y> <l> <a> <n> <d>  
-Are <P> <e> <c> <t>  Crossing and Brooch Square on the same line 
-How clean is <T> <i> <m> <p>  Court 
-How many glass stations are on the Olive Foosh line 
-How many lines is Priss Grove on 
-How many lines is <H> <o> <o> <t>  Crossing on 
-Which lines is <D> <o> <o> <f>  Crossing on 
-Which stations does Brown <S> <t> <o> <s> <k>  pass through 
-How many architecture styles does Purple <G> <l> <i> <n> <t>  pass through 
-Which lines is <S> <k> <o> <c> <h> <b> <r> <i> <d> <g> <e>  on 
-How clean is <D> <r> <o> <o> <c> <h> <h> <a> <m>  
-Which stations does Green <S> <p> <i> <s> <p>  pass through 
-How many glass stations are on the Green <B> <i> <t>  line 
-How many stations are between <S> <w> <a> <n>  Grove and <T> <o> <l>  Court 
-How many architecture styles does Purple <K> <a> <f> <t>  pass through 
-How many lines is <G> <r> <a> <f> <t> <t> <o> <n>  on 
-How many architecture styles does Gray <G> <i> <p> <t>  pass through 
-How clean is <S> <h> <o> <o> <s> <t>  Square 
-Are <S> <p> <i> <v>  Hospital and <T> <e> <w>  Court on the same line 
-How many architecture styles does Purple <S> <t> <r> <o> <o> <s> <t>  pass through 
-Which lines is <L> <o> <o> <b>  On Trent on 
-How clean is <G> <r> <u> <m>  On Trent 
-Which stations does Brown <S> <l> <a> <f> <t>  pass through 
-How many lines is <F> <l> <e> <h>  Estate on 
-How many glass stations are on the Orange <K> <o> <g>  line 
-How many lines is <G> <i> <n> <k>  Upon Thames on 
-How many new stations are on the Blue <S> <k> <i> <w>  line 
-Are <W> <e> <c> <t>  Lane and <G> <o> <o> <p> <t> <i> <n> <g> <t> <o> <n>  on the same line 
-How many glass stations are on the Gray <S> <t> <o> <o> <z>  line 
-Which lines is <P> <i> <v>  On Trent on 
-Are <V> <a> <n> <k>  Boulevard and <P> <u> <s> <s>  St on the same line 
-How many lines is <T> <r> <a> <n> <g>  Lane on 
-How clean is <T> <r> <i> <t>  Grove 
-How clean is <D> <o> <p>  Bridge 
-How many architecture styles does Cyan <K> <e> <l>  pass through 
-How many stations are between <B> <i> <s> <s>  Crossing and <S> <t> <r> <o> <n> <k>  International 
-Which lines is <D> <r> <e> <t> <n> <e> <y> <l> <a> <n> <d>  on 
-Are <C> <l> <o> <o> <k>  Estate and <Z> <i> <s> <p> <w> <i> <c> <h>  on the same line 
-How clean is <L> <i> <c> <t> <i> <n> <g> <t> <o> <n>  
-How clean is <B> <a> <h> <t> <o> <n>  
-How many lines is Grut Road on 
-Which lines is <R> <o> <o> <s> <s>  St on 
-How many lines is <S> <p> <u> <z> <b> <r> <i> <d> <g> <e>  on 
-How many concrete stations are on the Green <W> <a> <n> <k>  line 
-Which lines is <B> <l> <o> <v>  Grove on 
-Which lines is <C> <r> <a> <c> <h> <n> <e> <y> <l> <a> <n> <d>  on 
-How clean is <K> <o> <n>  On Trent 
-How many stations are between <G> <r> <o> <o> <n> <t>  Manor and <C> <r> <i> <w>  Estate 
-Which lines is <S> <t> <a> <f>  Road on 
-How many architecture styles does Red <Y> <e> <p> <t>  pass through 
-How many lines is <F> <r> <e> <p>  Hospital on 
-How many art deco stations are on the Red <Z> <a> <z>  line 
-How many architecture styles does Brown <P> <l> <a> <b>  pass through 
-Are <M> <o> <o> <d>  Lane and <D> <r> <a> <p> <w> <i> <c> <h>  on the same line 
-Which stations does Pink <L> <a> <d>  pass through 
-How clean is <S> <t> <u> <g>  Court 
-How many art deco stations are on the Orange <S> <t> <o> <d>  line 
-How many architecture styles does Brown <Y> <o> <o> <m> <p>  pass through 
-How many lines is <F> <e> <z>  Lane on 
-Which stations does Red <K> <e> <n>  pass through 
-How many architecture styles does Olive <S> <h> <e> <n> <t>  pass through 
-Which lines is <H> <o> <r> <b> <r> <i> <d> <g> <e>  on 
-How many stations are between <C> <h> <a> <c> <h>  On Trent and <G> <l> <i> <y>  Grove 
-How clean is <J> <o> <n>  Grove 
-Which stations does Cyan <F> <r> <u> <m>  pass through 
-How many glass stations are on the Cyan <G> <a> <d>  line 
-How many victorian stations are on the Orange <S> <u> <g>  line 
-How many architecture styles does Red <C> <l> <o> <v>  pass through 
-How clean is <C> <r> <u> <c> <t>  Upon Thames 
-How clean is <S> <k> <o> <o> <n> <t>  Upon Thames 
-How many lines is <F> <i> <z>  Upon Thames on 
-Are <V> <e> <r>  On Trent and <C> <l> <o> <o> <c> <t>  Crossing on the same line 
-How many lines is <S> <w> <o> <o> <g>  Manor on 
-Are <F> <r> <o> <f> <t> <o> <n>  and <F> <o> <o> <m>  Way on the same line 
-How many new stations are on the Gray Flood line 
-Which lines is Swoosh Manor on 
-How many architecture styles does Green <P> <o> <p>  pass through 
-Which lines is <C> <l> <o> <c> <h>  Estate on 
-How clean is <P> <l> <u> <n> <d> <h> <a> <m>  
-How many new stations are on the Brown <R> <a> <s> <t>  line 
-How many lines is <F> <r> <e> <f> <t>  Manor on 
-How clean is <H> <i> <n> <k>  Bridge 
-How many stations are between <F> <a> <c> <h>  Street and <R> <i> <n> <k> <b> <r> <i> <d> <g> <e>  
-How clean is <B> <l> <o> <o> <y>  Street 
-Which stations does Brown Far pass through 
-How many architecture styles does Pink <D> <r> <a> <p>  pass through 
-How many stations are between <T> <o> <m> <p>  International and <S> <w> <u> <g> <h> <a> <m>  
-Which stations does Orange <C> <r> <i> <d>  pass through 
-How many architecture styles does Green <C> <h> <e> <n> <g>  pass through 
-How many lines is <H> <u> <n>  Road on 
-Which stations does Orange <S> <a> <n> <t>  pass through 
-How many modernist stations are on the Orange <H> <o> <o> <c> <t>  line 
-How many lines is <G> <r> <e> <d>  St on 
-How many new stations are on the Blue <D> <r> <e> <s> <s>  line 
-Which lines is <D> <r> <o> <v> <i> <n> <g> <t> <o> <n>  on 
-How many concrete stations are on the Green <P> <a> <d>  line 
-Are <N> <o> <o> <n> <t>  Lane and <F> <o> <l>  Street on the same line 
-How many lines is <G> <i> <t>  Court on 
-How many architecture styles does Orange <C> <l> <o> <y>  pass through 
-How many art deco stations are on the Olive <J> <o> <o> <k>  line 
-How clean is <W> <o> <o> <p>  International 
-How clean is <S> <p> <o> <s> <s> <h> <a> <m>  
-How clean is <S> <h> <a> <y>  Lane 
-Which lines is <L> <u> <p> <n> <e> <y> <l> <a> <n> <d>  on 
-Are <T> <u> <m> <p> <b> <r> <i> <d> <g> <e>  and <C> <h> <o> <o> <n> <t>  St on the same line 
-How many modernist stations are on the Pink <D> <r> <i> <z>  line 
-How clean is <P> <l> <i> <n>  Square 
-How many art deco stations are on the Blue <F> <l> <i> <m>  line 
-How many stations are between <S> <t> <i> <m> <p>  Lane and <D> <r> <o> <c> <h> <i> <n> <g> <t> <o> <n>  
-How many architecture styles does Pink <C> <h> <o> <s> <h>  pass through 
-How many stations are between <S> <n> <u> <n>  Court and <Y> <i> <f>  Boulevard 
-How clean is <V> <a> <c> <h>  Grove 
-How many stations are between <Z> <e> <n>  Manor and <R> <u> <s> <p>  Upon Thames 
-Which lines is <B> <o> <o> <n> <t>  Way on 
-How many victorian stations are on the Blue <C> <h> <e> <g>  line 
-Are <W> <u> <c> <h>  Palace and <D> <r> <o> <p> <t>  St on the same line 
-How many glass stations are on the Blue Rint line 
-Which stations does Gray <S> <h> <a> <l>  pass through 
-How many lines is <S> <t> <o> <o> <f>  Grove on 
-How many architecture styles does Brown <S> <l> <o> <k>  pass through 
-Which lines is <S> <t> <o> <s> <h>  Street on 
-Which lines is <T> <r> <o> <s> <k> <t> <o> <n>  on 
-How many stations are between <N> <e> <s> <s> <n> <e> <y> <l> <a> <n> <d>  and <F> <l> <u> <h>  Upon Thames 
-How many architecture styles does Blue Tunt pass through 
-How many stations are between <R> <a> <v>  Bridge and <T> <a> <n> <n> <e> <y> <l> <a> <n> <d>  
-Which lines is <P> <l> <o> <o> <m> <p>  Road on 
-Which stations does Orange <F> <r> <u> <c> <h>  pass through 
-How many glass stations are on the Green <S> <o> <o> <s> <k>  line 
-How many lines is <B> <l> <a> <n> <k>  Way on 
-Which stations does Orange <C> <r> <o> <o> <s> <h>  pass through 
-Which stations does Orange <S> <p> <o> <o> <c> <h>  pass through 
-How many architecture styles does Olive <D> <e> <n> <d>  pass through 
-Which lines is <S> <w> <i> <s> <p>  Crossing on 
-How many lines is <S> <w> <u> <s> <t>  Bridge on 
-Which lines is <S> <n> <u> <n> <d>  Court on 
-Which lines is <F> <l> <u> <m>  Hospital on 
-Are <C> <l> <o> <t>  Way and <D> <r> <a> <c> <h>  Street on the same line 
-How many new stations are on the Pink <L> <u> <d>  line 
-Are <Y> <u> <s> <k>  Court and <Y> <i> <s> <p> <b> <r> <i> <d> <g> <e>  on the same line 
-Which stations does Gray <S> <h> <i> <n> <d>  pass through 
-Which lines is <S> <n> <a> <c> <t>  Lane on 
-Are <G> <r> <e> <p>  Grove and <P> <u> <s> <h> <w> <i> <c> <h>  on the same line 
-Which stations does Orange <P> <l> <o> <m> <p>  pass through 
-Are Shond Grove and <Z> <o> <l>  St on the same line 
-How clean is <P> <l> <e> <t> <i> <n> <g> <t> <o> <n>  
-How many architecture styles does Olive <P> <a> <y>  pass through 
-How many lines is <N> <i> <f>  Crossing on 
-Which stations does Orange <B> <l> <u> <g>  pass through 
-Which lines is <T> <r> <u> <m> <p>  Road on 
-How many architecture styles does Gray <V> <a> <m>  pass through 
-How clean is <F> <r> <u> <r>  Upon Thames 
-How clean is <S> <k> <a> <s> <k>  Hospital 
-Which lines is <S> <l> <a> <n>  St on 
-Are <D> <o> <n> <t> <i> <n> <g> <t> <o> <n>  and <F> <o> <n> <t> <h> <a> <m>  on the same line 
-Are <L> <o> <m>  Way and <K> <e> <c> <h>  Estate on the same line 
-Which lines is Smoomp Road on 
-How clean is <G> <l> <e> <n> <t>  Palace 
-How clean is <S> <m> <u> <m> <p>  Hospital 
-How many architecture styles does Pink Vept pass through 
-Which lines is <P> <r> <e> <k> <t> <o> <n>  on 
-How many concrete stations are on the Red <D> <r> <i> <m>  line 
-Which lines is <S> <p> <o> <o> <y> <h> <a> <m>  on 
-How many modernist stations are on the Pink <S> <a> <f> <t>  line 
-How many modernist stations are on the Red <F> <u> <z>  line 
-Which lines is <S> <l> <i> <f> <t>  Upon Thames on 
-How clean is <J> <o> <o> <y>  Palace 
-Which lines is <G> <r> <o> <s> <t>  Upon Thames on 
-How clean is <P> <r> <e> <s> <s> <n> <e> <y> <l> <a> <n> <d>  
-How many architecture styles does Orange <K> <u> <s> <p>  pass through 
-How many architecture styles does Brown <S> <w> <e> <w>  pass through 
-Which stations does Cyan <P> <o> <o> <m>  pass through 
-How many architecture styles does Blue <G> <o> <o> <t>  pass through 
-Which lines is <C> <r> <a> <f>  Palace on 
-Are <C> <l> <u> <m> <p>  International and <Z> <a> <n> <g>  Road on the same line 
-How many architecture styles does Red <L> <a> <s> <h>  pass through 
-How many lines is Smoomp Grove on 
-How many stations are between <T> <r> <o> <n> <t>  Court and <F> <o> <s> <s> <t> <o> <n>  
-Which lines is <S> <t> <i> <r>  Estate on 
-How clean is <C> <r> <u> <c> <h> <i> <n> <g> <t> <o> <n>  
-How many architecture styles does Blue <S> <h> <o> <k>  pass through 
-How many victorian stations are on the Brown <F> <r> <o> <w>  line 
-How many art deco stations are on the Red <S> <k> <a> <f> <t>  line 
-Are <S> <m> <u> <m> <p>  Boulevard and <C> <r> <a> <f> <i> <n> <g> <t> <o> <n>  on the same line 
-Which stations does Brown <Y> <o> <o> <z>  pass through 
-How many architecture styles does Red <W> <e> <d>  pass through 
-How many lines is <S> <t> <r> <u> <f> <t>  Grove on 
-How many lines is <B> <u> <f> <t>  Road on 
-Are <F> <l> <o> <o> <s> <p>  Boulevard and <S> <n> <u> <t> <b> <r> <i> <d> <g> <e>  on the same line 
-Which stations does Pink <G> <l> <a> <f>  pass through 
-How many architecture styles does Green <S> <t> <i> <h>  pass through 
-How many new stations are on the Gray <S> <t> <r> <i> <n> <t>  line 
-Which lines is <T> <u> <n> <k> <h> <a> <m>  on 
-How many stations are between <S> <h> <a> <g> <i> <n> <g> <t> <o> <n>  and <S> <l> <a> <r>  Boulevard 
-How many victorian stations are on the Blue <B> <l> <o> <o> <m>  line 
-Are <P> <l> <o> <p> <t> <i> <n> <g> <t> <o> <n>  and <S> <m> <o> <n> <k>  St on the same line 
-Are <Z> <i> <h> <b> <r> <i> <d> <g> <e>  and <N> <o> <o> <z> <b> <r> <i> <d> <g> <e>  on the same line 
-How many architecture styles does Olive <S> <t> <r> <e> <p> <t>  pass through 
-Which stations does Gray <P> <r> <a> <r>  pass through 
-How many architecture styles does Gray <T> <r> <e> <n> <d>  pass through 
-How many glass stations are on the Olive <T> <r> <a> <g>  line 
-How many stations are between <P> <a> <m> <p> <h> <a> <m>  and <S> <u> <l>  Upon Thames 
-How many victorian stations are on the Red <S> <t> <o> <m> <p>  line 
-How clean is <M> <i> <s> <s>  Way 
-Are <G> <l> <o> <s> <s> <n> <e> <y> <l> <a> <n> <d>  and <P> <u> <h>  Court on the same line 
-How many new stations are on the Pink <C> <h> <a> <v>  line 
-Which lines is <F> <e> <w> <w> <i> <c> <h>  on 
-How many modernist stations are on the Blue <F> <e> <s> <k>  line 
-How many victorian stations are on the Pink <N> <e> <b>  line 
-Which lines is <S> <l> <u> <k> <t> <o> <n>  on 
-Are <P> <o> <f> <t> <i> <n> <g> <t> <o> <n>  and <L> <a> <h>  International on the same line 
-How many stations are between <B> <i> <n> <g>  Upon Thames and <D> <r> <a> <w> <w> <i> <c> <h>  
-How many lines is <S> <h> <o> <o> <r>  Grove on 
-Which lines is <S> <i> <k>  Way on 
-Are <K> <u> <d> <t> <o> <n>  and <S> <n> <u> <m> <p> <h> <a> <m>  on the same line 
-How many architecture styles does Pink <F> <o> <n> <d>  pass through 
-How many architecture styles does Green <S> <l> <e> <w>  pass through 
-Are <F> <l> <i> <m>  Boulevard and <B> <r> <o> <o> <n> <d> <t> <o> <n>  on the same line 
-How many new stations are on the Pink <Y> <e> <s> <p>  line 
-How many lines is Drest Palace on 
-Which lines is Div Grove on 
-Are <B> <r> <i> <f> <t>  Road and Nuct St on the same line 
-Which stations does Red <C> <l> <i> <r>  pass through 
-Are <N> <i> <z>  Square and <V> <u> <s> <t>  Grove on the same line 
-How many art deco stations are on the Olive <S> <t> <u> <b>  line 
-Are <P> <l> <o> <n> <t>  Hospital and <S> <n> <i> <m> <p>  Boulevard on the same line 
-Which lines is <G> <l> <o> <o> <v>  Crossing on 
-How many new stations are on the Pink <S> <l> <i> <g>  line 
-How many architecture styles does Orange <D> <i> <c> <t>  pass through 
-How many lines is <S> <t> <r> <e> <s> <p>  Manor on 
-How clean is <D> <r> <i> <s> <s>  Crossing 
-Which stations does Purple <K> <e> <c> <t>  pass through 
-How many lines is <S> <t> <e> <m> <b> <r> <i> <d> <g> <e>  on 
-How many lines is <D> <r> <o> <o> <k>  Upon Thames on 
-Which stations does Blue <S> <m> <i> <d>  pass through 
-Which lines is <H> <a> <g>  Bridge on 
-How many lines is <F> <l> <e> <t>  Bridge on 
-How many lines is Swoft Crossing on 
-How many lines is <S> <n> <e> <w> <i> <n> <g> <t> <o> <n>  on 
-Which stations does Purple <V> <a> <g>  pass through 
-How many architecture styles does Olive <K> <i> <m> <p>  pass through 
-How many victorian stations are on the Blue <S> <k> <o> <o> <s> <k>  line 
-Which stations does Pink <B> <l> <i> <w>  pass through 
-How many architecture styles does Red <K> <i> <f> <t>  pass through 
-How many lines is <T> <r> <o> <o> <p> <t> <o> <n>  on 
-How many lines is <S> <i> <l> <t> <o> <n>  on 
-How clean is <R> <a> <p>  St 
-Which lines is <S> <w> <o> <r> <w> <i> <c> <h>  on 
-How clean is <P> <i> <n> <t>  Palace 
-Which lines is <K> <o> <f> <t> <h> <a> <m>  on 
-How many architecture styles does Cyan <P> <l> <i> <f>  pass through 
-How many architecture styles does Brown <Y> <i> <n>  pass through 
-Which lines is <S> <t> <o> <o> <s> <p> <b> <r> <i> <d> <g> <e>  on 
-How many stations are between <T> <e> <n> <d>  Palace and <C> <l> <u> <s> <p>  Palace 
-How many architecture styles does Purple <F> <r> <u> <c> <t>  pass through 
-How many art deco stations are on the Purple <R> <e> <b>  line 
-Which lines is <S> <w> <e> <n> <t>  Way on 
-Are <J> <o> <o> <w>  Grove and <C> <r> <o> <o> <c> <t>  Lane on the same line 
-Which stations does Red <B> <l> <o> <w>  pass through 
-Are <B> <o> <z>  Square and <K> <u> <s> <h>  Grove on the same line 
-How many architecture styles does Pink Sloomp pass through 
-Which stations does Green <S> <a> <y>  pass through 
-How many architecture styles does Gray <N> <u> <z>  pass through 
-Which lines is <Y> <o> <o> <f> <t> <i> <n> <g> <t> <o> <n>  on 
-How many lines is <P> <r> <i> <p> <t> <t> <o> <n>  on 
-How many architecture styles does Brown Jid pass through 
-Which lines is <B> <u> <s> <k>  Grove on 
-How many victorian stations are on the Red <D> <r> <i> <w>  line 
-How many art deco stations are on the Green <P> <l> <e> <p>  line 
-How many architecture styles does Olive Huf pass through 
-Are <T> <e> <s> <p>  Road and <S> <u> <m>  Square on the same line 
-Are <L> <e> <h>  Estate and <D> <r> <u> <r>  St on the same line 
-Which lines is <B> <l> <u> <k>  International on 
-How many victorian stations are on the Orange <P> <l> <o> <o> <n>  line 
-How clean is Fooct Court 
-How many concrete stations are on the Purple <V> <o> <y>  line 
-Which lines is <F> <a> <s> <k>  International on 
-Which stations does Gray <P> <l> <i> <s> <p>  pass through 
-How many lines is <N> <o> <h>  Street on 
-How many stations are between <G> <i> <s> <t>  Estate and <F> <l> <o> <o> <n> <k> <w> <i> <c> <h>  
-How many lines is <S> <p> <e> <g>  St on 
-Which lines is Swal Street on 
-Which lines is <S> <i> <v>  Way on 
-How many lines is <D> <r> <o> <o> <s> <k> <n> <e> <y> <l> <a> <n> <d>  on 
-Which stations does Brown <C> <l> <a> <b>  pass through 
-How many architecture styles does Pink <P> <r> <o> <o> <p> <t>  pass through 
-How clean is <S> <l> <o> <g>  Palace 
-How many glass stations are on the Purple <V> <o> <o> <z>  line 
-How clean is <S> <n> <a> <z>  Grove 
-How many stations are between <S> <h> <u> <n>  Square and <D> <i> <n>  Street 
-Are <R> <o> <m> <p>  Road and <V> <a> <l> <i> <n> <g> <t> <o> <n>  on the same line 
-How many architecture styles does Olive <S> <n> <a> <h>  pass through 
-How many lines is <C> <r> <o> <t>  International on 
-Which stations does Cyan <Z> <i> <p> <t>  pass through 
-How many stations are between <B> <r> <e> <n> <k>  Palace and <S> <k> <e> <s> <k>  Crossing 
-Which lines is <D> <r> <o> <d>  Road on 
-How many new stations are on the Blue <J> <u> <z>  line 
-How many stations are between <W> <u> <n> <k>  Square and <K> <e> <d>  Manor 
-Which lines is <K> <a> <s> <t>  On Trent on 
-How many lines is <F> <l> <a> <n> <g>  Square on 
-Which lines is <M> <o> <y> <i> <n> <g> <t> <o> <n>  on 
-How clean is Paf Manor 
-Which stations does Purple <T> <r> <o> <d>  pass through 
-How many lines is <Z> <o> <h>  Court on 
-Which stations does Olive <M> <o> <s> <k>  pass through 
-How many architecture styles does Cyan <G> <l> <o> <o> <n>  pass through 
-Which lines is <G> <r> <e> <z>  International on 
-Which lines is <B> <l> <u> <n> <k>  Estate on 
-How many architecture styles does Cyan <H> <e> <p> <t>  pass through 
-Which stations does Blue <L> <u> <d>  pass through 
-How many stations are between <S> <p> <o> <m>  Street and <S> <m> <i> <r>  On Trent 
-How clean is Nost On Trent 
-Which lines is <P> <l> <e> <p>  St on 
-Which stations does Orange <S> <p> <a> <n> <g>  pass through 
-How many architecture styles does Orange <S> <t> <r> <o> <k>  pass through 
-Which lines is <D> <a> <d>  Road on 
-How clean is <D> <r> <o> <n> <k>  Street 
-Are Nom Street and <V> <o> <o> <p>  Way on the same line 
-How many architecture styles does Cyan <T> <u> <k>  pass through 
-How many lines is <F> <l> <i> <h>  Manor on 
-Which stations does Red <Y> <a> <z>  pass through 
-How many architecture styles does Pink <F> <l> <o> <o> <w>  pass through 
-Which stations does Green <D> <r> <u> <l>  pass through 
-Are <N> <o> <o> <n> <t>  Court and <G> <r> <e> <k>  Street on the same line 
-How many architecture styles does Brown <F> <o> <m>  pass through 
-How many new stations are on the Cyan <C> <l> <e> <r>  line 
-Which lines is <C> <h> <a> <c> <t>  Upon Thames on 
-How clean is <G> <r> <u> <s> <p>  Court 
-Which lines is Tript Way on 
-Which lines is <T> <e> <v> <i> <n> <g> <t> <o> <n>  on 
-How many lines is <T> <i> <w>  St on 
-How many victorian stations are on the Cyan <P> <u> <p> <t>  line 
-How clean is <P> <r> <i> <s> <s> <t> <o> <n>  
-Which lines is <G> <e> <k> <w> <i> <c> <h>  on 
-How many architecture styles does Cyan <C> <l> <e> <k>  pass through 
-Which lines is <B> <e> <l>  Manor on 
-How many lines is <R> <o> <o> <l>  Hospital on 
-Are <V> <u> <n>  Estate and <G> <r> <a> <z>  Crossing on the same line 
-How many stations are between <J> <a> <g>  International and <S> <h> <a> <c> <h>  Hospital 
-Which lines is <F> <o> <o> <n> <d>  Hospital on 
-Which lines is <K> <i> <s> <h>  Palace on 
-Are <R> <i> <r> <w> <i> <c> <h>  and <C> <h> <e> <y>  Square on the same line 
-How many architecture styles does Gray <P> <r> <a> <v>  pass through 
-How clean is <S> <l> <a> <r>  Bridge 
-How many art deco stations are on the Orange <F> <r> <o> <m>  line 
-Which stations does Orange <T> <o> <f> <t>  pass through 
-How many architecture styles does Green <P> <l> <e> <t>  pass through 
-Which stations does Blue <T> <u> <d>  pass through 
-How clean is <P> <o> <n> <t>  Crossing 
-Are Prich Street and <B> <r> <o> <w>  Boulevard on the same line 
-How clean is <P> <r> <i> <f>  Manor 
-How many stations are between <F> <o> <z>  Street and <S> <o> <o> <g>  Palace 
-How many lines is <S> <u> <f> <t>  International on 
-Which stations does Brown <M> <o> <n> <t>  pass through 
-How clean is <J> <e> <s> <h>  International 
-How many architecture styles does Blue <Y> <e> <n>  pass through 
-Which lines is <V> <o> <o> <b>  Upon Thames on 
-Are <B> <u> <d>  Crossing and <B> <u> <p> <t>  Upon Thames on the same line 
-How many victorian stations are on the Gray <S> <p> <u> <p>  line 
-How many glass stations are on the Purple <B> <r> <u> <g>  line 
-How many lines is <G> <o> <o> <b>  Manor on 
-How many architecture styles does Red <S> <k> <o> <o> <n>  pass through 
-How many concrete stations are on the Red <W> <o> <o> <k>  line 
-How many architecture styles does Pink <S> <t> <e> <n>  pass through 
-How clean is <H> <o> <o> <f> <t> <o> <n>  
-How many lines is <H> <o> <s> <k>  Crossing on 
-Which lines is <M> <o> <c> <h>  Lane on 
-How many lines is <V> <o> <n> <t>  Square on 
-Which stations does Pink <S> <m> <i> <y>  pass through 
-How many architecture styles does Orange <D> <a> <w>  pass through 
-How clean is <F> <u> <n> <k> <i> <n> <g> <t> <o> <n>  
-How clean is <C> <r> <o> <h>  Lane 
-Are <T> <r> <i> <k>  Way and <S> <w> <a> <s> <s>  Grove on the same line 
-Which stations does Purple <B> <l> <u> <f> <t>  pass through 
-How many victorian stations are on the Gray <S> <h> <i> <s> <t>  line 
-How many architecture styles does Pink <S> <l> <o> <o> <f> <t>  pass through 
-How clean is <L> <o> <o> <s> <s> <h> <a> <m>  
-How many lines is <D> <r> <o> <o> <n>  Palace on 
-How many lines is <S> <i> <h> <n> <e> <y> <l> <a> <n> <d>  on 
-How many victorian stations are on the Gray <M> <u> <h>  line 
-How many concrete stations are on the Brown <W> <e> <s> <s>  line 
-How clean is <L> <o> <f> <t>  Grove 
-How many architecture styles does Brown <T> <a> <f>  pass through 
-Which lines is <R> <a> <z>  International on 
-Which lines is <F> <u> <s> <s>  International on 
-How many modernist stations are on the Cyan <S> <t> <r> <o> <s> <h>  line 
-Which stations does Green <K> <i> <v>  pass through 
-How many lines is <H> <o> <h>  Upon Thames on 
-How clean is <S> <p> <o> <b>  Upon Thames 
-How many lines is <F> <o> <o> <r>  Boulevard on 
-How many architecture styles does Green <B> <r> <a> <f> <t>  pass through 
-How clean is <D> <u> <s> <k>  Crossing 
-Are <R> <i> <f> <t>  Manor and <S> <l> <u> <m> <p> <b> <r> <i> <d> <g> <e>  on the same line 
-How clean is <J> <a> <l> <n> <e> <y> <l> <a> <n> <d>  
-How many victorian stations are on the Red <P> <e> <m>  line 
-How many architecture styles does Cyan <J> <o> <n> <t>  pass through 
-Which lines is <P> <l> <i> <m> <p>  Bridge on 
-Which lines is <N> <o> <o> <c> <h> <n> <e> <y> <l> <a> <n> <d>  on 
-How many architecture styles does Orange <K> <o> <c> <t>  pass through 
-How many architecture styles does Gray <C> <l> <u> <r>  pass through 
-Which stations does Gray <F> <a> <n> <k>  pass through 
-How many architecture styles does Orange <M> <o> <o> <s> <p>  pass through 
-How many victorian stations are on the Cyan <Y> <a> <p>  line 
-How clean is <S> <o> <p> <t>  Grove 
-Are <L> <a> <s> <s>  Lane and <S> <t> <r> <o> <o> <n> <k> <i> <n> <g> <t> <o> <n>  on the same line 
-How many glass stations are on the Olive Tunt line 
-How clean is <P> <r> <i> <n> <d>  Crossing 
-Which stations does Gray <P> <r> <e> <v>  pass through 
-Which lines is <S> <o> <o> <m> <p> <w> <i> <c> <h>  on 
-How many art deco stations are on the Red Gresh line 
-How many art deco stations are on the Pink <C> <l> <o> <f>  line 
-How clean is <K> <e> <g> <t> <o> <n>  
-How many lines is <B> <r> <o> <o> <f> <t>  Court on 
-Which stations does Green <W> <o> <o> <w>  pass through 
-How clean is <S> <w> <i> <b>  Crossing 
-How clean is <T> <u> <t>  Boulevard 
-How many architecture styles does Cyan <T> <a> <s> <s>  pass through 
-How many lines is <S> <e> <h>  Street on 
-Are <C> <l> <u> <z>  Street and <P> <r> <o> <o> <m> <p>  Boulevard on the same line 
-Which stations does Cyan Yip pass through 
-How many lines is <S> <k> <i> <s> <s>  Bridge on 
-How many architecture styles does Pink <S> <o> <o> <v>  pass through 
-How clean is <S> <l> <o> <s> <t> <w> <i> <c> <h>  
-How many stations are between <T> <o> <s> <k>  Way and <D> <r> <o> <f>  Estate 
-How many lines is <B> <l> <o> <o> <h>  Grove on 
-How clean is <Z> <i> <z>  Manor 
-How many architecture styles does Gray <G> <a> <s> <k>  pass through 
-How many lines is <S> <n> <e> <p>  International on 
-How many architecture styles does Cyan <G> <e> <z>  pass through 
-How clean is <V> <i> <y> <b> <r> <i> <d> <g> <e>  
-Are <N> <o> <o> <m>  Road and <T> <r> <o> <o> <s> <s>  Square on the same line 
-How many architecture styles does Orange <S> <l> <o> <s> <p>  pass through 
-Which lines is <R> <u> <w>  Estate on 
-Are <S> <t> <r> <u> <b>  Hospital and <M> <o> <o> <y>  Boulevard on the same line 
-Which stations does Red <N> <o> <k>  pass through 
-Which lines is <J> <e> <b>  Way on 
-How clean is <N> <o> <o> <d> <b> <r> <i> <d> <g> <e>  
-How many architecture styles does Orange <S> <k> <e> <d>  pass through 
-How many art deco stations are on the Olive <C> <l> <i> <c> <t>  line 
-How many architecture styles does Pink Smooy pass through 
-Which stations does Green <R> <a> <p> <t>  pass through 
-How many modernist stations are on the Blue <L> <i> <p>  line 
-How many lines is <S> <t> <r> <u> <n>  Grove on 
-Which lines is <B> <r> <u> <z>  St on 
-How clean is <C> <l> <u> <n> <k>  Manor 
-How clean is <P> <i> <s> <t> <w> <i> <c> <h>  
-Which stations does Orange <T> <a> <m>  pass through 
-How many architecture styles does Cyan <T> <r> <a> <t>  pass through 
-How many concrete stations are on the Purple <T> <r> <o> <t>  line 
-Which stations does Olive <B> <o> <o> <s> <k>  pass through 
-How clean is <M> <o> <o> <s> <h>  International 
-How many lines is Stoct On Trent on 
-How many stations are between <M> <o> <o> <p> <t> <n> <e> <y> <l> <a> <n> <d>  and <C> <l> <e> <n> <k>  St 
-Which stations does Orange <C> <h> <i> <d>  pass through 
-How many architecture styles does Purple <G> <r> <e> <f>  pass through 
-How many lines is <F> <o> <m> <b> <r> <i> <d> <g> <e>  on 
-How many glass stations are on the Gray <N> <o> <s> <s>  line 
-How many lines is <G> <r> <i> <t>  St on 
-Which stations does Cyan <S> <t> <r> <o> <s> <k>  pass through 
-How many new stations are on the Green <Z> <a> <n> <g>  line 
-Which stations does Pink <S> <m> <e> <v>  pass through 
-How many architecture styles does Pink <S> <w> <o> <k>  pass through 
-Which stations does Cyan <Z> <o> <o> <f> <t>  pass through 
-How clean is <T> <o> <n> <g>  Square 
-How many concrete stations are on the Cyan <H> <i> <n> <t>  line 
-How many lines is <C> <l> <o> <n>  Way on 
-How many architecture styles does Brown <S> <n> <i> <g>  pass through 
-How many architecture styles does Purple <F> <r> <a> <k>  pass through 
-How many stations are between <P> <i> <n> <g>  International and <B> <r> <i> <g>  Palace 
-Which lines is <D> <e> <s> <p> <t> <o> <n>  on 
-Which stations does Purple <D> <i> <n> <k>  pass through 
-How many lines is Stropt Street on 
-How clean is <S> <k> <e> <m>  St 
-Which stations does Green <B> <l> <o> <o> <n> <k>  pass through 
-How many glass stations are on the Brown <T> <a> <n> <t>  line 
-How many modernist stations are on the Orange <J> <o> <d>  line 
-How many architecture styles does Cyan <H> <o> <o> <w>  pass through 
-How many lines is <M> <e> <n> <t>  Road on 
-Which stations does Orange <S> <t> <i> <n> <k>  pass through 
-How clean is <W> <o> <z> <n> <e> <y> <l> <a> <n> <d>  
-How many architecture styles does Pink <G> <r> <u> <s> <h>  pass through 
-How many architecture styles does Olive <S> <e> <p> <t>  pass through 
-How many lines is <L> <o> <m> <h> <a> <m>  on 
-How many stations are between <P> <a> <p> <t>  International and <F> <l> <o> <o> <s> <k>  Street 
-How many lines is <G> <a> <y>  Square on 
-Are <C> <l> <a> <m>  Upon Thames and <S> <h> <a> <s> <h>  St on the same line 
-How many architecture styles does Purple <B> <r> <o> <b>  pass through 
-How many architecture styles does Green <G> <a> <t>  pass through 
-How many art deco stations are on the Cyan <W> <u> <g>  line 
-Which lines is <S> <h> <o> <n> <t>  Upon Thames on 
-How many victorian stations are on the Purple <J> <o> <o> <b>  line 
-How clean is <C> <l> <o> <c> <h>  Grove 
-How many lines is <K> <a> <s> <h>  Street on 
-Which stations does Green <F> <o> <m>  pass through 
-Which lines is <S> <l> <e> <m> <p>  International on 
-How many concrete stations are on the Green <H> <e> <w>  line 
-How clean is <W> <o> <w> <n> <e> <y> <l> <a> <n> <d>  
-How many lines is <D> <r> <e> <m> <p>  Upon Thames on 
-How many art deco stations are on the Brown <P> <r> <e> <s> <s>  line 
-How clean is <C> <r> <u> <l>  St 
-How many concrete stations are on the Gray <S> <p> <o> <y>  line 
-How many architecture styles does Gray <S> <t> <r> <a> <d>  pass through 
-Which stations does Red <D> <a> <v>  pass through 
-How many modernist stations are on the Gray <B> <o> <b>  line 
-Which lines is <S> <t> <r> <u> <t>  Palace on 
-How many modernist stations are on the Cyan <H> <o> <t>  line 
-How many architecture styles does Pink <S> <t> <r> <i> <t>  pass through 
-Which lines is <F> <l> <o> <t>  Court on 
-How clean is <B> <o> <o> <y> <h> <a> <m>  
-Which stations does Orange <V> <o> <s> <t>  pass through 
-Which stations does Pink <F> <r> <i> <c> <t>  pass through 
-How many architecture styles does Orange <V> <o> <p> <t>  pass through 
-How many concrete stations are on the Brown <S> <h> <a> <l>  line 
-Which lines is <W> <o> <d>  On Trent on 
-Which stations does Blue <S> <w> <e> <s> <p>  pass through 
-Are <P> <l> <e> <v> <i> <n> <g> <t> <o> <n>  and <C> <h> <a> <m>  Lane on the same line 
-How many lines is <F> <r> <u> <m> <p>  International on 
-How clean is <F> <l> <u> <v>  Way 
-How many glass stations are on the Purple <R> <u> <z>  line 
-How many stations are between <Y> <o> <y>  Hospital and <B> <e> <b>  Way 
-How many lines is <T> <u> <d>  Upon Thames on 
-How many architecture styles does Pink <Y> <o> <o> <p> <t>  pass through 
-How clean is <G> <o> <o> <m> <p>  On Trent 
-How many lines is <W> <i> <p> <t>  On Trent on 
-How many glass stations are on the Green <S> <t> <r> <e> <y>  line 
-How many lines is <D> <o> <o> <f> <w> <i> <c> <h>  on 
-How clean is Swoft Way 
-How many architecture styles does Pink <C> <l> <i> <m> <p>  pass through 
-Which lines is <J> <o> <o> <s> <h> <w> <i> <c> <h>  on 
-How many lines is <S> <w> <o> <s> <k>  Estate on 
-Are <G> <l> <o> <o> <h> <n> <e> <y> <l> <a> <n> <d>  and <S> <k> <a> <m>  Court on the same line 
-How clean is <C> <l> <o> <o> <s> <p>  International 
-How clean is <F> <l> <u> <p>  Court 
-How clean is <D> <a> <h> <w> <i> <c> <h>  
-How clean is <B> <a> <y>  Estate 
-Which lines is <F> <r> <a> <n> <k>  Grove on 
-How many stations are between <T> <r> <u> <r>  Palace and <S> <l> <o> <z> <t> <o> <n>  
-How clean is <S> <w> <o> <o> <n>  Palace 
-Which lines is <G> <l> <i> <z>  Upon Thames on 
-How many victorian stations are on the Gray <B> <l> <i> <n> <g>  line 
-Are <C> <r> <a> <v>  Crossing and <F> <r> <a> <s> <s>  Way on the same line 
-Are <S> <w> <u> <b> <t> <o> <n>  and <C> <l> <i> <s> <p>  Way on the same line 
-Which stations does Red <W> <o> <c> <h>  pass through 
-Which lines is <F> <r> <e> <s> <h> <h> <a> <m>  on 
-Which lines is <T> <r> <i> <s> <k> <h> <a> <m>  on 
-Are <P> <o> <o> <l>  Palace and <F> <o> <d>  Court on the same line 
-Which lines is <N> <a> <s> <t> <b> <r> <i> <d> <g> <e>  on 
-How many lines is <G> <o> <m> <p> <b> <r> <i> <d> <g> <e>  on 
-How many lines is <S> <n> <u> <f>  Street on 
-How clean is <K> <o> <o> <w>  Way 
-Which stations does Purple <S> <l> <a> <s> <s>  pass through 
-How many architecture styles does Purple <D> <o> <n> <t>  pass through 
-Which lines is <W> <i> <p> <t>  Boulevard on 
-How many lines is <S> <k> <e> <m> <p> <w> <i> <c> <h>  on 
-Are <S> <k> <a> <s> <p> <n> <e> <y> <l> <a> <n> <d>  and <S> <k> <o> <o> <y>  On Trent on the same line 
-How many architecture styles does Gray <T> <r> <a> <z>  pass through 
-How many stations are between <S> <n> <o> <d>  Hospital and <S> <h> <e> <k>  Street 
-How many glass stations are on the Purple <F> <l> <a> <p>  line 
-How many stations are between <G> <r> <a> <t> <i> <n> <g> <t> <o> <n>  and <W> <o> <o> <y>  Boulevard 
-Which stations does Purple <V> <e> <h>  pass through 
-How many new stations are on the Brown <F> <u> <y>  line 
-How many lines is <B> <r> <a> <s> <h> <t> <o> <n>  on 
-How many architecture styles does Gray <W> <i> <y>  pass through 
-Which lines is <K> <e> <s> <s> <w> <i> <c> <h>  on 
-How many architecture styles does Pink <F> <l> <o> <o> <k>  pass through 
-How many lines is <S> <p> <o> <n> <k>  Hospital on 
-How many victorian stations are on the Brown <Z> <a> <c> <h>  line 
-How many lines is <L> <o> <p> <t>  St on 
-Which stations does Red <G> <e> <n> <t>  pass through 
-How many lines is <L> <o> <o> <n> <g>  Crossing on 
-Are <M> <i> <c> <t> <h> <a> <m>  and <W> <a> <n> <k>  Grove on the same line 
-How many lines is <D> <e> <p> <h> <a> <m>  on 
-How many stations are between <T> <a> <p> <i> <n> <g> <t> <o> <n>  and <C> <h> <i> <f> <i> <n> <g> <t> <o> <n>  
-Which lines is <F> <o> <o> <t>  Street on 
-Which stations does Cyan <H> <e> <n> <t>  pass through 
-How many art deco stations are on the Green <R> <o> <o> <b>  line 
-Which stations does Orange <S> <e> <n> <t>  pass through 
-How many victorian stations are on the Olive <C> <l> <u> <s> <s>  line 
-How many lines is <S> <t> <o> <o> <s> <k>  Lane on 
-How many new stations are on the Cyan <S> <m> <i> <f> <t>  line 
-Which stations does Green <P> <u> <b>  pass through 
-Which lines is <K> <o> <n> <h> <a> <m>  on 
-How many glass stations are on the Green <S> <k> <e> <z>  line 
-How many architecture styles does Cyan <H> <a> <k>  pass through 
-Which lines is <C> <h> <o> <s> <s>  Upon Thames on 
-How clean is <K> <a> <s> <k> <b> <r> <i> <d> <g> <e>  
-Which lines is <S> <l> <e> <r>  Lane on 
-How many new stations are on the Brown <S> <t> <r> <a> <n> <t>  line 
-How many lines is <T> <r> <u> <t>  On Trent on 
-Are <S> <n> <a> <b>  St and <R> <o> <g>  Boulevard on the same line 
-How many lines is <R> <a> <g>  International on 
-Which lines is <S> <o> <o> <l>  International on 
-How many architecture styles does Orange <Z> <o> <o> <t>  pass through 
-How many new stations are on the Blue <D> <r> <o> <n> <g>  line 
-Which lines is <D> <i> <n> <k>  Bridge on 
-How clean is <B> <r> <e> <r> <i> <n> <g> <t> <o> <n>  
-How many lines is <B> <r> <a> <z>  Upon Thames on 
-How clean is <D> <i> <f>  St 
-How many concrete stations are on the Green <T> <o> <g>  line 
-How many architecture styles does Purple <S> <n> <e> <f> <t>  pass through 
-Are <T> <a> <z>  Lane and Foon Estate on the same line 
-How clean is <Z> <a> <n> <k>  Grove 
-Which stations does Pink <P> <l> <o> <o> <c> <t>  pass through 
-Are <P> <r> <e> <r>  Palace and <G> <r> <o> <o> <n> <g> <h> <a> <m>  on the same line 
-How many lines is <L> <e> <w> <h> <a> <m>  on 
-How many modernist stations are on the Gray <H> <a> <k>  line 
-Which stations does Brown <B> <r> <a> <n>  pass through 
-How many art deco stations are on the Cyan <C> <h> <o> <s> <h>  line 
-How many lines is <D> <r> <o> <o> <n> <t>  Bridge on 
-How clean is <V> <o> <o> <n> <t> <n> <e> <y> <l> <a> <n> <d>  
-How many lines is <S> <l> <e> <m> <p> <h> <a> <m>  on 
-Which lines is <F> <l> <e> <t>  Bridge on 
-How clean is <S> <m> <u> <n> <k>  Estate 
-How many stations are between <W> <o> <f> <t>  Crossing and <P> <l> <o> <o> <s> <s>  Grove 
-How many architecture styles does Pink <F> <u> <n> <d>  pass through 
-How many architecture styles does Gray <L> <i> <s> <k>  pass through 
-Are <S> <k> <i> <f> <t> <t> <o> <n>  and <D> <r> <a> <s> <h>  Square on the same line 
-How many lines is <B> <l> <o> <v>  Upon Thames on 
-How clean is <S> <w> <a> <s> <p>  Estate 
-How many lines is <S> <m> <o> <c> <t>  Court on 
-How many victorian stations are on the Pink <C> <l> <o> <b>  line 
-Which stations does Pink <C> <h> <a> <t>  pass through 
-How many architecture styles does Brown <H> <a> <b>  pass through 
+Which <space> lines <space> is <space> <B> <o> <k>  <space> Court <space> on ? 
+How <space> many <space> lines <space> is <space> <S> <t> <r> <a> <t>  <space> Way <space> on ? 
+Which <space> stations <space> does <space> Green <space> <P> <o> <o> <n>  <space> pass <space> through ? 
+How <space> clean <space> is <space> <D> <o> <m> <p>  <space> International ? 
+Are <space> <C> <h> <e> <n> <k>  <space> On <space> Trent <space> and <space> <S> <n> <i> <t> <h> <a> <m>  <space> on <space> the <space> same <space> line ? 
+How <space> many <space> architecture <space> styles <space> does <space> Green <space> <F> <r> <u> <s> <k>  <space> pass <space> through ? 
+Which <space> lines <space> is <space> <F> <r> <e> <w>  <space> Boulevard <space> on ? 
+How <space> many <space> glass <space> stations <space> are <space> on <space> the <space> Blue <space> <S> <t> <i> <s> <t>  <space> line ? 
+Which <space> stations <space> does <space> Blue <space> <W> <u> <r>  <space> pass <space> through ? 
+How <space> many <space> architecture <space> styles <space> does <space> Green <space> <S> <l> <u> <h>  <space> pass <space> through ? 
+Which <space> lines <space> is <space> <G> <o> <b>  <space> Estate <space> on ? 
+How <space> clean <space> is <space> <H> <i> <p>  <space> Estate ? 
+Which <space> stations <space> does <space> Blue <space> <C> <l> <a> <s> <k>  <space> pass <space> through ? 
+How <space> clean <space> is <space> <Y> <o> <o> <f>  <space> Palace ? 
+How <space> many <space> architecture <space> styles <space> does <space> Blue <space> <S> <w> <a> <f> <t>  <space> pass <space> through ? 
+How <space> clean <space> is <space> <F> <o> <f>  <space> Manor ? 
+How <space> many <space> architecture <space> styles <space> does <space> Orange <space> <Z> <i> <n> <g>  <space> pass <space> through ? 
+How <space> many <space> architecture <space> styles <space> does <space> Cyan <space> <S> <l> <a> <c> <t>  <space> pass <space> through ? 
+Which <space> lines <space> is <space> Moomp <space> International <space> on ? 
+How <space> clean <space> is <space> <B> <r> <u> <n> <t>  <space> Grove ? 
+How <space> many <space> modernist <space> stations <space> are <space> on <space> the <space> Blue <space> <S> <t> <o> <o> <t>  <space> line ? 
+How <space> many <space> lines <space> is <space> <C> <r> <o> <o> <n> <k>  <space> Way <space> on ? 
+How <space> many <space> stations <space> are <space> between <space> <J> <o> <o> <z>  <space> On <space> Trent <space> and <space> <N> <o> <n> <t>  <space> Street ? 
+How <space> many <space> concrete <space> stations <space> are <space> on <space> the <space> Red <space> <C> <r> <a> <b>  <space> line ? 
+How <space> many <space> glass <space> stations <space> are <space> on <space> the <space> Brown <space> <H> <i> <c> <h>  <space> line ? 
+Are <space> <S> <o> <n> <g>  <space> Palace <space> and <space> <S> <m> <u> <m>  <space> Street <space> on <space> the <space> same <space> line ? 
+How <space> many <space> lines <space> is <space> <S> <h> <e> <z>  <space> On <space> Trent <space> on ? 
+How <space> many <space> architecture <space> styles <space> does <space> Pink <space> <Z> <u> <n>  <space> pass <space> through ? 
+How <space> many <space> concrete <space> stations <space> are <space> on <space> the <space> Gray <space> <P> <u> <g>  <space> line ? 
+How <space> many <space> lines <space> is <space> <F> <i> <s> <t>  <space> Lane <space> on ? 
+How <space> many <space> architecture <space> styles <space> does <space> Blue <space> <D> <r> <a> <r>  <space> pass <space> through ? 
+How <space> many <space> lines <space> is <space> <T> <i> <h>  <space> Boulevard <space> on ? 
+Are <space> <S> <k> <i> <g>  <space> Estate <space> and <space> <P> <l> <o> <o> <s> <h> <h> <a> <m>  <space> on <space> the <space> same <space> line ? 
+How <space> many <space> architecture <space> styles <space> does <space> Brown <space> <S> <p> <i> <r>  <space> pass <space> through ? 
+Which <space> stations <space> does <space> Olive <space> <G> <r> <i> <n> <g>  <space> pass <space> through ? 
+Are <space> <S> <t> <o> <o> <r>  <space> Manor <space> and <space> <Z> <u> <s> <t>  <space> Estate <space> on <space> the <space> same <space> line ? 
+How <space> many <space> architecture <space> styles <space> does <space> Purple <space> <H> <i> <b>  <space> pass <space> through ? 
+Are <space> <F> <l> <a> <w>  <space> Road <space> and <space> <S> <p> <o> <t> <t> <o> <n>  <space> on <space> the <space> same <space> line ? 
+How <space> many <space> stations <space> are <space> between <space> <K> <e> <s> <k> <b> <r> <i> <d> <g> <e>  <space> and <space> <S> <k> <e> <s> <s>  <space> Manor ? 
+How <space> many <space> architecture <space> styles <space> does <space> Red <space> <D> <a> <g>  <space> pass <space> through ? 
+How <space> many <space> new <space> stations <space> are <space> on <space> the <space> Purple <space> <S> <t> <e> <s> <k>  <space> line ? 
+Are <space> <S> <k> <e> <g>  <space> Crossing <space> and <space> Fret <space> Way <space> on <space> the <space> same <space> line ? 
+How <space> many <space> stations <space> are <space> between <space> <B> <r> <a> <s> <t> <w> <i> <c> <h>  <space> and <space> <J> <e> <d>  <space> On <space> Trent ? 
+Are <space> <S> <t> <r> <o> <f>  <space> International <space> and <space> <S> <t> <r> <e> <z> <b> <r> <i> <d> <g> <e>  <space> on <space> the <space> same <space> line ? 
+Which <space> lines <space> is <space> <G> <e> <n> <d>  <space> Road <space> on ? 
+How <space> many <space> stations <space> are <space> between <space> <W> <a> <s> <t>  <space> Bridge <space> and <space> <V> <u> <t>  <space> Court ? 
+Which <space> stations <space> does <space> Blue <space> <S> <n> <o> <r>  <space> pass <space> through ? 
+Which <space> lines <space> is <space> <B> <o> <b>  <space> Hospital <space> on ? 
+Which <space> stations <space> does <space> Green <space> <V> <o> <o> <n>  <space> pass <space> through ? 
+How <space> many <space> lines <space> is <space> <D> <r> <a> <n> <d> <i> <n> <g> <t> <o> <n>  <space> on ? 
+How <space> many <space> architecture <space> styles <space> does <space> Purple <space> <T> <r> <u> <s> <h>  <space> pass <space> through ? 
+How <space> clean <space> is <space> <J> <u> <s> <h> <b> <r> <i> <d> <g> <e>  ? 
+Are <space> <S> <t> <r> <u> <r>  <space> Manor <space> and <space> <W> <o> <p>  <space> Palace <space> on <space> the <space> same <space> line ? 
+Which <space> lines <space> is <space> <G> <r> <u> <p> <t>  <space> Lane <space> on ? 
+How <space> many <space> modernist <space> stations <space> are <space> on <space> the <space> Brown <space> Nost <space> line ? 
+How <space> many <space> architecture <space> styles <space> does <space> Olive <space> <W> <i> <p> <t>  <space> pass <space> through ? 
+How <space> many <space> modernist <space> stations <space> are <space> on <space> the <space> Blue <space> <Z> <e> <p> <t>  <space> line ? 
+How <space> many <space> stations <space> are <space> between <space> <D> <i> <w> <n> <e> <y> <l> <a> <n> <d>  <space> and <space> <S> <l> <e> <s> <t>  <space> On <space> Trent ? 
+How <space> many <space> lines <space> is <space> <D> <o> <o> <s> <s>  <space> Street <space> on ? 
+Which <space> stations <space> does <space> Gray <space> Tunt <space> pass <space> through ? 
+Are <space> <P> <r> <u> <s> <k> <b> <r> <i> <d> <g> <e>  <space> and <space> <T> <r> <a> <s> <k>  <space> Street <space> on <space> the <space> same <space> line ? 
+Which <space> stations <space> does <space> Green <space> <L> <i> <p>  <space> pass <space> through ? 
+Are <space> <C> <h> <o> <o> <y>  <space> Bridge <space> and <space> <G> <l> <u> <s> <k>  <space> On <space> Trent <space> on <space> the <space> same <space> line ? 
+How <space> clean <space> is <space> <Y> <o> <o> <c> <h>  <space> Crossing ? 
+Which <space> lines <space> is <space> <S> <o> <o> <r>  <space> On <space> Trent <space> on ? 
+How <space> many <space> lines <space> is <space> <M> <a> <p>  <space> Manor <space> on ? 
+How <space> many <space> new <space> stations <space> are <space> on <space> the <space> Green <space> <C> <h> <o> <w>  <space> line ? 
+How <space> many <space> glass <space> stations <space> are <space> on <space> the <space> Cyan <space> <T> <o> <v>  <space> line ? 
+How <space> many <space> stations <space> are <space> between <space> <B> <i> <n> <d>  <space> Boulevard <space> and <space> <H> <u> <n> <t> <i> <n> <g> <t> <o> <n>  ? 
+How <space> many <space> architecture <space> styles <space> does <space> Blue <space> Spoonk <space> pass <space> through ? 
+How <space> many <space> lines <space> is <space> <M> <e> <s> <t>  <space> Road <space> on ? 
+Which <space> stations <space> does <space> Purple <space> <G> <a> <w>  <space> pass <space> through ? 
+How <space> many <space> lines <space> is <space> <P> <i> <t>  <space> Grove <space> on ? 
+How <space> many <space> glass <space> stations <space> are <space> on <space> the <space> Brown <space> <S> <t> <e> <t>  <space> line ? 
+How <space> many <space> glass <space> stations <space> are <space> on <space> the <space> Pink <space> <P> <o> <o> <r>  <space> line ? 
+How <space> many <space> lines <space> is <space> <P> <r> <e> <n> <d>  <space> Bridge <space> on ? 
+Are <space> <J> <i> <t>  <space> Upon <space> Thames <space> and <space> <S> <k> <i> <z> <h> <a> <m>  <space> on <space> the <space> same <space> line ? 
+Which <space> stations <space> does <space> Orange <space> <B> <r> <o> <f>  <space> pass <space> through ? 
+Which <space> lines <space> is <space> <Z> <o> <z> <t> <o> <n>  <space> on ? 
+How <space> clean <space> is <space> <R> <e> <k>  <space> Lane ? 
+How <space> many <space> art - deco <space> stations <space> are <space> on <space> the <space> Red <space> Swoosh <space> line ? 
+How <space> many <space> modernist <space> stations <space> are <space> on <space> the <space> Gray <space> Frek <space> line ? 
+How <space> many <space> stations <space> are <space> between <space> <S> <h> <u> <c> <t> <i> <n> <g> <t> <o> <n>  <space> and <space> <S> <a> <s> <h>  <space> Square ? 
+Which <space> lines <space> is <space> <T> <r> <i> <f> <i> <n> <g> <t> <o> <n>  <space> on ? 
+How <space> many <space> lines <space> is <space> <H> <e> <n>  <space> St <space> on ? 
+How <space> many <space> lines <space> is <space> <G> <r> <u> <n> <t>  <space> Way <space> on ? 
+Which <space> lines <space> is <space> <F> <i> <s> <t>  <space> Bridge <space> on ? 
+How <space> many <space> lines <space> is <space> <B> <l> <o> <p> <t> <i> <n> <g> <t> <o> <n>  <space> on ? 
+How <space> clean <space> is <space> <R> <a> <y>  <space> Crossing ? 
+Which <space> lines <space> is <space> <K> <i> <n> <d>  <space> On <space> Trent <space> on ? 
+Which <space> lines <space> is <space> <B> <r> <u> <r>  <space> Boulevard <space> on ? 
+How <space> many <space> architecture <space> styles <space> does <space> Green <space> <C> <r> <i> <g>  <space> pass <space> through ? 
+How <space> many <space> glass <space> stations <space> are <space> on <space> the <space> Orange <space> <T> <e> <k>  <space> line ? 
+Which <space> stations <space> does <space> Purple <space> <H> <a> <s> <s>  <space> pass <space> through ? 
+How <space> many <space> concrete <space> stations <space> are <space> on <space> the <space> Gray <space> <N> <a> <n> <k>  <space> line ? 
+How <space> clean <space> is <space> <S> <n> <u> <g>  <space> Lane ? 
+Which <space> lines <space> is <space> <S> <n> <o> <o> <n> <d> <h> <a> <m>  <space> on ? 
+Are <space> <Z> <o> <o> <n> <d> <b> <r> <i> <d> <g> <e>  <space> and <space> <H> <o> <z>  <space> Estate <space> on <space> the <space> same <space> line ? 
+How <space> clean <space> is <space> <W> <o> <o> <s> <t> <b> <r> <i> <d> <g> <e>  ? 
+Which <space> lines <space> is <space> <F> <l> <a> <m> <p>  <space> Manor <space> on ? 
+Which <space> lines <space> is <space> <G> <l> <i> <s> <s> <n> <e> <y> <l> <a> <n> <d>  <space> on ? 
+How <space> many <space> lines <space> is <space> <F> <r> <i> <s> <p>  <space> Manor <space> on ? 
+Which <space> stations <space> does <space> Red <space> <R> <u> <p> <t>  <space> pass <space> through ? 
+How <space> clean <space> is <space> <J> <i> <s> <p>  <space> Hospital ? 
+How <space> many <space> lines <space> is <space> <C> <l> <o> <d>  <space> International <space> on ? 
+How <space> clean <space> is <space> <B> <e> <s> <k> <h> <a> <m>  ? 
+Which <space> stations <space> does <space> Gray <space> <W> <o> <m>  <space> pass <space> through ? 
+How <space> many <space> architecture <space> styles <space> does <space> Cyan <space> <S> <h> <o> <b>  <space> pass <space> through ? 
+How <space> many <space> lines <space> is <space> <C> <r> <e> <n> <k>  <space> Palace <space> on ? 
+How <space> many <space> architecture <space> styles <space> does <space> Brown <space> <V> <o> <o> <n> <d>  <space> pass <space> through ? 
+How <space> many <space> lines <space> is <space> <P> <r> <o> <c> <t>  <space> Way <space> on ? 
+How <space> many <space> lines <space> is <space> <H> <o> <v>  <space> Upon <space> Thames <space> on ? 
+How <space> many <space> art - deco <space> stations <space> are <space> on <space> the <space> Cyan <space> <D> <r> <o> <z>  <space> line ? 
+How <space> many <space> lines <space> is <space> <P> <u> <m> <h> <a> <m>  <space> on ? 
+How <space> many <space> new <space> stations <space> are <space> on <space> the <space> Pink <space> Stropt <space> line ? 
+How <space> many <space> stations <space> are <space> between <space> <G> <l> <o> <o> <h>  <space> Crossing <space> and <space> <S> <u> <y> <b> <r> <i> <d> <g> <e>  ? 
+How <space> clean <space> is <space> <J> <u> <z>  <space> International ? 
+Which <space> stations <space> does <space> Brown <space> <T> <r> <o> <o> <t>  <space> pass <space> through ? 
+How <space> many <space> new <space> stations <space> are <space> on <space> the <space> Cyan <space> <S> <p> <a> <g>  <space> line ? 
+How <space> many <space> stations <space> are <space> between <space> <G> <l> <u> <d>  <space> Estate <space> and <space> <G> <l> <o> <o> <r>  <space> Upon <space> Thames ? 
+How <space> many <space> architecture <space> styles <space> does <space> Blue <space> <S> <t> <a> <b>  <space> pass <space> through ? 
+How <space> clean <space> is <space> <S> <n> <o> <o> <n> <d>  <space> International ? 
+Are <space> <W> <a> <g>  <space> Lane <space> and <space> <F> <u> <h>  <space> St <space> on <space> the <space> same <space> line ? 
+How <space> many <space> lines <space> is <space> <D> <a> <f>  <space> Lane <space> on ? 
+How <space> clean <space> is <space> <B> <a> <c> <t>  <space> St ? 
+Are <space> <S> <n> <e> <n> <g>  <space> International <space> and <space> Ved <space> Way <space> on <space> the <space> same <space> line ? 
+How <space> many <space> new <space> stations <space> are <space> on <space> the <space> Blue <space> <R> <o> <o> <p>  <space> line ? 
+Are <space> <B> <l> <a> <l> <t> <o> <n>  <space> and <space> <R> <a> <t> <b> <r> <i> <d> <g> <e>  <space> on <space> the <space> same <space> line ? 
+How <space> many <space> stations <space> are <space> between <space> <J> <a> <c> <t>  <space> Upon <space> Thames <space> and <space> <T> <r> <e> <z>  <space> Bridge ? 
+How <space> clean <space> is <space> <S> <k> <u> <n> <g>  <space> Lane ? 
+How <space> clean <space> is <space> <B> <u> <l> <h> <a> <m>  ? 
+Which <space> stations <space> does <space> Purple <space> <L> <a> <b>  <space> pass <space> through ? 
+How <space> many <space> architecture <space> styles <space> does <space> Blue <space> <G> <r> <e> <f>  <space> pass <space> through ? 
+Which <space> stations <space> does <space> Pink <space> <S> <t> <e> <c> <t>  <space> pass <space> through ? 
+How <space> many <space> lines <space> is <space> <S> <p> <e> <m> <p> <w> <i> <c> <h>  <space> on ? 
+Which <space> stations <space> does <space> Cyan <space> <B> <l> <e> <y>  <space> pass <space> through ? 
+How <space> many <space> architecture <space> styles <space> does <space> Olive <space> <B> <r> <i> <n> <k>  <space> pass <space> through ? 
+How <space> many <space> stations <space> are <space> between <space> <F> <l> <u> <c> <h>  <space> Court <space> and <space> <V> <a> <v>  <space> Court ? 
+How <space> clean <space> is <space> <C> <l> <a> <g>  <space> Crossing ? 
+Which <space> stations <space> does <space> Cyan <space> <F> <r> <e> <n> <d>  <space> pass <space> through ? 
+How <space> many <space> architecture <space> styles <space> does <space> Brown <space> <B> <u> <k>  <space> pass <space> through ? 
+Which <space> lines <space> is <space> <S> <h> <a> <s> <p>  <space> Bridge <space> on ? 
+How <space> many <space> lines <space> is <space> <M> <i> <w> <t> <o> <n>  <space> on ? 
+How <space> clean <space> is <space> <B> <l> <e> <s> <t>  <space> Estate ? 
+How <space> clean <space> is <space> <S> <l> <u> <n> <t>  <space> Square ? 
+Which <space> lines <space> is <space> <B> <o> <o> <z>  <space> International <space> on ? 
+How <space> many <space> architecture <space> styles <space> does <space> Olive <space> <S> <n> <u> <d>  <space> pass <space> through ? 
+Which <space> lines <space> is <space> <P> <u> <f>  <space> Bridge <space> on ? 
+Which <space> stations <space> does <space> Green <space> <V> <i> <z>  <space> pass <space> through ? 
+How <space> many <space> concrete <space> stations <space> are <space> on <space> the <space> Brown <space> <S> <k> <o> <n> <t>  <space> line ? 
+Are <space> <S> <h> <u> <s> <k>  <space> Hospital <space> and <space> <D> <i> <s> <s>  <space> Road <space> on <space> the <space> same <space> line ? 
+Which <space> stations <space> does <space> Green <space> <T> <r> <o> <o> <n> <g>  <space> pass <space> through ? 
+How <space> many <space> architecture <space> styles <space> does <space> Cyan <space> <S> <k> <o> <t>  <space> pass <space> through ? 
+How <space> many <space> glass <space> stations <space> are <space> on <space> the <space> Gray <space> <P> <l> <a> <h>  <space> line ? 
+How <space> many <space> lines <space> is <space> <C> <l> <u> <l>  <space> Estate <space> on ? 
+Are <space> <D> <o> <y>  <space> Road <space> and <space> <B> <r> <a> <s> <s>  <space> Court <space> on <space> the <space> same <space> line ? 
+How <space> many <space> modernist <space> stations <space> are <space> on <space> the <space> Gray <space> <S> <h> <i> <d>  <space> line ? 
+Which <space> lines <space> is <space> <T> <u> <p> <t>  <space> Boulevard <space> on ? 
+How <space> many <space> architecture <space> styles <space> does <space> Blue <space> <F> <l> <a> <d>  <space> pass <space> through ? 
+How <space> many <space> lines <space> is <space> <M> <a> <b>  <space> Crossing <space> on ? 
+How <space> many <space> architecture <space> styles <space> does <space> Blue <space> <C> <l> <e> <h>  <space> pass <space> through ? 
+How <space> many <space> art - deco <space> stations <space> are <space> on <space> the <space> Brown <space> <R> <i> <f>  <space> line ? 
+How <space> many <space> lines <space> is <space> <G> <r> <i> <n> <d>  <space> Palace <space> on ? 
+How <space> many <space> architecture <space> styles <space> does <space> Red <space> <K> <u> <c> <h>  <space> pass <space> through ? 
+How <space> clean <space> is <space> <L> <a> <s> <h>  <space> Road ? 
+How <space> clean <space> is <space> <H> <o> <o> <c> <t>  <space> Hospital ? 
+How <space> many <space> architecture <space> styles <space> does <space> Purple <space> <T> <r> <o> <z>  <space> pass <space> through ? 
+How <space> clean <space> is <space> <S> <k> <u> <h>  <space> Square ? 
+Are <space> <Z> <e> <c> <t>  <space> Square <space> and <space> <S> <n> <i> <m>  <space> Grove <space> on <space> the <space> same <space> line ? 
+Which <space> stations <space> does <space> Pink <space> <K> <u> <p> <t>  <space> pass <space> through ? 
+How <space> many <space> architecture <space> styles <space> does <space> Green <space> <B> <r> <a> <b>  <space> pass <space> through ? 
+How <space> many <space> glass <space> stations <space> are <space> on <space> the <space> Gray <space> <F> <o> <t>  <space> line ? 
+Are <space> <F> <i> <z>  <space> On <space> Trent <space> and <space> <S> <w> <i> <c> <t>  <space> Grove <space> on <space> the <space> same <space> line ? 
+How <space> many <space> concrete <space> stations <space> are <space> on <space> the <space> Gray <space> Frood <space> line ? 
+Which <space> stations <space> does <space> Gray <space> <G> <o> <o> <w>  <space> pass <space> through ? 
+How <space> many <space> stations <space> are <space> between <space> <Z> <e> <d> <n> <e> <y> <l> <a> <n> <d>  <space> and <space> Red <space> Upon <space> Thames ? 
+How <space> many <space> architecture <space> styles <space> does <space> Gray <space> <H> <u> <s> <h>  <space> pass <space> through ? 
+How <space> many <space> stations <space> are <space> between <space> <Z> <e> <n>  <space> Estate <space> and <space> <J> <a> <m> <p>  <space> Palace ? 
+How <space> clean <space> is <space> <S> <l> <u> <y> <t> <o> <n>  ? 
+Are <space> <S> <w> <i> <s> <t>  <space> St <space> and <space> <W> <o> <n> <d>  <space> Estate <space> on <space> the <space> same <space> line ? 
+Which <space> stations <space> does <space> Orange <space> <Y> <a> <n>  <space> pass <space> through ? 
+Which <space> lines <space> is <space> <L> <o> <o> <b>  <space> On <space> Trent <space> on ? 
+How <space> many <space> glass <space> stations <space> are <space> on <space> the <space> Pink <space> <P> <r> <o> <o> <m>  <space> line ? 
+How <space> many <space> stations <space> are <space> between <space> <S> <h> <e> <m> <n> <e> <y> <l> <a> <n> <d>  <space> and <space> <S> <m> <o> <o> <f> <t>  <space> Manor ? 
+Which <space> lines <space> is <space> <L> <a> <l>  <space> St <space> on ? 
+How <space> many <space> architecture <space> styles <space> does <space> Red <space> Voosh <space> pass <space> through ? 
+How <space> many <space> architecture <space> styles <space> does <space> Blue <space> <P> <a> <c> <t>  <space> pass <space> through ? 
+How <space> many <space> architecture <space> styles <space> does <space> Brown <space> <B> <r> <i> <m> <p>  <space> pass <space> through ? 
+How <space> many <space> victorian <space> stations <space> are <space> on <space> the <space> Olive <space> <S> <h> <u> <n> <d>  <space> line ? 
+How <space> many <space> stations <space> are <space> between <space> <N> <u> <w>  <space> Boulevard <space> and <space> Saw <space> Grove ? 
+Which <space> lines <space> is <space> <N> <u> <t>  <space> Grove <space> on ? 
+Are <space> <Y> <e> <n> <d>  <space> Hospital <space> and <space> Flood <space> Palace <space> on <space> the <space> same <space> line ? 
+Are <space> <F> <r> <a> <n> <g> <b> <r> <i> <d> <g> <e>  <space> and <space> <S> <m> <o> <o> <n> <g>  <space> Way <space> on <space> the <space> same <space> line ? 
+Which <space> lines <space> is <space> <N> <o> <v>  <space> Court <space> on ? 
+How <space> clean <space> is <space> <D> <o> <b>  <space> Street ? 
+How <space> many <space> architecture <space> styles <space> does <space> Purple <space> <R> <u> <m> <p>  <space> pass <space> through ? 
+How <space> clean <space> is <space> <T> <r> <u> <w>  <space> Boulevard ? 
+How <space> many <space> stations <space> are <space> between <space> <B> <l> <e> <p>  <space> On <space> Trent <space> and <space> <L> <a> <f> <t>  <space> Hospital ? 
+How <space> many <space> modernist <space> stations <space> are <space> on <space> the <space> Olive <space> <C> <r> <u> <m>  <space> line ? 
+Are <space> <F> <e> <w>  <space> Estate <space> and <space> <S> <m> <o> <o> <s> <p>  <space> St <space> on <space> the <space> same <space> line ? 
+How <space> many <space> lines <space> is <space> <S> <l> <o> <o> <n>  <space> Lane <space> on ? 
+How <space> many <space> lines <space> is <space> <S> <p> <u> <b>  <space> International <space> on ? 
+How <space> many <space> concrete <space> stations <space> are <space> on <space> the <space> Green <space> <S> <h> <u> <l>  <space> line ? 
+How <space> many <space> glass <space> stations <space> are <space> on <space> the <space> Purple <space> <S> <t> <o> <o> <f> <t>  <space> line ? 
+Are <space> <Z> <e> <m>  <space> International <space> and <space> <S> <k> <o> <o> <n>  <space> Court <space> on <space> the <space> same <space> line ? 
+How <space> many <space> stations <space> are <space> between <space> <C> <h> <a> <c> <t> <w> <i> <c> <h>  <space> and <space> <F> <l> <u> <n> <k>  <space> Grove ? 
+Which <space> stations <space> does <space> Purple <space> <S> <w> <a> <p>  <space> pass <space> through ? 
+How <space> many <space> stations <space> are <space> between <space> <S> <w> <o> <o> <f>  <space> Upon <space> Thames <space> and <space> <T> <r> <u> <t> <n> <e> <y> <l> <a> <n> <d>  ? 
+How <space> clean <space> is <space> <D> <r> <e> <y>  <space> Lane ? 
+Are <space> <S> <m> <o> <r> <b> <r> <i> <d> <g> <e>  <space> and <space> <G> <r> <o> <o> <n>  <space> Street <space> on <space> the <space> same <space> line ? 
+How <space> many <space> new <space> stations <space> are <space> on <space> the <space> Pink <space> <G> <l> <e> <c> <h>  <space> line ? 
+How <space> clean <space> is <space> <F> <r> <e> <z>  <space> Road ? 
+Which <space> stations <space> does <space> Pink <space> <V> <e> <n> <k>  <space> pass <space> through ? 
+Are <space> Friss <space> Crossing <space> and <space> <B> <l> <o> <o> <s> <s>  <space> Manor <space> on <space> the <space> same <space> line ? 
+How <space> many <space> victorian <space> stations <space> are <space> on <space> the <space> Blue <space> <F> <e> <m>  <space> line ? 
+How <space> many <space> lines <space> is <space> <T> <r> <o> <c> <h> <i> <n> <g> <t> <o> <n>  <space> on ? 
+Which <space> stations <space> does <space> Olive <space> <F> <r> <i> <f> <t>  <space> pass <space> through ? 
+How <space> many <space> architecture <space> styles <space> does <space> Orange <space> <G> <e> <g>  <space> pass <space> through ? 
+How <space> many <space> lines <space> is <space> <S> <a> <n> <k>  <space> Boulevard <space> on ? 
+Which <space> stations <space> does <space> Brown <space> <M> <a> <n> <k>  <space> pass <space> through ? 
+How <space> many <space> stations <space> are <space> between <space> <T> <o> <o> <v>  <space> Bridge <space> and <space> <W> <a> <b>  <space> Court ? 
+Which <space> lines <space> is <space> <P> <i> <h> <h> <a> <m>  <space> on ? 
+How <space> many <space> modernist <space> stations <space> are <space> on <space> the <space> Blue <space> <W> <a> <c> <t>  <space> line ? 
+How <space> clean <space> is <space> <F> <r> <o> <p> <t>  <space> Lane ? 
+Which <space> stations <space> does <space> Orange <space> <S> <t> <e> <s> <h>  <space> pass <space> through ? 
+Are <space> <S> <m> <e> <m> <i> <n> <g> <t> <o> <n>  <space> and <space> <G> <l> <u> <s> <p>  <space> Way <space> on <space> the <space> same <space> line ? 
+How <space> clean <space> is <space> <S> <t> <u> <g>  <space> Court ? 
+Are <space> <S> <w> <u> <s> <k>  <space> Hospital <space> and <space> <S> <n> <o> <o> <c> <h>  <space> Square <space> on <space> the <space> same <space> line ? 
+How <space> many <space> stations <space> are <space> between <space> <G> <l> <i> <f>  <space> Road <space> and <space> <B> <i> <s> <t>  <space> Palace ? 
+How <space> many <space> art - deco <space> stations <space> are <space> on <space> the <space> Orange <space> <S> <t> <o> <d>  <space> line ? 
+Which <space> stations <space> does <space> Pink <space> <T> <r> <i> <v>  <space> pass <space> through ? 
+How <space> many <space> architecture <space> styles <space> does <space> Orange <space> <M> <a> <r>  <space> pass <space> through ? 
+How <space> many <space> modernist <space> stations <space> are <space> on <space> the <space> Gray <space> <Y> <u> <r>  <space> line ? 
+Which <space> lines <space> is <space> <S> <p> <a> <n> <t> <w> <i> <c> <h>  <space> on ? 
+How <space> many <space> lines <space> is <space> <S> <t> <i> <t> <t> <o> <n>  <space> on ? 
+How <space> many <space> architecture <space> styles <space> does <space> Brown <space> <M> <o> <o> <f> <t>  <space> pass <space> through ? 
+How <space> clean <space> is <space> <S> <n> <a> <g>  <space> Estate ? 
+How <space> clean <space> is <space> <G> <r> <e> <p> <t>  <space> Street ? 
+How <space> many <space> architecture <space> styles <space> does <space> Olive <space> <S> <h> <e> <n> <t>  <space> pass <space> through ? 
+Which <space> lines <space> is <space> <H> <o> <r> <b> <r> <i> <d> <g> <e>  <space> on ? 
+Which <space> stations <space> does <space> Cyan <space> <F> <r> <u> <m>  <space> pass <space> through ? 
+How <space> many <space> architecture <space> styles <space> does <space> Green <space> <V> <u> <m>  <space> pass <space> through ? 
+How <space> clean <space> is <space> <C> <r> <i> <w>  <space> Palace ? 
+Which <space> lines <space> is <space> <B> <a> <m> <p> <t> <o> <n>  <space> on ? 
+Which <space> lines <space> is <space> <B> <r> <i> <c> <t> <t> <o> <n>  <space> on ? 
+How <space> clean <space> is <space> <N> <o> <m> <p>  <space> Crossing ? 
+Are <space> <F> <l> <e> <v>  <space> Road <space> and <space> <N> <i> <f>  <space> International <space> on <space> the <space> same <space> line ? 
+How <space> many <space> victorian <space> stations <space> are <space> on <space> the <space> Purple <space> <R> <e> <h>  <space> line ? 
+Are <space> <G> <r> <o> <o> <m> <b> <r> <i> <d> <g> <e>  <space> and <space> <S> <n> <i> <n> <t> <w> <i> <c> <h>  <space> on <space> the <space> same <space> line ? 
+How <space> many <space> lines <space> is <space> <C> <h> <o> <o> <s> <t>  <space> International <space> on ? 
+Are <space> <B> <l> <o> <o> <z>  <space> Hospital <space> and <space> <D> <r> <o> <o> <c> <h>  <space> Palace <space> on <space> the <space> same <space> line ? 
+How <space> many <space> lines <space> is <space> <M> <u> <v>  <space> Palace <space> on ? 
+How <space> clean <space> is <space> <G> <r> <u> <s> <p>  <space> Court ? 
+Are <space> <F> <r> <o> <f> <t> <o> <n>  <space> and <space> <F> <o> <o> <m>  <space> Way <space> on <space> the <space> same <space> line ? 
+How <space> many <space> architecture <space> styles <space> does <space> Gray <space> <H> <a> <y>  <space> pass <space> through ? 
+How <space> clean <space> is <space> <L> <o> <s> <k>  <space> Crossing ? 
+How <space> many <space> architecture <space> styles <space> does <space> Green <space> <P> <o> <p>  <space> pass <space> through ? 
+Are <space> <Z> <e> <c> <h> <t> <o> <n>  <space> and <space> <P> <r> <u> <g>  <space> Lane <space> on <space> the <space> same <space> line ? 
+How <space> many <space> modernist <space> stations <space> are <space> on <space> the <space> Cyan <space> <Y> <i> <t>  <space> line ? 
+How <space> many <space> lines <space> is <space> <K> <i> <n>  <space> On <space> Trent <space> on ? 
+How <space> many <space> stations <space> are <space> between <space> <S> <t> <e> <f> <t>  <space> Boulevard <space> and <space> <B> <l> <o> <o> <y>  <space> Crossing ? 
+How <space> many <space> lines <space> is <space> <Z> <o> <o> <c> <h> <n> <e> <y> <l> <a> <n> <d>  <space> on ? 
+How <space> many <space> lines <space> is <space> <M> <o> <r>  <space> On <space> Trent <space> on ? 
+How <space> clean <space> is <space> <B> <r> <u> <s> <p> <h> <a> <m>  ? 
+Are <space> <V> <i> <p> <b> <r> <i> <d> <g> <e>  <space> and <space> <S> <p> <i> <n> <k> <h> <a> <m>  <space> on <space> the <space> same <space> line ? 
+How <space> many <space> architecture <space> styles <space> does <space> Pink <space> <D> <r> <a> <p>  <space> pass <space> through ? 
+How <space> many <space> art - deco <space> stations <space> are <space> on <space> the <space> Brown <space> <L> <u> <v>  <space> line ? 
+How <space> clean <space> is <space> <G> <o> <s> <h> <h> <a> <m>  ? 
+Are <space> <F> <l> <u> <p> <t>  <space> Court <space> and <space> Ruct <space> St <space> on <space> the <space> same <space> line ? 
+Which <space> lines <space> is <space> <D> <r> <o> <v> <i> <n> <g> <t> <o> <n>  <space> on ? 
+How <space> many <space> concrete <space> stations <space> are <space> on <space> the <space> Green <space> <P> <a> <d>  <space> line ? 
+Are <space> <S> <k> <o> <o> <z>  <space> Estate <space> and <space> <C> <l> <a> <n>  <space> Estate <space> on <space> the <space> same <space> line ? 
+How <space> many <space> modernist <space> stations <space> are <space> on <space> the <space> Blue <space> Frip <space> line ? 
+How <space> clean <space> is <space> <B> <l> <u> <f> <t>  <space> Way ? 
+Which <space> lines <space> is <space> <G> <l> <e> <c> <h>  <space> Court <space> on ? 
+Which <space> lines <space> is <space> <N> <e> <m>  <space> Lane <space> on ? 
+How <space> clean <space> is <space> <S> <p> <o> <s> <s> <h> <a> <m>  ? 
+Which <space> stations <space> does <space> Brown <space> <M> <u> <g>  <space> pass <space> through ? 
+How <space> many <space> architecture <space> styles <space> does <space> Brown <space> <F> <o> <o> <s> <t>  <space> pass <space> through ? 
+Which <space> lines <space> is <space> <S> <k> <o> <n> <i> <n> <g> <t> <o> <n>  <space> on ? 
+How <space> many <space> architecture <space> styles <space> does <space> Orange <space> <T> <r> <e> <s> <k>  <space> pass <space> through ? 
+How <space> many <space> lines <space> is <space> <S> <t> <e> <s> <p> <i> <n> <g> <t> <o> <n>  <space> on ? 
+Which <space> lines <space> is <space> <C> <r> <u> <s> <h>  <space> Bridge <space> on ? 
+How <space> clean <space> is <space> <P> <l> <a> <h>  <space> Estate ? 
+How <space> many <space> new <space> stations <space> are <space> on <space> the <space> Red <space> <S> <k> <o> <o> <s> <k>  <space> line ? 
+Which <space> lines <space> is <space> <S> <p> <o> <o> <r>  <space> Palace <space> on ? 
+Are <space> <G> <a> <r> <n> <e> <y> <l> <a> <n> <d>  <space> and <space> <V> <o> <n>  <space> International <space> on <space> the <space> same <space> line ? 
+How <space> many <space> lines <space> is <space> <J> <o> <o> <m>  <space> Estate <space> on ? 
+Are <space> <B> <i> <d> <h> <a> <m>  <space> and <space> <S> <t> <r> <o> <o> <f>  <space> Street <space> on <space> the <space> same <space> line ? 
+How <space> many <space> stations <space> are <space> between <space> <H> <o> <p>  <space> On <space> Trent <space> and <space> <P> <r> <e> <n>  <space> Way ? 
+Which <space> stations <space> does <space> Purple <space> <C> <l> <i> <c> <t>  <space> pass <space> through ? 
+Which <space> lines <space> is <space> <C> <h> <o> <o> <s> <s>  <space> St <space> on ? 
+Are <space> <Y> <a> <n>  <space> Way <space> and <space> <V> <a> <n>  <space> Crossing <space> on <space> the <space> same <space> line ? 
+How <space> many <space> lines <space> is <space> Meft <space> International <space> on ? 
+How <space> many <space> glass <space> stations <space> are <space> on <space> the <space> Blue <space> Rint <space> line ? 
+How <space> many <space> lines <space> is <space> <T> <r> <e> <s> <t>  <space> St <space> on ? 
+How <space> many <space> concrete <space> stations <space> are <space> on <space> the <space> Blue <space> <P> <r> <i> <s> <p>  <space> line ? 
+How <space> many <space> architecture <space> styles <space> does <space> Pink <space> <R> <a> <p> <t>  <space> pass <space> through ? 
+How <space> many <space> glass <space> stations <space> are <space> on <space> the <space> Green <space> <S> <o> <o> <s> <k>  <space> line ? 
+How <space> many <space> new <space> stations <space> are <space> on <space> the <space> Pink <space> <S> <t> <e> <k>  <space> line ? 
+How <space> many <space> stations <space> are <space> between <space> <G> <o> <k>  <space> Street <space> and <space> <L> <e> <p> <t>  <space> Bridge ? 
+How <space> many <space> glass <space> stations <space> are <space> on <space> the <space> Blue <space> <P> <o> <b>  <space> line ? 
+Which <space> stations <space> does <space> Green <space> <S> <m> <o> <n> <t>  <space> pass <space> through ? 
+How <space> clean <space> is <space> Yiy <space> On <space> Trent ? 
+How <space> many <space> architecture <space> styles <space> does <space> Cyan <space> <C> <l> <e> <t>  <space> pass <space> through ? 
+How <space> many <space> lines <space> is <space> <S> <w> <o> <r> <h> <a> <m>  <space> on ? 
+How <space> clean <space> is <space> <S> <k> <o> <o> <s> <t>  <space> Court ? 
+How <space> many <space> lines <space> is <space> <C> <h> <e> <p>  <space> Hospital <space> on ? 
+Are <space> <V> <u> <w> <n> <e> <y> <l> <a> <n> <d>  <space> and <space> <C> <l> <o> <c> <h>  <space> Grove <space> on <space> the <space> same <space> line ? 
+How <space> many <space> architecture <space> styles <space> does <space> Blue <space> <C> <r> <a> <g>  <space> pass <space> through ? 
+How <space> many <space> concrete <space> stations <space> are <space> on <space> the <space> Green <space> <C> <h> <i> <t>  <space> line ? 
+How <space> clean <space> is <space> <Y> <a> <t>  <space> Crossing ? 
+How <space> many <space> concrete <space> stations <space> are <space> on <space> the <space> Olive <space> <P> <l> <i> <p>  <space> line ? 
+How <space> many <space> stations <space> are <space> between <space> <K> <e> <m> <w> <i> <c> <h>  <space> and <space> <J> <e> <n> <t>  <space> Street ? 
+Are <space> <B> <u> <n> <t>  <space> International <space> and <space> <L> <i> <b> <w> <i> <c> <h>  <space> on <space> the <space> same <space> line ? 
+How <space> many <space> architecture <space> styles <space> does <space> Red <space> <G> <r> <o> <r>  <space> pass <space> through ? 
+Which <space> stations <space> does <space> Orange <space> <S> <t> <r> <o> <s> <k>  <space> pass <space> through ? 
+How <space> many <space> lines <space> is <space> <P> <l> <u> <f> <w> <i> <c> <h>  <space> on ? 
+How <space> clean <space> is <space> <P> <l> <e> <t> <i> <n> <g> <t> <o> <n>  ? 
+Are <space> <V> <e> <b>  <space> Street <space> and <space> <C> <l> <a> <p> <t> <w> <i> <c> <h>  <space> on <space> the <space> same <space> line ? 
+Which <space> stations <space> does <space> Gray <space> Blift <space> pass <space> through ? 
+Which <space> lines <space> is <space> <S> <k> <o> <o> <w>  <space> Estate <space> on ? 
+Which <space> lines <space> is <space> <Y> <i> <l>  <space> Manor <space> on ? 
+How <space> clean <space> is <space> <Y> <o> <o> <t>  <space> Street ? 
+How <space> clean <space> is <space> <P> <l> <i> <v> <w> <i> <c> <h>  ? 
+Are <space> <J> <i> <t>  <space> Estate <space> and <space> <C> <r> <e> <m> <p>  <space> Road <space> on <space> the <space> same <space> line ? 
+How <space> many <space> architecture <space> styles <space> does <space> Orange <space> <V> <a> <k>  <space> pass <space> through ? 
+How <space> many <space> stations <space> are <space> between <space> <S> <m> <o> <o> <s> <k> <w> <i> <c> <h>  <space> and <space> <S> <o> <o> <p>  <space> Grove ? 
+Are <space> <P> <i> <b>  <space> Hospital <space> and <space> <S> <l> <o> <o> <f> <t> <i> <n> <g> <t> <o> <n>  <space> on <space> the <space> same <space> line ? 
+How <space> many <space> architecture <space> styles <space> does <space> Orange <space> Fooct <space> pass <space> through ? 
+Are <space> <S> <t> <e> <s> <h>  <space> On <space> Trent <space> and <space> <S> <w> <o> <o> <n> <k> <h> <a> <m>  <space> on <space> the <space> same <space> line ? 
+How <space> many <space> modernist <space> stations <space> are <space> on <space> the <space> Olive <space> <C> <r> <e> <r>  <space> line ? 
+How <space> many <space> architecture <space> styles <space> does <space> Olive <space> <S> <w> <i> <d>  <space> pass <space> through ? 
+Which <space> stations <space> does <space> Cyan <space> <P> <r> <o> <o> <n>  <space> pass <space> through ? 
+Which <space> lines <space> is <space> <S> <l> <a> <n>  <space> St <space> on ? 
+How <space> clean <space> is <space> <S> <n> <i> <f>  <space> Hospital ? 
+How <space> clean <space> is <space> <S> <t> <r> <a> <s> <t>  <space> Boulevard ? 
+How <space> many <space> new <space> stations <space> are <space> on <space> the <space> Cyan <space> <B> <i> <b>  <space> line ? 
+How <space> many <space> lines <space> is <space> <B> <l> <o> <s> <s>  <space> International <space> on ? 
+Which <space> stations <space> does <space> Cyan <space> <R> <o> <o> <h>  <space> pass <space> through ? 
+How <space> many <space> architecture <space> styles <space> does <space> Cyan <space> <S> <k> <e> <m> <p>  <space> pass <space> through ? 
+How <space> many <space> new <space> stations <space> are <space> on <space> the <space> Cyan <space> <S> <p> <o> <o> <s> <k>  <space> line ? 
+How <space> clean <space> is <space> <P> <r> <u> <n> <k>  <space> International ? 
+How <space> many <space> lines <space> is <space> <Y> <u> <n> <d>  <space> On <space> Trent <space> on ? 
+How <space> many <space> architecture <space> styles <space> does <space> Orange <space> <R> <o> <o> <c> <t>  <space> pass <space> through ? 
+How <space> many <space> lines <space> is <space> <G> <u> <z>  <space> Court <space> on ? 
+Are <space> <C> <r> <u> <r> <h> <a> <m>  <space> and <space> <G> <r> <a> <p> <t>  <space> Boulevard <space> on <space> the <space> same <space> line ? 
+Which <space> lines <space> is <space> <S> <l> <i> <f> <t>  <space> Upon <space> Thames <space> on ? 
+Which <space> lines <space> is <space> <S> <k> <i> <m>  <space> Estate <space> on ? 
+How <space> clean <space> is <space> <S> <t> <r> <o> <o> <g>  <space> Boulevard ? 
+How <space> many <space> concrete <space> stations <space> are <space> on <space> the <space> Red <space> <P> <l> <i> <s> <s>  <space> line ? 
+How <space> many <space> new <space> stations <space> are <space> on <space> the <space> Blue <space> <K> <u> <s> <k>  <space> line ? 
+Which <space> lines <space> is <space> <P> <l> <o> <r>  <space> Bridge <space> on ? 
+How <space> many <space> architecture <space> styles <space> does <space> Green <space> Jem <space> pass <space> through ? 
+Which <space> stations <space> does <space> Cyan <space> <P> <o> <o> <m>  <space> pass <space> through ? 
+How <space> many <space> architecture <space> styles <space> does <space> Cyan <space> <T> <a> <b>  <space> pass <space> through ? 
+Which <space> lines <space> is <space> <S> <n> <u> <p> <t>  <space> Square <space> on ? 
+How <space> clean <space> is <space> <B> <l> <e> <g>  <space> Square ? 
+Which <space> stations <space> does <space> Orange <space> <Y> <i> <n> <d>  <space> pass <space> through ? 
+Are <space> <B> <l> <a> <w> <w> <i> <c> <h>  <space> and <space> <M> <e> <f>  <space> Street <space> on <space> the <space> same <space> line ? 
+Which <space> stations <space> does <space> Olive <space> <F> <r> <e> <d>  <space> pass <space> through ? 
+Which <space> stations <space> does <space> Green <space> <V> <o> <c> <t>  <space> pass <space> through ? 
+How <space> many <space> architecture <space> styles <space> does <space> Red <space> <T> <u> <n>  <space> pass <space> through ? 
+Which <space> stations <space> does <space> Purple <space> <S> <t> <r> <u> <s> <k>  <space> pass <space> through ? 
+How <space> many <space> victorian <space> stations <space> are <space> on <space> the <space> Red <space> <F> <r> <a> <v>  <space> line ? 
+Which <space> stations <space> does <space> Olive <space> <G> <l> <a> <f> <t>  <space> pass <space> through ? 
+Which <space> lines <space> is <space> Stemp <space> International <space> on ? 
+Which <space> stations <space> does <space> Gray <space> <S> <k> <i> <n> <t>  <space> pass <space> through ? 
+Which <space> lines <space> is <space> <P> <a> <n> <d>  <space> Court <space> on ? 
+How <space> many <space> lines <space> is <space> <R> <a> <t> <t> <o> <n>  <space> on ? 
+How <space> many <space> modernist <space> stations <space> are <space> on <space> the <space> Green <space> <S> <m> <o> <m>  <space> line ? 
+How <space> many <space> architecture <space> styles <space> does <space> Green <space> <G> <l> <o> <m> <p>  <space> pass <space> through ? 
+How <space> many <space> lines <space> is <space> <P> <r> <o> <o> <h> <b> <r> <i> <d> <g> <e>  <space> on ? 
+How <space> many <space> architecture <space> styles <space> does <space> Gray <space> <T> <r> <e> <n> <d>  <space> pass <space> through ? 
+How <space> many <space> glass <space> stations <space> are <space> on <space> the <space> Purple <space> <S> <h> <i> <z>  <space> line ? 
+Which <space> lines <space> is <space> <S> <k> <o> <o> <s> <k>  <space> Lane <space> on ? 
+How <space> clean <space> is <space> <M> <i> <s> <s>  <space> Way ? 
+Which <space> lines <space> is <space> Slamp <space> Hospital <space> on ? 
+How <space> many <space> modernist <space> stations <space> are <space> on <space> the <space> Red <space> Shoosh <space> line ? 
+How <space> many <space> lines <space> is <space> <Y> <u> <n> <k> <w> <i> <c> <h>  <space> on ? 
+How <space> many <space> lines <space> is <space> <S> <e> <n> <t> <i> <n> <g> <t> <o> <n>  <space> on ? 
+How <space> many <space> architecture <space> styles <space> does <space> Red <space> <S> <l> <o> <s> <p>  <space> pass <space> through ? 
+How <space> many <space> lines <space> is <space> <S> <h> <u> <s> <t>  <space> Palace <space> on ? 
+How <space> many <space> victorian <space> stations <space> are <space> on <space> the <space> Brown <space> <S> <o> <f> <t>  <space> line ? 
+How <space> many <space> victorian <space> stations <space> are <space> on <space> the <space> Green <space> <B> <l> <u> <s> <k>  <space> line ? 
+Which <space> lines <space> is <space> <S> <l> <u> <k> <t> <o> <n>  <space> on ? 
+How <space> clean <space> is <space> <P> <r> <e> <p> <t>  <space> Upon <space> Thames ? 
+Which <space> stations <space> does <space> Gray <space> <S> <l> <i> <l>  <space> pass <space> through ? 
+How <space> many <space> stations <space> are <space> between <space> <K> <a> <r>  <space> Lane <space> and <space> <P> <l> <o> <m>  <space> Hospital ? 
+Which <space> stations <space> does <space> Cyan <space> <S> <o> <o> <k>  <space> pass <space> through ? 
+How <space> many <space> architecture <space> styles <space> does <space> Pink <space> <F> <o> <n> <d>  <space> pass <space> through ? 
+Which <space> stations <space> does <space> Pink <space> <V> <i> <m> <p>  <space> pass <space> through ? 
+How <space> many <space> lines <space> is <space> <D> <r> <o> <o> <d>  <space> Palace <space> on ? 
+How <space> many <space> lines <space> is <space> Drest <space> Palace <space> on ? 
+How <space> clean <space> is <space> <S> <o> <o> <c> <h>  <space> Lane ? 
+Are <space> <B> <r> <i> <f> <t>  <space> Road <space> and <space> Nuct <space> St <space> on <space> the <space> same <space> line ? 
+How <space> many <space> architecture <space> styles <space> does <space> Green <space> <Z> <o> <f>  <space> pass <space> through ? 
+How <space> many <space> lines <space> is <space> <P> <r> <o> <n> <t>  <space> Palace <space> on ? 
+Which <space> lines <space> is <space> <N> <i> <p> <t>  <space> Square <space> on ? 
+How <space> many <space> architecture <space> styles <space> does <space> Orange <space> <B> <e> <n> <d>  <space> pass <space> through ? 
+How <space> many <space> new <space> stations <space> are <space> on <space> the <space> Blue <space> <G> <r> <i> <f> <t>  <space> line ? 
+How <space> many <space> architecture <space> styles <space> does <space> Orange <space> <G> <a> <l>  <space> pass <space> through ? 
+How <space> many <space> architecture <space> styles <space> does <space> Brown <space> <D> <a> <s> <h>  <space> pass <space> through ? 
+How <space> clean <space> is <space> <G> <r> <i> <v> <t> <o> <n>  ? 
+How <space> many <space> stations <space> are <space> between <space> <B> <r> <o> <o> <s> <k>  <space> Court <space> and <space> <G> <u> <v>  <space> Hospital ? 
+How <space> many <space> lines <space> is <space> <R> <u> <r>  <space> Court <space> on ? 
+Which <space> lines <space> is <space> <J> <u> <h>  <space> Boulevard <space> on ? 
+How <space> many <space> lines <space> is <space> <D> <r> <o> <o> <k>  <space> Upon <space> Thames <space> on ? 
+How <space> clean <space> is <space> <N> <i> <c> <t>  <space> Estate ? 
+How <space> clean <space> is <space> <D> <o> <c> <t>  <space> Lane ? 
+How <space> many <space> stations <space> are <space> between <space> <C> <l> <o> <o> <f> <n> <e> <y> <l> <a> <n> <d>  <space> and <space> <P> <r> <a> <m> <p>  <space> Manor ? 
+How <space> many <space> lines <space> is <space> <B> <e> <p>  <space> Road <space> on ? 
+How <space> clean <space> is <space> <S> <t> <r> <u> <l>  <space> Road ? 
+How <space> many <space> architecture <space> styles <space> does <space> Gray <space> <S> <o> <m> <p>  <space> pass <space> through ? 
+Which <space> stations <space> does <space> Cyan <space> <Y> <e> <p> <t>  <space> pass <space> through ? 
+How <space> many <space> architecture <space> styles <space> does <space> Green <space> <D> <r> <e> <d>  <space> pass <space> through ? 
+Which <space> lines <space> is <space> <S> <k> <a> <m> <n> <e> <y> <l> <a> <n> <d>  <space> on ? 
+How <space> many <space> lines <space> is <space> <T> <o> <o> <p> <t> <i> <n> <g> <t> <o> <n>  <space> on ? 
+How <space> many <space> victorian <space> stations <space> are <space> on <space> the <space> Blue <space> <S> <k> <o> <o> <s> <k>  <space> line ? 
+Which <space> stations <space> does <space> Green <space> <B> <l> <u> <m> <p>  <space> pass <space> through ? 
+How <space> clean <space> is <space> <F> <o> <c> <t>  <space> Street ? 
+How <space> clean <space> is <space> <G> <l> <e> <v> <t> <o> <n>  ? 
+How <space> many <space> lines <space> is <space> <K> <i> <h>  <space> Manor <space> on ? 
+How <space> many <space> new <space> stations <space> are <space> on <space> the <space> Purple <space> <W> <o> <r>  <space> line ? 
+Which <space> stations <space> does <space> Olive <space> <V> <u> <l>  <space> pass <space> through ? 
+Which <space> lines <space> is <space> Sloomp <space> Bridge <space> on ? 
+How <space> many <space> architecture <space> styles <space> does <space> Gray <space> <B> <u> <m> <p>  <space> pass <space> through ? 
+How <space> many <space> lines <space> is <space> <B> <r> <u> <w>  <space> Boulevard <space> on ? 
+How <space> many <space> stations <space> are <space> between <space> <F> <r> <a> <d>  <space> St <space> and <space> <D> <u> <p> <t> <t> <o> <n>  ? 
+Which <space> lines <space> is <space> <W> <o> <o> <s> <k>  <space> Bridge <space> on ? 
+How <space> clean <space> is <space> <S> <a> <v>  <space> Court ? 
+Which <space> lines <space> is <space> <S> <w> <e> <n> <t>  <space> Way <space> on ? 
+Which <space> stations <space> does <space> Green <space> <S> <p> <u> <l>  <space> pass <space> through ? 
+Which <space> stations <space> does <space> Gray <space> <S> <h> <o> <n> <g>  <space> pass <space> through ? 
+How <space> many <space> architecture <space> styles <space> does <space> Gray <space> <S> <w> <o> <o> <m>  <space> pass <space> through ? 
+Which <space> lines <space> is <space> <V> <a> <w> <i> <n> <g> <t> <o> <n>  <space> on ? 
+Which <space> lines <space> is <space> <G> <l> <a> <z>  <space> Palace <space> on ? 
+How <space> many <space> art - deco <space> stations <space> are <space> on <space> the <space> Pink <space> <H> <o> <o> <z>  <space> line ? 
+Which <space> stations <space> does <space> Olive <space> <C> <r> <o> <d>  <space> pass <space> through ? 
+How <space> many <space> stations <space> are <space> between <space> <B> <l> <e> <y>  <space> Road <space> and <space> <T> <a> <w> <h> <a> <m>  ? 
+How <space> many <space> lines <space> is <space> <S> <t> <r> <u> <k>  <space> Street <space> on ? 
+How <space> clean <space> is <space> <S> <w> <a> <n> <k>  <space> St ? 
+Which <space> stations <space> does <space> Cyan <space> <C> <h> <o> <o> <v>  <space> pass <space> through ? 
+How <space> many <space> victorian <space> stations <space> are <space> on <space> the <space> Cyan <space> <B> <l> <u> <y>  <space> line ? 
+How <space> clean <space> is <space> <P> <e> <s> <k>  <space> Manor ? 
+How <space> many <space> victorian <space> stations <space> are <space> on <space> the <space> Brown <space> <P> <l> <e> <y>  <space> line ? 
+Which <space> lines <space> is <space> <S> <w> <o> <s> <h> <b> <r> <i> <d> <g> <e>  <space> on ? 
+How <space> many <space> lines <space> is <space> <C> <r> <o> <o> <f> <t>  <space> Bridge <space> on ? 
+How <space> clean <space> is <space> <S> <e> <c> <h> <i> <n> <g> <t> <o> <n>  ? 
+Which <space> lines <space> is <space> <B> <l> <u> <k>  <space> International <space> on ? 
+How <space> clean <space> is <space> Fooct <space> Court ? 
+Which <space> stations <space> does <space> Red <space> <D> <o> <b>  <space> pass <space> through ? 
+How <space> many <space> architecture <space> styles <space> does <space> Gray <space> <B> <r> <o> <d>  <space> pass <space> through ? 
+How <space> many <space> art - deco <space> stations <space> are <space> on <space> the <space> Pink <space> <S> <t> <r> <a> <p> <t>  <space> line ? 
+How <space> clean <space> is <space> <L> <e> <f>  <space> Hospital ? 
+How <space> many <space> new <space> stations <space> are <space> on <space> the <space> Orange <space> <S> <p> <i> <b>  <space> line ? 
+How <space> many <space> new <space> stations <space> are <space> on <space> the <space> Green <space> <Y> <e> <m>  <space> line ? 
+How <space> many <space> stations <space> are <space> between <space> <V> <a> <l>  <space> Hospital <space> and <space> <Z> <e> <l>  <space> Lane ? 
+How <space> clean <space> is <space> <B> <r> <a> <d>  <space> Palace ? 
+How <space> many <space> architecture <space> styles <space> does <space> Gray <space> <S> <o> <s> <k>  <space> pass <space> through ? 
+Are <space> <Z> <i> <r>  <space> Estate <space> and <space> <S> <o> <f>  <space> Way <space> on <space> the <space> same <space> line ? 
+How <space> many <space> architecture <space> styles <space> does <space> Green <space> <B> <l> <a> <c> <h>  <space> pass <space> through ? 
+How <space> many <space> lines <space> is <space> <M> <u> <s> <s>  <space> On <space> Trent <space> on ? 
+How <space> clean <space> is <space> <S> <t> <o> <o> <n> <d>  <space> Grove ? 
+How <space> many <space> stations <space> are <space> between <space> <B> <r> <e> <n> <k>  <space> Palace <space> and <space> <S> <k> <e> <s> <k>  <space> Crossing ? 
+How <space> clean <space> is <space> <J> <a> <s> <h>  <space> International ? 
+Are <space> <S> <m> <u> <b>  <space> Square <space> and <space> <G> <l> <o> <o> <f>  <space> Upon <space> Thames <space> on <space> the <space> same <space> line ? 
+Which <space> stations <space> does <space> Red <space> Sland <space> pass <space> through ? 
+Which <space> lines <space> is <space> <K> <a> <s> <t>  <space> On <space> Trent <space> on ? 
+How <space> clean <space> is <space> <V> <u> <l> <t> <o> <n>  ? 
+How <space> many <space> stations <space> are <space> between <space> <H> <e> <g>  <space> Hospital <space> and <space> <W> <o> <r>  <space> Manor ? 
+How <space> many <space> new <space> stations <space> are <space> on <space> the <space> Blue <space> <D> <r> <o> <y>  <space> line ? 
+How <space> clean <space> is <space> <B> <a> <n> <d> <w> <i> <c> <h>  ? 
+Which <space> lines <space> is <space> <N> <a> <z> <h> <a> <m>  <space> on ? 
+Are <space> <B> <e> <k>  <space> Way <space> and <space> <S> <l> <u> <c> <h>  <space> Upon <space> Thames <space> on <space> the <space> same <space> line ? 
+How <space> many <space> architecture <space> styles <space> does <space> Cyan <space> <G> <l> <o> <o> <n>  <space> pass <space> through ? 
+How <space> many <space> lines <space> is <space> <P> <r> <u> <s> <p>  <space> Crossing <space> on ? 
+How <space> clean <space> is <space> Stren <space> Square ? 
+Are <space> <L> <o> <o> <g>  <space> Square <space> and <space> <R> <a> <p>  <space> Bridge <space> on <space> the <space> same <space> line ? 
+How <space> many <space> architecture <space> styles <space> does <space> Orange <space> <P> <r> <e> <f>  <space> pass <space> through ? 
+Which <space> lines <space> is <space> <B> <l> <u> <n> <k>  <space> Estate <space> on ? 
+How <space> many <space> lines <space> is <space> <S> <u> <d> <b> <r> <i> <d> <g> <e>  <space> on ? 
+How <space> many <space> stations <space> are <space> between <space> <C> <h> <o> <h>  <space> Lane <space> and <space> <F> <l> <u> <f>  <space> Lane ? 
+How <space> clean <space> is <space> <C> <r> <u> <m>  <space> Square ? 
+Which <space> stations <space> does <space> Cyan <space> <M> <a> <c> <t>  <space> pass <space> through ? 
+How <space> many <space> architecture <space> styles <space> does <space> Orange <space> <S> <t> <r> <o> <k>  <space> pass <space> through ? 
+How <space> many <space> architecture <space> styles <space> does <space> Brown <space> <V> <i> <s> <p>  <space> pass <space> through ? 
+Which <space> stations <space> does <space> Red <space> <Z> <a> <s> <s>  <space> pass <space> through ? 
+How <space> many <space> lines <space> is <space> <J> <a> <n> <d> <i> <n> <g> <t> <o> <n>  <space> on ? 
+How <space> many <space> lines <space> is <space> <F> <a> <n> <t>  <space> Upon <space> Thames <space> on ? 
+How <space> many <space> lines <space> is <space> <P> <e> <s> <h>  <space> Hospital <space> on ? 
+Which <space> stations <space> does <space> Purple <space> <S> <n> <i> <d>  <space> pass <space> through ? 
+Which <space> lines <space> is <space> <D> <e> <v>  <space> Bridge <space> on ? 
+How <space> many <space> architecture <space> styles <space> does <space> Green <space> <Z> <o> <o> <n> <g>  <space> pass <space> through ? 
+How <space> many <space> architecture <space> styles <space> does <space> Green <space> <S> <l> <i> <n> <t>  <space> pass <space> through ? 
+How <space> clean <space> is <space> <P> <r> <e> <d> <i> <n> <g> <t> <o> <n>  ? 
+Which <space> lines <space> is <space> <Y> <o> <o> <c> <t> <h> <a> <m>  <space> on ? 
+Which <space> stations <space> does <space> Brown <space> <Z> <e> <t>  <space> pass <space> through ? 
+How <space> many <space> glass <space> stations <space> are <space> on <space> the <space> Blue <space> <N> <a> <n> <g>  <space> line ? 
+Which <space> lines <space> is <space> <F> <o> <o> <n> <d>  <space> Hospital <space> on ? 
+How <space> clean <space> is <space> Bren <space> Lane ? 
+Which <space> lines <space> is <space> <S> <w> <o> <r>  <space> Street <space> on ? 
+How <space> many <space> modernist <space> stations <space> are <space> on <space> the <space> Brown <space> <V> <i> <s> <t>  <space> line ? 
+How <space> many <space> architecture <space> styles <space> does <space> Orange <space> <W> <o> <b>  <space> pass <space> through ? 
+How <space> many <space> lines <space> is <space> <N> <e> <p> <t>  <space> Street <space> on ? 
+How <space> many <space> lines <space> is <space> <S> <n> <o> <n> <k> <i> <n> <g> <t> <o> <n>  <space> on ? 
+How <space> many <space> lines <space> is <space> <P> <l> <o> <o> <y>  <space> Street <space> on ? 
+Which <space> stations <space> does <space> Purple <space> <L> <o> <o> <s> <p>  <space> pass <space> through ? 
+How <space> clean <space> is <space> <B> <e> <m>  <space> Estate ? 
+Which <space> stations <space> does <space> Gray <space> <S> <m> <e> <s> <p>  <space> pass <space> through ? 
+Which <space> lines <space> is <space> <V> <i> <f> <t>  <space> Grove <space> on ? 
+How <space> many <space> concrete <space> stations <space> are <space> on <space> the <space> Pink <space> <L> <i> <z>  <space> line ? 
+How <space> many <space> lines <space> is <space> Choong <space> Boulevard <space> on ? 
+Which <space> stations <space> does <space> Pink <space> <Z> <u> <g>  <space> pass <space> through ? 
+How <space> many <space> lines <space> is <space> <D> <i> <y>  <space> Bridge <space> on ? 
+Which <space> lines <space> is <space> <P> <l> <a> <s> <t> <b> <r> <i> <d> <g> <e>  <space> on ? 
+How <space> many <space> lines <space> is <space> <S> <u> <f> <t>  <space> International <space> on ? 
+How <space> many <space> architecture <space> styles <space> does <space> Blue <space> <Y> <e> <n>  <space> pass <space> through ? 
+How <space> many <space> stations <space> are <space> between <space> <L> <a> <h>  <space> Square <space> and <space> <L> <o> <o> <p> <t>  <space> Grove ? 
+Are <space> <L> <a> <n> <d> <t> <o> <n>  <space> and <space> <P> <l> <i> <n> <t> <h> <a> <m>  <space> on <space> the <space> same <space> line ? 
+Which <space> stations <space> does <space> Pink <space> <S> <m> <o> <o> <n>  <space> pass <space> through ? 
+How <space> clean <space> is <space> <B> <l> <u> <r>  <space> Road ? 
+How <space> clean <space> is <space> <V> <e> <n> <g>  <space> St ? 
+How <space> clean <space> is <space> <V> <i> <v>  <space> Court ? 
+How <space> many <space> architecture <space> styles <space> does <space> Gray <space> <J> <i> <w>  <space> pass <space> through ? 
+How <space> many <space> architecture <space> styles <space> does <space> Gray <space> <F> <r> <u> <s> <t>  <space> pass <space> through ? 
+Which <space> lines <space> is <space> <S> <e> <g> <w> <i> <c> <h>  <space> on ? 
+Which <space> stations <space> does <space> Red <space> <S> <h> <i> <t>  <space> pass <space> through ? 
+How <space> many <space> lines <space> is <space> <G> <o> <o> <b>  <space> Manor <space> on ? 
+How <space> many <space> victorian <space> stations <space> are <space> on <space> the <space> Olive <space> <C> <l> <o> <o> <w>  <space> line ? 
+How <space> many <space> new <space> stations <space> are <space> on <space> the <space> Blue <space> <C> <l> <i> <l>  <space> line ? 
+Are <space> <S> <p> <a> <w>  <space> Bridge <space> and <space> <S> <n> <o> <o> <n> <d> <t> <o> <n>  <space> on <space> the <space> same <space> line ? 
+Which <space> stations <space> does <space> Olive <space> <F> <l> <o> <o> <n> <d>  <space> pass <space> through ? 
+How <space> many <space> lines <space> is <space> <V> <o> <p> <t>  <space> Bridge <space> on ? 
+How <space> many <space> concrete <space> stations <space> are <space> on <space> the <space> Green <space> <G> <a> <n> <k>  <space> line ? 
+How <space> many <space> architecture <space> styles <space> does <space> Red <space> <F> <l> <o> <o> <g>  <space> pass <space> through ? 
+Which <space> stations <space> does <space> Purple <space> <D> <r> <u> <n> <k>  <space> pass <space> through ? 
+How <space> many <space> glass <space> stations <space> are <space> on <space> the <space> Orange <space> <S> <i> <y>  <space> line ? 
+Which <space> lines <space> is <space> <J> <u> <s> <k>  <space> Road <space> on ? 
+Which <space> lines <space> is <space> <P> <e> <w>  <space> Crossing <space> on ? 
+Which <space> stations <space> does <space> Pink <space> <C> <h> <o> <s> <h>  <space> pass <space> through ? 
+Which <space> lines <space> is <space> <C> <h> <u> <d>  <space> Road <space> on ? 
+How <space> many <space> art - deco <space> stations <space> are <space> on <space> the <space> Gray <space> <G> <l> <u> <f> <t>  <space> line ? 
+Are <space> <F> <l> <i> <s> <h>  <space> Road <space> and <space> <F> <e> <v>  <space> Hospital <space> on <space> the <space> same <space> line ? 
+How <space> many <space> glass <space> stations <space> are <space> on <space> the <space> Green <space> <L> <a> <n> <g>  <space> line ? 
+Which <space> stations <space> does <space> Brown <space> <D> <r> <u> <f> <t>  <space> pass <space> through ? 
+Are <space> <S> <n> <a> <n>  <space> On <space> Trent <space> and <space> <T> <r> <o> <o> <p>  <space> Street <space> on <space> the <space> same <space> line ? 
+Which <space> lines <space> is <space> <H> <i> <w> <n> <e> <y> <l> <a> <n> <d>  <space> on ? 
+Are <space> <S> <t> <r> <a> <d> <t> <o> <n>  <space> and <space> <S> <e> <p>  <space> Court <space> on <space> the <space> same <space> line ? 
+How <space> many <space> victorian <space> stations <space> are <space> on <space> the <space> Gray <space> <K> <u> <n> <d>  <space> line ? 
+Are <space> <S> <o> <o> <s> <s>  <space> St <space> and <space> <W> <u> <f>  <space> Grove <space> on <space> the <space> same <space> line ? 
+How <space> clean <space> is <space> <G> <r> <o> <o> <h>  <space> St ? 
+How <space> many <space> modernist <space> stations <space> are <space> on <space> the <space> Cyan <space> <S> <p> <e> <m> <p>  <space> line ? 
+How <space> clean <space> is <space> <L> <o> <o> <s> <s> <h> <a> <m>  ? 
+How <space> many <space> art - deco <space> stations <space> are <space> on <space> the <space> Brown <space> <H> <o> <f>  <space> line ? 
+Which <space> lines <space> is <space> Moomp <space> Estate <space> on ? 
+How <space> many <space> victorian <space> stations <space> are <space> on <space> the <space> Olive <space> <P> <l> <u> <s> <s>  <space> line ? 
+Are <space> <B> <a> <n> <g>  <space> Lane <space> and <space> <S> <p> <i> <n> <t> <b> <r> <i> <d> <g> <e>  <space> on <space> the <space> same <space> line ? 
+Which <space> lines <space> is <space> <Y> <a> <p> <w> <i> <c> <h>  <space> on ? 
+How <space> clean <space> is <space> <F> <l> <u> <c> <t>  <space> Boulevard ? 
+Which <space> stations <space> does <space> Orange <space> <B> <r> <a> <b>  <space> pass <space> through ? 
+How <space> many <space> victorian <space> stations <space> are <space> on <space> the <space> Gray <space> <M> <u> <h>  <space> line ? 
+Which <space> lines <space> is <space> <S> <n> <o> <s> <h>  <space> Hospital <space> on ? 
+How <space> many <space> architecture <space> styles <space> does <space> Purple <space> <K> <u> <w>  <space> pass <space> through ? 
+How <space> many <space> modernist <space> stations <space> are <space> on <space> the <space> Purple <space> <S> <k> <o> <s> <h>  <space> line ? 
+How <space> clean <space> is <space> <G> <r> <o> <g>  <space> Grove ? 
+Which <space> stations <space> does <space> Red <space> <T> <r> <o> <c> <t>  <space> pass <space> through ? 
+How <space> many <space> architecture <space> styles <space> does <space> Gray <space> <S> <m> <u> <b>  <space> pass <space> through ? 
+How <space> clean <space> is <space> Resk <space> Crossing ? 
+How <space> clean <space> is <space> <J> <a> <w> <t> <o> <n>  ? 
+Which <space> stations <space> does <space> Green <space> <S> <n> <a> <l>  <space> pass <space> through ? 
+How <space> many <space> stations <space> are <space> between <space> <T> <r> <u> <g>  <space> Square <space> and <space> <P> <i> <h>  <space> International ? 
+How <space> many <space> architecture <space> styles <space> does <space> Gray <space> <G> <l> <u> <l>  <space> pass <space> through ? 
+How <space> many <space> architecture <space> styles <space> does <space> Brown <space> <R> <u> <n> <g>  <space> pass <space> through ? 
+How <space> clean <space> is <space> <S> <n> <i> <n>  <space> Upon <space> Thames ? 
+How <space> many <space> architecture <space> styles <space> does <space> Green <space> <B> <l> <o> <o> <t>  <space> pass <space> through ? 
+How <space> clean <space> is <space> <B> <l> <e> <d>  <space> Upon <space> Thames ? 
+How <space> clean <space> is <space> <G> <i> <l>  <space> Square ? 
+Which <space> lines <space> is <space> <F> <l> <o> <m> <h> <a> <m>  <space> on ? 
+How <space> clean <space> is <space> <T> <r> <i> <m> <p> <b> <r> <i> <d> <g> <e>  ? 
+How <space> many <space> stations <space> are <space> between <space> <S> <h> <u> <h>  <space> Palace <space> and <space> <D> <r> <e> <p> <t>  <space> Hospital ? 
+How <space> clean <space> is <space> <D> <u> <s> <k>  <space> Crossing ? 
+Are <space> <R> <i> <f> <t>  <space> Manor <space> and <space> <S> <l> <u> <m> <p> <b> <r> <i> <d> <g> <e>  <space> on <space> the <space> same <space> line ? 
+How <space> clean <space> is <space> <S> <k> <o> <o> <w>  <space> International ? 
+Which <space> stations <space> does <space> Pink <space> <B> <i> <z>  <space> pass <space> through ? 
+Which <space> stations <space> does <space> Brown <space> <B> <a> <c> <h>  <space> pass <space> through ? 
+How <space> many <space> concrete <space> stations <space> are <space> on <space> the <space> Gray <space> <F> <r> <i> <n> <g>  <space> line ? 
+Which <space> lines <space> is <space> <C> <r> <a> <n> <t>  <space> Manor <space> on ? 
+How <space> clean <space> is <space> <S> <w> <o> <o> <s> <h> <n> <e> <y> <l> <a> <n> <d>  ? 
+How <space> many <space> lines <space> is <space> <H> <o> <t>  <space> Manor <space> on ? 
+How <space> many <space> architecture <space> styles <space> does <space> Blue <space> <B> <r> <a> <s> <p>  <space> pass <space> through ? 
+Which <space> lines <space> is <space> <N> <o> <o> <c> <h> <n> <e> <y> <l> <a> <n> <d>  <space> on ? 
+How <space> many <space> architecture <space> styles <space> does <space> Olive <space> <F> <o> <z>  <space> pass <space> through ? 
+Are <space> <J> <o> <o> <z>  <space> Way <space> and <space> <F> <r> <a> <d>  <space> Lane <space> on <space> the <space> same <space> line ? 
+Which <space> stations <space> does <space> Blue <space> <W> <o> <s> <p>  <space> pass <space> through ? 
+Which <space> lines <space> is <space> <C> <l> <e> <s> <s>  <space> Hospital <space> on ? 
+Are <space> <S> <w> <o> <n> <k>  <space> St <space> and <space> <Z> <o> <o> <m> <p>  <space> Hospital <space> on <space> the <space> same <space> line ? 
+Which <space> lines <space> is <space> <S> <o> <o> <l>  <space> Road <space> on ? 
+How <space> many <space> lines <space> is <space> <S> <w> <i> <z> <w> <i> <c> <h>  <space> on ? 
+How <space> many <space> new <space> stations <space> are <space> on <space> the <space> Brown <space> <T> <r> <a> <n> <d>  <space> line ? 
+Which <space> stations <space> does <space> Orange <space> <M> <o> <p>  <space> pass <space> through ? 
+How <space> many <space> stations <space> are <space> between <space> <C> <r> <a> <n> <d>  <space> Bridge <space> and <space> <S> <w> <o> <o> <g> <w> <i> <c> <h>  ? 
+Are <space> <S> <m> <u> <c> <h>  <space> Road <space> and <space> <J> <e> <n>  <space> Square <space> on <space> the <space> same <space> line ? 
+How <space> many <space> architecture <space> styles <space> does <space> Gray <space> <S> <m> <u> <n>  <space> pass <space> through ? 
+How <space> many <space> lines <space> is <space> <R> <e> <z>  <space> Palace <space> on ? 
+How <space> many <space> architecture <space> styles <space> does <space> Cyan <space> <Z> <o> <o> <c> <h>  <space> pass <space> through ? 
+Are <space> <S> <n> <u> <m> <t> <o> <n>  <space> and <space> <S> <e> <k>  <space> St <space> on <space> the <space> same <space> line ? 
+Which <space> stations <space> does <space> Brown <space> <R> <e> <l>  <space> pass <space> through ? 
+Which <space> stations <space> does <space> Olive <space> <D> <r> <o> <c> <t>  <space> pass <space> through ? 
+Are <space> <F> <r> <o> <o> <n> <g>  <space> St <space> and <space> <W> <e> <m> <p>  <space> Boulevard <space> on <space> the <space> same <space> line ? 
+How <space> clean <space> is <space> <K> <e> <g> <t> <o> <n>  ? 
+Are <space> <B> <o> <f> <t>  <space> Manor <space> and <space> <F> <r> <e> <r> <w> <i> <c> <h>  <space> on <space> the <space> same <space> line ? 
+Which <space> stations <space> does <space> Brown <space> <B> <r> <e> <h>  <space> pass <space> through ? 
+How <space> many <space> concrete <space> stations <space> are <space> on <space> the <space> Orange <space> <B> <e> <s> <h>  <space> line ? 
+How <space> many <space> architecture <space> styles <space> does <space> Green <space> <S> <l> <o> <n> <d>  <space> pass <space> through ? 
+How <space> clean <space> is <space> <S> <w> <i> <b>  <space> Crossing ? 
+How <space> many <space> architecture <space> styles <space> does <space> Cyan <space> <T> <a> <s> <s>  <space> pass <space> through ? 
+Which <space> lines <space> is <space> <W> <i> <w>  <space> Manor <space> on ? 
+How <space> clean <space> is <space> <D> <e> <t>  <space> Bridge ? 
+How <space> many <space> architecture <space> styles <space> does <space> Blue <space> <S> <e> <d>  <space> pass <space> through ? 
+How <space> many <space> architecture <space> styles <space> does <space> Cyan <space> <C> <r> <u> <v>  <space> pass <space> through ? 
+How <space> clean <space> is <space> <S> <l> <i> <c> <t>  <space> Boulevard ? 
+How <space> many <space> lines <space> is <space> <S> <w> <o> <o> <t>  <space> Hospital <space> on ? 
+Are <space> <S> <n> <u> <f>  <space> International <space> and <space> <C> <h> <o> <o> <h> <n> <e> <y> <l> <a> <n> <d>  <space> on <space> the <space> same <space> line ? 
+How <space> many <space> glass <space> stations <space> are <space> on <space> the <space> Brown <space> <G> <r> <o> <o> <d>  <space> line ? 
+How <space> many <space> modernist <space> stations <space> are <space> on <space> the <space> Olive <space> <H> <o> <p> <t>  <space> line ? 
+How <space> many <space> stations <space> are <space> between <space> <T> <u> <y>  <space> Square <space> and <space> <S> <t> <a> <c> <t> <t> <o> <n>  ? 
+Are <space> <L> <i> <n> <k>  <space> Crossing <space> and <space> <Y> <a> <m> <p> <t> <o> <n>  <space> on <space> the <space> same <space> line ? 
+How <space> many <space> new <space> stations <space> are <space> on <space> the <space> Brown <space> <B> <e> <s> <h>  <space> line ? 
+How <space> clean <space> is <space> <H> <o> <m> <p>  <space> International ? 
+How <space> many <space> lines <space> is <space> <D> <r> <o> <m> <p>  <space> Road <space> on ? 
+How <space> clean <space> is <space> <C> <h> <o> <o> <z>  <space> St ? 
+How <space> clean <space> is <space> <S> <n> <e> <p> <t>  <space> Estate ? 
+Which <space> stations <space> does <space> Orange <space> <P> <r> <a> <s> <t>  <space> pass <space> through ? 
+How <space> many <space> architecture <space> styles <space> does <space> Purple <space> <J> <o> <t>  <space> pass <space> through ? 
+How <space> many <space> victorian <space> stations <space> are <space> on <space> the <space> Olive <space> <B> <l> <e> <m>  <space> line ? 
+How <space> many <space> stations <space> are <space> between <space> <K> <u> <p> <t>  <space> Estate <space> and <space> <T> <o> <f> <h> <a> <m>  ? 
+Are <space> <S> <t> <r> <a> <b>  <space> Palace <space> and <space> <S> <t> <u> <y> <h> <a> <m>  <space> on <space> the <space> same <space> line ? 
+How <space> many <space> concrete <space> stations <space> are <space> on <space> the <space> Pink <space> <S> <n> <u> <b>  <space> line ? 
+How <space> many <space> lines <space> is <space> <J> <a> <p>  <space> Way <space> on ? 
+How <space> many <space> architecture <space> styles <space> does <space> Orange <space> <S> <k> <e> <d>  <space> pass <space> through ? 
+How <space> clean <space> is <space> <S> <k> <e> <k>  <space> Square ? 
+Are <space> Brosk <space> Court <space> and <space> <P> <u> <v>  <space> Boulevard <space> on <space> the <space> same <space> line ? 
+How <space> clean <space> is <space> <G> <e> <z>  <space> Palace ? 
+How <space> many <space> architecture <space> styles <space> does <space> Pink <space> <Z> <u> <h>  <space> pass <space> through ? 
+How <space> clean <space> is <space> <C> <l> <u> <n> <k>  <space> Manor ? 
+Are <space> <S> <h> <e> <n> <t> <n> <e> <y> <l> <a> <n> <d>  <space> and <space> <V> <o> <l>  <space> Lane <space> on <space> the <space> same <space> line ? 
+Which <space> lines <space> is <space> <M> <o> <w>  <space> Hospital <space> on ? 
+How <space> many <space> lines <space> is <space> <S> <n> <o> <o> <s> <k>  <space> Boulevard <space> on ? 
+How <space> many <space> architecture <space> styles <space> does <space> Brown <space> <J> <i> <h>  <space> pass <space> through ? 
+How <space> many <space> concrete <space> stations <space> are <space> on <space> the <space> Brown <space> <S> <l> <a> <n> <t>  <space> line ? 
+Are <space> <S> <m> <o> <r>  <space> Hospital <space> and <space> <S> <p> <o> <n> <g>  <space> Court <space> on <space> the <space> same <space> line ? 
+How <space> many <space> new <space> stations <space> are <space> on <space> the <space> Blue <space> <S> <p> <o> <y>  <space> line ? 
+How <space> many <space> lines <space> is <space> Stoct <space> On <space> Trent <space> on ? 
+Are <space> <P> <r> <o> <n> <t>  <space> Court <space> and <space> <D> <r> <o> <o> <v>  <space> Street <space> on <space> the <space> same <space> line ? 
+How <space> many <space> stations <space> are <space> between <space> <N> <i> <n> <d>  <space> Street <space> and <space> <N> <a> <v>  <space> Lane ? 
+Are <space> <Y> <i> <s> <p>  <space> Lane <space> and <space> <T> <o> <s> <h>  <space> On <space> Trent <space> on <space> the <space> same <space> line ? 
+How <space> many <space> victorian <space> stations <space> are <space> on <space> the <space> Olive <space> <S> <a> <l>  <space> line ? 
+How <space> many <space> lines <space> is <space> <H> <o> <o> <t> <h> <a> <m>  <space> on ? 
+How <space> many <space> stations <space> are <space> between <space> <G> <l> <o> <k> <n> <e> <y> <l> <a> <n> <d>  <space> and <space> <D> <r> <a> <m> <p> <i> <n> <g> <t> <o> <n>  ? 
+How <space> many <space> lines <space> is <space> <T> <u> <s> <k>  <space> Manor <space> on ? 
+How <space> many <space> architecture <space> styles <space> does <space> Purple <space> <G> <r> <e> <f>  <space> pass <space> through ? 
+Which <space> lines <space> is <space> <Y> <o> <r> <t> <o> <n>  <space> on ? 
+How <space> many <space> lines <space> is <space> <F> <o> <m> <b> <r> <i> <d> <g> <e>  <space> on ? 
+Which <space> stations <space> does <space> Blue <space> <T> <o> <o> <t>  <space> pass <space> through ? 
+Which <space> stations <space> does <space> Cyan <space> <S> <t> <r> <o> <s> <k>  <space> pass <space> through ? 
+How <space> clean <space> is <space> <P> <o> <n> <g> <b> <r> <i> <d> <g> <e>  ? 
+How <space> many <space> architecture <space> styles <space> does <space> Pink <space> <S> <w> <o> <k>  <space> pass <space> through ? 
+Which <space> stations <space> does <space> Orange <space> <S> <m> <i> <c> <t>  <space> pass <space> through ? 
+Which <space> lines <space> is <space> <S> <k> <e> <s> <h> <n> <e> <y> <l> <a> <n> <d>  <space> on ? 
+How <space> many <space> modernist <space> stations <space> are <space> on <space> the <space> Orange <space> <F> <r> <o> <o> <m> <p>  <space> line ? 
+Which <space> lines <space> is <space> <S> <h> <i> <m>  <space> International <space> on ? 
+How <space> clean <space> is <space> <R> <o> <s> <p>  <space> Court ? 
+Which <space> stations <space> does <space> Green <space> <B> <l> <o> <o> <n> <k>  <space> pass <space> through ? 
+How <space> many <space> lines <space> is <space> <S> <m> <a> <h>  <space> Lane <space> on ? 
+Which <space> lines <space> is <space> <D> <i> <c> <t> <b> <r> <i> <d> <g> <e>  <space> on ? 
+Are <space> <G> <r> <u> <c> <t>  <space> Palace <space> and <space> <M> <o> <o> <n> <g>  <space> Road <space> on <space> the <space> same <space> line ? 
+How <space> many <space> architecture <space> styles <space> does <space> Orange <space> <S> <w> <u> <s> <p>  <space> pass <space> through ? 
+How <space> many <space> lines <space> is <space> <K> <a> <f> <i> <n> <g> <t> <o> <n>  <space> on ? 
+Are <space> <J> <a> <s> <k>  <space> Street <space> and <space> <D> <r> <o> <h>  <space> Way <space> on <space> the <space> same <space> line ? 
+Are <space> <Z> <e> <m> <p>  <space> Square <space> and <space> Geng <space> St <space> on <space> the <space> same <space> line ? 
+How <space> many <space> victorian <space> stations <space> are <space> on <space> the <space> Pink <space> <S> <p> <o> <o> <m> <p>  <space> line ? 
+Which <space> lines <space> is <space> <F> <l> <u> <g>  <space> Manor <space> on ? 
+Are <space> <J> <a> <f> <t>  <space> Square <space> and <space> <G> <r> <e> <n> <d> <n> <e> <y> <l> <a> <n> <d>  <space> on <space> the <space> same <space> line ? 
+Which <space> stations <space> does <space> Cyan <space> <Y> <e> <t>  <space> pass <space> through ? 
+Are <space> <V> <u> <p> <w> <i> <c> <h>  <space> and <space> Plask <space> Square <space> on <space> the <space> same <space> line ? 
+Which <space> lines <space> is <space> <Y> <a> <f> <t> <i> <n> <g> <t> <o> <n>  <space> on ? 
+How <space> many <space> lines <space> is <space> <T> <r> <e> <c> <t>  <space> Lane <space> on ? 
+Are <space> <R> <a> <g> <i> <n> <g> <t> <o> <n>  <space> and <space> <G> <o> <o> <n> <d>  <space> Court <space> on <space> the <space> same <space> line ? 
+How <space> clean <space> is <space> <W> <u> <p> <t> <w> <i> <c> <h>  ? 
+How <space> many <space> modernist <space> stations <space> are <space> on <space> the <space> Gray <space> <W> <o> <o> <c> <t>  <space> line ? 
+How <space> many <space> lines <space> is <space> <S> <m> <i> <g>  <space> Lane <space> on ? 
+How <space> clean <space> is <space> <G> <a> <b>  <space> Square ? 
+Are <space> <G> <l> <a> <s> <p>  <space> International <space> and <space> <R> <a> <n> <t> <t> <o> <n>  <space> on <space> the <space> same <space> line ? 
+Which <space> stations <space> does <space> Pink <space> <P> <r> <a> <h>  <space> pass <space> through ? 
+Which <space> lines <space> is <space> <S> <h> <i> <r>  <space> International <space> on ? 
+Which <space> lines <space> is <space> <P> <e> <s> <k>  <space> Lane <space> on ? 
+Which <space> stations <space> does <space> Orange <space> <S> <k> <e> <s> <s>  <space> pass <space> through ? 
+How <space> many <space> lines <space> is <space> <P> <u> <s> <k>  <space> Hospital <space> on ? 
+How <space> many <space> stations <space> are <space> between <space> <P> <r> <o> <o> <w>  <space> Bridge <space> and <space> <S> <i> <c> <t>  <space> Boulevard ? 
+Which <space> lines <space> is <space> <S> <p> <e> <m> <p>  <space> Way <space> on ? 
+Which <space> stations <space> does <space> Green <space> Brosk <space> pass <space> through ? 
+Are <space> <N> <e> <n> <k>  <space> Crossing <space> and <space> <J> <a> <n>  <space> Palace <space> on <space> the <space> same <space> line ? 
+How <space> many <space> victorian <space> stations <space> are <space> on <space> the <space> Gray <space> <D> <i> <b>  <space> line ? 
+How <space> clean <space> is <space> <S> <o> <y> <n> <e> <y> <l> <a> <n> <d>  ? 
+Which <space> stations <space> does <space> Red <space> <J> <o> <o> <h>  <space> pass <space> through ? 
+How <space> many <space> architecture <space> styles <space> does <space> Red <space> <B> <i> <s> <t>  <space> pass <space> through ? 
+How <space> clean <space> is <space> <S> <l> <o> <o> <s> <s>  <space> International ? 
+Which <space> stations <space> does <space> Blue <space> <S> <n> <o> <o> <c> <h>  <space> pass <space> through ? 
+How <space> many <space> lines <space> is <space> <F> <r> <a> <s> <k>  <space> Estate <space> on ? 
+Which <space> stations <space> does <space> Olive <space> <W> <u> <f>  <space> pass <space> through ? 
+How <space> many <space> lines <space> is <space> <C> <r> <a> <v>  <space> Boulevard <space> on ? 
+Which <space> stations <space> does <space> Orange <space> <B> <l> <i> <c> <t>  <space> pass <space> through ? 
+Which <space> stations <space> does <space> Brown <space> Shift <space> pass <space> through ? 
+How <space> many <space> lines <space> is <space> <F> <r> <e> <l> <t> <o> <n>  <space> on ? 
+How <space> many <space> architecture <space> styles <space> does <space> Red <space> <D> <r> <o> <o> <m> <p>  <space> pass <space> through ? 
+How <space> many <space> lines <space> is <space> <P> <u> <w>  <space> Upon <space> Thames <space> on ? 
+Which <space> lines <space> is <space> <G> <r> <i> <s> <s> <w> <i> <c> <h>  <space> on ? 
+How <space> many <space> stations <space> are <space> between <space> <S> <h> <o> <o> <n> <g>  <space> On <space> Trent <space> and <space> <T> <r> <i> <w>  <space> Upon <space> Thames ? 
+How <space> many <space> lines <space> is <space> <C> <l> <a> <s> <h>  <space> Manor <space> on ? 
+How <space> clean <space> is <space> <P> <l> <a> <l>  <space> Square ? 
+Which <space> stations <space> does <space> Blue <space> <S> <w> <e> <s> <p>  <space> pass <space> through ? 
+How <space> many <space> architecture <space> styles <space> does <space> Brown <space> <C> <l> <o> <o> <w>  <space> pass <space> through ? 
+Which <space> lines <space> is <space> <P> <r> <e> <s> <h> <w> <i> <c> <h>  <space> on ? 
+Which <space> stations <space> does <space> Gray <space> <Z> <e> <z>  <space> pass <space> through ? 
+Are <space> <H> <o> <n> <d>  <space> Boulevard <space> and <space> <Z> <o> <s> <t> <n> <e> <y> <l> <a> <n> <d>  <space> on <space> the <space> same <space> line ? 
+How <space> many <space> glass <space> stations <space> are <space> on <space> the <space> Green <space> <S> <t> <r> <e> <y>  <space> line ? 
+How <space> many <space> lines <space> is <space> <F> <r> <a> <t>  <space> St <space> on ? 
+Which <space> stations <space> does <space> Purple <space> <S> <m> <o> <c> <h>  <space> pass <space> through ? 
+Which <space> lines <space> is <space> <J> <o> <o> <s> <h> <w> <i> <c> <h>  <space> on ? 
+How <space> many <space> art - deco <space> stations <space> are <space> on <space> the <space> Red <space> <S> <n> <u> <f> <t>  <space> line ? 
+Are <space> <G> <l> <o> <o> <h> <n> <e> <y> <l> <a> <n> <d>  <space> and <space> <S> <k> <a> <m>  <space> Court <space> on <space> the <space> same <space> line ? 
+How <space> many <space> lines <space> is <space> <R> <i> <f>  <space> Hospital <space> on ? 
+Are <space> <P> <i> <p> <t> <o> <n>  <space> and <space> <C> <h> <o> <o> <p> <t>  <space> Street <space> on <space> the <space> same <space> line ? 
+How <space> many <space> architecture <space> styles <space> does <space> Green <space> <B> <l> <i> <c> <h>  <space> pass <space> through ? 
+How <space> many <space> lines <space> is <space> <Y> <i> <n> <g> <w> <i> <c> <h>  <space> on ? 
+How <space> many <space> lines <space> is <space> <S> <l> <o> <d>  <space> Way <space> on ? 
+How <space> many <space> architecture <space> styles <space> does <space> Red <space> <N> <o> <o> <f> <t>  <space> pass <space> through ? 
+Which <space> lines <space> is <space> <F> <r> <e> <s> <h> <h> <a> <m>  <space> on ? 
+How <space> many <space> architecture <space> styles <space> does <space> Brown <space> <S> <w> <e> <s> <p>  <space> pass <space> through ? 
+How <space> clean <space> is <space> <S> <m> <o> <o> <k>  <space> Estate ? 
+How <space> many <space> glass <space> stations <space> are <space> on <space> the <space> Olive <space> <S> <t> <u> <s> <s>  <space> line ? 
+How <space> clean <space> is <space> <R> <o> <o> <n> <t>  <space> Lane ? 
+Which <space> lines <space> is <space> <Y> <u> <m> <w> <i> <c> <h>  <space> on ? 
+Which <space> stations <space> does <space> Brown <space> <C> <l> <o> <o> <s> <s>  <space> pass <space> through ? 
+How <space> many <space> lines <space> is <space> <S> <m> <e> <c> <h>  <space> Palace <space> on ? 
+How <space> many <space> architecture <space> styles <space> does <space> Cyan <space> <N> <o> <o> <s> <h>  <space> pass <space> through ? 
+Which <space> stations <space> does <space> Gray <space> <K> <e> <m> <p>  <space> pass <space> through ? 
+How <space> many <space> lines <space> is <space> <P> <l> <e> <l> <h> <a> <m>  <space> on ? 
+How <space> clean <space> is <space> <P> <i> <s> <t>  <space> Square ? 
+How <space> many <space> concrete <space> stations <space> are <space> on <space> the <space> Pink <space> <W> <u> <s> <p>  <space> line ? 
+Which <space> stations <space> does <space> Brown <space> Remp <space> pass <space> through ? 
+Which <space> lines <space> is <space> Stoct <space> International <space> on ? 
+Which <space> stations <space> does <space> Blue <space> <N> <e> <n> <k>  <space> pass <space> through ? 
+Which <space> stations <space> does <space> Purple <space> <P> <r> <i> <m>  <space> pass <space> through ? 
+Which <space> stations <space> does <space> Gray <space> <S> <t> <i> <n> <k>  <space> pass <space> through ? 
+How <space> many <space> architecture <space> styles <space> does <space> Pink <space> <D> <r> <u> <s> <s>  <space> pass <space> through ? 
+Are <space> <P> <r> <a> <g>  <space> Road <space> and <space> <P> <l> <o> <b>  <space> Palace <space> on <space> the <space> same <space> line ? 
+How <space> clean <space> is <space> <S> <n> <o> <o> <n> <k> <n> <e> <y> <l> <a> <n> <d>  ? 
+Which <space> lines <space> is <space> Huv <space> Grove <space> on ? 
+How <space> clean <space> is <space> <V> <u> <k>  <space> Crossing ? 
+Which <space> stations <space> does <space> Pink <space> <S> <m> <u> <n> <g>  <space> pass <space> through ? 
+Which <space> lines <space> is <space> <S> <w> <o> <o> <w>  <space> Street <space> on ? 
+How <space> many <space> lines <space> is <space> <D> <e> <p> <h> <a> <m>  <space> on ? 
+How <space> many <space> lines <space> is <space> <G> <r> <u> <l> <h> <a> <m>  <space> on ? 
+How <space> many <space> lines <space> is <space> <S> <t> <r> <o> <o> <s> <t> <i> <n> <g> <t> <o> <n>  <space> on ? 
+Which <space> stations <space> does <space> Red <space> Nost <space> pass <space> through ? 
+How <space> many <space> art - deco <space> stations <space> are <space> on <space> the <space> Green <space> <R> <o> <o> <b>  <space> line ? 
+How <space> many <space> stations <space> are <space> between <space> <S> <w> <o> <g>  <space> Road <space> and <space> <S> <k> <e> <d> <w> <i> <c> <h>  ? 
+How <space> many <space> victorian <space> stations <space> are <space> on <space> the <space> Brown <space> <F> <r> <e> <s> <k>  <space> line ? 
+Which <space> lines <space> is <space> <C> <r> <a> <f>  <space> Square <space> on ? 
+How <space> many <space> architecture <space> styles <space> does <space> Gray <space> Spoonk <space> pass <space> through ? 
+Which <space> stations <space> does <space> Green <space> <N> <o> <s> <k>  <space> pass <space> through ? 
+How <space> many <space> architecture <space> styles <space> does <space> Orange <space> <W> <e> <b>  <space> pass <space> through ? 
+How <space> many <space> architecture <space> styles <space> does <space> Pink <space> <G> <e> <s> <p>  <space> pass <space> through ? 
+How <space> many <space> architecture <space> styles <space> does <space> Olive <space> <C> <r> <o> <l>  <space> pass <space> through ? 
+Which <space> lines <space> is <space> <G> <l> <e> <m> <p>  <space> Street <space> on ? 
+How <space> many <space> lines <space> is <space> Drir <space> Road <space> on ? 
+How <space> many <space> art - deco <space> stations <space> are <space> on <space> the <space> Pink <space> <G> <l> <a> <m> <p>  <space> line ? 
+Which <space> lines <space> is <space> <S> <l> <u> <p> <t>  <space> Boulevard <space> on ? 
+Which <space> stations <space> does <space> Blue <space> <G> <r> <u> <n> <g>  <space> pass <space> through ? 
+How <space> many <space> stations <space> are <space> between <space> <F> <l> <u> <k>  <space> Court <space> and <space> <F> <l> <a> <h>  <space> Palace ? 
+Which <space> lines <space> is <space> <J> <e> <d>  <space> Square <space> on ? 
+How <space> many <space> lines <space> is <space> <S> <l> <o> <p>  <space> Palace <space> on ? 
+Are <space> <J> <a> <z> <i> <n> <g> <t> <o> <n>  <space> and <space> <G> <a> <s> <t>  <space> Square <space> on <space> the <space> same <space> line ? 
+Are <space> <Y> <i> <w>  <space> Crossing <space> and <space> <D> <r> <e> <n>  <space> Way <space> on <space> the <space> same <space> line ? 
+How <space> many <space> art - deco <space> stations <space> are <space> on <space> the <space> Purple <space> <J> <o> <r>  <space> line ? 
+Which <space> stations <space> does <space> Olive <space> <B> <r> <o> <o> <n> <k>  <space> pass <space> through ? 
+Which <space> stations <space> does <space> Orange <space> <B> <u> <l>  <space> pass <space> through ? 
+Are <space> <P> <r> <a> <p> <t>  <space> Bridge <space> and <space> <V> <o> <s> <t>  <space> Manor <space> on <space> the <space> same <space> line ? 
+Which <space> stations <space> does <space> Gray <space> <S> <k> <e> <c> <h>  <space> pass <space> through ? 
+How <space> many <space> lines <space> is <space> <S> <m> <i> <f> <t>  <space> St <space> on ? 
+How <space> clean <space> is <space> <S> <l> <e> <b>  <space> Street ? 
+Which <space> lines <space> is <space> <Y> <u> <d>  <space> Manor <space> on ? 
+Which <space> lines <space> is <space> <F> <r> <o> <o> <l>  <space> Upon <space> Thames <space> on ? 
+Which <space> lines <space> is <space> <V> <o> <o> <n> <g> <b> <r> <i> <d> <g> <e>  <space> on ? 
+How <space> clean <space> is <space> <K> <u> <n> <t>  <space> Road ? 
+How <space> clean <space> is <space> <B> <r> <o> <p> <t>  <space> Bridge ? 
+How <space> clean <space> is <space> <J> <a> <t> <i> <n> <g> <t> <o> <n>  ? 
+Which <space> lines <space> is <space> <G> <o> <n>  <space> Road <space> on ? 
+How <space> many <space> architecture <space> styles <space> does <space> Blue <space> <S> <i> <p> <t>  <space> pass <space> through ? 
+Which <space> stations <space> does <space> Pink <space> <L> <i> <m> <p>  <space> pass <space> through ? 
+Which <space> lines <space> is <space> <S> <t> <i> <t>  <space> Lane <space> on ? 
+How <space> many <space> concrete <space> stations <space> are <space> on <space> the <space> Blue <space> <M> <o> <l>  <space> line ? 
+Which <space> lines <space> is <space> <D> <r> <o> <o> <n> <t>  <space> Boulevard <space> on ? 
+Which <space> stations <space> does <space> Cyan <space> <C> <l> <a> <c> <h>  <space> pass <space> through ? 
+How <space> many <space> architecture <space> styles <space> does <space> Blue <space> <S> <o> <p>  <space> pass <space> through ? 
+Are <space> <D> <o> <n> <g>  <space> Bridge <space> and <space> <G> <i> <m>  <space> Square <space> on <space> the <space> same <space> line ? 
+How <space> clean <space> is <space> <S> <h> <a> <n> <t>  <space> Court ? 
+Which <space> stations <space> does <space> Orange <space> <W> <o> <o> <c> <h>  <space> pass <space> through ? 
+How <space> many <space> glass <space> stations <space> are <space> on <space> the <space> Green <space> <S> <k> <e> <y>  <space> line ? 
+Are <space> <T> <o> <o> <g>  <space> Lane <space> and <space> <D> <r> <u> <n> <k> <n> <e> <y> <l> <a> <n> <d>  <space> on <space> the <space> same <space> line ? 
+Which <space> stations <space> does <space> Orange <space> <P> <l> <o> <p>  <space> pass <space> through ? 
+How <space> clean <space> is <space> <Y> <u> <m> <i> <n> <g> <t> <o> <n>  ? 
+Which <space> lines <space> is <space> <G> <l> <o> <m>  <space> Bridge <space> on ? 
+Are <space> <C> <h> <a> <r> <w> <i> <c> <h>  <space> and <space> <H> <e> <g>  <space> Grove <space> on <space> the <space> same <space> line ? 
+How <space> many <space> architecture <space> styles <space> does <space> Brown <space> <S> <h> <a> <f> <t>  <space> pass <space> through ? 
+How <space> many <space> stations <space> are <space> between <space> <F> <r> <i> <f>  <space> Manor <space> and <space> <J> <i> <m> <h> <a> <m>  ? 
