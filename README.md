@@ -39,8 +39,27 @@ floyd login
 
 Once you have your shiney trained model (or, just use ours!) you can ask questions and get answers from a real-deal Neo4j graph:
 
+First, start a neo4j database locally (you need Docker for this script, or you can give alternative arguments to another neo4j instance): `./start-neo4j-database.sh`
+
+Then run the prediction programme:
+
 ```shell
-python -m e2c.predict --question What is the meaning of life?
+$ python -m e2c.predict 
+
+Example questions:
+> Which lines is Proy Palace on?
+> How many lines is Snosk Boulevard on?
+> How clean is Grir Court?
+> Are Plir International and Swongton on the same line?
+> Which stations does Cyan Soost pass through?
+
+Example stations from graph:
+> Draz Boulevard, Strov Boulevard, Swuct Hospital, Fak Boulevard, Frook Lane
+
+Example lines from graph:
+> Green Soosh, Green Fliv, Olive Huw, Purple Sweb, Blue Prooy
+
+Ask a question:
 ```
 
 ## Dataset generation

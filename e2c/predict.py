@@ -3,6 +3,7 @@ import argparse
 import tensorflow as tf
 import logging
 import yaml
+import traceback
 from neo4j.exceptions import CypherSyntaxError
 
 logger = logging.getLogger(__name__)
@@ -31,7 +32,7 @@ def print_examples(args):
 	print("Example questions:")
 	with open("./data/all_src.txt") as file:
 		lines = file.readlines()
-		for i in range(5):
+		for i in range(11):
 			ex = detokenize_english(lines[i])
 			ex = ex.replace('   ', ' ')
 			print("> " + ex, end='')
@@ -87,6 +88,7 @@ if __name__ == "__main__":
 				result = run_query(session, query_cypher)
 			except CypherSyntaxError:
 				print("Drat, that translation failed to execute in Neo4j!")
+				traceback.print_exc()
 			else:
 				print(result)
 

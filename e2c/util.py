@@ -79,6 +79,19 @@ def pretokenize_english(text):
 
 # --------------------------------------------------------------------------
 
+def detokenize_specials(s, join=''):
+	for i in [UNK, SOS, EOS]:
+		s = s.replace(i, "")
+
+	s = s.replace(SPACE, " ")
+
+	for i in string.ascii_lowercase:
+		s = s.replace("<"+i+">"+join, i)
+		s = s.replace("<"+i.upper()+">"+join, i.upper())
+
+	return s
+
+
 def detokenize_cypher(text):
 	for p in CYPHER_PUNCTUATION:
 		text = text.replace(f" {p} ", p)
@@ -93,19 +106,6 @@ def detokenize_english(text):
 		text = text.replace(f" {p} ", p)
 
 	return detokenize_specials(text)
-
-
-def detokenize_specials(s, join=''):
-	for i in [UNK, SOS, EOS]:
-		s = s.replace(" "+i, "")
-
-	s = s.replace(SPACE, " ")
-
-	for i in string.ascii_lowercase:
-		s = s.replace("<"+i+">"+join, i)
-		s = s.replace("<"+i.upper()+">"+join, i.upper())
-
-	return s
 
 
 # --------------------------------------------------------------------------
