@@ -18,7 +18,7 @@ def get_args(extend=lambda a:None):
 	parser.add_argument('--src-filename', type=str, default="src.txt")
 	parser.add_argument('--tgt-filename', type=str, default="tgt.txt")
 
-	parser.add_argument('--vocab-size', type=int, default=300)
+	parser.add_argument('--vocab-size', type=int, default=120)
 	parser.add_argument('--batch-size', type=int, default=128)
 	parser.add_argument('--num-units',  type=int, default=1024)
 	parser.add_argument('--num-layers', type=int, default=2)

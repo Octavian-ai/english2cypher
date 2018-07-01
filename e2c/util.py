@@ -42,9 +42,11 @@ def load_vocab(args):
 # --------------------------------------------------------------------------
 
 
-def expand_unknown_vocab(line, vocab_set):
+def expand_unknown_vocab(line, vocab):
 	ts = set(line.split(' '))
-	unknowns = ts - set(vocab_set) - set([''])
+	unknowns = ts
+	unknowns -= set(vocab)
+	unknowns -= set([''])
 
 	for t in unknowns:
 		spaced = ''.join([f"<{c}> " for c in t])

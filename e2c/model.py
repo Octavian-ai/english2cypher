@@ -1,7 +1,7 @@
 
 import tensorflow as tf
 
-from .input import get_constants, load_inverse_vocab
+from .input import get_constants, load_inverse_vocab_hashtable
 from .hooks import FloydHubMetricHook
 
 dtype = tf.float32
@@ -86,7 +86,7 @@ def model_fn(features, labels, mode, params):
 
 	time_major = True
 	vocab_const = get_constants(args)
-	vocab_inverse = load_inverse_vocab(args)
+	vocab_inverse = load_inverse_vocab_hashtable(args)
 	dynamic_batch_size = tf.shape(features["src"])[0]
 
 	# --------------------------------------------------------------------------

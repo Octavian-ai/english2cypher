@@ -12,20 +12,20 @@ from .util import *
 from .build_data import *
 
 
-def load_vocab(args):
+def load_vocab_hashtable(args):
 	return tf.contrib.lookup.index_table_from_file(
 		args["vocab_path"],
 		vocab_size=args["vocab_size"],
 		default_value=UNK_ID)
 
-def load_inverse_vocab(args):
+def load_inverse_vocab_hashtable(args):
 	return tf.contrib.lookup.index_to_string_table_from_file(
 		args["vocab_path"], 
 		vocab_size=args["vocab_size"],
 		default_value=UNK)
 
 def get_constants(args):
-	vocab_table = load_vocab(args)
+	vocab_table = load_vocab_hashtable(args)
 	return {
 		"tgt_sos_id": tf.cast(vocab_table.lookup(tf.constant(SOS)), tf.int32),
 		"src_sos_id": tf.cast(vocab_table.lookup(tf.constant(SOS)), tf.int32),
@@ -44,16 +44,16 @@ def StringDataset(s):
 
 def gen_input_fn(args, mode, question=None):
 	# Heavily based off the NMT tutorial structure
-	vocab_table = load_vocab(args)
+	vocab_hashtable = load_vocab_hashtable(args)
 	consts = get_constants(args)
 
 	# Load data source
 	if question is not None:
 		# Quickly pre-process for tokenisation (e.g. add spaces, strip formatting)
-		vocab_set = load_vocab_set(args)
+		vocab_list = load_vocab(args)
 		q = pretokenize_english(question)
 		logger.debug("Pretokenized: "+ q)
-		q = expand_unknown_vocab(q, vocab_set)
+		q = expand_unknown_vocab(q, vocab_list)
 		logger.debug("With unkown vocab expanded: " + q)
 
 		src_dataset = StringDataset(q)
@@ -65,10 +65,10 @@ def gen_input_fn(args, mode, question=None):
 
 	# Tokenise and add vocab
 	src_dataset = src_dataset.map(lambda l: tf.string_split([l]).values)
-	src_dataset = src_dataset.map(lambda l: tf.cast(vocab_table.lookup(l), tf.int32))
+	src_dataset = src_dataset.map(lambda l: tf.cast(vocab_hashtable.lookup(l), tf.int32))
 	
 	tgt_dataset = tgt_dataset.map(lambda l: tf.string_split([l]).values)
-	tgt_dataset = tgt_dataset.map(lambda l: tf.cast(vocab_table.lookup(l), tf.int32))
+	tgt_dataset = tgt_dataset.map(lambda l: tf.cast(vocab_hashtable.lookup(l), tf.int32))
 
 	# Shape for the encoder-decoder
 	d = tf.data.Dataset.zip((src_dataset, tgt_dataset))

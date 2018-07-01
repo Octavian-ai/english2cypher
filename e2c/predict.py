@@ -1,9 +1,14 @@
 
+# Make TF be quiet
+import os
+os.environ["TF_CPP_MIN_LOG_LEVEL"]="2"
+
 import argparse
 import tensorflow as tf
 import logging
 import yaml
 import traceback
+import random
 from neo4j.exceptions import CypherSyntaxError
 
 logger = logging.getLogger(__name__)
@@ -29,27 +34,36 @@ def translate(args, question):
 
 
 def print_examples(args):
-	print("Example questions:")
-	with open("./data/all_src.txt") as file:
-		lines = file.readlines()
-		for i in range(11):
-			ex = detokenize_english(lines[i])
-			ex = ex.replace('   ', ' ')
-			print("> " + ex, end='')
 
-	print()
-
-	
 	with open(args['graph_path']) as file:
 		for qa in yaml.load_all(file):
 			if qa is not None:
 				print("Example stations from graph:")
-				names = ', '.join([i["name"] for i in qa["graph"]["nodes"][:5]])
+				stations = [i["name"] for i in qa["graph"]["nodes"][:8]]
+				names = ', '.join(stations)
 				print("> " + names + "\n")
 				
 				print("Example lines from graph:")
-				names = ', '.join([i["name"] for i in qa["graph"]["lines"][:5]])
+				lines = [i["name"] for i in qa["graph"]["lines"][:8]]
+				names = ', '.join(lines)
 				print("> " + names + "\n")
+
+	a_station = lambda: random.choice(stations)
+	a_line = lambda: random.choice(lines)
+
+	print("Example questions:")
+	print(f"""Which lines is {a_station()} on?
+How many lines is {a_station()} on?
+How clean is {a_station()}?
+Are {a_station()} and {a_station()} on the same line?
+Which stations does {a_line()} pass through?
+How many architecture styles does {a_line()} pass through?
+How many new stations are on the {a_line()} line?
+How many stations are between {a_station()} and {a_station()}?""")
+	print()
+
+	
+	
 
 
 
@@ -67,6 +81,8 @@ if __name__ == "__main__":
 	logger.setLevel(args["log_level"])
 	logging.getLogger('e2c').setLevel(args["log_level"])
 
+	tf.logging.set_verbosity(tf.logging.ERROR)
+
 	print_examples(args)
 
 	with Neo4jSession(args) as session:
@@ -77,11 +93,12 @@ if __name__ == "__main__":
 		load_yaml(session, args["graph_path"])
 
 		while True:
-			query_english = str(input("Ask a question: "))
+			query_english = str(input("Ask a question: ")).strip()
 
 			logger.debug("Translating...")
 			query_cypher = translate(args, query_english)
 			print(f"Translation into cypher: '{query_cypher}'")
+			print()
 
 			logger.debug("Run query")
 			try:
@@ -90,5 +107,9 @@ if __name__ == "__main__":
 				print("Drat, that translation failed to execute in Neo4j!")
 				traceback.print_exc()
 			else:
-				print(result)
+				for i in result:
+					for j in i.values():
+						print(j)
+
+				print()
 
