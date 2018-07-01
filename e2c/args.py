@@ -14,7 +14,6 @@ def get_args(extend=lambda a:None):
 	parser.add_argument('--output-dir', type=str, default="./output")
 	parser.add_argument('--log-level',  type=str, default="INFO")
 
-
 	parser.add_argument('--input-dir',    type=str, default="./data")
 	parser.add_argument('--src-filename', type=str, default="src.txt")
 	parser.add_argument('--tgt-filename', type=str, default="tgt.txt")
@@ -26,14 +25,10 @@ def get_args(extend=lambda a:None):
 	parser.add_argument('--beam-width', type=int, default=10)
 	parser.add_argument('--max-len-cypher', type=int, default=180)
 
-
-
 	parser.add_argument('--max-steps',    type=int, default=500)
 	parser.add_argument('--predict-freq', type=int, default=3)
 
-
 	parser.add_argument('--limit', type=int, default=None,help="Limit number of data points, to quickly test code")
-
 
 	parser.add_argument('--learning-rate', type=float, default=0.001)
 	parser.add_argument('--dropout', type=float, default=0.2)

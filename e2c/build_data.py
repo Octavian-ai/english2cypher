@@ -52,14 +52,6 @@ def build_vocab(args):
 	return tokens
 
 
-def load_vocab_set(args):
-	tokens = list()
-
-	with tf.gfile.GFile(args["vocab_path"]) as file:
-		for line in file.readlines():
-			tokens.append(line.replace("\n", ""))
-
-	return tokens
 
 
 def extract_all_translation_pairs(args):
@@ -78,7 +70,9 @@ def extract_all_translation_pairs(args):
 
 
 
-def expand_unknowns_and_partition(args, tokens):
+def expand_unknowns_and_partition(args):
+
+	tokens = load_vocab(args)
 	
 	suffixes = ["src", "tgt"]
 	prefixes = args["modes"]
@@ -124,8 +118,8 @@ def etl(args):
 	if not args["skip_extract"]:
 		extract_all_translation_pairs(args)
 	
-	tokens = build_vocab(args)
-	expand_unknowns_and_partition(args, tokens)
+	build_vocab(args)
+	expand_unknowns_and_partition(args)
 
 
 		

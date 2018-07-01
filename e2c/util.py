@@ -3,6 +3,7 @@ from collections import Counter
 import numpy as np
 import string
 import re
+import tensorflow as tf
 
 import logging
 logger = logging.getLogger(__name__)
@@ -22,6 +23,21 @@ EOS_ID = special_tokens.index(EOS)
 
 CYPHER_PUNCTUATION = "()[]-=\"',.;:?"
 ENGLISH_PUNCTUATION = '!"#$%&()*+,-./:;=?@[\\]^_`{|}~'
+
+# --------------------------------------------------------------------------
+
+def load_vocab(args):
+	tokens = list()
+
+	with tf.gfile.GFile(args["vocab_path"]) as file:
+		for line in file.readlines():
+			tokens.append(line.replace("\n", ""))
+			
+			if len(tokens) == args["vocab_size"]:
+				return tokens
+
+
+	return tokens
 
 # --------------------------------------------------------------------------
 

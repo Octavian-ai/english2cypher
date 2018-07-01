@@ -14,6 +14,7 @@ from .model import model_fn
 from .args import get_args
 from .hooks import *
 from .util import *
+from .build_data import *
 
 
 
@@ -115,7 +116,12 @@ if __name__ == "__main__":
 
 	def extend(parser):
 		parser.add_argument('--skip-training', action='store_true')
+		parser.add_argument('--tokenize-data', action='store_true')
 
 	args = get_args(extend)
+
+	if args["tokenize_data"]:
+		expand_unknowns_and_partition(args)
+
 	train(args)
 

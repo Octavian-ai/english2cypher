@@ -38,8 +38,7 @@ class TestStringMethods(unittest.TestCase):
 			"How clean is Grir Court?",
 		]
 
-
-		tokens = load_vocab_set({"vocab_path": "./data/vocab.txt"})
+		tokens = load_vocab({"vocab_path": "./data/vocab.txt"})
 
 		for query in data:
 			p = pretokenize_english(query)

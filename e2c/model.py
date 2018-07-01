@@ -276,6 +276,8 @@ def model_fn(features, labels, mode, params):
 
 	if mode == tf.estimator.ModeKeys.EVAL:
 
+		# Format of data is [seq_len, batch_size, beam_width, data_width]
+
 		def pad_to_seq_len(this, be_like):
 			delta = tf.maximum(tf.shape(be_like)[0] - tf.shape(this)[0], 0)
 
@@ -290,6 +292,12 @@ def model_fn(features, labels, mode, params):
 		def tile_to_beam(v): 
 			return tf.tile(tf.expand_dims(v,-1),[1,1,args["beam_width"]])
 
+		beam_weights = tile_to_beam(pad_to_seq_len(tf.cast(target_weights, tf.int32), beam_predictions))
+		beam_labels = tile_to_beam(pad_to_seq_len(labels_t, beam_predictions))
+		beam_padded_predictions = pad_to_seq_len(beam_predictions, labels_t)
+		beam_cmp = tf.equal(beam_labels * beam_weights, beam_padded_predictions * beam_weights)
+		beam_strict_cmp = tf.reduce_all(beam_cmp, axis=0)
+		beam_strict_cmp_mean = tf.reduce_mean(tf.cast(beam_strict_cmp, tf.float32))
 
 		eval_metric_ops = {
 			"guided_accuracy": tf.metrics.accuracy(
@@ -298,10 +306,11 @@ def model_fn(features, labels, mode, params):
 				weights=target_weights
 			),
 			"beam_accuracy": tf.metrics.accuracy(
-				labels=tile_to_beam(pad_to_seq_len(labels_t, beam_predictions)), 
-				predictions=pad_to_seq_len(beam_predictions, labels_t),
-				weights=pad_to_seq_len(target_weights, beam_predictions),
-			)
+				labels=beam_labels, 
+				predictions=beam_padded_predictions,
+				weights=beam_weights,
+			),
+			"beam_strict_accuracy": tf.metrics.mean(beam_strict_cmp_mean)
 		}
 
 		eval_metric_ops_ext = {**eval_metric_ops}
