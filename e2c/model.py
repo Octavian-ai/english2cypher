@@ -187,8 +187,6 @@ def model_fn(features, labels, mode, params):
 		start_tokens = tf.fill([dynamic_batch_size], vocab_const['tgt_sos_id'])
 		end_token = vocab_const['tgt_eos_id']
 
-		maximum_iterations = tf.round(tf.reduce_max(features["src_len"]) * 6)
-
 		with tf.variable_scope("decoder",reuse=tf.AUTO_REUSE) as decoder_scope:
 
 			p_cell, p_cell_initial = decoder_cell(args, 2, args["beam_width"], dynamic_batch_size, features, encoder_outputs, encoder_state)
@@ -207,7 +205,7 @@ def model_fn(features, labels, mode, params):
 				beam_decoder,
 				output_time_major=time_major,
 				swap_memory=True,
-				maximum_iterations=maximum_iterations,
+				maximum_iterations=args["max_len_cypher"],
 				scope=decoder_scope)
 
 			beam_predictions = beam_decoded.predicted_ids
@@ -327,7 +325,7 @@ def model_fn(features, labels, mode, params):
 			"input": vocab_inverse.lookup(tf.to_int64(features["src"])),
 			"target": vocab_inverse.lookup(tf.to_int64(features["tgt_out"])),
 			"guided": vocab_inverse.lookup(tf.to_int64(tf.transpose(guided_predictions))),
-			"beam": vocab_inverse.lookup(tf.to_int64(tf.transpose(beam_predictions, [1,2,0]))),
+			"beam": vocab_inverse.lookup(tf.to_int64(tf.transpose(beam_predictions, [1,2,0])))
 		}
 
 	else:

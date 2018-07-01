@@ -24,6 +24,8 @@ def get_args(extend=lambda a:None):
 	parser.add_argument('--num-units',  type=int, default=1024)
 	parser.add_argument('--num-layers', type=int, default=2)
 	parser.add_argument('--beam-width', type=int, default=10)
+	parser.add_argument('--max-len-cypher', type=int, default=180)
+
 
 
 	parser.add_argument('--max-steps',    type=int, default=500)

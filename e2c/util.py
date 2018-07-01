@@ -80,6 +80,13 @@ def pretokenize_english(text):
 # --------------------------------------------------------------------------
 
 def detokenize_specials(s, join=''):
+
+	try:
+		end = s.index(EOS)
+		s = s[0:end]
+	except ValueError:
+		pass
+
 	for i in [UNK, SOS, EOS]:
 		s = s.replace(i, "")
 
@@ -128,13 +135,17 @@ def prediction_row_to_cypher(pred):
 	options = [prediction_to_cypher(i) for i in pred["beam"]]
 	return mode_best_effort(options)
 
-def prediction_to_cypher(p):
+def prediction_to_(p, detokenize_fn):
 	decode_utf8 = np.vectorize(lambda v: v.decode("utf-8"))
 	p = decode_utf8(p)
 	s = ''.join(p)
-	logger.debug("Raw prediction string: " + s)
-	s = detokenize_cypher(s)
-
+	s = detokenize_fn(s)
 	return s
+
+def prediction_to_english(p):
+	return prediction_to_(p, detokenize_english)
+
+def prediction_to_cypher(p):
+	return prediction_to_(p, detokenize_cypher)
 
 

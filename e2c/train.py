@@ -3,12 +3,19 @@ import tensorflow as tf
 import os.path
 import numpy as np
 import traceback
+import yaml
+from collections import Counter
+import logging
+
+logger = logging.getLogger(__name__)
 
 from .input import gen_input_fn, EOS
 from .model import model_fn
 from .args import get_args
 from .hooks import *
 from .util import *
+
+
 
 def dump_predictions(args, predictions):
 	with tf.gfile.GFile(os.path.join(args["output_dir"], "predictions.txt"), "w") as file:
@@ -45,30 +52,58 @@ def train(args):
 			eval_spec
 		)
 
-	def do_predict():
+	def do_predict(max_steps):
 		print("-----------------------")
 		print("Predictions")
 
-		predictions = estimator.predict(input_fn=lambda:gen_input_fn(args, "predict"))
+		stats = Counter()
 
-		for prediction in predictions:
-			for k, v in prediction.items():
-				if len(v.shape) == 1:
-					v = [v]
+		def get_formatted_predictions():
+			predictions = estimator.predict(input_fn=lambda:gen_input_fn(args, "predict"))
 
-				for p in v:
-					ps = prediction_to_cypher(p)
-					print(f"{k}: {ps}")
-					# dump_predictions(args, predictions)
-			print("")
+			for prediction in predictions:
+				o = {}
+				for k, v in prediction.items():
+					if k == "input":
+						o[k] = prediction_to_english(v)
+					elif k in ["guided", "target"]:
+						o[k] = [prediction_to_cypher(v)]
+					elif k == "beam":
+						o[k] = [prediction_to_cypher(i) for i in v]
+
+				for i in o["beam"]:
+					if i == o["target"]:
+						stats["correct"] += 1
+					else:
+						stats["incorrect"] += 1
+
+				logger.debug(o)
+				yield o
+
+			print(stats)
+
+
+		with tf.gfile.GFile(os.path.join(args["output_dir"], f"predictions-{max_steps}.yaml"), 'w') as file:
+			yaml.dump_all(
+				get_formatted_predictions(), 
+				file,
+				default_flow_style=False,
+				width=999)
 
 
 
 	for i in range(args["predict_freq"]):
-		do_train(steps_per_cycle * (i+1))
+		max_steps = steps_per_cycle * (i+1)
+
+		if not args["skip_training"]:
+			do_train(max_steps)
 
 		try:
-			do_predict()
+			do_predict(max_steps)
+
+			if args["skip_training"]:
+				break
+
 		except Exception:
 			traceback.print_exc()
 			pass
@@ -78,6 +113,9 @@ def train(args):
 
 if __name__ == "__main__":
 
-	args = get_args()
+	def extend(parser):
+		parser.add_argument('--skip-training', action='store_true')
+
+	args = get_args(extend)
 	train(args)
 
