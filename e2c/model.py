@@ -297,8 +297,10 @@ def model_fn(features, labels, mode, params):
 		beam_padded_predictions = pad_to_seq_len(beam_predictions, labels_t)
 		beam_cmp = tf.equal(beam_labels * beam_weights, beam_padded_predictions * beam_weights)
 		beam_strict_cmp = tf.reduce_all(beam_cmp, axis=0)
+		beam_mode_cmp = tf.reduce_any(beam_cmp, axis=1)
+		beam_mode_cmp_mean = tf.reduce_mean(tf.cast(beam_mode_cmp, tf.float32))
 		beam_strict_cmp_mean = tf.reduce_mean(tf.cast(beam_strict_cmp, tf.float32))
-
+		
 		eval_metric_ops = {
 			"guided_accuracy": tf.metrics.accuracy(
 				labels=labels_t, 
@@ -310,7 +312,8 @@ def model_fn(features, labels, mode, params):
 				predictions=beam_padded_predictions,
 				weights=beam_weights,
 			),
-			"beam_strict_accuracy": tf.metrics.mean(beam_strict_cmp_mean)
+			"beam_strict_accuracy": tf.metrics.mean(beam_strict_cmp_mean),
+			"beam_mode_accuracy": tf.metrics.mean(beam_mode_cmp_mean)
 		}
 
 		eval_metric_ops_ext = {**eval_metric_ops}

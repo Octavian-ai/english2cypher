@@ -10,6 +10,9 @@ import yaml
 import traceback
 import random
 from neo4j.exceptions import CypherSyntaxError
+import zipfile
+import urllib.request
+import pathlib
 
 logger = logging.getLogger(__name__)
 
@@ -51,19 +54,44 @@ def print_examples(args):
 	a_station = lambda: random.choice(stations)
 	a_line = lambda: random.choice(lines)
 
-	print("Example questions:")
-	print(f"""Which lines is {a_station()} on?
-How many lines is {a_station()} on?
-How clean is {a_station()}?
-Are {a_station()} and {a_station()} on the same line?
-Which stations does {a_line()} pass through?
-How many architecture styles does {a_line()} pass through?
-How many new stations are on the {a_line()} line?
-How many stations are between {a_station()} and {a_station()}?""")
-	print()
+	print(f"""Example questions:
+> How clean is {a_station()}?
+> How big is {a_station()}?
+> What music plays at {a_station()}?
+> What architectural style is {a_station()}?
+> Does {a_station()} have disabled access?
+> Does {a_station()} have rail connections?
+> How many architectural styles does {a_line()} pass through?
+> How many music styles does {a_line()} pass through?
+> How many sizes of station does {a_line()} pass through?
+> How many stations playing classical does {a_line()} pass through?
+> How many clean stations does {a_line()} pass through?
+> How many large stations does {a_line()} pass through?
+> How many stations with disabled access does {a_line()} pass through?
+> How many stations with rail connections does {a_line()} pass through?
+> Which lines is {a_station()} on?
+> How many lines is {a_station()} on?
+> Are {a_station()} and {a_station()} on the same line?
+> Which stations does {a_line()} pass through?
+""")
 
+
+def download_model(args):
 	
-	
+	if not tf.gfile.Exists(os.path.join(args["model_dir"], "checkpoint")):
+		zip_path = "./model_checkpoint.zip"
+		print("Downloading model (850mb)")
+		urllib.request.urlretrieve ("https://storage.googleapis.com/octavian-static/download/english2cypher/model_checkpoint.zip", zip_path)
+
+		print("Downloading vocab for model")
+		assert args["vocab_path"][0:len(args["input_dir"])] == args["input_dir"], "Vocab path must be inside input-dir for automatic download"
+		pathlib.Path(args["input_dir"]).mkdir(parents=True, exist_ok=True)
+		urllib.request.urlretrieve ("https://storage.googleapis.com/octavian-static/download/english2cypher/vocab.txt", args["vocab_path"])
+
+		print("Unzipping")
+		pathlib.Path(args["model_dir"]).mkdir(parents=True, exist_ok=True)
+		with zipfile.ZipFile(zip_path,"r") as zip_ref:
+			zip_ref.extractall(args["model_dir"])
 
 
 
@@ -84,6 +112,8 @@ if __name__ == "__main__":
 	tf.logging.set_verbosity(tf.logging.ERROR)
 
 	print_examples(args)
+
+	download_model(args)
 
 	with Neo4jSession(args) as session:
 		logger.debug("Empty database")
@@ -107,9 +137,11 @@ if __name__ == "__main__":
 				print("Drat, that translation failed to execute in Neo4j!")
 				traceback.print_exc()
 			else:
+				all_answers = []
 				for i in result:
 					for j in i.values():
-						print(j)
+						all_answers.append(str(j))
 
+				print("Answer: " + ', '.join(all_answers))
 				print()
 

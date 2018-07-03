@@ -6,6 +6,9 @@ import random
 from collections import Counter
 from tqdm import tqdm
 import os.path
+import zipfile
+import urllib.request
+import pathlib
 
 from .util import *
 from .args import *
@@ -112,6 +115,20 @@ def expand_unknowns_and_partition(args):
 
 
 
+def download_gqa(args):
+
+	assert args["gqa_path"][0:len(args["input_dir"])] == args["input_dir"], "GQA path must be inside input-dir for automatic download"
+
+	if not tf.gfile.Exists(args["gqa_path"]):
+		zip_path = "./gqa.zip"
+		print("Downloading gqa.yaml (61mb)")
+		urllib.request.urlretrieve ("https://storage.googleapis.com/octavian-static/download/english2cypher/gqa.zip", zip_path)
+
+		print("Unzipping...")
+		pathlib.Path(args["input_dir"]).mkdir(parents=True, exist_ok=True)
+		with zipfile.ZipFile(zip_path,"r") as zip_ref:
+			zip_ref.extractall(args["input_dir"])
+
 
 def etl(args):
 
@@ -133,6 +150,10 @@ if __name__ == "__main__":
 
 	args = get_args(extras)
 
+	if not args["skip_extract"]:
+		download_gqa(args)
+
+	print("Building...")
 	etl(args)
 
 
