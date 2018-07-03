@@ -36,6 +36,8 @@ You'll need to have a Neo4j database for the code to load then query (heads up: 
 
 If you want to use a different database configuration, the arguments `--neo-user --neo-password --neo-url` will let you specify how to connect to it.
 
+The predict script will automatically download a trained model and its vocab if you do not have that locally.
+
 Here's the prediction program in action:
 
 ```shell
