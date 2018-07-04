@@ -356,7 +356,3 @@ def model_fn(features, labels, mode, params):
 		evaluation_hooks=eval_hooks,
 		prediction_hooks=None
 	)
-
-
-
-	
