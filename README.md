@@ -136,6 +136,6 @@ In this structure, "target" is what the network should output (the ground truth)
 
 ## Acknowledgements
 
-Thanks to Andrew Jefferson, Ashwath Kumar, Scott Dimond for their support, ideas and proof-reading.
+Thanks to Andrew Jefferson, Ashwath Salimath, Scott Dimond for their support, ideas and proof-reading.
 
 Big shout out to [the TensorFlow NMT tutorial](https://github.com/tensorflow/nmt) which I've heavily based this code on, and to Google for sharing [their research](https://ai.google/research/pubs/pub45610).
